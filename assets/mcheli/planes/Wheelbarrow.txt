@@ -1,0 +1,41 @@
+DisplayName = Wheelbarrow
+AddDisplayName = ja_JP, 手押し車
+
+MaxHp = 100
+Speed = 0.1
+Sound = Bicycle
+ThrottleUpDown = 18.5
+MaxFuel         = 400
+FuelConsumption = 0.0
+ThrottleUpDownOnEntity = 8.0
+Gravity = -0.1
+MobilityYawOnGround = 9.0
+RotorSpeed = 18.0
+
+EnableBack = true
+StepHeight = 1.0
+HUD = none
+
+InventorySize = 36
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+; 座席
+AddSeat =  0.00, 0.24, -1.42
+
+
+AddRack = container / material_pile / log_pile,    0.00, 0.51, 0.28,  0.00, 0.31, 2.09 
+
+
+;　タイヤ
+AddPartRotor =     0.09, -0.09, 0.94, 1, 0, 0
+AddBlade = 1, 0,   0.09, -0.09, 0.94, 1, 0, 0
+
+
+
+
+

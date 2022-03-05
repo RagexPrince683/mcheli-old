@@ -1,0 +1,93 @@
+DisplayName = mini Tow Truck
+AddDisplayName = ja_JP, 小型トーイング車
+
+
+MaxHp = 35
+Speed = 0.6
+Sound = 4wd1_snd
+ThrottleUpDown = 18.0
+MaxFuel         = 1200
+FuelConsumption = 0.5
+MobilityYawOnGround = 4.3
+StepHeight = 1.0
+Gravity = -0.7
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none
+MotionFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.00
+ThirdPersonDist = 8
+
+; C = Civilian(民間機)
+Category = C
+
+AddTexture = AP-TowTruck_mini_military
+
+
+
+AddSeat =  0.71,  1.47,  -0.58
+AddSeat =  -0.84,  1.47,  -0.58
+
+
+AddRack = plane,    0.00,  -0.02,  -10.35,   0.00,  -0.02,  -10.35, 5.0
+
+
+AddRack = plane,    0.00,  0.05,  10.35,  0.00,  0.05,  10.35, 5.0, 100000, -180, 0
+
+
+
+ExclusionSeat = 3, 4
+
+
+AddPartWheel     =  1.055, 0.384, 1.389,  35
+AddPartWheel     = -1.034, 0.384, 1.389,  35
+
+
+AddPartWheel     =  1.055, 0.384, -1.501, 28
+AddPartWheel     = -1.034, 0.384,  -1.501, 28
+
+
+
+
+AddPartSteeringWheel =   0.751, 1.876,  0.448,   0, 1, -1.05,  110
+
+
+AddPartSlideHatch = 0.00, 0.00, -6.94
+
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+AddWeapon =  Truck_Horn_b,  0.00, 0.34, 1.18,  0.0, 90
+
+AddPartSlideWeaponBay = Truck_Horn_b, 0.00, 0.00, 6.71
+
+
+
+AddFixedSearchLight =  0.99, 0.81, 3.32,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,  -10,  0
+AddFixedSearchLight =  -0.92, 0.81, 3.32,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   10,  0
+
+AddFixedSearchLight =  0.06, 3.248, -0.348,   0x50ffa500,   0x00ffa500,    2.5, 1.5,  90,  0
+AddFixedSearchLight =  0.06, 3.248, -0.348,   0x50ffa500,   0x00ffa500,    2.5, 1.5,   -90,  0
+
+
+
+
+BoundingBox =   0.00,  1.09,  1.50,  3.0,  3.0
+
+BoundingBox =   0.00,  1.09,  -1.65,  3.0,  3.0
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 1.2
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -0.2
+
+
+SetWheelPos =  1.055,  -0.24, 1.389, -1.501
+PartWheelRot = 25
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0

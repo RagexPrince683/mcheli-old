@@ -1,0 +1,33 @@
+﻿DisplayName = SpaceShuttle launching
+AddDisplayName = ja_JP, スペースシャトル(打ち上げ)
+
+
+MaxHp = 1000
+Speed = 1.8
+Float = false
+Sound = rocket
+ThrottleUpDown = 0.4
+MaxFuel = 1000
+FuelConsumption = 1
+DefaultFreelook = true
+ThirdPersonDist = 45
+MobilityYaw = 0
+MobilityPitch = 0
+MobilityRoll = 0
+StepHeight = 0
+InventorySize = 44
+HideEntity = false
+ParticlesScale = 3.0
+
+; C = Civilian
+Category = C
+
+HUD = plane
+
+
+CameraPosition = 1.30, 33.26, -5.75, true
+AddSeat =  -0.64, 4.26, -0.01
+
+
+
+

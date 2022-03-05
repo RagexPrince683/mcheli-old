@@ -1,0 +1,81 @@
+DisplayName = Highlift loader
+AddDisplayName = ja_JP, ハイリフトローダー
+
+
+MaxHp = 25
+Speed = 0.4
+Sound = 4wd1_snd
+ThrottleUpDown = 18.8
+MaxFuel         = 1800
+FuelConsumption = 0.5
+MobilityYawOnGround = 5.6
+StepHeight = 1.5
+Gravity = -0.7
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none
+MotionFactor = 0.90
+EnableBack = true
+ThirdPersonDist = 12
+
+PivotTurnThrottle = 0.20
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+
+AddSeat =  -0.84,  3.30,  0.19
+
+AddRack = ContainerDolly,    0.69,  3.15,  2.05,   0.20,  0.60,  -11.02, 5.0, 
+
+
+AddPartSteeringWheel =   -0.767, 3.918,  0.876,   0, 1, -0.30,  100
+
+
+AddPartWheel     = 1.378, 0.322,  0.704,  35
+AddPartWheel     = -1.321, 0.322,  0.704,  35
+
+AddPartWheel     = 1.378, 0.12, -5.01
+AddPartWheel     = 1.378, 0.12, -8.16
+
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 1.2
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -1.5
+
+
+SetWheelPos =  1.378,  -0.24,  1.5, 0.704, -5.01, -8.16
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+PartWheelRot = 30
+
+
+AddPartHatch =  1.29, 0.24, -1.39,  1, 0, 0, 33 
+AddPartHatch =  0.91, 0.24, -5.57,  1, 0, 0, -33
+
+
+AddPartSlideHatch =  0.00, 2.09, 0.00
+
+
+AddFixedSearchLight =  1.22, 0.90, 1.85,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,  -10,  0
+AddFixedSearchLight =  -1.21, 0.90, 1.85,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   10,  0
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+BoundingBox =   -0.01,  0.47,  -2.44,  4.0,  2.0
+
+BoundingBox =  -0.01,  0.47,  -5.46,  4.0,  2.0
+
+BoundingBox =  -0.01,  0.47,  -8.51,  4.0,  2.0
+

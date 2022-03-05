@@ -1,0 +1,26 @@
+﻿DisplayName = TV Camera
+AddDisplayName = ja_JP, TVカメラ
+
+MaxHp = 500
+HUD = vehicle
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+CameraZoom = 3
+HideEntity = true
+EnableNightVision = true
+
+
+
+AddSeat = -0.07, 0.41, -1.52
+CameraPosition = 0.01, 1.34, 1.15, false
+
+
+
+AddPart = true, true, false, 0, 0.00, 0.86, 0.00
+AddChildPart = true, true, true, 0,  0.00, 0.86, 0.00
+
+
+
+MinRotationPitch  = -45
+MaxRotationPitch  = 30

@@ -1,0 +1,29 @@
+DisplayName = QF-80 Shooting Star (Target drone)
+AddDisplayName = ko_KR, QF-80 ???? (?????)
+AddDisplayName = ja_JP, QF-80 Shooting Star(???)
+ItemID = 40003
+MaxHp = 160
+Speed = 1.2
+Sound = plane
+onGroundPitch = 2
+TargetDrone = true
+MaxFuel = 10000
+FuelConsumption = 0.1
+ThrottleUpDownOnEntity = 2.0
+EnableSeaSurfaceParticle = true
+ParticlesScale = 0.6
+
+; M = Military.  Q = Drone
+Category = M.Q
+
+AddPartNozzle = 0.0, 1.92, -8.47, -1, 0, 0
+
+BoundingBox =  0.00, 1.60,  2.70,  1.6, 1.6, 0.8
+BoundingBox =  0.00, 1.60,  0.00,  2.0, 1.8
+BoundingBox =  0.00, 1.60,  -2.62,  2.0, 1.8
+BoundingBox =  0.00, 1.60,  -5.60,  1.6, 1.6
+
+BoundingBox = -2.92, 1.50,  -2.00,  2.0, 0.6
+BoundingBox =  2.92, 1.50,  -2.00,  2.0, 0.6
+BoundingBox =  -5.70, 1.50,  -1.68,  1.5, 0.6, 0.7
+BoundingBox =  5.70, 1.50,  -1.68,  1.6, 0.6, 0.7

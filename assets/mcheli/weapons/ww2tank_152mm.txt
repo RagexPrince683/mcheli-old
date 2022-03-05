@@ -1,0 +1,19 @@
+DisplayName = 152mmMainGun[HE]
+Type = MachineGun1
+Power = 1000
+Acceleration = 5.5
+Explosion = 5
+Sight = None
+ReloadTime = 140
+Round = 1
+SoundVolume = 10
+Accuracy = 1.5
+Gravity = -0.02
+Particle = largeexplode
+Sound = ww2tankshot_snd
+Group = MainGun
+
+MaxAmmo = 15
+SuppliedNum = 10
+Item =  2, iron_ingot
+Item =  3, gunpowder

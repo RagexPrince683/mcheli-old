@@ -1,0 +1,90 @@
+﻿DisplayName = Dornier Do228
+AddDisplayName = ja_JP, ドルニエDo228
+
+
+MaxHp = 200
+Speed = 0.8
+Sound = turboprop
+ThrottleUpDown = 0.8
+MaxFuel         = 2500
+FuelConsumption = 1.0
+InventorySize = 54
+MobilityYawOnGround = 1.0
+ThirdPersonDist = 24
+EnableBack = true
+UnmountPosition = 4.32, 0.09, -13.14
+
+HUD = civilian_aircraft, none, none, none
+
+AddTexture = do228_m
+
+
+; C = Civilian(民間機)
+Category = C
+
+MobilityYaw = 1.0
+MobilityPitch = 1.0
+MobilityRoll = 1.0
+
+
+
+AddPartSteeringWheel =   0.711, 1.995, -2.245,   0, 1, -1.85,  40
+
+AddPartSteeringWheel =   -0.548, 1.995, -2.245,   0, 1, -1.85,  40
+
+AddPartThrottle = 0.14, 1.71, -2.56,  0, 0, 0,  0,  0, 0,  0.30
+
+
+
+
+AddSeat =  0.55, 1.84, -3.19
+AddSeat =  -0.57, 1.84, -3.19
+
+
+
+AddSeat = 0.95, 1.71, -5.46
+AddSeat = -0.97, 1.71, -5.46
+
+AddSeat = 0.95, 1.71, -7.32
+AddSeat = -0.97, 1.71, -7.32
+
+AddSeat = 0.95, 1.71, -9.13
+AddSeat = -0.97, 1.71, -9.13
+
+AddSeat = 0.95, 1.71, -10.92
+AddSeat = -0.97, 1.71, -10.92
+
+AddSeat = 0.83, 1.10, -13.14
+
+
+
+AddPartHatch =   1.41, 0.92, -13.07,  0, 0, 1,  -120
+
+
+AddPartRotor =    4.87, 3.79, -5.52,   0,0,1
+AddBlade = 1, 0,  4.87, 3.79, -5.52,   0,0,-1
+
+AddPartRotor =    -4.87, 3.79, -5.52,   0,0,1
+AddBlade = 1, 0,  -4.87, 3.79, -5.52,   0,0,-1
+
+
+
+AddPartLG =  0.00, 0.63, -0.24,  1, 0, 0,  -115 
+
+AddPartLG =  2.30, 0.75, -10.47,  0, 0, 1, -141
+
+AddPartLG =  -2.30, 0.75, -10.47,  0, 0, 1, 141
+
+AddPartLG =  0.00, 0.56, -0.86,  1, 0, 0,  -45
+
+
+AddPartLGHatch =   0.72, 0.88, -0.10,  0, 0, 1,  92
+
+AddPartLGHatch =  -0.72, 0.88, -0.10,  0, 0, 1,  -92
+
+
+
+BoundingBox =  0.00, 2.36, -3.84, 5.0, 5.0
+BoundingBox =  0.00, 2.36, -7.05, 5.0, 5.0
+BoundingBox =  0.00, 2.36, -10.53, 5.0, 5.0
+BoundingBox =  0.00, 2.36, -15.10, 4.0, 4.0

@@ -1,0 +1,20 @@
+﻿DisplayName = Ornithopter_Deco
+AddDisplayName = ja_JP, オーニソプター(装飾品)
+
+
+MaxHp = 100
+HideEntity = true
+RotationPitchMin = 0
+RotationPitchMax = 0
+DamageFactor = 2
+CanRide = false
+AddSeat = 0.00,  1.0, 0.00
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+BoundingBox =  0.01, 0.42, -0.45,  1.0, 1.0
+
+

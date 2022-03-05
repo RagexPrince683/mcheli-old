@@ -1,0 +1,104 @@
+DisplayName = Maus
+AddDisplayName = ja_JP, Maus
+ItemID = 91129
+MaxHp = 300
+Speed = 0.2
+ThrottleUpDown = 3.0
+Gravity = -0.1
+GravityInWater = -0.5
+DamageFactor = 0.0
+EnableNightVision = false
+EnableEntityRadar = false
+Sound = Tank
+HUD = ww2tank_hud, ww2tank_hud, ww2tank_hud
+WeightType = Tank
+DefaultFreelook = true
+HideEntity = false
+
+TurretPosition = 0.0, 0.0, -1.8685
+
+AddTexture = Maus1
+
+EnableBack = true
+SetWheelPos =  1.7,  -0.24,  5.0, 3.0, 1.0, -1.0, -3.0, -5.0
+
+SubmergedDamageHeight = 3
+WeightedCenterZ = 0.0
+
+OnGroundPitchFactor = 3.5
+OnGroundRollFactor  = 3.5
+
+MobilityYawOnGround = 1.0
+PivotTurnThrottle = 0.0
+
+AddGunnerSeat =  0.0, 3.15, -1.8685,  0.7, 3.15, -1.8685,   false, -25, 25, true
+CameraPosition = 0.769, 4.2,  -0.1, false
+CameraRotationSpeed = 8
+
+StepHeight = 1.0
+ParticlesScale = 0.1
+SmoothShading = true
+HideEntity = true
+
+;ArmorMinDamage = 75
+
+MotionFactor = 0.9
+
+MaxFuel         = 3000
+FuelConsumption = 10.0
+
+TrackRollerRot = 20
+
+AddTrackRoller =  -1.0,  0.1093,  3.7136
+AddTrackRoller =  -1.0,  0.1093,  3.0136
+AddTrackRoller =  -1.0,  0.1093,  2.3136
+AddTrackRoller =  -1.0,  0.1093,  1.6136
+AddTrackRoller =  -1.0,  0.1093,  0.9136
+AddTrackRoller =  -1.0,  0.1093,  0.2136
+AddTrackRoller =  -1.0,  0.1093, -0.4864
+AddTrackRoller =  -1.0,  0.1093, -1.1864
+AddTrackRoller =  -1.0,  0.1093, -1.8864
+AddTrackRoller =  -1.0,  0.1093, -2.5864
+AddTrackRoller =  -1.0,  0.1093, -3.2864
+AddTrackRoller =  -1.0,  0.1093, -3.9864
+
+AddTrackRoller =   1.0,  0.1093,  3.7136
+AddTrackRoller =   1.0,  0.1093,  3.0136
+AddTrackRoller =   1.0,  0.1093,  2.3136
+AddTrackRoller =   1.0,  0.1093,  1.6136
+AddTrackRoller =   1.0,  0.1093,  0.9136
+AddTrackRoller =   1.0,  0.1093,  0.2136
+AddTrackRoller =   1.0,  0.1093, -0.4864
+AddTrackRoller =   1.0,  0.1093, -1.1864
+AddTrackRoller =   1.0,  0.1093, -1.8864
+AddTrackRoller =   1.0,  0.1093, -2.5864
+AddTrackRoller =   1.0,  0.1093, -3.2864
+AddTrackRoller =   1.0,  0.1093, -3.9864
+
+AddCrawlerTrack = false, 0.45, -2.4,   0.87/ 5.1, 0.79/ 5.29, 0.61/ 5.37, 0.42/ 5.29, -0.22/ 4.04, -0.3/ 3.71, -0.30/ -3.99, -0.22/ -4.31, 0.48/ -5.15, 0.66/ -5.23, 0.85/ -5.15, 0.92/ -4.97
+AddCrawlerTrack = false, 0.45,  2.4,   0.87/ 5.1, 0.79/ 5.29, 0.61/ 5.37, 0.42/ 5.29, -0.22/ 4.04, -0.3/ 3.71, -0.30/ -3.99, -0.22/ -4.31, 0.48/ -5.15, 0.66/ -5.23, 0.85/ -5.15, 0.92/ -4.97
+
+MinRotationPitch = -23
+MaxRotationPitch = 7
+
+AddTurretWeapon   = 128mmKwK44[APCBC],  0.0, 2.96, 1.75,  0.0, 0.0, true,1, 0,-360,360, -23, 7
+AddTurretWeapon   = 128mmKwK44[HE],     0.0, 2.96, 1.75,  0.0, 0.0, true,1, 0,-360,360, -23, 7
+AddPartWeapon  = 128mmKwK44[APCBC]/128mmKwK44[HE], false, true,  false,  0.0, 2.925, -1.8685, 0
+AddPartWeaponChild = false, true,   0.0, 2.96, 0.3, 0.0
+AddPartWeaponChild = false, true,   0.0, 2.96, 0.3, 0.4
+
+AddTurretWeapon   = 75mmKwK44[APCBC],  -0.5, 2.96, -3.0,  0.0, 0.0, true,1, 0,-360,360, -23, 7
+AddTurretWeapon   = 75mmKwK44[HE],     -0.5, 2.96, -3.0,  0.0, 0.0, true,1, 0,-360,360, -23, 7
+AddTurretWeapon   = 7_92mmMG1,  1.0, 2.96, 0.9,  0.0, 0.0, true,1, 0,-360,360, -23, 7
+AddPartWeapon  = 75mmKwK44[APCBC] / 75mmKwK44[HE], false, true,  false,  0.0, 2.925, -1.8685, 0
+AddPartWeaponChild = false, true,   0.0, 2.96, 0.3, 0.3
+
+BoundingBox =  0.0, 0.8,  4.8, 1.2, 1.0, 0.5
+BoundingBox = -1.5, 0.8,  4.8, 1.2, 1.0, 0.5
+BoundingBox =  1.5, 0.8,  4.8, 1.2, 1.0, 0.5
+BoundingBox =  0.0, 0.8,  1.9, 4.5, 2.0, 0.75
+BoundingBox =  0.0, 0.8, -2.6, 4.5, 2.0, 0.75
+BoundingBox =  0.0, 2.7, -1.8, 4.0, 1.7, 1.0
+BoundingBox =  0.0, 1.9, -4.3, 1.0, 0.3, 1.25
+BoundingBox = -1.5, 1.9, -4.3, 1.0, 0.3, 1.25
+BoundingBox =  1.5, 1.9, -4.3, 1.0, 0.3, 1.25

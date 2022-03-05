@@ -1,0 +1,108 @@
+DisplayName = Container Truck
+AddDisplayName = ja_JP, コンテナトラック
+
+
+MaxHp = 35
+Speed = 0.7
+Sound = 4wd1_snd
+ThrottleUpDown = 16.8
+MaxFuel         = 1800
+FuelConsumption = 0.5
+MobilityYawOnGround = 5.6
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -0.7
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none, none
+MotionFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.25
+ThirdPersonDist = 12
+PartWheelRot = 30.0
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = ContainerTruck_military
+
+
+
+AddSeat =  -0.78,  1.62,  0.04
+
+
+AddSeat =  0.88,  1.62,  0.04
+
+
+
+AddRack = DecoContainer,    0.00,  1.30,  -6.06,    -4.16,  1.30,  -5.21, 12
+
+AddRack = drum_pallet / cardboardboxpallet / cratepallet / feedbagpallet / woodpalletx5,   0.92, 1.45, -2.35,  -4.16,  1.30,  -2.35, 10
+AddRack = drum_pallet / cardboardboxpallet / cratepallet / feedbagpallet / woodpalletx5,   0.92, 1.45, -5.07,  -4.16,  1.30,  -5.07, 10
+AddRack = drum_pallet / cardboardboxpallet / cratepallet / feedbagpallet / woodpalletx5,   0.92, 1.45, -7.70,   -4.16,  1.30,  -7.70, 10
+
+AddRack = drum_pallet / cardboardboxpallet / cratepallet / feedbagpallet / woodpalletx5,   -0.92, 1.45, -2.35,  -4.16,  1.30,  -2.35, 10
+AddRack = drum_pallet / cardboardboxpallet / cratepallet / feedbagpallet / woodpalletx5,   -0.92, 1.45, -5.07,  -4.16,  1.30,  -5.07, 10
+AddRack = drum_pallet / cardboardboxpallet / cratepallet / feedbagpallet / woodpalletx5,   -0.92, 1.45, -7.70,   -4.16,  1.30,  -7.70, 10
+
+
+
+ExclusionSeat =  3, 4
+ExclusionSeat =  3, 5
+ExclusionSeat =  3, 6
+ExclusionSeat =  3, 7
+ExclusionSeat =  3, 8
+ExclusionSeat =  3, 9
+
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+
+AddPartSteeringWheel =   -0.835, 2.003,  0.814,   0, 1, -1.05,  120
+
+
+AddPartWheel     = 1.352, 0.33,  -0.224,  35
+AddPartWheel     = -1.268, 0.33,  -0.224,  35
+
+AddPartWheel     = 1.352, 0.33,  -4.07
+AddPartWheel     = 1.352, 0.33,  -8.31
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 0.8
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -1.5
+
+
+SetWheelPos =  1.352,  -0.24,  1.5, -0.224, -4.07, -8.31
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+
+
+AddPartCanopy = -1.54, 2.14, 1.72,  0, 1, 0,  70
+
+
+
+AddFixedSearchLight =   1.35, 0.50, 1.81,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -1.25, 0.50, 1.81,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+BoundingBox =   -0.02,  0.46,  -1.54,  5.0,  1.0
+BoundingBox =   -0.02,  0.46,  -4.95,  5.0,  1.0
+BoundingBox =   -0.02,  0.46,  -7.42,  5.0,  1.0
+
+
+
+
+

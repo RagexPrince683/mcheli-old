@@ -1,0 +1,18 @@
+DisplayName = Frag grenade?
+AddDisplayName = ja_JP, Frag 発煙手榴弾(紫)
+ItemID = 28906
+StackSize = 1
+AliveTime = 30
+Explosion = 2
+TimeFuse = 2
+Bound = 0.3
+Gravity = -0.04
+GravityInWater = 0.01
+SmokeSize = 1
+SmokeNum = 0
+SmokeColor = 0, 0, 0
+SmokeVelocityVertical   = 0.4
+SmokeVelocityHorizontal = 1.4
+AddRecipe = "DY",  Y, iron_ingot, D,gunpowder,2
+DispenseAcceleration = 1.1
+;Creative only

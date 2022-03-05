@@ -1,0 +1,13 @@
+﻿DisplayName = Strings Quartet
+AddDisplayName = ja_JP, 弦楽四重奏
+
+MaxHp = 100
+HUD = none
+Float  = true
+CanMoveOnGround = false
+
+CanRide = false
+
+AddSeat = 0.00, 1.00, 0.00
+
+AddTexture = str_quartet2

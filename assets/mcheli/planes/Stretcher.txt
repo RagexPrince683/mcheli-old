@@ -1,0 +1,38 @@
+﻿DisplayName = Stretcher
+AddDisplayName = ja_JP, ストレッチャー
+
+
+MaxHp = 100
+Speed = 0.2
+Sound = Bicycle
+ThrottleUpDown = 10.8
+MaxFuel         = 1800
+FuelConsumption = 0
+MobilityYawOnGround = 5.4
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.1
+HUD = none
+MotionFactor = 0.90
+EnableBack = true
+ArmorDamageFactor = 0.0
+ArmorMinDamage = 0
+DamageFactor = 5.0
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+; 運転席
+AddSeat =  -0.15,  0.29, -1.55
+
+
+;　助手席
+AddSeat =  -0.15,  0.60, -0.02
+
+
+
+
+Regeneration = true

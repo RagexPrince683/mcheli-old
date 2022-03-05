@@ -1,0 +1,32 @@
+﻿DisplayName =  Fokker_Dr.1
+AddDisplayName = ja_JP, フォッカー Dr.Ⅰ
+ThirdPersonDist = 12
+HUD = gunner
+EnableGunnerMode = false
+EnableNightVision = false
+EnableEntityRadar = false
+Speed = 1.0
+MaxHp = 100
+Sound = prop
+onGroundPitch = 17.5
+ThrottleUpDown = 1.8
+MaxFuel         = 400
+FuelConsumption = 0.5
+ThrottleUpDownOnEntity = 2.0
+
+AddTexture = fokker_dr1_1
+AddTexture = fokker_dr1_2
+AddTexture = fokker_dr1_3
+AddTexture = fokker_dr1_4
+
+AddSeat = 0.0, 1.242 ,-0.329
+
+AddPartRotor = 0.0, 1.4043 , 1.7841, 1,0,0
+AddBlade = 1,0,0.0, 1.4043 , 1.7841, 0,0,1
+
+AddWeapon = lmg08,  0.2328, 2.1542, 1.4661,  0.0, 0.0
+AddWeapon = lmg08, -0.2328, 2.1542, 1.4661,  0.0, 0.0
+
+BoundingBox =  0.00, 3.06, 1.56,  8.8, 0.25, 0.7
+BoundingBox =  0.00, 1.91, 1.56,  8.2, 0.25, 0.7
+BoundingBox =  0.00, 0.77, 1.56,  7.4, 0.25, 0.7

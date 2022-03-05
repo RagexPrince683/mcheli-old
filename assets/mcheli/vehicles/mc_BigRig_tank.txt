@@ -1,0 +1,21 @@
+﻿DisplayName = mc_BigRig_tank
+AddDisplayName = ja_JP,ビッグリグ用タンク
+
+MaxHp = 100
+HideEntity = true
+RotationPitchMin =  0
+RotationPitchMax =  0
+DamageFactor = 1
+InventorySize = 54
+AddSeat = 0.0, 3.0, 0.0
+FuelSupplyRange =35
+
+
+
+BoundingBox =   0.14,  1.23,  -5.35,  5.0,  4.0
+BoundingBox =   0.14,  1.23,  -10.25,  5.0,  4.0
+BoundingBox =   0.14,  1.23,  -13.82,  4.0,  4.0
+
+
+
+

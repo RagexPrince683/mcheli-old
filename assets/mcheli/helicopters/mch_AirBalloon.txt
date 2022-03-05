@@ -1,0 +1,35 @@
+﻿DisplayName = AirBalloon
+AddDisplayName = ja_JP, 熱気球
+
+MaxHp = 150
+Speed = 0.5
+Sound = hotjet_snd
+ThrottleUpDown = 2.0
+MaxFuel = 1000
+FuelConsumption = 1
+MobilityYawOnGround = 2.5
+MobilityYaw = 1.5
+MobilityPitch = 0.1
+MobilityRoll = 0.1
+StepHeight = 2
+InventorySize = 54
+ParticlesScale = 0.2
+ThirdPersonDist = 16
+HUD = none, none
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddSeat =  0.04, 0.33, -0.52
+AddSeat =  0.59, 0.33, 0.19
+
+AddPartSlideHatch =  0.00, 0.91, 0.00
+
+
+
+BoundingBox = -0.07, 1.36, 0.19, 2.0, 3.0
+
+BoundingBox = -0.07, 8.73, 0.19, 5.0, 5.0
+
+

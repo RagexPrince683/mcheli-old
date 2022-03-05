@@ -1,0 +1,20 @@
+DisplayName = AGM-69 SRAM
+Type = ASMissile
+Power = 200000000
+Acceleration = 1.9
+Explosion = 900000000
+Flaming = true
+Sight = MoveSight
+Delay = 400
+ModelBullet = sa2missile
+ReloadTime = 1000
+Bomblet = 80
+BombletSTime = 1
+BombletDiff = 1.2
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  15, iron_ingot
+Item =  40, gunpowder
+Item =  20, redstone
+Item =  64, tnt

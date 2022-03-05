@@ -1,0 +1,109 @@
+DisplayName = Quick Delivery
+AddDisplayName = ja_JP, クイックデリバリー
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = 4wd1_snd
+ThrottleUpDown = 20.8
+MaxFuel         = 800
+FuelConsumption = 0.8
+MobilityYawOnGround = 5.6
+StepHeight = 1.2
+InventorySize = 54
+Gravity = -0.4
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none, none, none
+MotionFactor = 0.92
+EnableBack = true
+ThirdPersonDist = 8
+PivotTurnThrottle = 0.16
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  -0.46,  0.73,  -0.59
+AddSeat =  0.02,  0.64,  -2.41
+AddSeat = 0.02,  0.64,  -3.23
+
+
+AddRack = container,    0.02,  0.84,  -2.41,   0.02,  0.54,  -5.08
+AddRack = container,    0.02,  1.64,  -2.41,   0.02,  0.54,  -5.08
+
+AddRack = container,    0.02,  0.84,  -3.23,   0.02,  0.54,  -5.08
+AddRack = container,    0.02,  1.64,  -3.23,   0.02,  0.54,  -5.08
+
+
+ExclusionSeat =  2, 4
+ExclusionSeat =  2, 5
+ExclusionSeat =  3, 6
+ExclusionSeat =  3, 7
+
+
+AddTexture = QuickDelivery_white
+AddTexture = QuickDelivery_black
+AddTexture = QuickDelivery_gray
+AddTexture = QuickDelivery_red
+AddTexture = QuickDelivery_camo
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   -0.494, 1.224,  0.059,   0, 1, -2.10,  130
+
+AddPartWheel     = 0.858, 0.106,  0.272,  30
+AddPartWheel     = -0.858, 0.106,  0.272,  30
+
+
+AddPartWheel     = 0.858, 0.106,  -3.52
+
+
+AddPartCanopy = -1.05, 1.33, -0.02,  0, 1, 0,  70
+
+
+AddPartHatch =   -1.05,  1.63,  -4.49,  0, 1, 0,  110
+
+AddPartHatch =   1.05,  1.60,  -4.49,  0, 1, 0,  -110
+
+
+AddPartSlideHatch =   0.02, 0.00, -0.73
+
+
+
+AddFixedSearchLight =  0.79, 0.34, 1.18,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.78, 0.34, 1.18,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+BoundingBox =   -0.09,  0.82,  0.28,  3.0,  4.0
+
+BoundingBox =   -0.09,  0.82,  -1.62,  3.0,  4.0
+
+BoundingBox =   -0.09,  0.82,  -3.43,  3.0,  4.0
+
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 1.5
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -1.5
+
+
+SetWheelPos =  0.858,  -0.24, 1.8,  0.272,  -3.52
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0

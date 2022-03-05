@@ -1,0 +1,111 @@
+﻿DisplayName = A-1 Skyraider
+AddDisplayName = ja_JP, A-1 スカイレイダー
+ItemID = 585858
+MaxHp = 300
+Speed = 0.90
+Sound = prop
+onGroundPitch = 12.0
+ThrottleUpDown = 1.0
+MaxFuel         = 1500
+FuelConsumption = 1.0
+ThrottleUpDownOnEntity = 2.0
+ArmorDamageFactor = 0.9
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+MobilityYaw = 3.5
+MobilityRoll = 1.3
+MobilityPitch = 3.5
+
+HUD = plane_usa
+
+AddTexture = A-1w
+AddTexture = A-1w1wc
+AddTexture = A-1w2k
+AddTexture = A-1g
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+AddSeat = 0.0,  2.00, -1.00
+
+AddPartSlideCanopy = 0, 0.00, -0.83
+
+AddPartLG =  -2.06, 1.33,  -0.41,  1, 1, 1, 129
+AddPartLG =   -1.46, 1.30,  -1.65,  0,0, -1, 61
+AddPartLG =   -2.35, 1.39,  -1.65,  0,0, 1, 65
+AddPartLG =   0.00, 1.46,  -0.14,  1,0, 0, 67
+AddPartLG =   0.00, 1.58, -0.78,  1,0, 0, 120
+AddPartLG =   0.00, 1.58, -6.50,  1,0, 0, 90
+AddPartLG =   2.06, 1.33,  -0.41,  1, -1, -1, 129
+AddPartLG =   1.46, 1.30,  1.65,  0,0, 1, 61
+AddPartLG =   2.35, 1.39,  1.65,  0,0, -1, 65
+
+AddPartRotor =    0.00,  2.1268, 2.5459,   -1,0, 0
+AddBlade = 1, 0,  0.00,  2.1268, 2.5459,   0,0,1
+
+AddPartWing =  -3.57, 1.72, 0.00,  0,0,-1, 120
+AddPartWing =   3.57, 1.72, 0.00,  0,0, 1, 120
+
+AddWeapon = AN-M2_20mm,  -2.50, 1.54,  0.16,  0.0, -3.0
+AddWeapon = AN-M2_20mm,   2.50, 1.54,  0.16,  0.0, -3.0
+AddWeapon = AN-M2_20mm,  -3.35, 1.61,  0.12,  0.0, -3.0
+AddWeapon = AN-M2_20mm,   3.35, 1.61,  0.12,  0.0, -3.0
+
+AddWeapon = SUU-11A_7.62mm,  -2.79, 1.17,  -0.18,  0.0, -3.0
+AddWeapon = SUU-11A_7.62mm,   2.79, 1.17,  -0.18,  0.0, -3.0
+
+
+AddWeapon = hydra70_19,  -5.01, 1.30,  -0.32,  0.0, -3.0
+AddWeapon = hydra70_19,   5.01, 1.30,  -0.32,  0.0, -3.0
+
+AddWeapon = hydra70_7,  -4.25, 1.35,  -0.32,  0.0, -3.0
+AddWeapon = hydra70_7,   4.25, 1.35,  -0.32,  0.0, -3.0
+
+AddWeapon = mk82_500lb,   -3.75, 1.38,  -1.21,  0.0, -3.0
+AddWeapon = mk82_500lb,    3.75, 1.38,  -1.21,  0.0, -3.0
+
+AddWeapon = BLU-10B_napalm,   -4.58, 1.47,  -0.80,  0.0, -3.0
+AddWeapon = BLU-10B_napalm,    4.58, 1.47,  -0.80,  0.0, -3.0
+
+AddWeapon = SUU-14A,   -5.43, 1.52,  -0.80,  0.0, -3.0
+AddWeapon = SUU-14A,    5.43, 1.52,  -0.80,  0.0, -3.0
+AddWeapon = SUU-14A,   -5.83, 1.57,  -0.90,  0.0, -3.0
+AddWeapon = SUU-14A,    5.83, 1.57,  -0.90,  0.0, -3.0
+
+AddWeapon = M117_750lb,  0.0, 1.17,  -1.03,  0.0, 0.0
+
+
+AddPartWeaponMissile = M117_750lb,  false, false, false,  0.0, 1.17,  -1.03
+
+AddPartWeaponMissile = mk82_500lb,  false, false, false,   -3.75, 1.38,  -1.21,  0.0, -3.0
+AddPartWeaponMissile = mk82_500lb,   false, false, false,   3.75, 1.38,  -1.21,  0.0, -3.0
+
+AddPartWeaponMissile = BLU-10B_napalm,  false, false, false,   -4.58, 1.47,  -0.80,  0.0, -3.0
+AddPartWeaponMissile = BLU-10B_napalm,   false, false, false,   4.58, 1.47,  -0.80,  0.0, -3.0
+
+AddPartWeaponMissile = SUU-14A,   false, false, false,  -5.43, 1.52,  -0.80,  0.0, -3.0
+AddPartWeaponMissile = SUU-14A,   false, false, false,   5.43, 1.52,  -0.80,  0.0, -3.0
+AddPartWeaponMissile = SUU-14A,   false, false, false,  -5.83, 1.57,  -0.90,  0.0, -3.0
+AddPartWeaponMissile = SUU-14A,   false, false, false,   5.83, 1.57,  -0.90,  0.0, -3.0
+
+SmoothShading = true
+
+BoundingBox =  0.00, 2.20, -1.00,  2.0, 1.8
+BoundingBox =  0.00, 2.20, 1.00,  1.5, 1.5
+BoundingBox =  0.00, 2.20, -3.00,  1.5, 1.5
+BoundingBox =  0.00, 2.20, -5.00,  1.5, 1.5
+BoundingBox =  0.00, 2.20, -7.00,  1.5, 1.5
+
+
+BoundingBox = -2.72, 1.60,  -1.30,  2.0, 0.5
+BoundingBox = -5.72, 1.60,  -1.30,  2.0, 0.5
+BoundingBox =  2.72, 1.60,  -1.30,  2.0, 0.5
+BoundingBox =  5.72, 1.60,  -1.30,  2.0, 0.5
+
+
+ParticlesScale = 0.5
+EnableSeaSurfaceParticle = true
+RotorSpeed = 50.0
+
+AddRecipe = "IGI",  "XRX",  "XCX",  X, iron_block,  I,iron_ingot, R,redstone_block, G,glass,  C,cobblestone

@@ -1,0 +1,51 @@
+DisplayName = mch_car F1
+AddDisplayName = ja_JP, F1
+
+
+MaxHp = 100
+Speed = 6.8
+Sound = f1_snd
+ThrottleUpDown = 35
+MaxFuel         = 900
+FuelConsumption = 1.0
+MobilityYawOnGround = 3.8
+StepHeight = 1.0
+Gravity = -0.1
+HUD = car
+MotionFactor = 0.95
+EnableBack = true
+RotorSpeed = 90.0
+PivotTurnThrottle = 0.14
+
+; C = Civilian(???)
+Category = C
+
+
+
+AddSeat =  0.05,  -0.24,  0.05
+
+
+AddPartSteeringWheel =   0.02, 0.49,  0.49,   0, 1, -1.45,  60
+
+AddPartWheel     = 0.894, 0.098,  2.134,  30
+AddPartWheel     = -0.854, 0.098,  2.134,  30
+
+
+AddPartRotor =    1.32, 0.12, -2.15,   1, 0, 0
+AddBlade = 1, 0,  1.32, 0.12, -2.15,   1, 0, 0
+
+AddPartSlideHatch =   0.00, 0.02, 0.00
+
+
+
+AddTexture = mchcar_f1_bk
+AddTexture = mchcar_f1_bl
+AddTexture = mchcar_f1_or
+AddTexture = mchcar_f1_pk
+AddTexture = mchcar_f1_yl
+
+
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0

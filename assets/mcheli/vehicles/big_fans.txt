@@ -1,0 +1,16 @@
+﻿DisplayName = Big Fans
+AddDisplayName = ja_JP, 大型換気扇
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.42, 1.06, -0.63
+CanRide = false
+
+AddPartRotation = 0.18, 1.47, -0.01,  1, 0, 0,  20, true
+

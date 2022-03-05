@@ -1,0 +1,67 @@
+DisplayName = Scooter Italy
+AddDisplayName = ja_JP, スクーター(イタリアン)
+
+
+MaxHp = 15
+Speed = 0.6
+Sound = bike50cc_snd
+ThrottleUpDown = 26.0
+MaxFuel         = 400
+FuelConsumption = 0.4
+Gravity = -0.1
+MobilityYawOnGround = 5
+StepHeight = 1.0
+HUD = car
+WeightedCenterZ = 0.0
+MotionFactor = 0.93
+PartWheelRot = 35
+EnableBack = true
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = scooter_italy_r
+AddTexture = scooter_italy_b
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+
+AddSeat = 0.00, 0.52, -0.22
+
+
+AddPartWheel     = 0.00, -0.075, 1.061,  20
+AddPartWheel     = -0.20, -0.075, 1.061,  20
+AddPartWheel     = 0.00, -0.075, -0.553
+
+
+
+AddPartSteeringWheel =   0.00, 0.92, 0.58,   0, 1, -0.36,  20
+
+
+AddPartHatch = 0.00, -0.19, 0.11, 1, 0, 0, -90
+
+
+AddWeapon =  horn4, 0.14,  1.10,  0.62, 0.0, 90
+
+
+
+AddSteeringSearchLight =  0.00, 1.00, 0.70,   0x99FFFFFF,   0x00FFFFC0,  25.0, 15.0, 0, 0, 20 
+
+
+
+
+
+OnGroundPitchFactor = 3.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.20,  -0.24,  1.5, -1.0
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+

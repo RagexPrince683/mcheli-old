@@ -1,0 +1,152 @@
+DisplayName = Carrier Truck
+AddDisplayName = ja_JP, MCキャリアカー
+
+
+MaxHp = 20
+Speed = 0.9
+Sound = 4wd3_snd
+ThrottleUpDown = 1.8
+MaxFuel         = 1800
+FuelConsumption = 0.7
+MobilityYawOnGround = 6.5
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -0.8
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none, none, none
+MotionFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.35
+ThirdPersonDist = 24
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  0.94,  2.17,  -0.20
+
+AddSeat =  -0.61,  2.17,  -0.20
+
+
+; back seat
+AddSeat =  0.96, 2.27, -2.65
+
+AddSeat =  -0.52, 2.27, -2.65
+
+
+
+
+; rack
+AddRack = plane / tank,   -0.12, 1.16, -6.80,  0.10, 0.89, -27.05
+AddRack = plane / tank,   -0.12, 0.52, -12.73,    0.10, 0.89, -27.05
+AddRack = plane / tank,   -0.12, 1.16, -16.84,   0.10, 0.89, -27.05
+
+
+AddRack = plane / tank,   -0.17, 5.38, -1.19,  0.10, 0.89, -27.05
+AddRack = plane / tank,   -0.17, 5.38, -7.84,  0.10, 0.89, -27.05
+AddRack = plane / tank,   -0.17, 5.38, -14.91,  0.10, 0.89, -27.05
+
+
+AddRack = Helicopter,   -0.17, 5.38, -5.39,  0.10, 0.89, -27.05
+
+
+
+ExclusionSeat = 8, 11
+ExclusionSeat = 9, 11
+ExclusionSeat = 10, 11
+
+
+
+
+
+;　horn
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+AddPartSteeringWheel =   0.938, 2.781,  0.476,   0, 1, -1.05,  120
+
+
+;　tire
+AddPartWheel     = 1.436, 0.33,  2.855,  40
+AddPartWheel     = -1.21, 0.33,  2.855,  40
+
+
+AddPartWheel     = 1.436, 0.33,  -5.60
+AddPartWheel     = 1.436, 0.33,  -6.97
+AddPartWheel     = 1.436, 0.33,  -17.60
+AddPartWheel     = 1.436, 0.33,  -19.03
+
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 0.8
+OnGroundRollFactor  = 0.2
+
+SetWheelPos =  1.436,  -0.24,  2.855, -5.60, -6.97, -17.60, -19.03 
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+;　door
+AddPartCanopy =  1.68, 3.23, 1.08,  0, 1, 0,  -70
+
+
+
+
+;　slope
+AddPartHatch =  1.70,  0.98,  -20.61,  1, 0, 0,  -100
+
+AddPartHatch =  -1.40,  0.98,  -20.61,  1, 0, 0,  -100
+
+
+
+;　light
+AddFixedSearchLight =   1.46, 0.81, 3.75,   0x50FFFFFF,   0x00FFFFC0,    35.0, 20.0,  -10,  0
+AddFixedSearchLight =   -1.22, 0.81, 3.75,   0x50FFFFFF,   0x00FFFFC0,    35.0, 20.0,   10,  0
+
+
+AddFixedSearchLight =   1.32, 4.27, 0.73,   0x70ff8c00,   0x00ff8c00,    1.0, 1.0,  0,  -15
+AddFixedSearchLight =   0.53, 4.27, 0.73,   0x70ff8c00,   0x00ff8c00,    1.0, 1.0,  0,  -15
+AddFixedSearchLight =   0.19, 4.27, 0.73,   0x70ff8c00,   0x00ff8c00,    1.0, 1.0,  0,  -15
+AddFixedSearchLight =   -0.17, 4.27, 0.73,   0x70ff8c00,   0x00ff8c00,    1.0, 1.0,  0,  -15
+AddFixedSearchLight =   -1.02, 4.27, 0.73,   0x70ff8c00,   0x00ff8c00,    1.0, 1.0,  0,  -15
+
+AddFixedSearchLight =   1.83, -0.01, 3.82,   0x70ff8c00,   0x00ff8c00,    1.0, 1.5,  0,  0
+AddFixedSearchLight =   -1.59, -0.01, 3.82,   0x70ff8c00,   0x00ff8c00,    1.0, 1.5,  0,  0
+
+
+AddFixedSearchLight =   1.57, 0.49, -20.46,   0x70ff8c00,   0x00ff8c00,    2.0, 1.5,  -180,  0
+AddFixedSearchLight =   -1.29, 0.49, -20.46,   0x70ff8c00,   0x00ff8c00,    2.0, 1.5,  -180,  0
+
+
+AddFixedSearchLight =   1.81, 1.24, -3.32,   0x70ffd700,   0x00ffd700,    0.5, 1.5,  -90,  0
+AddFixedSearchLight =   -1.46, 1.24, -3.32,   0x70ffd700,   0x00ffd700,    0.5, 1.5,  90,  0
+
+AddFixedSearchLight =   1.83, 0.83, -7.80,   0x70ffd700,   0x00ffd700,    0.5, 1.5,  -90,  0
+AddFixedSearchLight =   -1.47, 0.83, -7.80,   0x70ffd700,   0x00ffd700,    0.5, 1.5,  90,  0
+
+AddFixedSearchLight =   1.80, 1.07, -16.54,   0x70ffd700,   0x00ffd700,    0.0, 1.5,  -90,  0
+;left
+AddFixedSearchLight =   -1.48, 1.05, -16.54,   0x70ffd700,   0x00ffd700,    0.5, 1.5,  90,  0
+
+AddFixedSearchLight =   1.80, 1.00, -20.78,   0x70ffd700,   0x00ffd700,    0.5, 1.5,  -90,  0
+AddFixedSearchLight =   -1.47, 1.00, -20.78,   0x70ffd700,   0x00ffd700,    0.5, 1.5,  90,  0
+
+
+
+AddPartThrottle = 1.012, 2.754, 0.935,  0, 1, -1.85,  -225
+
+AddPartThrottle = 1.183, 2.746, 0.93,  0, 1, -1.85,  -130
+
+
+BoundingBox =   0.14,  1.23,  2.20,  4.0,  3.0
+
+BoundingBox =   0.14,  1.23,  -1.73,  4.0,  2.0
+
+

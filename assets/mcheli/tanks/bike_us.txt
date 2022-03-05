@@ -1,0 +1,70 @@
+DisplayName = Motor Bike US
+AddDisplayName = ja_JP, バイク(USタイプ)
+
+
+MaxHp = 15
+Speed = 0.8
+Sound = bikeus_snd
+ThrottleUpDown = 26.0
+MaxFuel         = 700
+FuelConsumption = 0.3
+Gravity = -0.1
+MobilityYawOnGround = 5
+StepHeight = 1.2
+HUD = car
+MotionFactor = 0.91
+WeightedCenterZ = 0.0
+EnableBack = true
+
+EntityPitch = -5
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = bike_us_bl
+AddTexture = bike_us_bk
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+
+AddSeat = 0.00, 0.44, -0.04
+
+
+
+AddPartWheel     = 0.00, 0.099,  1.741,  20
+AddPartWheel     = -0.20, 0.099,  1.741,  20
+AddPartWheel     = 0.00, 0.099,  -0.665
+
+
+
+AddPartSteeringWheel =   0.00, 0.854,  1.194,   0, 1, -0.79,  20
+
+
+
+AddPartHatch = 0.28, -0.11, 0.84, 1, 0, 0, -90
+
+
+AddWeapon =  ushorn, 0.14,  1.10,  0.62, 0.0, 90
+
+
+
+AddSteeringSearchLight =  0.00, 0.90, 1.45,   0x99FFFFFF,   0x00FFFFC0,  25.0, 15.0, 0, 0, 20 
+
+
+AddPartThrottle = 0.00, 0.91, 0.80,  0, 1, 0,  -265
+
+
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.20,  -0.24,  1.741, -1.665
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0

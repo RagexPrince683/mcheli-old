@@ -1,0 +1,67 @@
+﻿DisplayName = E2D ADVANCED Hawkeye
+AddDisplayName = ja_JP, E2D ADVANCED Hawkeye
+ItemID = 28747
+MaxHp = 650
+Speed = 0.9
+Sound = turboprop
+ThrottleUpDown = 0.30
+AutoPilotRot = 0.00
+CameraPosition = 0.0, 4.0, 5.0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+FlareType = 2
+InventorySize = 45
+MaxFuel         = 7000
+FuelConsumption = 1.7
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+ThirdPersonDist = 48
+
+; M = Military(軍用機).  R = Reconnaissance(偵察機)
+Category = M.R
+
+HUD = plane, plane_gnr, none, none, none, none, none
+
+MobilityYaw = 1.6
+MobilityPitch = 1.6
+MobilityRoll = 1.4
+
+EnableBack = True
+
+
+AddSeat       =  0.5386, 1.2, 0.3659
+AddGunnerSeat = -0.5386, 1.2, 0.3659
+
+
+AddPartRotor =   -2.701, 2.278, -2.727,  0,0,-1
+AddBlade = 1, 0, -2.701, 2.278, -2.727,  0,0,-1
+AddPartRotor =    2.701, 2.278, -2.727,  0,0, 1
+AddBlade = 1, 0,  2.701, 2.278, -2.727,  0,0, 1
+
+; AddPartRotation = 位置X, Y, Z        回転軸X,Y,Z   回転速度, 常に回転させるか
+AddPartRotation = 0.00, 4.255, -7.79,  0,-10,0,       1.3,      false
+
+AddWeapon = targeting_pod_mob,   0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_pv50s, 0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_ph100s,0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_mob,   0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+AddWeapon = targeting_pod_pv50s, 0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+AddWeapon = targeting_pod_ph100s,0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+
+
+AddPartLG =  0.00, 1.23,  0.7281,  1,0,0, -90
+AddPartLG =  0.00, 1.963,-5.429,  1,0,0,  -90
+
+
+AddRecipe = " R ",  "DYD",  "III",  Y,mcheli:uav_station, R,redstone_block, I,iron_block, D,diamond
+
+
+BoundingBox =  0.0, 4.2,  -4.7,  8, 6
+BoundingBox =  0.0, 4.2, -16.7,  8, 6
+BoundingBox =  0.0, 4.2, -35.7,  8, 6
+BoundingBox = -9.5, 4.0, -24.1,  9, 3
+BoundingBox =  9.5, 4.0, -24.1,  9, 3

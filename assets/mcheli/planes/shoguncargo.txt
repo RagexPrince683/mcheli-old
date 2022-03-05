@@ -1,0 +1,39 @@
+﻿DisplayName = ShogunCargo
+AddDisplayName = ja_JP, 殿様の駕籠
+
+
+MaxHp = 200
+Speed = 0.4
+Sound = footstep_snd
+ThrottleUpDown = 7.3
+Gravity = -1.0
+DamageFactor = 0.5
+StepHeight = 1.0
+MobilityYawOnGround = 4.0
+MotionFactor = 0.93
+EnableBack = true
+
+MobilityYaw = 0.2
+MobilityPitch = 0.2
+MobilityRoll = 0.0
+
+MaxFuel         = 1000
+FuelConsumption = 0.0
+
+HUD = none
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+;　座席
+AddSeat =  0.06, 0.00, -0.17
+
+
+AddPartSlideHatch = 0.06,  0.00,  -1.07
+
+
+BoundingBox =  0.06,  0.74,  0.13,  1.0, 2.0
+
+

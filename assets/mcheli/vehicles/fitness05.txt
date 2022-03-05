@@ -1,0 +1,14 @@
+﻿DisplayName = FitnessMachine05
+AddDisplayName = ja_JP, フィットネス器具05
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+
+AddSeat = 0.00, 0.52, 0.25
+CameraPosition = 0.00, 1.57, 0.25, false

@@ -1,0 +1,39 @@
+DisplayName = Unicycle
+AddDisplayName = ja_JP, 一輪車
+
+MaxHp = 100
+Speed = 0.3
+Sound = Bicycle
+ThrottleUpDown = 18.5
+MaxFuel         = 500
+FuelConsumption = 0.0
+ThrottleUpDownOnEntity = 8.0
+Gravity = -0.1
+MobilityYawOnGround = 9.0
+RotorSpeed = 18.0
+
+StepHeight = 1.0
+HUD = none
+EnableBack = true
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+; 座席
+AddSeat =  -0.01, 0.58, 0.01
+
+
+
+;　タイヤ
+AddPartRotor =     0.07, 0.02, -0.01, 1, 0, 0
+AddBlade = 1, 0,   0.07, 0.02, -0.01, 1, 0, 0
+
+
+
+
+
+
+

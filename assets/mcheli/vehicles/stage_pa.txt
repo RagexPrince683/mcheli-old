@@ -1,0 +1,11 @@
+﻿DisplayName = Stage Large SP
+AddDisplayName = ja_JP, ステージ巨大スピーカー
+
+MaxHp = 100
+HUD = none
+Float  = true
+CanMoveOnGround = false
+
+CanRide = false
+
+AddSeat = 0.00, 1.00, 0.00

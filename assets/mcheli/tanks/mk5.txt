@@ -1,0 +1,106 @@
+DisplayName = Mark V
+AddDisplayName = ja_JP,Mark V
+ItemID = 30102
+MaxHp = 12
+Speed = 0.2
+Sound = tractor_snd
+ThrottleUpDown = 2
+MobilityYawOnGround = 5.5
+MaxFuel         = 1000
+FuelConsumption = 0.8
+EnableNightVision = false
+EnableEntityRadar = false
+Gravity = -1.0
+CameraRotationSpeed = 35
+GravityInWater = -1.0
+MinRotationPitch = -15
+MaxRotationPitch = 6
+MobilityRoll = 0
+InventorySize = 10
+StepHeight = 1.5
+DefaultFreelook = true
+MotionFactor = 0.9
+ThirdPersonDist = 12
+HideEntity = true
+
+SubmergedDamageHeight = 1
+
+;  M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+WeightType = Tank
+
+OnGroundPitchFactor = 0.0
+OnGroundRollFactor  = 0.0
+
+HUD = mbt_hud
+
+AddSeat =  0.7263, 1.875, 1.96
+AddSeat = -0.7263, 1.875, 1.96
+AddSeat =  -2.594, 0.37, 0.26
+AddSeat =  2.594, 0.37, 0.26
+AddSeat =  2.681, 1.141, -1.00
+AddSeat =  -2.681, 1.141, -1.00
+AddSeat =  0.00, 1.00, -2.5
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+;ArmorMinDamage = 1
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+;ArmorMaxDamage = 950
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+;ArmorDamageFactor = 1.00
+;後退可能にする(暫定処置で今後削除される可能性有り)
+EnableBack = true
+
+PivotTurnThrottle = 2.8
+
+AddWeapon        = mg,  -0.06516, 2.872, 3.574, 0.0, 0.0, false,  2 , 0, -10, 10, -15,7
+AddPartWeapon    = mg,  true, false, false,  -0.06516, 2.872, 3.574
+AddPartWeaponChild= true, false, -0.06516, 2.872, 1.574
+
+AddWeapon        = markvcl,  2.594, 1.211, 0.8184, 0.0, 0.0, false,  4 , 0, -16, 0, -7,7
+AddPartWeapon    = markvcl,  true, true, false,  2.594, 1.211, 0.8184
+AddPartWeaponChild= true, true, 2.594, 1.211, 0.8184
+
+AddWeapon        = markvcr,  -2.594, 1.211, 0.8184, 0.0, 0.0, false,  3 , 0, 0, 16, -7,7
+AddPartWeapon    = markvcr,  true, true, false,  -2.594, 1.211, 0.8184
+AddPartWeaponChild= true, true, -2.594, 1.211, 0.8184
+
+AddWeapon        = mgl,  2.681, 1.141, -1.295, 0.0, 0.0, false,  5 , -180, -1, 26, -7,7
+AddPartWeapon    = mgl,  false, true, false,  2.681, 1.141, -1.295
+AddPartWeaponChild= true, true, 2.681, 1.141, -1.295
+
+AddWeapon        = mgr,  -2.681, 1.141, -1.295, 0.0, 0.0, false,  6 , -180, -26, 1, -7,7
+AddPartWeapon    = mgr,  false, true, false,  -2.681, 1.141, -1.295
+AddPartWeaponChild= true, true, -2.681, 1.141, -1.295
+
+AddWeapon        = mgm,  -0.2396, 1.353, -3.166, 0.0, 0.0, false,  7 , -180, -20, 20, -7,7
+AddPartWeapon    = mgm,  false, true, false,  -0.2396, 1.353, -3.166
+AddPartWeaponChild= true, true, -0.2396, 1.353, -3.166
+
+MotionFactor = 0.9
+
+WeightedCenterZ = -1.0
+
+
+AddTrackRoller = 1.45,  0.53,  2.25
+AddTrackRoller = 1.45,  0.15,  1.46
+AddTrackRoller = 1.45,  0.15,  0.46
+AddTrackRoller = 1.45,  0.15,  -0.67
+AddTrackRoller = 1.45,  0.15,  -1.81
+AddTrackRoller = 1.45,  0.15,  -2.82
+AddTrackRoller = 1.45,  0.53,  -3.62
+
+DamageFactor = 0.0
+
+HideEntity = true
+
+;RideRack = 乗る機体名, ラック番号 (1～) 
+RideRack = c5, 1
+RideRack = c5, 2
+
+AddRecipe = "IXI",  " X ",  "III",  X, iron_block,  I, iron_ingot
+
+BoundingBox =  0.0, 1.0,  4.0,   3.4, 2.0,  0.90
+BoundingBox =  0.0, 1.4,  1.0,   3.4, 3.8,  1.00
+BoundingBox =  0.0, 1.0, -2.0,   3.4, 2.3,  1.25

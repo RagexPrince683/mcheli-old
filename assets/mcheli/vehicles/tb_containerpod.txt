@@ -1,0 +1,28 @@
+﻿DisplayName = tb_containerpod
+AddDisplayName = ja_JP, TBコンテナポッド
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+CameraPosition = 0.02, 1.20, 0.99, true
+
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.02, 1.20, -1.23
+
+
+AddPartHatch = 0.06, 0.00, -0.01,  1, 0, 0, 98
+
+
+AddTexture = tb_containerpod2
+AddTexture = tb_containerpod3
+AddTexture = tb_containerpod4
+AddTexture = tb_containerpod5
+
+
+
+AddRack = helicopters / tb_elevator_cars / tb_jetmole / tb_fab1 / tb_no4 / tank / AP-FireTuck / mc_jeep / mc_atv / mc_AMP_suit / mc_AMP_suit_R / Barracuda_Boat / mc_RHIB / mad_buggy,    -0.01, 0.32, -6.32,  -0.01, 0.32, 6.67, 10.0

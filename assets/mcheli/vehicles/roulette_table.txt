@@ -1,0 +1,21 @@
+﻿DisplayName = Roulette Table
+AddDisplayName = ja_JP, ルーレット台
+
+MaxHp = 100
+HUD = none, none, none, none, none, none, none, none
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.00, 1.00, 0.00
+CanRide = false
+
+
+AddFixRotSeat = 1.64, 0.30, 0.51,  1.64, 1.60, 0.51,  true, 90, 0
+AddFixRotSeat = 1.64, 0.30, -0.79,  1.64, 1.60, -0.79,  true, 90, 0
+AddFixRotSeat = 1.64, 0.30, -2.07,  1.64, 1.60, -2.07,  true, 90, 0
+
+AddFixRotSeat = -1.64, 0.30, 0.51,  -1.64, 1.60, 0.51,  true, -90, 0
+AddFixRotSeat = -1.64, 0.30, -0.79,  -1.64, 1.60, -0.79,  true, -90, 0
+AddFixRotSeat = -1.64, 0.30, -2.07,  -1.64, 1.60, -2.07,  true, -90, 0

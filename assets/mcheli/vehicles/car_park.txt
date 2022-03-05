@@ -1,0 +1,36 @@
+﻿DisplayName = car park
+AddDisplayName = ja_JP, 立体駐車場
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.46, 1.06, 0.26
+FuelSupplyRange = 20
+
+
+AddPartSlideHatch = 0.00, 9.78, 0.00
+
+
+
+AddRack = plane / tank,    -9.52, 0.21, -4.52,   -2.95, 0.02, 3.57, 15.0
+AddRack = plane / tank,    -15.97, 0.21, -4.52,   -2.95, 0.02, 3.57, 15.0
+AddRack = plane / tank,    -9.52, 0.21, -12.32,   -2.95, 0.02, 3.57, 15.0
+AddRack = plane / tank,    -15.97, 0.21, -12.32,   -2.95, 0.02, 3.57, 15.0
+
+
+AddRack = plane / tank,    -9.52, 5.19, -4.52,   -2.95, 0.02, 3.57, 15.0
+AddRack = plane / tank,    -15.97, 5.19, -4.52,   -2.95, 0.02, 3.57, 15.0
+AddRack = plane / tank,    -9.52, 5.19, -12.32,   -2.95, 0.02, 3.57, 15.0
+AddRack = plane / tank,    -15.97, 5.19, -12.32,   -2.95, 0.02, 3.57, 15.0
+
+
+AddRack = plane / tank,    -9.52, 10.59, -4.52,   -2.95, 0.02, 3.57, 15.0
+AddRack = plane / tank,    -15.97, 10.59, -4.52,   -2.95, 0.02, 3.57, 15.0
+AddRack = plane / tank,    -9.52, 10.59, -12.32,   -2.95, 0.02, 3.57, 15.0
+AddRack = plane / tank,    -15.97, 10.59, -12.32,   -2.95, 0.02, 3.57, 15.0

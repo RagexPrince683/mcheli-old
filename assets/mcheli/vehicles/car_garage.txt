@@ -1,0 +1,18 @@
+﻿DisplayName = car garage
+AddDisplayName = ja_JP, 車庫
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.42, 1.06, -0.63
+FuelSupplyRange = 20
+
+
+AddRack = plane / tank,    -1.97, -0.05, -3.24,  -1.97, -0.05, -7.65, 8.0, 100000,  180.0, 0.0
+

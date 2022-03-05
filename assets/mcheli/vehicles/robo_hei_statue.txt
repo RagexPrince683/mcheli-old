@@ -1,0 +1,21 @@
+﻿DisplayName = RobotSoldierStatue
+AddDisplayName = ja_JP, ロボット兵(装飾品)
+
+MaxHp = 100
+HideEntity = true
+RotationPitchMin = 0
+RotationPitchMax = 0
+DamageFactor = 2
+CanRide = false
+AddSeat = 0.00,  1.0, 0.00
+
+AddTexture = robohei_2
+AddTexture = robohei_3
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+BoundingBox =  0.00, 1.75, 0.01,  1.0, 4.0
+

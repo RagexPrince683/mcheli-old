@@ -1,0 +1,59 @@
+DisplayName = Postman Bike
+AddDisplayName = ja_JP, 郵便バイク
+
+
+MaxHp = 15
+Speed = 0.6
+Sound = 50cc_snd
+ThrottleUpDown = 15.2
+MaxFuel         = 400
+FuelConsumption = 0.4
+Gravity = -0.2
+MobilityYawOnGround = 5
+StepHeight = 1.0
+HUD = car
+WeightedCenterZ = 0.0
+MotionFactor = 0.91
+EnableBack = true
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+
+AddSeat = 0.01, 0.67, -0.25
+
+
+
+AddPartWheel     = 0.02, 0.125,  1.329, 20
+AddPartWheel     = -0.22, 0.125,  1.329, 20
+AddPartWheel     = 0.02, 0.125,  -0.757
+
+
+AddPartHatch = 0.16, 0.07, -0.06, 1, 0, 0, -85
+
+
+AddPartSteeringWheel =   -0.05, 1.24, 0.73,   0, 1, -0.51,  20
+
+AddWeapon =  horn4, 0.14,  1.10,  0.62, 0.0, 90
+
+
+
+AddSteeringSearchLight =  0.00, 1.18, 0.95,   0x99FFFFFF,   0x00FFFFC0,  15.0, 10.0, 0, 0, 20 
+
+
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.22,  -0.24, 1.329, -1.757
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0

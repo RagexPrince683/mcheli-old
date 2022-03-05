@@ -1,0 +1,20 @@
+﻿DisplayName = drum_pallet
+AddDisplayName = ja_JP, ドラム缶パレット
+
+MaxHp = 100
+HideEntity = true
+RotationPitchMin =  0
+RotationPitchMax =  0
+DamageFactor = 1
+CanRide = false
+FuelSupplyRange = 20
+
+AddSeat = 0.0, 1.0, 0.0
+
+
+AddTexture = drum_pallet_black
+AddTexture = drum_pallet_blue
+AddTexture = drum_pallet_lightblue
+AddTexture = drum_pallet_orange
+AddTexture = drum_pallet_red
+AddTexture = drum_pallet_Hazard

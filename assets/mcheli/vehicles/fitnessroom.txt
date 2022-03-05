@@ -1,0 +1,27 @@
+﻿DisplayName = Fitnessroom
+AddDisplayName = ja_JP, フィットネスルーム
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.42, 1.06, -0.63
+
+
+
+AddFixRotSeat = 0.73, 0.56, -0.51,  0.73, 1.40, -0.51,  true, -180, 0
+
+AddFixRotSeat = -1.76, 0.23, -4.29,  -1.37, 0.66, -4.29,  true, 90, 0
+
+AddFixRotSeat = -1.52, -0.04, -0.62,  -1.52, 1.30, -0.62,  true
+
+AddFixRotSeat = -4.88, 0.67, -0.47,  -4.88, 1.65, -0.47,  true
+
+AddFixRotSeat = -6.45, 0.67, -0.47,  -6.45, 1.65, -0.47,  true
+
+AddFixRotSeat = -5.15, 0.17, -3.69,  -5.15, 1.04, -4.94,  true

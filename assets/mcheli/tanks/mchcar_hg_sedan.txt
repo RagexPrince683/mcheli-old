@@ -1,0 +1,77 @@
+DisplayName = mcheli car HGSedan
+AddDisplayName = ja_JP, 自動車(高級セダン)
+
+
+MaxHp = 35
+Speed = 0.9
+Sound = cardrive
+ThrottleUpDown = 10.8
+MaxFuel         = 900
+FuelConsumption = 0.5
+MobilityYawOnGround = 7.1
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.1
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none, none, none
+MotionFactor = 0.92
+EnableBack = true
+PivotTurnThrottle = 0.18
+ThirdPersonDist = 8
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_hg_sedan_bk
+
+
+
+AddSeat =  0.00,  0.20,  -0.15
+AddSeat =  1.39,  0.20,  -0.15
+
+AddSeat =  0.05,  0.20,  -1.40
+AddSeat =  1.39,  0.20,  -1.40
+
+
+
+
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   -0.028, 0.90,  0.446,   0, 1, -1.95,  120
+
+AddPartWheel     = 1.945, 0.118,  1.688,  30
+AddPartWheel     = -0.60, 0.118,  1.688,  30
+
+AddPartWheel     = 1.945, 0.118,  -2.16
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.945,  -0.24,  1.688, -2.16
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+AddPartHatch = 2.23, 0.79, -0.63, 0, 1, 0, -72
+
+
+AddFixedSearchLight =  1.63, 0.63, 2.82,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.22, 0.63, 2.82,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddPartThrottle = -0.054, 1.074, 0.784,  0, 0, 1,  245
+
+

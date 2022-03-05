@@ -1,0 +1,65 @@
+DisplayName = Motor Bike Sporty
+AddDisplayName = ja_JP, ???(???????)
+
+
+MaxHp = 15
+Speed = 1.2
+Sound = bikespt_snd
+ThrottleUpDown = 27.0
+MaxFuel         = 600
+FuelConsumption = 0.2
+Gravity = -0.2
+MobilityYawOnGround = 5
+StepHeight = 1.0
+HUD = car
+WeightedCenterZ = 0.0
+MotionFactor = 0.91
+EnableBack = true
+
+EntityPitch = 20
+
+; C = Civilian(???)
+Category = C
+
+
+AddTexture = bike_sporty_g
+AddTexture = bike_sporty_r
+AddTexture = bike_sporty_bk
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+
+AddSeat = 0.00, 0.58, 0.25
+
+
+AddPartWheel     = 0.00, 0.048,  1.404,  20
+AddPartWheel     = -0.40, 0.048,  1.404,  20
+
+AddPartWheel     = 0.00, 0.048,  -0.618
+
+
+AddPartSteeringWheel =   0.00, 0.92,  0.987,   0, 1, -0.48,  20
+
+
+
+AddPartHatch = 0.15, -0.05, 0.33, 1, 0, 0, -90
+
+
+AddWeapon =  horn4, 0.14,  1.10,  0.62, 0.0, 90
+
+
+
+AddFixedSearchLight =  0.00, 0.75, 1.58,   0x99FFFFFF,   0x00FFFFC0,  25.0, 15.0, 0, 0 
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.20,  -0.24,  1.404, -1.618
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0

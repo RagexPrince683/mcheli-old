@@ -1,0 +1,67 @@
+DisplayName = Bicycle city
+AddDisplayName = ja_JP, 自転車(ママチャリ)
+
+MaxHp = 15
+Speed = 0.4
+Sound = Bicycle
+ThrottleUpDown = 18.5
+MaxFuel         = 100
+FuelConsumption = 0.0
+Gravity = -0.1
+MobilityYawOnGround = 8
+PartWheelRot = 25
+MotionFactor = 0.92
+ParticlesScale = 0.2
+EntityPitch = 10
+StepHeight = 1.0
+HUD = none, none
+EnableBack = true
+
+InventorySize = 5
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddWeapon =  BellSound, -0.01, 0.94, 1.00, 0.0, 90
+
+
+
+AddSeat =  -0.02, 0.53, 0.10
+
+AddSeat =  -0.02, 0.44, -0.77
+
+
+AddPartWheel     =  -0.017, 0.13, 1.226,  25
+AddPartWheel     =  -0.05, -0.007, 0.17
+AddPartWheel     =  -0.017, 0.13, -0.601
+
+
+AddPartSteeringWheel =   -0.012, 0.284,  1.079,   0, 1, -0.69,  25
+AddPartSteeringWheel =   -0.02, 0.955,  0.788,   0, 1, -0.13,  25
+
+
+
+AddPartHatch =  0.04, 0.12, -0.62, 1, 0, 0, -90
+
+
+
+AddSteeringSearchLight = -0.13, 0.39, 1.11,  0x99FFFFFF,   0x00FFFFC0,  10.0, 4.0, 0, 0, 25 
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+
+OnGroundPitchFactor = 4.8
+OnGroundRollFactor  = 2.2
+
+SetWheelPos =  -0.017,  -0.24,  1.226, -0.601
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+

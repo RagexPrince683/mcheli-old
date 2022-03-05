@@ -1,0 +1,26 @@
+﻿DisplayName = DecoContainer Large
+AddDisplayName = ja_JP, 装飾用コンテナ特大 
+
+MaxHp = 300
+HideEntity = true
+RotationPitchMin =  0
+RotationPitchMax =  0
+DamageFactor = 1
+InventorySize = 54
+CanRide = false
+AddSeat = 0.00, 0.20, 0.00
+
+
+BoundingBox =  0.05, 1.51, 3.83, 6.0, 6.0
+BoundingBox =  0.05, 1.51, 1.30, 6.0, 6.0
+BoundingBox =  0.05, 1.51, -1.68, 6.0, 6.0
+
+
+
+AddTexture = DecoContainerLarge_black
+AddTexture = DecoContainerLarge_blue
+AddTexture = DecoContainerLarge_green
+AddTexture = DecoContainerLarge_military
+AddTexture = DecoContainerLarge_orange
+AddTexture = DecoContainerLarge_white
+AddTexture = DecoContainerLarge_yellow

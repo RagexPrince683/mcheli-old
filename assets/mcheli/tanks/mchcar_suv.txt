@@ -1,0 +1,80 @@
+DisplayName = SUV
+AddDisplayName = ja_JP, 自動車(SUV)
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = 4wd2_snd
+ThrottleUpDown = 18.8
+MaxFuel         = 800
+FuelConsumption = 0.4
+MobilityYawOnGround = 7.3
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.1
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none
+MotionFactor = 0.92
+EnableBack = true
+ThirdPersonDist = 8
+
+PivotTurnThrottle = 0.18
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_suv_bk
+AddTexture = mchcar_suv_sl
+AddTexture = mchcar_suv_bl
+AddTexture = mchcar_suv_rd
+
+
+
+AddSeat =  0.04,  0.44,  -0.09
+AddSeat =  1.46,  0.44,  -0.09
+
+AddSeat =  0.04,  0.44,  -1.51
+AddSeat =  1.46,  0.44,  -1.51
+
+
+
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   0.034, 1.115,  0.541,   0, 1, -2.15,  120
+
+AddPartWheel     = 1.698, 0.096,  1.678,  30
+AddPartWheel     = -0.333, 0.096,  1.678,  30
+
+
+AddPartWheel     = 1.698, 0.096,  -1.65
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.698,  -0.24,  1.678, -1.65
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+AddFixedSearchLight =  1.49, 0.75, 2.87,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.17, 0.75, 2.87,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+
+AddPartThrottle = 0.01, 1.282, 0.806,  0, 0, 1,  248
+
+
+
+
+

@@ -1,0 +1,12 @@
+DisplayName = HESCO Sand-Barriers
+AddDisplayName = ja_JP, HESCO社製 バリケード
+ItemID = 30037
+MaxHp = 800
+HideEntity = true
+ArmorDamageFactor = 0.1
+CanRide = false
+
+AddSeat = 0.00,  1.57, 0.00
+AddPart = true, true, false, 0, 0.00, 0.00, 0.0
+
+AddRecipe = "SSS",  "LSL",  "LLL",  S, sand, L, leather

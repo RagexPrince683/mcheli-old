@@ -1,0 +1,12 @@
+DisplayName = What we Do Here is Go Back - Otis McDonald
+Type = MachineGun1
+Power = 0
+Accuracy = 0
+Flaming = true
+Sight = None
+Delay = 3100
+ModelBullet = horn_mdl
+Particle = none
+Sound = contentcop
+SoundVolume = 50.0
+SoundPitchRandom = 0

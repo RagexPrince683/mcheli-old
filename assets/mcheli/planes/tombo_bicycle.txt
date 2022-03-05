@@ -1,0 +1,66 @@
+﻿DisplayName = Tombo's Bicycle (weeb thing you wouldn't get it)
+AddDisplayName = ja_JP, トンボの自転車
+
+MaxHp = 350
+Speed = 0.5
+Sound = Bicycle
+ThrottleUpDown = 18.5
+MaxFuel         = 400
+FuelConsumption = 0.0
+Gravity = -0.08
+GravityInWater = -0.01
+MobilityYawOnGround = 6.0
+RotorSpeed = 52.0
+ArmorMinDamage = 0
+EnableBack = true
+StepHeight = 2.5
+HUD = none, none
+
+InventorySize = 9
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+
+AddSeat =  0.01, 0.61, -0.16
+AddSeat =  0.01, 0.64, -0.78
+
+
+
+AddPartRotor =     0.01,  0.16, 1.02, 1, 0, 0
+AddBlade = 1, 0,   0.01,  0.16, 1.02, 1, 0, 0
+
+AddPartRotor =    0.01,  0.16, -0.63, 1, 0, 0
+AddBlade = 1, 0,  0.01,  0.16, -0.63, 1, 0, 0
+
+
+
+AddPartRotor =    -0.07,  0.11, 0.06, 1, 0, 0
+AddBlade = 1, 0,  -0.07,  0.11, 0.06, 1, 0, 0
+
+
+AddPartRotor =    0.00,  1.10, 1.54, 0, 0, 1
+AddBlade = 1, 0,  0.00,  1.10, 1.54, 0, 0, 1
+
+
+AddPartRotor =    -0.08, 0.12, 0.06, 1, 0, 0
+AddBlade = 1, 0,  -0.08, 0.12, 0.06, 1, 0, 0
+
+AddPartRotor =    -0.06, 0.70, 0.70, 1, 0, 0
+AddBlade = 1, 0,  -0.06, 0.70, 0.70, 1, 0, 0
+
+
+AddPartHatch =   0.06, 0.15, -0.61, 1, 0, 0, -85
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+﻿DisplayName = Shop_Cashier ver2
+AddDisplayName = ja_JP, 店(レジ ver2)
+
+MaxHp = 800
+HUD = none, none
+InventorySize = 54
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.42, 1.06, -0.63
+CanRide = false
+
+
+AddTexture = shop_cashier_ver2_2

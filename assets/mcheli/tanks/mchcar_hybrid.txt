@@ -1,0 +1,67 @@
+DisplayName = Hybrid
+AddDisplayName = ja_JP, 自動車(ハイブリッド)
+
+
+MaxHp = 35
+Speed = 0.7
+Sound = cardrive
+ThrottleUpDown = 14.8
+MaxFuel         = 900
+FuelConsumption = 0.5
+MobilityYawOnGround = 7.6
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.1
+HUD = car, none, none, none
+MotionFactor = 0.92
+EnableBack = true
+PivotTurnThrottle = 0.18
+ThirdPersonDist = 8
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_hybrid_sl
+
+
+
+AddSeat =  0.13,  0.24,  -0.02
+AddSeat =  1.36,  0.24,  -0.02
+
+
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   0.05, 0.976,  0.541,   0, 1, -2.10,  120
+
+AddPartWheel     = 1.703, 0.082,  1.579,  30
+AddPartWheel     = -0.00, 0.082,  1.579,  30
+
+AddPartWheel     = 1.703, 0.082,  -1.67
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 3.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.703,  -0.24, 1.579, -1.67
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+AddFixedSearchLight =  1.49, 0.78, 2.55,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.13, 0.78, 2.55,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddPartThrottle = 0.026, 1.129, 0.806,  0, 0, 1,  245
+
+

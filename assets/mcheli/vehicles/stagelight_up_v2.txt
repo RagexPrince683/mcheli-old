@@ -1,0 +1,23 @@
+﻿DisplayName = Stage Light UP ver2
+AddDisplayName = ja_JP, ステージ照明UP ver2
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+HideEntity = true
+
+AddSeat = 0.42, 1.06, -0.63
+CameraPosition = -3.62, 0.58, -0.10, false
+
+MinRotationPitch  = -100
+MaxRotationPitch  = 0
+
+AddPart = true, false, true, 0, -3.62, 0.08, -0.10
+
+
+AddSearchLight = 0.02, 0.08, 0.12,    0x50F0E68C,   0x10EEE8AA,    80, 30,   -15,   -14.5
+AddSearchLight = -2.24, 0.08, 0.12,   0x50F0E68C,   0x10EEE8AA,    80, 30,   -8,   -14.5
+AddSearchLight = -4.60, 0.08, 0.12,   0x50F0E68C,   0x10EEE8AA,    80, 30,   8,   -14.5
+AddSearchLight = -7.27, 0.08, 0.12,   0x50F0E68C,   0x10EEE8AA,    80, 30,   15,   -14.5

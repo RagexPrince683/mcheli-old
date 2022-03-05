@@ -1,0 +1,75 @@
+DisplayName = mcheli car MonsterTruck
+AddDisplayName = ja_JP, モンスタートラック
+
+
+MaxHp = 35
+Speed = 2.0
+Sound = 4wd4_snd
+ThrottleUpDown = 25
+MaxFuel         = 1800
+FuelConsumption = 0.5
+MobilityYawOnGround = 7.8
+StepHeight = 3.5
+InventorySize = 54
+Gravity = -0.6
+GravityInWater = -0.5
+SubmergedDamageHeight = 6
+HUD = car, none
+MotionFactor = 0.91
+EnableBack = true
+ArmorDamageFactor = 1.0
+DamageFactor = 0.5
+ThirdPersonDist = 8
+PivotTurnThrottle = 1.35
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_monstertruck_rd
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 5.8
+OnGroundRollFactor  = 4.2
+
+SetWheelPos =  -0.70,  -0.24,  1.989, -2.06
+PartWheelRot = 35
+
+
+
+
+AddSeat =  -0.15,  2.22,  -0.11
+AddSeat =  -1.43,  2.22,  -0.11
+
+
+
+AddWeapon =  horn2,  0.00, 0.34, 1.18,  0.0, 90
+
+
+AddPartSteeringWheel =   -0.036, 2.711,  0.543,   0, 1, -1.90,  120
+
+AddPartWheel     = 1.176, 0.585,  1.989,  28
+AddPartWheel     = -2.57, 0.585,  1.989,  28
+
+
+AddPartWheel     = 1.176, 0.585,  -2.06,  -5
+AddPartWheel     = -2.57, 0.585,  -2.06,  -5
+
+
+
+
+AddFixedSearchLight =  0.24, 2.22, 3.20,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -1.61, 2.22, 3.20,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddPartThrottle = -0.01, 2.887, 0.822,  0, 0, 1,  248
+
+
+
+
+

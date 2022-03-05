@@ -1,0 +1,47 @@
+DisplayName = Raft_simple_naked
+AddDisplayName = ja_JP, 帆なし木のイカダ
+
+
+MaxHp = 100
+Speed = 0.2
+Float = true
+FloatOffset = 0.0
+Sound = raft_snd
+ThrottleUpDown = 25
+MaxFuel         = 100
+FuelConsumption = 0.0
+Gravity = -0.1
+DamageFactor = 1.0
+StepHeight = 0.0
+MobilityYawOnGround = 2.7
+MotionFactor = 0.90
+EnableBack = true
+CanMoveOnGround = false
+
+UnmountPosition = 3.00, 2.00, 0.00
+InventorySize = 36
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = none, none, none
+
+
+AddSeat =  0.08, 0.04, 0.48
+
+AddSeat =  0.68, 0.04, -0.97
+
+AddSeat =  -0.62, 0.04, -0.97
+
+
+AddRack = container,  -0.02,  0.33, -0.89,  -0.02, 0.24, -1.97
+
+
+
+BoundingBox = 0.08, 0.04, 0.02,  3.0, 1.0
+
+
+
+

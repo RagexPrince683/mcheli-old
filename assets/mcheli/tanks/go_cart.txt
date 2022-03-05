@@ -1,0 +1,48 @@
+DisplayName = Go Cart
+AddDisplayName = ja_JP, ゴーカート
+
+
+MaxHp = 10
+ThrottleUpDown = 25.0
+Speed = 0.6
+MobilityYawOnGround = 4.0
+StepHeight = 0.5
+Sound = bikeus_snd
+Gravity = -0.1
+GravityInWater = 0.1
+DamageFactor = 0.0
+MaxFuel         = 500
+FuelConsumption = 0.1
+PartWheelRot = 30.0
+MotionFactor = 0.90
+ThirdPersonDist = 8
+EnableBack = true
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = car
+
+
+AddSeat =    0.02,  0.17, -0.12
+
+AddPartSteeringWheel =   0.006, 0.568,  0.627,   0, 1, -1.65,  90
+
+AddPartWheel     = 0.779, 0.00,  1.203,  25
+AddPartWheel     = -0.785, 0.00,  1.203,  25
+
+AddPartWheel     = 0.779, 0.00,  -0.88
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 4.8
+OnGroundRollFactor  = 2.2
+
+SetWheelPos =  0.779,  -0.24,  1.203, -0.88
+
+
+

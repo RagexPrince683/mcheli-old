@@ -1,0 +1,76 @@
+﻿DisplayName = Approach Lights
+AddDisplayName = ja_JP, 滑走路進入灯
+
+MaxHp = 100
+HUD = none
+CanMoveOnGround = false
+HideEntity = true
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+Float  = true
+
+FuelSupplyRange = 25
+ArmorMinDamage = 50
+ArmorDamageFactor = 0.0
+
+
+
+AddSeat = 0.00, 1.00, 0.00
+CameraPosition = 0.00, 2.00, 0.00, false
+
+
+AddFixedSearchLight = 0.00, 0.823, -0.83,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = 2.512, 0.823, -0.83,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = -2.512, 0.823, -0.83,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = 5.376, 0.823, -0.83,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = -5.376, 0.823, -0.83,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+
+AddFixedSearchLight = 0.00, 0.422, 0.45,    0x50ff0000,   0x10ff0000,    2, 5,   0,  -60
+
+
+
+AddFixedSearchLight = 0.00, 0.982, 6.373,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = 2.512, 0.982, 6.373,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = -2.512, 0.982, 6.373,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = 5.376, 0.982, 6.373,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = -5.376, 0.982, 6.373,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+
+AddFixedSearchLight = 0.00, 0.581, 7.653,    0x50ff0000,   0x10ff0000,    2, 5,   0,  -60
+
+
+
+AddFixedSearchLight = 0.00, 1.22, 12.939,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = 2.512, 1.22, 12.939,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = -2.512, 1.22, 12.939,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = 5.376, 1.22, 12.939,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = -5.376, 1.22, 12.939,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+
+AddFixedSearchLight = 0.00, 0.82, 14.22,    0x50ff0000,   0x10ff0000,    2, 5,   0,  -60
+
+
+
+AddFixedSearchLight = 0.00, 1.693, 19.052,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = 2.512, 1.693, 19.052,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = -2.512, 1.693, 19.052,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = 5.376, 1.693, 19.052,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = -5.376, 1.693, 19.052,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+
+AddFixedSearchLight = 0.00, 1.292, 20.332,    0x50ff0000,   0x10ff0000,    2, 5,   0,  -60
+
+
+
+AddFixedSearchLight = 0.00, 2.108, 25.786,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = 2.512, 2.108, 25.786,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = -2.512, 2.108, 25.786,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = 5.376, 2.108, 25.786,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+AddFixedSearchLight = -5.376, 2.108, 25.786,    0x50ffff00,   0x10ffff00,    1, 3,   0,  -60
+
+AddFixedSearchLight = 0.00, 1.707, 27.066,    0x50ff0000,   0x10ff0000,    2, 5,   0,  -60
+
+
+
+
+
+
+

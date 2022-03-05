@@ -1,0 +1,63 @@
+DisplayName = Delivery Bike
+AddDisplayName = ja_JP, 配達バイク
+
+
+MaxHp = 15
+Speed = 0.6
+Sound = bike50cc_snd
+ThrottleUpDown = 26.0
+MaxFuel         = 400
+FuelConsumption = 0.4
+Gravity = -0.1
+MobilityYawOnGround = 5
+StepHeight = 1.0
+HUD = car
+WeightedCenterZ = 0.0
+MotionFactor = 0.91
+PartWheelRot = 40.0
+EnableBack = true
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+
+AddSeat = 0.03, 0.37, -0.06
+
+
+AddPartWheel     = 0.00, 0.002,  1.499,  20
+AddPartWheel     = -0.20, 0.002,  1.499,  20
+AddPartWheel     = -0.005, -0.125,  -0.766
+
+AddPartSteeringWheel =   0.00, 0.162,  1.406,   0, 1, 0,  20
+
+AddPartSteeringWheel =   0.00, 0.958,  0.788,   0, 1, -0.62,  20
+
+
+
+
+AddPartHatch = 0.01, 1.28, -1.00, 1, 0, 0, 156
+
+
+AddWeapon =  horn4, 0.14,  1.10,  0.62, 0.0, 90
+
+
+
+AddFixedSearchLight =  0.37, 0.55, 1.20,   0x99FFFFFF,   0x00FFFFC0,  25.0, 15.0, 0, 0 
+AddFixedSearchLight =  -0.39, 0.55, 1.20,   0x99FFFFFF,   0x00FFFFC0,  25.0, 15.0, 0, 0 
+
+
+AddPartThrottle = 0.00, 1.10, 0.99,  0, 0, 1,  248
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.0
+
+SetWheelPos =  0.20,  -0.24,  1.499, -1.766
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+

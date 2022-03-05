@@ -1,0 +1,79 @@
+DisplayName = Bonnet Bus
+AddDisplayName = ja_JP, ボンネットバス
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = 4wd1_snd
+ThrottleUpDown = 20.6
+MaxFuel         = 1000
+FuelConsumption = 1
+MobilityYawOnGround = 5.2
+StepHeight = 1.2
+InventorySize = 54
+Gravity = -0.6
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none, none, none, none
+MotionFactor = 0.91
+PivotTurnThrottle = 0.25
+ThirdPersonDist = 12
+UnmountPosition = 2.29, 1.00, -1.96
+EnableBack = true
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = ts_bonnet_bus2
+
+
+
+AddSeat =  -0.66, 1.24, -0.13
+
+
+
+AddSeat =  1.12, 1.24, -0.16
+
+AddSeat =  -0.98, 1.24, -1.96
+AddSeat =  -0.98, 1.24, -3.71
+AddSeat =  1.12, 1.24, -3.71
+AddSeat =  1.12, 1.24, -4.91
+AddSeat =  0.18, 1.24, -5.89
+
+
+
+AddPartSteeringWheel =   -0.65, 1.492,  0.495,   0, 1, -1.65,  120
+
+AddPartWheel     =  1.192, 0.306,  2.007,  25
+AddPartWheel     =  -1.114, 0.306,  2.007,  25
+
+AddPartWheel     =  0.039, 0.306, -4.654
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 1.3
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -1.0
+
+
+SetWheelPos =  1.192,  -0.24, 1.0, 2, -5
+
+
+
+AddFixedSearchLight =   1.09, 1.18, 3.10,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   -8,  0
+AddFixedSearchLight =   -1.01, 1.18, 3.10,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   8,  0
+
+
+AddWeapon =  mdtcar_horn,  0.00, 0.34, 1.18,  0.0, 90
+
+
+AddPartSlideHatch =  0.05, 0.00, 1.05
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+

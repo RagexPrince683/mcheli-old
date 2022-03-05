@@ -1,0 +1,88 @@
+DisplayName = Elefant/Ferdinand
+AddDisplayName = ja_JP, Elefant/Ferdinand
+ItemID = 90192
+MaxHp = 250
+Speed = 0.3
+ThrottleUpDown = 3.0
+Gravity = -0.1
+GravityInWater = -0.5
+DamageFactor = 0.0
+EnableNightVision = false
+EnableEntityRadar = false
+Sound = tank_gte
+HUD = ww2tank_hud, ww2tank_hud
+WeightType = Tank
+DefaultFreelook = true
+
+AddTexture = Elefant1
+
+EnableBack = true
+SetWheelPos =  1.6,  -0.24,  4.0, 2.5, 1.0, -1.0, -2.5, -4.0
+
+SubmergedDamageHeight = 2
+WeightedCenterZ = 0.0
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.5
+
+MobilityYawOnGround = 2.0
+PivotTurnThrottle = 0.0
+
+AddGunnerSeat = -0.677, 2.5, -1.573,   -0.677, 2.5, -1.573,   false, -25, 25, false
+AddGunnerSeat = -0.5,  1.0,  0.5,      -0.731, 1.8,  3.6,     false, -25, 25, false
+CameraPosition = -0.677, 3.6, -1.573, false
+CameraRotationSpeed = 20
+
+StepHeight = 1.0
+InventorySize = 18
+ParticlesScale = 50.0
+SmoothShading = true
+HideEntity = true
+
+;ArmorMinDamage = 90
+
+MotionFactor = 0.94
+
+MaxFuel         = 1500
+FuelConsumption = 4.0
+
+TrackRollerRot = 30
+
+AddTrackRoller = -1.5,  0.7478,  3.7756
+AddTrackRoller = -1.5,  0.1692,  2.65
+AddTrackRoller = -1.5,  0.1692,  1.65
+AddTrackRoller = -1.5,  0.1692,  0.5
+AddTrackRoller = -1.5,  0.1692, -0.5
+AddTrackRoller = -1.5,  0.1692, -1.65
+AddTrackRoller = -1.5,  0.1692, -2.65
+AddTrackRoller = -1.5,  0.6058, -3.5906
+
+AddTrackRoller =  1.5,  0.7478,  3.7756
+AddTrackRoller =  1.5,  0.1692,  2.65
+AddTrackRoller =  1.5,  0.1692,  1.65
+AddTrackRoller =  1.5,  0.1692,  0.5
+AddTrackRoller =  1.5,  0.1692, -0.5
+AddTrackRoller =  1.5,  0.1692, -1.65
+AddTrackRoller =  1.5,  0.1692, -2.65
+AddTrackRoller =  1.5,  0.6058, -3.5906
+
+AddCrawlerTrack = true, 0.21, -2.1,   1.13/ 3.77, 1.02/ 4.09, 0.75/ 4.2, 0.47/ 4.09, -0.16/ 3.0, -0.3/ 2.65, -0.3/ -2.65, -0.16/ -2.94, 0.33/ -3.9, 0.6/ -3.94, 0.88/ -3.82, 0.99/ -3.55, 0.88/ -3.28, 0.64/ -2.61, 0.64/ 2.69, 1.02/ 3.5
+AddCrawlerTrack = true, 0.21, -2.1,   1.13/ 3.77, 1.02/ 4.09, 0.75/ 4.2, 0.47/ 4.09, -0.16/ 3.0, -0.3/ 2.65, -0.3/ -2.65, -0.16/ -2.94, 0.33/ -3.9, 0.6/ -3.94, 0.88/ -3.82, 0.99/ -3.55, 0.88/ -3.28, 0.64/ -2.61, 0.64/ 2.69, 1.02/ 3.5
+
+MinRotationPitch = -10
+MaxRotationPitch = 8
+
+AddWeapon = 88mmPak43[APCBC],      0.0, 2.3226, 0.007,  0.0, 0.0, true,1, 0,-15,15, -10, 8
+AddWeapon = 88mmPak43[HE],         0.0, 2.3226, 0.007,  0.0, 0.0, true,1, 0,-15,15, -10, 8
+AddPartWeapon  = 88mmPak43[APCBC]/88mmPak43[HE], false, true,  true,  0.0, 2.3226, 0.007, 0
+AddPartWeaponChild = false, false,  0.0, 2.3226, 0.007
+AddPartWeaponChild = false, false,  0.0, 2.3226, 0.007, 0.5
+
+AddWeapon = 7_92mmMG1,  -0.731, 1.531, 3.37,  0.0, 0.0, false,2, 0,-25,25, -7, 7
+AddPartWeapon  = 7_92mmMG1, false, true,  true,  -0.731, 1.531, 3.37, 0
+
+BoundingBox = 0.0, 0.8, 1.8, 3.5, 2.0, 0.5
+BoundingBox = 0.0, 1.8, 1.8, 2.0, 0.1, 3.0
+BoundingBox = 0.0, 0.8, -1.8, 3.5, 1.2, 0.5
+BoundingBox = 0.0, 2.3, -1.8, 3.5, 1.2, 0.5
+BoundingBox = 0.0, 3.0, -1.8, 2.0, 0.1, 3.0

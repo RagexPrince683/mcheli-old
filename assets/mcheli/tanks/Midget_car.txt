@@ -1,0 +1,80 @@
+DisplayName = Midget car
+AddDisplayName = ja_JP, ミゼット
+
+
+MaxHp = 10
+Speed = 0.7
+Sound = mdtcar_snd
+ThrottleUpDown = 18.4
+Gravity = -0.1
+GravityInWater = -0.1
+StepHeight = 1.0
+MobilityYawOnGround = 8.5
+PivotTurnThrottle = 0.1
+MotionFactor = 0.92
+EnableBack = true
+hud = car, none, none
+ThirdPersonDist = 8
+
+
+MaxFuel         = 400
+FuelConsumption = 0.8
+
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = Midget_car2
+
+
+
+AddSeat =  -0.52, 0.63, -1.12
+AddSeat =  0.56, 0.63, -1.12
+
+
+
+AddWeapon =  mdtcar_horn, 0.14,  1.10,  0.62, 0.0, 90
+
+
+
+AddPartCanopy = -1.00, 0.21, -1.36,  0, 1, 0,   -80
+
+
+
+AddFixedSearchLight =  0.63,  0.91,  0.98,   0x50FFFFFF,   0x00FFFFC0,    15.0, 12.0,  -8,  0
+AddFixedSearchLight =  -0.63,  0.91,  0.98,   0x50FFFFFF,   0x00FFFFC0,    15.0, 12.0,   8,  0
+
+
+
+AddPartSteeringWheel =   -0.489, 1.087,  -0.418,   0, 1, -1.60,  120
+AddPartSteeringWheel =   0.015, 0.239,  1.154,   0, 1, 0,  90
+
+
+AddPartWheel     = 0.012, 0.027,  1.225,  35
+AddPartWheel     = -0.010, 0.027,  1.225,  35
+
+AddPartWheel     = -0.010, 0.027,  -2.42
+
+
+
+BoundingBox =  0.03, 1.35, -0.76, 3.0, 2.0
+
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 3.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.012,  -0.24,  1.225, -2.42
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+PartWheelRot = 35
+

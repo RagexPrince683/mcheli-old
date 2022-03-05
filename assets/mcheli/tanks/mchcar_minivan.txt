@@ -1,0 +1,78 @@
+DisplayName = mcheli car MiniVan
+AddDisplayName = ja_JP, 自動車(ミニバン)
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = 4wd2_snd
+ThrottleUpDown = 18.0
+MaxFuel         = 1500
+FuelConsumption = 1
+MobilityYawOnGround = 7.1
+StepHeight = 1.0
+InventorySize = 27
+Gravity = -0.1
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none, none, none
+MotionFactor = 0.92
+EnableBack = true
+PivotTurnThrottle = 0.19
+ThirdPersonDist = 8
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_minivan_bk
+
+
+
+
+AddSeat =  0.04, 0.61, -0.14
+AddSeat =  1.15, 0.71, -0.14
+
+AddSeat =  0.04, 0.71, -1.64
+AddSeat =  1.15, 0.71, -1.64
+
+
+
+AddPartSteeringWheel =   -0.103, 1.203,  0.548,   0, 1, -1.05,  120
+
+AddPartWheel     = 1.589, 0.061,  1.188,  30
+AddPartWheel     = -0.565, 0.061,  1.188,  30
+
+AddPartWheel     = 1.589, 0.061,  -2.40
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.589,  -0.24,  1.188, -2.40
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+AddPartSlideHatch =   0.05, 0.00, -1.08
+
+
+
+AddFixedSearchLight =  1.32, 0.73, 2.28,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight =  -0.26, 0.73, 2.28,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartThrottle = -0.099, 1.157, 0.894,  0, 0, 1,  244
+
+
+
+

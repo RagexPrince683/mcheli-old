@@ -1,0 +1,19 @@
+DisplayName = Nuclear Bomb
+Type = Bomb
+Power = 2500
+Acceleration = 0.1
+Explosion = 65
+ExplosionInWater = 45
+Flaming = true
+Sight = None
+Sound = bomb_snd
+Delay = 60
+Piercing  = 1
+SoundVolume = 8
+SmokeColor = 219, 155, 17
+
+
+MaxAmmo = 1
+SuppliedNum = 4
+Item =  30, iron_ingot
+Item =  45, gunpowder

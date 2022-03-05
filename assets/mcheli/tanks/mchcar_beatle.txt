@@ -1,0 +1,75 @@
+DisplayName = Beatle
+AddDisplayName = ja_JP, 自動車(ビートル)
+
+
+MaxHp = 35
+Speed = 0.7
+Sound = cardrive
+ThrottleUpDown = 10.8
+MaxFuel         = 800
+FuelConsumption = 1
+MobilityYawOnGround = 7.5
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.2
+GravityInWater = -0.1
+SubmergedDamageHeight = 1
+HUD = car, none, none, none
+MotionFactor = 0.92
+EnableBack = true
+PivotTurnThrottle = 0.13
+ThirdPersonDist = 8
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_beatle_bk
+AddTexture = mchcar_beatle_gr
+AddTexture = mchcar_beatle_rd
+AddTexture = mchcar_beatle_wh
+AddTexture = mchcar_beatle_yl
+
+
+AddSeat =  0.04,  0.15,  -0.12
+AddSeat =  -0.92,  0.15,  -0.12
+
+
+
+AddWeapon =  horn5,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   0.134, 0.813,  0.49,   0, 1, -1.85,  120
+
+AddPartWheel     = 0.58, 0.094,  1.74,  30
+AddPartWheel     = -1.369, 0.094,  1.74,  30
+
+AddPartWheel     = 0.58, 0.094,  -1.71
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+WeightedCenterZ = -0.5
+
+SetWheelPos =  0.58,  -0.24,  1.0, 1.74, -1.71
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+
+AddFixedSearchLight =  0.42, 0.40, 2.39,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -1.22, 0.40, 2.39,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddPartThrottle = 0.175, 0.86, 0.667,  0, 0, 1,  223
+
+
+

@@ -1,0 +1,114 @@
+﻿
+AddDisplayName = ja_JP, ボーイングB-17飛行要塞
+ItemID = 28729
+MaxHp = 750
+Speed = 0.68
+Sound = prop_bomber_b
+ThrottleUpDown = 0.3
+onGroundPitch = 8
+AutoPilotRot = 0.00
+CameraPosition = 2.0, 1.40, -4.0
+;EnableNightVision = true
+;EnableEntityRadar = true
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+InventorySize = 18
+MaxFuel         = 4800
+FuelConsumption = 2.0
+ThirdPersonDist = 40
+
+UnmountPosition = 3.0, 2.0, -4.0
+
+; W = WWII.  A = Attacker(攻撃機)
+Category = W.A
+
+HUD = plane_wwii, gunner, none, gunner, gunner, gunner, gunner, gunner, gunner, gunner
+
+MobilityYaw = 0.8
+MobilityPitch = 0.8
+MobilityRoll = 0.2
+
+
+AddSeat =  0.3266,  3.192, 3.427
+AddSeat =  0.00, 2.587, 6.261
+AddSeat =  0.00, 3.856, 1.845
+AddSeat =  0.00, 1.869, -4.90
+AddSeat =  0.534, 2.308, -8.33
+AddSeat = -0.59, 2.326, -7.234
+AddSeat = -0.5158, 2.326, 5.571
+AddSeat =  0.5158, 2.326, 5.571
+AddSeat =  0.00, 3.00, -16.44
+AddSeat =  -0.3266,  3.192, 3.427
+
+AddPartWeapon = 12_7mm_f, false, true, false,  0.00, 1.987, 6.361
+AddPartWeaponChild = false, true,0.00, 1.987, 6.361
+
+AddPartWeapon = 12_7mm_tf, false, true, false,  0.00, 4.956, 1.845
+AddPartWeaponChild = false, true,0.00, 4.956, 1.845
+
+AddPartWeapon = 12_7mm_um, false, true, false,  0.00, 1.569, -5.00
+AddPartWeaponChild = false, true,0.00, 1.569, -4.90
+
+AddPartWeapon = 12_7mm_bl, false, true, false,  1.09, 3.226, -8.33
+AddPartWeaponChild = false, true,1.09, 3.226, -8.33
+
+AddPartWeapon = 12_7mm_br, false, true, false,  -1.034, 3.208, -7.234
+AddPartWeaponChild = false, true,-1.034, 3.208, -7.234
+
+AddPartWeapon = 12_7mm_fr, false, true, false,  -0.9158, 3.226, 6.171
+AddPartWeaponChild = false, true,-0.9158, 3.226, 6.171
+
+AddPartWeapon = 12_7mm_fl, false, true, false,  0.9158, 3.226, 6.171
+AddPartWeaponChild = false, true,0.9158, 3.226, 6.171
+
+AddPartWeapon = 12_7mm_bt, false, true, false,  0.00, 3.125, -18.44
+AddPartWeaponChild = false, true,0.00, 3.125, -18.44
+
+
+AddPartLG =   -3.43, 1.929, 0.5613,  1,0, 0, -90
+AddPartLG =    3.43, 1.929, 0.5613,  1,0, 0, -90
+AddPartLG =    0.00, 2.099,-11.57 ,1,0, 0, 90
+
+
+
+AddPartRotor =   -7.611,  2.614,  3.781,   0, 0, 1
+AddBlade = 1,0,  -7.611,  2.614,  3.781,   0, 0, 1
+AddPartRotor =  -3.504,  2.401,  4.344,   0, 0, 1
+AddBlade = 1,0, -3.504,  2.401,  4.344,   0, 0, 1
+AddPartRotor =   3.504,  2.401,  4.344,   0, 0, -1
+AddBlade = 1,0,  3.504,  2.401,  4.344,   0, 0, -1
+AddPartRotor =    7.611,  2.614,  3.781,   0, 0, -1
+AddBlade = 1,0,   7.611,  2.614,  3.781,   0, 0, -1
+
+AddRecipe = "I I",  "TTT",  "I I",  I,iron_block, T,tnt
+
+
+AddWeapon = 12_7mm_f,   0.00, 1.987, 6.361,  0.0, 0.0, false,  2,    0, -120, 120, -20, 10
+AddWeapon = 12_7mm_tf,  0.00, 4.956, 1.845,  0.0, 0.0, false,  3,    0, -360, 360, -60, 3
+AddWeapon = 12_7mm_um,   0.00, 1.569, -4.90,  0.0, 0.0, false, 4,   0,  -360,  360, -3, 85
+AddWeapon = 12_7mm_bl,   1.034, 3.208, -8.33,  0.0, 0.0, false, 5, -90,  -50,  50, -5, 5
+AddWeapon = 12_7mm_br,   -1.09, 3.226, -7.234,  0.0, 0.0, false, 6,  90,  -50,  50, -5, 5
+AddWeapon = 12_7mm_fr,   -0.9158, 3.226, 6.171,  0.0, 0.0, false, 7,  90,  -90,  90, -10, 10
+AddWeapon = 12_7mm_fl,    0.9158, 3.226, 6.171,  0.0, 0.0, false, 8,  -90,  -90,  90, -10, 10
+AddWeapon = 12_7mm_bt,   0.00, 3.125, -18.44,  0.0, 0.0, false, 9, -180,  -0,  0, -15, 15
+
+AddWeapon = 500lbanm64a1,       0.55,  1.08,  -6.0, 0, 90, true,  1
+
+;*anger* why cant the person that made this do it correctly?
+
+EnableBack = True
+
+BoundingBox =  0.0, 2.6,  -1.6,  4.0, 4.0
+BoundingBox =  0.0, 2.6,  -6.6,  4.0, 4.0, 0.75
+BoundingBox =  0.0, 2.6, -11.6,  4.0, 4.0, 0.75
+BoundingBox =  0.0, 2.6, -16.6,  4.0, 4.0, 0.75
+BoundingBox =  0.0, 3.0, -20.6,  3.0, 3.0
+BoundingBox =  0.0, 3.0, -23.6,  2.0, 2.0
+BoundingBox =  0.0, 3.0, -26.6,  2.0, 2.0
+
+BoundingBox =  -5.0, 2.2, -11.6,  5.0, 1.0, 1.25
+BoundingBox = -10.0, 3.0, -11.6,  5.0, 1.0, 1.25
+BoundingBox = -15.0, 3.0, -12.0,  4.4, 1.0, 0.75
+BoundingBox =   5.0, 2.2, -11.6,  5.0, 1.0, 1.25
+BoundingBox =  10.0, 3.0, -11.6,  5.0, 1.0, 0.75
+BoundingBox =  15.0, 3.0, -12.0,  4.4, 1.0, 1.25

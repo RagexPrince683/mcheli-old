@@ -1,0 +1,16 @@
+﻿DisplayName = Shelter Door
+AddDisplayName = ja_JP, シェルタードア
+
+MaxHp = 800
+HUD = none
+Float  = true
+CanMoveOnGround = false
+CanRide = false
+AddSeat = 0.00, 1.00, 0.00
+ArmorDamageFactor = 0.1
+ArmorMinDamage = 50
+
+
+AddGunnerSeat = 1.84, 1.40, 1.71,   2.04, 1.50, 1.71,   true
+AddGunnerSeat = -1.92, 1.40, 1.71,   -2.12, 1.50, 1.71,   true
+

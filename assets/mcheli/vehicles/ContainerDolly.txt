@@ -1,0 +1,12 @@
+﻿DisplayName = ContainerDolly
+AddDisplayName = ja_JP, コンテナドーリー(装飾用)
+
+MaxHp = 300
+HideEntity = true
+RotationPitchMin = 0
+RotationPitchMax = 0
+DamageFactor = 2
+CanRide = false
+AddSeat = 0.00,  1.0, 0.00
+
+AddTexture = ContainerDolly_military

@@ -1,0 +1,36 @@
+DisplayName = SkateBoard
+AddDisplayName = ja_JP, スケボー
+
+MaxHp = 150
+Speed = 0.3
+Sound = RollerWheel_snd
+ThrottleUpDown = 28.8
+MaxFuel         = 400
+FuelConsumption = 1.0
+ThrottleUpDownOnEntity = 8.0
+Gravity = -0.1
+MobilityYawOnGround = 8.0
+
+EnableBack = true
+RotorSpeed = 5.0
+
+StepHeight = 1.0
+HUD = none
+
+InventorySize = 5
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  0.00, -0.10, 0.00
+
+
+AddPartRotor =     0.25,  -0.26, 0.51, 1, 0, 0
+AddBlade = 1, 0,   0.25,  -0.26, 0.51, 1, 0, 0
+
+AddPartRotor =    0.25,  -0.27, -0.51, 1, 0, 0
+AddBlade = 1, 0,  0.25,  -0.27, -0.51, 1, 0, 0
+

@@ -1,0 +1,90 @@
+﻿DisplayName = F4U-5
+AddDisplayName = ja_JP, F4U-5_コルセア
+ItemID = 109049
+MaxHp = 160
+Speed = 0.98
+Sound = prop
+onGroundPitch = 14.5
+ThrottleUpDown = 0.5
+MaxFuel         = 1800
+FuelConsumption = 1.5
+HUD = plane_wwii
+ThirdPersonDist = 12
+
+UnmountPosition = 2.0, 2.0, -3.0
+
+AddTexture = F4U-51
+AddTexture = F4U-1A
+AddTexture = F4U-1A1
+
+MobilityYaw = 0.4
+MobilityRoll = 2.5
+MobilityPitch = 0.9
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
+MobilityPitch
+
+AddSeat = 0.0,  2.50, -1.8
+
+AddPartSlideCanopy = 0.0, 0.0, -0.6
+
+AddPartLG =   0.0,    1.1442,  0.4097,   1,0,0,   90
+AddPartLG =  -2.5,    1.5,     0.1737,   1,1,1,   120
+AddPartLG =   2.5,    1.5,     0.1737,   1,-1,-1, 120
+AddPartLG =   0.0,    1.5,    -0.78,    -1,0,0,   45
+AddPartLG =  -2.8894, 1.1442, -0.4161,   0,0,1,   90
+AddPartLG =   2.8894, 1.1442, -0.4161,   0,0,-1,  90
+AddPartLG =  -2.0781, 1.1442, -0.4161,   0,0,-1,  90
+AddPartLG =   2.0781, 1.1442, -0.4161,   0,0,1,   90
+AddPartLG =   0.0,    2.0,    -6.0,      1,0,0,   70
+AddPartLG =   0.0,    2.25,   -7.42,    -1,0,0,   35
+AddPartLG =  -0.2061, 2.0713, -6.5654,  0,0,1,    90
+AddPartLG =   0.2061, 2.0713, -6.5654,  0,0,-1,   90
+
+AddPartRotor =    0.0,  2.4964, 3.5,   1,0, 0
+AddBlade = 1, 0,  0.0,  2.4964, 3.5,   0,0,-1
+RotorSpeed = 125
+
+AddPartWing =  -2.9289, 1.6424, 0.0,  0, 0,-1, 105
+AddPartWing =   2.9289, 1.6424, 0.0,   0, 0, 1, 105
+
+AddWeapon = ANM2_12_7mm,  3.25, 1.23, 1.05,  0.0, -3.0
+AddWeapon = ANM2_12_7mm, -3.25, 1.23, 1.05,  0.0, -3.0
+AddWeapon = ANM2_12_7mm,  3.35, 1.26, 1.05,  0.0, -3.0
+AddWeapon = ANM2_12_7mm, -3.35, 1.26, 1.05,  0.0, -3.0
+AddWeapon = ANM2_12_7mm,  3.45, 1.29, 1.05,  0.0, -3.0
+AddWeapon = ANM2_12_7mm, -3.45, 1.29, 1.05,  0.0, -3.0
+
+AddWeapon = HVAR_5inch_Rocket, -3.505, 0.9665, 0.5,   0.0, -1.0, true, 1, 0,0,0, 0,0
+AddWeapon = HVAR_5inch_Rocket,  3.505, 0.9665, 0.5,   0.0, -1.0, true, 1, 0,0,0, 0,0
+AddWeapon = HVAR_5inch_Rocket, -3.993, 1.0743, 0.5,   0.0, -1.0, true, 1, 0,0,0, 0,0
+AddWeapon = HVAR_5inch_Rocket,  3.993, 1.0743, 0.5,   0.0, -1.0, true, 1, 0,0,0, 0,0
+AddWeapon = HVAR_5inch_Rocket, -4.481, 1.1821, 0.5,   0.0, -1.0, true, 1, 0,0,0, 0,0
+AddWeapon = HVAR_5inch_Rocket,  4.481, 1.1821, 0.5,   0.0, -1.0, true, 1, 0,0,0, 0,0
+AddWeapon = HVAR_5inch_Rocket, -4.97,  1.2899, 0.5,   0.0, -1.0, true, 1, 0,0,0, 0,0
+AddWeapon = HVAR_5inch_Rocket,  4.97,  1.2899, 0.5,   0.0, -1.0, true, 1, 0,0,0, 0,0
+
+AddPartWeaponMissile = HVAR_5inch_Rocket,  false, false, false, -3.505, 0.9665, 0.5
+AddPartWeaponMissile = HVAR_5inch_Rocket,  false, false, false,  3.505, 0.9665, 0.5
+AddPartWeaponMissile = HVAR_5inch_Rocket,  false, false, false, -3.993, 1.0743, 0.5
+AddPartWeaponMissile = HVAR_5inch_Rocket,  false, false, false,  3.993, 1.0743, 0.5
+AddPartWeaponMissile = HVAR_5inch_Rocket,  false, false, false, -4.481, 1.1821, 0.5
+AddPartWeaponMissile = HVAR_5inch_Rocket,  false, false, false,  4.481, 1.1821, 0.5
+AddPartWeaponMissile = HVAR_5inch_Rocket,  false, false, false, -4.97,  1.2899, 0.5
+AddPartWeaponMissile = HVAR_5inch_Rocket,  false, false, false,  4.97,  1.2899, 0.5
+
+AddWeapon = 1000lbBomb_2, -1.6, 0.89, 0.0,  0.0, -3.0
+AddWeapon = 1000lbBomb_2,  1.6, 0.89, 0.0,  0.0, -3.0
+AddPartWeaponMissile = 1000lbBomb_2,   false, false,false, -1.6,  0.89,  0.0
+AddPartWeaponMissile = 1000lbBomb_2,   false, false,false,  1.6,  0.89,  0.0
+
+BoundingBox =  0.0,  2.5,  2.2,  1.8, 1.8, 1.5
+BoundingBox =  0.0,  2.5,  0.0,  1.8, 1.8, 0.8
+BoundingBox = -2.92, 1.5, -0.5,  2.5, 0.3, 1.0
+BoundingBox =  2.92, 1.5, -0.5,  2.5, 0.3, 1.0
+BoundingBox = -5.92, 1.5, -0.5,  2.5, 0.3, 1.0
+BoundingBox =  5.92, 1.5, -0.5,  2.5, 0.3, 1.0
+BoundingBox =  0.0,  2.5, -2.0,  1.8, 1.8, 1.0
+BoundingBox =  0.0,  2.5, -4.0,  1.7, 1.7, 0.8
+BoundingBox =  0.0,  2.5, -6.0,  1.5, 1.5, 0.8

@@ -1,0 +1,12 @@
+DisplayName = Remove kebab - Serbia strong
+Type = MachineGun1
+Power = 0
+Accuracy = 0
+Flaming = true
+Sight = None
+Delay = 580
+ModelBullet = horn_mdl
+Particle = none
+Sound = kebab
+SoundVolume = 15.0
+SoundPitchRandom = 0

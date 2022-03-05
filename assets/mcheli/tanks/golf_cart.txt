@@ -1,0 +1,67 @@
+DisplayName = Golf Cart
+AddDisplayName = ja_JP, ゴルフカート
+
+
+MaxHp = 10
+Speed = 0.5
+Sound = 50cc_snd
+ThrottleUpDown = 15.0
+Gravity = -0.1
+GravityInWater = -0.2
+
+StepHeight = 1.0
+MobilityYawOnGround = 3.0
+
+MotionFactor = 0.89
+EnableBack = true
+InventorySize = 27
+
+hud = car, none, none, none
+
+
+MaxFuel         = 800
+FuelConsumption = 0.7
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 2.2
+
+
+AddPartSteeringWheel =  0.54, 0.95,  0.40,   0, 1.0,  -1.50,  110
+
+
+AddSeat =  0.45, 0.39, -0.19
+AddSeat =  -0.45, 0.39, -0.19
+
+
+
+AddFixedSearchLight =  0.44, 0.50, 1.55,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,  -5,  0
+AddFixedSearchLight =  -0.44, 0.50, 1.55,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   5,  0
+
+
+;音声ギミック
+AddWeapon =  1_horn , 0.00,  0.42,  1.55, 0.0, 90
+
+
+SetWheelPos =  0.797,  -0.24,  1.274, -0.874
+
+
+
+; タイヤの回転スピード
+PartWheelRot = 30
+
+; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+AddPartWheel     =  0.797,  -0.035,  1.274, 40
+AddPartWheel     =  -0.797,  -0.035,  1.274, 40
+AddPartWheel     =  0.797,  -0.035, -0.874
+AddPartWheel     =  -0.797,  -0.035, -0.874
+
+

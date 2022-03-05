@@ -1,0 +1,84 @@
+DisplayName = Japan Ambulance
+AddDisplayName = ja_JP, 救急車(日本)
+
+
+MaxHp = 35
+Speed = 0.9
+Sound = cardrive
+ThrottleUpDown = 18.0
+MaxFuel         = 1500
+FuelConsumption = 1
+MobilityYawOnGround = 6.2
+StepHeight = 1.5
+InventorySize = 27
+Gravity = -0.3
+HUD = car, none, none, none
+MotionFactor = 0.90
+EnableBack = true
+ThirdPersonDist = 8
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+PivotTurnThrottle = 0.15
+
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  -0.18, 0.86, -0.05
+AddSeat =  1.12, 0.86, -0.05
+
+AddSeat =  1.48, 1.18, -3.71
+AddSeat =  1.48, 1.18, -2.41
+
+
+AddPartSteeringWheel =   -0.229, 1.305,  0.625,   0, 1, -0.70,  120
+
+AddPartWheel     = 1.634, 0.151,  0.165,  35
+AddPartWheel     = -0.732, 0.151,  0.165,  35
+
+AddPartWheel     = 1.634, 0.151,  -3.55
+
+
+AddPartHatch =   1.52,  2.60,  -4.62,  1, 0, 0,  90
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 1.0
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -1.0
+
+SetWheelPos =  1.634,  -0.24, 1.0,  0.165, -3.55
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+
+AddFixedSearchLight =  1.41, 0.87, 1.42,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight =  -0.52, 0.87, 1.42,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+
+AddFixedSearchLight =  1.69, 2.87, 0.41,   0x50cd5c5c,   0x00cd5c5c,    2.0, 1.5,  -90,  0
+AddFixedSearchLight =  -0.73, 2.87, 0.41,   0x50cd5c5c,   0x00cd5c5c,    2.0, 1.5,   90,  0
+
+AddFixedSearchLight =  1.69, 2.87, -4.27,   0x50cd5c5c,   0x00cd5c5c,    2.0, 1.5,  -90,  0
+AddFixedSearchLight =  -0.73, 2.87, -4.27,   0x50cd5c5c,   0x00cd5c5c,    2.0, 1.5,   90,  0
+
+
+
+
+AddRack =  Stretcher,  0.03, 0.93, -2.72,   0.22, 0.68, -7.26, 5
+
+
+
+AddWeapon =  jpamb_siren, 0.00, 0.72, 1.17,  0.0, 90
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+

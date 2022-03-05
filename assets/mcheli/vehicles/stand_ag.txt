@@ -1,0 +1,11 @@
+﻿DisplayName = Standing AcousticGuitar
+AddDisplayName = ja_JP, スタンドアコギ
+
+MaxHp = 100
+HUD = none
+Float  = true
+CanMoveOnGround = false
+
+CanRide = false
+
+AddSeat = 0.00, 1.00, 0.00

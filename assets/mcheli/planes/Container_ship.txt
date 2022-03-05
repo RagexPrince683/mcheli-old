@@ -1,0 +1,207 @@
+DisplayName = Container ship
+AddDisplayName = ja_JP, コンテナ船
+
+
+MaxHp = 6250
+Speed = 4.5
+Float = true
+FloatOffset = -0.5
+Sound = big_ships
+ThrottleUpDown = 10.8
+MaxFuel         = 3000
+FuelConsumption = 1.0
+Gravity = -0.15
+GravityInWater = -0.1
+StepHeight = 0.0
+DamageFactor = 0.8
+MobilityYaw = 0.4
+MobilityPitch = 1.0
+MobilityRoll = 1.0
+MobilityYawOnGround = 0.6
+EnableNightVision = true
+MotionFactor = 0.90
+ParticlesScale = 25.5
+EnableBack = true
+CanMoveOnGround = false
+ThirdPersonDist = 60
+
+InventorySize = 54
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = plane_wwii, none, none, none, none, none
+
+
+
+;　main seat
+AddSeat =  -0.52, 0.73, 0.04
+CameraPosition = -26.57, 36.76, -32.25, true
+
+
+;entry seat
+AddSeat =  -0.03, 2.06, 0.13
+UnmountPosition = 4.00, 2.00, -1.00
+
+
+
+
+; guest seat
+AddSeat =  -19.76, 30.99, -32.36
+AddSeat =  -23.18, 30.99, -32.36
+AddSeat =  -26.88, 30.99, -32.36
+AddSeat =  -19.76, 30.99, -32.36
+AddSeat =  -30.07, 30.99, -32.36
+AddSeat =  -33.42, 30.99, -32.36
+
+AddSeat =  -19.76, 30.99, -36.42
+AddSeat =  -23.18, 30.99, -36.42
+AddSeat =  -26.88, 30.99, -36.42
+AddSeat =  -19.76, 30.99, -36.42
+AddSeat =  -30.07, 30.99, -36.42
+AddSeat =  -33.42, 30.99, -36.42
+
+
+; on sea seat
+AddSeat =  -27.22, 0.56, 70.95
+AddSeat =  -27.22, 0.56, 25.85
+AddSeat =  -27.22, 0.56, -13.83
+AddSeat =  -27.22, 0.56, -50.22
+
+
+
+AddPartRotor =      -18.13, -6.87, -72.16,  0, 0, 1
+AddBlade = 1, 0,    -18.13, -6.87, -72.16,  0, 0, 1
+
+
+AddPartRotor =      -38.10, -6.87, -72.16,  0, 0, 1
+AddBlade = 1, 0,    -38.10, -6.87, -72.16,  0, 0, 1
+
+
+AddPartSteeringWheel =   -18.24, -3.93, -75.51,   0, -1, 0,  50
+AddPartSteeringWheel =   -37.00, -3.93, -75.51,   0, -1, 0,  50
+
+
+
+
+
+; horn
+AddWeapon =  ship_horn, 0.00, 0.10, 0.00,  0.0, 90
+
+
+
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 15.61, 52.85,  21.25, 4.17, 40.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 15.61, 52.85,  21.25, 4.17, 40.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 15.61, 52.85,  21.25, 4.17, 40.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 15.61, 52.85,  21.25, 4.17, 40.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 15.61, 37.10,  21.25, 4.17, 30.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 15.61, 37.10,  21.25, 4.17, 30.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 15.61, 37.10,  21.25, 4.17, 30.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 15.61, 37.10,  21.25, 4.17, 30.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 15.61, 20.19,  21.25, 4.17, 20.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 15.61, 20.19,  21.25, 4.17, 20.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 15.61, 20.19,  21.25, 4.17, 20.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 15.61, 20.19,  21.25, 4.17, 20.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 15.61, 3.14,  21.25, 4.17, 10.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 15.61, 3.14,  21.25, 4.17, 10.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 15.61, 3.14,  21.25, 4.17, 10.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 15.61, 3.14,  21.25, 4.17, 10.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 15.61, -14.38,  21.25, 4.17, 0.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 15.61, -14.38,  21.25, 4.17, 0.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 15.61, -14.38,  21.25, 4.17, 0.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 15.61, -14.38,  21.25, 4.17, 0.42, 35
+
+
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 18.45, 52.85,  27.25, 4.17, 40.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 18.45, 52.85,  27.25, 4.17, 40.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 18.45, 52.85,  27.25, 4.17, 40.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 18.45, 52.85,  27.25, 4.17, 40.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 18.45, 37.10,  27.25, 4.17, 30.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 18.45, 37.10,  27.25, 4.17, 30.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 18.45, 37.10,  27.25, 4.17, 30.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 18.45, 37.10,  27.25, 4.17, 30.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 18.45, 20.19,  27.25, 4.17, 20.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 18.45, 20.19,  27.25, 4.17, 20.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 18.45, 20.19,  27.25, 4.17, 20.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 18.45, 20.19,  27.25, 4.17, 20.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 18.45, 3.14,  27.25, 4.17, 10.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 18.45, 3.14,  27.25, 4.17, 10.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 18.45, 3.14,  27.25, 4.17, 10.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 18.45, 3.14,  27.25, 4.17, 10.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 18.45, -14.38,  27.25, 4.17, 0.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 18.45, -14.38,  27.25, 4.17, 0.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 18.45, -14.38,  27.25, 4.17, 0.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 18.45, -14.38,  27.25, 4.17, 0.42, 35
+
+
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 21.00, 52.85,  33.25, 4.17, 40.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 21.00, 52.85,  33.25, 4.17, 40.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 21.00, 52.85,  33.25, 4.17, 40.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 21.00, 52.85,  33.25, 4.17, 40.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 21.00, 37.10,  33.25, 4.17, 30.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 21.00, 37.10,  33.25, 4.17, 30.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 21.00, 37.10,  33.25, 4.17, 30.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 21.00, 37.10,  33.25, 4.17, 30.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 21.00, 20.19,  33.25, 4.17, 20.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 21.00, 20.19,  33.25, 4.17, 20.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 21.00, 20.19,  33.25, 4.17, 20.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 21.00, 20.19,  33.25, 4.17, 20.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 21.00, 3.14,  33.25, 4.17, 10.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 21.00, 3.14,  33.25, 4.17, 10.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 21.00, 3.14,  33.25, 4.17, 10.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 21.00, 3.14,  33.25, 4.17, 10.42, 35
+
+AddRack = DecoContainer / DecoContainerLarge, -11.12, 21.00, -14.38,  33.25, 4.17, 0.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -20.39, 21.00, -14.38,  33.25, 4.17, 0.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -31.50, 21.00, -14.38,  33.25, 4.17, 0.42, 35
+AddRack = DecoContainer / DecoContainerLarge, -41.74, 21.00, -14.38,  33.25, 4.17, 0.42, 35
+
+
+
+
+
+BoundingBox = -26.28, 9.34, 94.18,  20, 20
+BoundingBox = -26.28, 9.34, 60.18,  20, 20
+BoundingBox = -26.28, 9.34, 30.18,  20, 20
+BoundingBox = -26.28, 9.34, 00.18,  20, 20
+BoundingBox = -26.28, 9.34, -30.18,  20, 20
+BoundingBox = -26.28, 9.34, -60.68,  20, 20
+
+
+
+AddParticleSplash  =  1.16, 0.25, -80.38,    5, 10.5,  0.8, 40, 0.4, -0.03 
+AddParticleSplash  =  0.67, 0.25, -90.16,   5, 10.5,  0.8, 40, 0.4, -0.03
+AddParticleSplash  =  -2.34, 0.25, -100.52,   5, 10.5,  0.8, 40, 0.4, -0.03
+AddParticleSplash  =  -14.78, 0.25, -110.00,   5, 10.5,  0.8, 40, 0.4, -0.03
+AddParticleSplash  =  -14.78, 0.25, -123.86,   4, 10.5,  0.8, 40, 0.4, -0.03
+AddParticleSplash  =  -14.78, 0.25, -135.72,   4, 10.3,  0.8, 80, 0.1,   -0.02
+AddParticleSplash  =  -14.78, 0.25, -140.42,   4, 10.0,  0.8, 80, 0.1,  -0.02
+
+
+
+AddParticleSplash  =  -54.75, 0.25, -80.38,    5, 10.5,  0.8, 40, 0.4, -0.03 
+AddParticleSplash  =  -52.73, 0.25, -90.16,   5, 10.5,  0.8, 40, 0.4, -0.03
+AddParticleSplash  =  -50.73, 0.25, -100.52,   5, 10.5,  0.8, 40, 0.4, -0.03
+AddParticleSplash  =  -35.67, 0.25, -110.00,   5, 10.5,  0.8, 40, 0.4, -0.03
+AddParticleSplash  =  -35.67, 0.25, -123.86,   4, 10.5,  0.8, 40, 0.4, -0.03
+AddParticleSplash  =  -35.67, 0.25, -135.72,   4, 10.3,  0.8, 80, 0.1,   -0.02
+AddParticleSplash  =  -35.67, 0.25, -140.42,   4, 10.0,  0.8, 80, 0.1,  -0.02
+
+
+

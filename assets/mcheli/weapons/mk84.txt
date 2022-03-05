@@ -1,0 +1,22 @@
+DisplayName = MK84 Laser Guided Bomb
+Type = ASMissile
+Power = 800
+Acceleration = 1.5
+Explosion = 5
+ExplosionBlock = 3
+Flaming = true
+Sight = MissileSight
+Delay = 200
+Sound = bomb_snd
+ModeNum = 1
+DisableSmoke = true
+ProximityFuseDist = 1
+ModelBullet = sdb
+
+DamageFactor = tank, 1.5
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

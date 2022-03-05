@@ -1,0 +1,23 @@
+﻿DisplayName = OfficeDesks
+AddDisplayName = ja_JP, 事務机セット
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 54
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.42, 1.06, -0.63
+
+
+
+AddFixRotSeat = 1.43, 0.32, -1.68,  1.43, 1.42, -1.68,  true
+AddFixRotSeat = -0.84, 0.32, -1.68,  -0.84, 1.42, -1.68,  true
+AddFixRotSeat = 0.77, 0.32, 1.74,  0.77, 1.42, 1.74,  true, -180, 0
+AddFixRotSeat = -1.49, 0.32, 1.74,  -1.49, 1.42, 1.74,  true, -180, 0
+
+
+

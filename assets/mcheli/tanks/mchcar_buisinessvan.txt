@@ -1,0 +1,75 @@
+DisplayName = Business Van
+AddDisplayName = ja_JP, 自動車(商用バン)
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = cardrive
+ThrottleUpDown = 18.0
+MaxFuel         = 1000
+FuelConsumption = 1
+MobilityYawOnGround = 7.2
+StepHeight = 1.0
+InventorySize = 27
+Gravity = -0.3
+GravityInWater = -0.1
+SubmergedDamageHeight = 1
+HUD = car
+MotionFactor = 0.92
+EnableBack = true
+PivotTurnThrottle = 0.18
+ThirdPersonDist = 8
+
+; C = Civilian(民間機)
+Category = C
+
+AddTexture = mchcar_buisinessvan_w
+AddTexture = mchcar_buisinessvan_post
+
+
+
+AddSeat =  -0.12, 0.44, 0.04
+AddSeat =  0.99, 0.44, 0.04
+
+AddSeat =  -0.12, 0.44, -1.64
+AddSeat =  0.99, 0.44, -1.64
+
+
+
+AddPartSteeringWheel =   -0.174, 1.051,  0.609,   0, 1, -1.25,  120
+
+AddPartWheel     = 1.363, 0.042,  0.793,  28
+AddPartWheel     = -0.465, 0.042,  0.793,  28
+
+AddPartWheel     = 1.363, 0.042,  -2.54
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.0
+
+SetWheelPos =  1.363,  -0.24, 2.0,  0.793, -2.54
+WeightedCenterZ = -0.5
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+AddPartSlideHatch =   0.04, 0.00, -1.05
+
+
+
+AddFixedSearchLight =  1.30, 0.73, 1.65,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight =  -0.42, 0.73, 1.65,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+
+AddWeapon =  horn5,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartThrottle = 0.002, 1.067, 0.935,  0, 0, 1,  244
+
+
+
+BoundingBox = 0.5,  1.5,  -1,   2.0, 2.0

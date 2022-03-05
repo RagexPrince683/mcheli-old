@@ -1,0 +1,142 @@
+DisplayName = B747JumboJet
+AddDisplayName = ja_JP, B747ジャンボジェット
+
+
+MaxHp = 400
+Speed = 0.9
+Sound = plane
+ThrottleUpDown = 0.5
+MaxFuel         = 5500
+FuelConsumption = 2.0
+InventorySize = 54
+ThirdPersonDist = 60
+UnmountPosition = 5.3, 1.2, 0.5
+EnableBack = true
+HUD = civilian_aircraft, none, none, none
+
+
+; C = Civilian(民間機)
+Category = C
+
+MobilityYaw = 0.4
+MobilityPitch = 0.4
+MobilityRoll = 0.2
+
+
+
+
+AddTexture = type_B747_02
+
+
+
+AddPartThrottle = 0.03, 9.85, 6.94,  0, 0, 0, 0, 0, 0, 0.20
+
+AddPartSteeringWheel =   0.867, 10.02, 6.804,   0, 0, -1,  60
+AddPartSteeringWheel =   -0.898, 10.02, 6.804,   0, 0, -1,  60
+
+
+
+
+
+AddSeat =  0.85,  9.67,  6.01
+AddSeat =  -0.83,  9.67,  6.01
+
+
+
+AddSeat = 2.85, 9.60, -11.93
+AddSeat = -2.67, 9.60, -11.93
+
+AddSeat = 3.09, 7.04, -12.10
+AddSeat = 3.09, 7.04, -16.80
+
+AddSeat = 0.82, 7.04, -12.10
+AddSeat = 0.82, 7.04, -16.80
+
+AddSeat = -3.01, 7.04, -12.10
+AddSeat = -3.01, 7.04, -16.80
+
+
+AddSeat = 0.40, 7.04, -24.11
+AddSeat = 0.40, 7.04, -29.53
+AddSeat = 0.40, 7.04, -32.30
+AddSeat = 0.40, 7.04, -35.17
+AddSeat = 0.40, 7.04, -40.64
+AddSeat = 0.40, 7.04, -45.15
+AddSeat = 0.40, 7.04, -49.36
+
+
+
+AddPartSlideHatch =   0.07, 0.00, 2.09
+AddPartHatch =  -3.50, 4.73, -4.71,  0, 0, 1,  -150
+AddPartHatch =  -3.50, 4.73, -42.80,  0, 0, 1,  -150
+
+
+
+AddRack = container / TravelBaggae,    0.24, 3.27, -2.45, -4.46, 0.86, -6.86, 10.0
+AddRack = container / TravelBaggae,    0.24, 3.88, -2.45, -4.46, 0.86, -6.86, 10.0
+
+AddRack = container / TravelBaggae,    0.24, 3.27, -4.45, -4.46, 0.86, -6.86, 10.0
+AddRack = container / TravelBaggae,    0.24, 3.88, -4.45, -4.46, 0.86, -6.86, 10.0
+
+AddRack = container / TravelBaggae,    0.24, 3.27, -7.23, -4.46, 0.86, -6.86, 10.0
+AddRack = container / TravelBaggae,    0.24, 3.88, -7.23, -4.46, 0.86, -6.86, 10.0
+
+AddRack = container / TravelBaggae,    0.24, 3.27, -9.98, -4.46, 0.86, -6.86, 10.0
+AddRack = container / TravelBaggae,    0.24, 3.88, -9.98, -4.46, 0.86, -6.86, 10.0
+
+AddRack = container / TravelBaggae,    0.24, 3.27, -12.57, -4.46, 0.86, -6.86, 10.0
+AddRack = container / TravelBaggae,    0.24, 3.88, -12.57, -4.46, 0.86, -6.86, 10.0
+
+
+
+
+AddRack = container / TravelBaggae,    0.24, 3.27, -38.63, -4.46, 0.86, -44.85, 10.0
+AddRack = container / TravelBaggae,    0.24, 3.88, -38.63, -4.46, 0.86, -44.85, 10.0
+
+AddRack = container / TravelBaggae,    0.24, 3.27, -41.30, -4.46, 0.86, -44.85, 10.0
+AddRack = container / TravelBaggae,    0.24, 3.88, -41.30, -4.46, 0.86, -44.85, 10.0
+
+AddRack = container / TravelBaggae,    0.24, 3.27, -43.24, -4.46, 0.86, -44.85, 10.0
+AddRack = container / TravelBaggae,    0.24, 3.88, -43.24, -4.46, 0.86, -44.85, 10.0
+
+AddRack = container / TravelBaggae,    0.24, 3.27, -45.86, -4.46, 0.86, -44.85, 10.0
+AddRack = container / TravelBaggae,    0.24, 3.88, -45.86, -4.46, 0.86, -44.85, 10.0
+
+AddRack = container / TravelBaggae,    0.24, 3.27, -47.91, -4.46, 0.86, -44.85, 10.0
+AddRack = container / TravelBaggae,    0.24, 3.88, -47.91, -4.46, 0.86, -44.85, 10.0
+
+AddRack = container / TravelBaggae,    0.24, 3.27, -50.35, -4.46, 0.86, -44.85, 10.0
+AddRack = container / TravelBaggae,    0.24, 3.88, -50.35, -4.46, 0.86, -44.85, 10.0
+
+
+
+
+AddRack = plane,  0.52, 13.56, -18.73, 0.52, 17.97, -29.80, 20.0
+
+
+
+
+AddPartLG =  0.28, 3.11, -0.47, 1, 0, 0,  -110 
+AddPartLG =   5.98, 4.86, -27.81, 0, 0, 1, -95
+AddPartLG =   -6.38, 4.89, -28.26, 0, 0, 1, 95
+AddPartLG =   1.05, 3.18, 1.77, 0, 0, 1, -110
+AddPartLG =    -1.05, 3.18, 1.77, 0, 0, 1, 110
+
+AddPartLG =    2.75, 4.86, -37.83, 1, 0, 0, -110
+AddPartLG =    -2.94, 4.86, -37.83, 1, 0, 0, -110
+
+
+
+
+BoundingBox =  -0.31, 4.19, 1.89,  8.0, 8.0
+BoundingBox =  -0.31, 4.19, -10.69,  8.0, 8.0
+BoundingBox =  -0.31, 4.19, -21.39,  8.0, 8.0
+BoundingBox =  -0.31, 4.19, -31.29,  8.0, 8.0
+BoundingBox =  -0.31, 4.19, -41.08,  8.0, 8.0
+BoundingBox =  -0.31, 4.19, -49.71,  8.0, 8.0
+BoundingBox =  -0.31, 4.19, -59.26,  8.0, 8.0
+
+BoundingBox =  -0.31, 10.44, -67.97,  5.0, 5.0
+
+BoundingBox =  16.99, 5.33, -27.35,  6.0, 4.0
+BoundingBox =  -16.57, 5.33, -27.35,  6.0, 4.0

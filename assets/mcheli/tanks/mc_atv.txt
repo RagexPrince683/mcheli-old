@@ -1,0 +1,94 @@
+DisplayName = ATV
+AddDisplayName = ja_JP, 武装ATV
+
+
+MaxHp = 10
+Speed = 1.1
+Sound = prop
+ThrottleUpDown = 28.3
+Gravity = -0.5
+GravityInWater = -0.3
+SubmergedDamageHeight = 2
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+StepHeight = 1.5
+MobilityYawOnGround = 7
+PivotTurnThrottle = 0.25
+EnableEntityRadar = true
+Stealth = 0.5
+MotionFactor = 0.90
+EnableBack = true
+ThirdPersonDist = 8
+
+hud = car, gunner
+
+
+MaxFuel         = 1000
+FuelConsumption = 1.0
+
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 3.8
+OnGroundRollFactor  = 3.2
+
+SetWheelPos =  0.015,  -0.24,  1.186, -0.943
+PartWheelRot = 35
+
+
+
+AddSeat =  -0.02,  0.88,  -0.16
+AddGunnerSeat =  0.07,  0.95,  -1.10,   0.05,  1.61, 0.92,  true
+
+
+
+AddRack = container,    0.01,  1.31,  -1.17,   0.01,  0.61,  -2.15
+
+
+ExclusionSeat = 2, 3
+
+
+
+AddFixedSearchLight =  0.39, 0.68, 1.77,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,  -5,  0
+AddFixedSearchLight =  -0.35, 0.68, 1.77,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   5,  0
+
+
+AddPartSteeringWheel =   0.018, 1.165,  0.524,   0, 1, 0,  30
+
+
+AddPartWheel     = 0.758, 0.12,  1.186,  30
+AddPartWheel     = -0.728, 0.12,  1.186,  30
+
+
+AddPartWheel     = 0.758, 0.12,  -0.943, 5
+AddPartWheel     = -0.728, 0.12,  -0.943, 5
+
+
+
+
+AddPartWeapon = mg7_7mm, false, true, false,  0.04, 1.27, 1.35
+AddPartWeapon = mg7_7mm, false, true, true,  0.04, 1.27, 1.35
+
+
+AddWeapon = mg7_7mm,  0.04, 1.27, 1.35,  0.0, 0.0, true, 2,  0,  -80, 80, -20, 7
+
+
+
+
+AddWeapon = mg12_7mm,   0.84, 0.91, 1.59,   0.0, 0.0, true, 1
+AddWeapon = mg12_7mm,   -0.79, 0.91, 1.59,   0.0, 0.0, true, 1
+
+
+
+
+BoundingBox =  0.03, 0.50, 0.85, 1.0, 2.0
+
+
+
+

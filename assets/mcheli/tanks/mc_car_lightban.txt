@@ -1,0 +1,74 @@
+DisplayName = Light Ban car
+AddDisplayName = ja_JP, ライトバン
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = cardrive
+ThrottleUpDown = 18.0
+MaxFuel         = 1000
+FuelConsumption = 0.8
+MobilityYawOnGround = 7.8
+StepHeight = 1.5
+InventorySize = 27
+Gravity = -0.1
+GravityInWater = -0.1
+SubmergedDamageHeight = 1
+HUD = car, none, none, none
+MotionFactor = 0.91
+EnableBack = true
+PivotTurnThrottle = 0.12
+ThirdPersonDist = 8
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  0.03, 0.06, 0.01
+AddSeat =  1.24, 0.06, 0.01
+
+AddSeat =  0.03, 0.06, -1.01
+AddSeat =  1.24, 0.06, -1.01
+AddSeat =  0.57, 0.06, -1.01
+
+
+AddPartSteeringWheel =   -0.102, 0.777,  0.49,   0, 1, -1.85,  120
+
+AddPartWheel     = 1.517, -0.01,  1.563,  35
+AddPartWheel     = -0.438, -0.01,  1.563,  35
+AddPartWheel     = 1.517, -0.01,  -1.66
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 3.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.517,  -0.24,  1.563, -1.66
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+AddPartHatch =   1.46, 1.61, -2.30,  0, 1, 0,  -90
+AddPartHatch =   -0.33, 1.61, -2.30,  0, 1, 0,  90
+
+
+AddFixedSearchLight =  1.45, 0.57, 2.30,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight =  -0.30, 0.57, 2.30,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+
+
+AddPartCanopy = -0.67, 0.57, 0.76,  0, 1, 0,  70
+
+
+AddWeapon =  horn4, 0.00, 0.72, 1.17,  0.0, 90
+
+
+AddTexture =  mc_car_lightban_g
+AddTexture =  mc_car_lightban_b
+

@@ -1,0 +1,48 @@
+DisplayName = Dabohaze_dinghy
+AddDisplayName = ja_JP, ダボハゼ付属ゴムボート
+
+
+MaxHp = 80
+Speed = 0.2
+Float = true
+FloatOffset = 0.0
+Sound = raft_snd
+ThrottleUpDown = 5.8
+MaxFuel         = 1500
+FuelConsumption = 0.0
+Gravity = -0.1
+GravityInWater = 0.1
+
+MobilityYawOnGround = 5.0
+CanMoveOnGround = false
+ThirdPersonDist = 12
+
+InventorySize = 27
+
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = none, none, none
+
+
+AddSeat =  0.07, -0.06, 0.26
+
+AddSeat =  0.74, -0.06, -0.39
+AddSeat =  -0.01, -0.06, -0.39
+AddSeat =  -0.75, -0.06, -0.39
+
+AddSeat =  0.74, -0.06, -1.17
+AddSeat =  -0.01, -0.06, -1.17
+AddSeat =  -0.75, -0.06, -1.17
+
+
+
+AddRack = container,  -0.14, 0.15, -2.00, -0.14, 0.15, -3.89
+
+
+BoundingBox =  -0.01, -0.06, -0.39,  3.0, 1.0
+
+
+

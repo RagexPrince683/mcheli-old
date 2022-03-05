@@ -1,0 +1,78 @@
+﻿DisplayName = de Havilland dh89
+AddDisplayName = ja_JP, デハビランドdh89
+
+
+MaxHp = 100
+Speed = 0.8
+Sound = prop
+ThrottleUpDown = 0.7
+MaxFuel         = 1000
+FuelConsumption = 0.5
+InventorySize = 54
+onGroundPitch = 11.3
+ThirdPersonDist = 16
+UnmountPosition = 3.00, 1.00, -6.50
+
+HUD = civilian_aircraft, none, none, none
+
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+MobilityYaw = 3.0
+MobilityPitch = 3.0
+MobilityRoll = 0.3
+
+
+
+AddPartSteeringWheel =   0.013, 1.965, 0.592,   0, 0, -1,  60
+
+
+AddPartThrottle = 0.40, 1.485, 0.95,  1, 0, 0,  33
+
+
+
+AddTexture = deHavilland_dh89_b
+AddTexture = deHavilland_dh89_s
+
+
+
+
+AddSeat =  0.01, 1.45, -0.23
+
+
+
+AddSeat = 0.54, 1.70, -1.39
+AddSeat = -0.54, 1.70, -1.39
+
+AddSeat = 0.54, 1.70, -2.54
+AddSeat = -0.54, 1.70, -2.54
+
+AddSeat = 0.54, 1.70, -3.48
+AddSeat = -0.54, 1.70, -3.48
+
+AddSeat = 0.72, 1.48, -4.74
+
+
+
+AddPartHatch =  0.93, 2.31, -3.98,  0, 1, 0,  -45
+
+
+
+AddPartRotor =    2.28, 1.61, -0.85,   0,0,1
+AddBlade = 1, 0,  2.28, 1.61, -0.85,   0,0,-1
+
+
+AddPartRotor =    -2.28, 1.61, -0.85,   0,0,1
+AddBlade = 1, 0,  -2.28, 1.61, -0.85,   0,0,-1
+
+
+
+
+BoundingBox =  0.02, 2.20, -1.04, 3.0, 3.0
+BoundingBox =  0.02, 2.20, -2.47, 4.0, 3.0
+BoundingBox =  0.02, 2.20, -4.05, 4.0, 3.0
+BoundingBox =  0.02, 2.20, -6.42, 2.0, 2.0
+
+
+

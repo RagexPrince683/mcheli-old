@@ -1,0 +1,51 @@
+DisplayName = Flaptor
+AddDisplayName = ja_JP, フラップター
+
+
+MaxHp = 200
+Speed = 0.8
+Sound = heli_k
+ThrottleUpDown = 16.3
+EnableNightVision = true
+EnableEntityRadar = true
+MobilityYawOnGround = 4.0
+ParticlesScale = 0.6
+EnableVtol = true
+Float = true
+FloatOffset = -0.1
+MobilityYaw = 1.1
+MobilityPitch = 1.1
+MobilityRoll = 1.1
+ThirdPersonDist = 8
+
+MaxFuel         = 800
+FuelConsumption = 1.0
+EnableBack = true
+HUD = plane, none
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  -0.01, 0.48, -0.21
+AddSeat =  -0.01, 0.41, -0.77
+
+
+AddParticleSplash  =  0.00, -0.52, -1.40,   5,  5.0, 1.1,  20, 0.30, -0.03
+
+
+
+AddPartRotor =    0.83, 0.06, 1.11,   1, 0, 0
+AddBlade = 1, 0,  0.83, 0.06, 1.11,   1, 0, 0
+
+AddPartRotor =    0.75, 0.04, 0.10,   1, 0, 0
+AddBlade = 1, 0,  0.75, 0.04, 0.10,   1, 0, 0
+
+
+
+
+BoundingBox =  -0.01, 0.71, 0.35,  1.0, 2.0
+
+

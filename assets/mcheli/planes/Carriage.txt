@@ -1,0 +1,85 @@
+DisplayName = Carriage
+AddDisplayName = ja_JP, 馬車 物資運搬向け
+
+MaxHp = 300
+Speed = 0.2
+Sound = Horse_car
+ThrottleUpDown = 3.0
+MaxFuel         = 500
+FuelConsumption = 1.0
+ThrottleUpDownOnEntity = 3.0
+Gravity = -1.0
+MobilityYawOnGround = 2.0
+StepHeight = 1.0
+MotionFactor = 0.92
+PivotTurnThrottle = 0.2
+EnableBack = true
+MobilityYaw = 0.2
+MobilityPitch = 0.2
+MobilityRoll = 0.0
+
+
+HUD = none, none, none, none
+
+
+
+InventorySize = 54
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+; 運転席
+AddSeat =  -0.02, 0.72, 0.24
+
+; 牽引席　動物を想定(馬モデルと排他)
+AddSeat =  0.09, 0.23, 2.82, 0.29, 0.63, 2.82, true, 0, 0
+
+
+; 荷台席　(コンテナと排他)
+AddSeat =  -0.01, 0.73, -0.91
+AddSeat =  -0.01,  1.08,  -1.72
+
+
+
+AddRack = container,    0.01,  1.08,  -1.42,   2.31,  0.12,  -1.67
+AddRack = container,    -0.01,  1.08,  -2.21,   2.31,  0.12,  -1.67
+AddRack = container,    -0.01,  1.90,  -1.42,   2.31,  0.12,  -1.67
+AddRack = container,    -0.01,  1.90,  -2.21,   2.31,  0.12,  -1.67
+
+
+
+AddRack = Horse_mdl,  -0.10, 0.02, 2.70,  -0.10, 0.64, 4.19
+
+
+
+; 排他設定
+ExclusionSeat = 3, 5
+ExclusionSeat = 3, 7
+ExclusionSeat = 4, 6
+ExclusionSeat = 4, 8
+
+ExclusionSeat = 2, 9
+
+
+
+AddPartRotor =    1.21,  0.25, -0.60, 1, 0, 0
+AddBlade = 1, 0,  1.21,  0.25, -0.60, 1, 0, 0
+
+AddPartRotor =    1.21,  0.25,  -2.63, 1, 0, 0
+AddBlade = 1, 0,  1.21,  0.25,  -2.63, 1, 0, 0
+
+
+; 音声ギミック
+AddWeapon =  animal_bell, 0.00, 0.72, 1.17,  0.0, 90
+AddWeapon =  Whip, 0.00, 0.72, 1.17,  0.0, 90
+
+
+
+
+BoundingBox =  -0.07, 0.85, -0.26,  2.0, 2.0
+BoundingBox =  -0.07, 0.85, -1.81,  2.0, 2.0
+BoundingBox =  -0.07, 0.85, -3.17,  2.0, 2.0
+

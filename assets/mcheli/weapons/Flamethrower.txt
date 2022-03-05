@@ -1,0 +1,27 @@
+﻿DisplayName = Flamethrower
+Type = Dispenser
+Acceleration = 1
+Sight = None
+Delay = 4
+Sound = Flamethrower_snd
+SoundDelay = 0
+Gravity = -0.05
+
+Round = 200
+ReloadTime = 200
+
+Particle = flame
+
+Bomblet = 3
+BombletSTime = 3
+BombletDiff = 1
+SmokeSize   = 0.6
+
+
+DispenseItem = fire
+DispenseRange = 2
+
+
+MaxAmmo = 200
+SuppliedNum = 200
+Item =  1, flint_and_steel

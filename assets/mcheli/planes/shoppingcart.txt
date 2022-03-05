@@ -1,0 +1,39 @@
+﻿DisplayName = Shopping Cart
+AddDisplayName = ja_JP, 買い物カート
+
+MaxHp = 100
+Speed = 0.2
+Sound = Bicycle
+ThrottleUpDown = 25
+MaxFuel         = 500
+FuelConsumption = 0.0
+Gravity = -0.1
+MobilityYawOnGround = 7.0
+RotorSpeed = 20.0
+
+MotionFactor = 0.90
+EnableBack = true
+
+
+StepHeight = 1.0
+HUD = none
+
+InventorySize = 36
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  0.06, 0.52, -1.09
+
+
+
+AddPartRotor =     0.45, -0.21, 0.81, 1, 0, 0
+AddBlade = 1, 0,   0.45, -0.21, 0.81, 1, 0, 0
+
+
+AddPartRotor =     0.45, -0.21, -0.42, 1, 0, 0
+AddBlade = 1, 0,   0.45, -0.21, -0.42, 1, 0, 0
+

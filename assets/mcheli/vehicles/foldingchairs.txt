@@ -1,0 +1,23 @@
+﻿DisplayName = FoldingChair table
+AddDisplayName = ja_JP, パイプ椅子と机
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.17, 0.30, -0.64
+CameraPosition = 0.17, 1.59, -0.64, false
+
+
+AddGunnerSeat = -1.23, 0.30, -0.64,  -1.23, 1.59, -0.64,  false
+AddGunnerSeat = -2.65, 0.30, -0.64,  -2.65, 1.59, -0.64,  false
+AddGunnerSeat = -3.94, 0.30, -0.64,  -3.94, 1.59, -0.64,  false
+
+
+AddTexture = foldingchairs2
+AddTexture = foldingchairs3
+AddTexture = foldingchairs4

@@ -1,0 +1,80 @@
+DisplayName = Cyber Truck
+AddDisplayName = ja_JP, サイバートラック
+ItemID = 33409
+MaxHp = 20
+
+Sound = 4wd2_snd
+MobilityYawOnGround = 8.0
+ThrottleUpDown = 16.0
+MinRotationPitch = -90
+MaxRotationPitch = 90
+Gravity = -0.3
+GravityInWater = -0.1
+DamageFactor = 0.0
+PartWheelRot = 30.0
+
+CameraPosition  = 0.00,  2.50, -6.00
+
+EntityWidth  = 1.0
+EntityHeight = 1.0
+
+HUD = s15_hud, none, none, none
+
+AddSeat =  0.60,  0.675, 0.75 
+AddSeat =  -0.60,  0.75, 0.75
+AddSeat =  -0.75, 0.75, -0.57
+AddSeat =  0.675, 0.75, -0.57
+
+
+;後退可能にする
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+; Tank or Car or Unknown
+WeightType = Car
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.1
+
+;AddPartSteeringWheel =   0.87, 1.30,  0.57,   0, 0, -1.20,  120
+
+
+;AddPartSteeringWheel =  0.87,  1.30,  1.57,  0.87, 1.30, 1.57,   50
+
+;AddFixedSearchLight= 座標X, Y, Z,       開始地点の色, 終了地点の色,  距離, 終端の半径, Yaw, Pitch
+;ヘッドライト
+AddFixedSearchLight =  1.275, 0.78, 3.90,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight = -1.275, 0.78, 3.90,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+;テールランプ
+AddFixedSearchLight =  1.275, 0.63,-4.05,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+AddFixedSearchLight = -1.275, 0.63,-4.05,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+
+;ArmorMinDamage = 7
+
+MaxFuel         = 1200
+FuelConsumption = 0.3
+
+;REENABLE
+BoundingBox =  0.0, 0.7, -1.5,  3.0, 2.1
+BoundingBox =  0.0, 0.7,  0.9,  3.0, 2.1
+; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+;front left old
+;AddPartWheel     = 1.50,  0.28, 2.901, 30
+;back left old
+;AddPartWheel     = 1.50,  0.28, -2.625
+;front right old
+;AddPartWheel     = -1.50,  0.28, 2.901, 30
+;back right old
+;AddPartWheel     =  -1.50,  0.28, -2.625
+Speed = 0.7
+;front left new
+AddPartWheel    = 1.5015, 0.2166, 2.9663, 30
+;etc
+AddPartWheel    = 1.5015, 0.2166, -2.6458,
+AddPartWheel    = -1.5015, 0.2166, 2.9663, 30
+AddPartWheel    = -1.5015, 0.2166, -2.6458
+;Speed = 0.0
+
+StepHeight = 1.5

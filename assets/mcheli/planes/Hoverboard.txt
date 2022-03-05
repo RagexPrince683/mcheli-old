@@ -1,0 +1,43 @@
+DisplayName = Hoverboard
+AddDisplayName = ja_JP, ホバーボード
+
+MaxHp = 150
+Speed = 0.4
+Sound = plane
+ThrottleUpDown = 28.8
+MaxFuel         = 400
+FuelConsumption = 1.0
+ThrottleUpDownOnEntity = 8.0
+Gravity = -0.1
+MobilityYawOnGround = 8.0
+Float = true
+FloatOffset = -0.1
+
+
+StepHeight = 2.5
+HUD = none
+EnableBack = true
+InventorySize = 5
+
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  -0.03, 0.14, 0.10
+
+
+
+
+;　水上走行時の水しぶき
+AddParticleSplash =  0.45,  -0.07,   0.0,   3,      4.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -0.45,  -0.07,   0.0,   3,      4.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash =  0.45,  -0.07,  -0.73,   2,      4.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -0.45,  -0.07,  -0.73,   2,      4.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  0.2,  -0.07,  -1.26,   2,      4.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -0.2,  -0.07,  -1.26,   2,      4.0,    1.1,   60,       0.01,   0
+
+
+

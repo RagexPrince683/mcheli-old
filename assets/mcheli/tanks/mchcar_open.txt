@@ -1,0 +1,69 @@
+DisplayName = Open car
+AddDisplayName = ja_JP, 自動車(オープンカー)
+
+
+MaxHp = 35
+Speed = 2.8
+Sound = cardrive
+ThrottleUpDown = 17.8
+MaxFuel         = 900
+FuelConsumption = 0.5
+MobilityYawOnGround = 7.9
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.1
+HUD = car, none, none, none
+MotionFactor = 0.93
+EnableBack = true
+PivotTurnThrottle = 0.16
+ThirdPersonDist = 8
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_open_wh
+AddTexture = mchcar_open_yl
+AddTexture = mchcar_open_rd
+
+
+
+AddSeat =  0.07,  0.18,  -0.12
+AddSeat =  1.38,  0.18,  -0.12
+
+
+
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   0.077, 0.935,  0.495,   0, 1, -1.80,  120
+
+AddPartWheel     = 1.871, 0.13,  1.957,  30
+AddPartWheel     = -0.521, 0.13,  1.957,  30
+
+AddPartWheel     = 1.871, 0.13,  -1.27
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 3.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.871,  -0.24,  1.957, -1.27
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+AddFixedSearchLight =  1.66, 0.60, 3.15,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.22, 0.60, 3.15,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddPartThrottle = 0.036, 1.115, 0.859,  0, 0, 1,  245
+

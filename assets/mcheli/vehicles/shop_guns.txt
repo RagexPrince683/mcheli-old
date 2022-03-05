@@ -1,0 +1,19 @@
+﻿DisplayName = Shop_Guns
+AddDisplayName = ja_JP, 店(銃器)
+
+MaxHp = 800
+HUD = none, none
+InventorySize = 54
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.42, 1.06, -0.63
+CanRide = false
+
+
+AddSeat = -1.77, 0.41, -5.68
+AddSeat = -5.31, 0.41, -6.39
+AddSeat = -5.31, 0.41, -2.72
+AddSeat = -3.32, 0.41, -0.32

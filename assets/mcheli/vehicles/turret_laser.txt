@@ -1,0 +1,31 @@
+DisplayName = Laser Turret
+AddDisplayName = ja_JP, レーザー銃タレット
+
+MaxHp = 250
+HUD = vehicle_wwii
+CanMoveOnGround = false
+InventorySize = 18
+CameraZoom = 3
+HideEntity = true
+EnableNightVision = true
+EnableEntityRadar = true
+DamageFactor = 0.8
+RotationPitchMin = -70
+RotationPitchMax =  25
+
+
+; M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+
+AddSeat = 0.00, 0.50, 0.00
+CameraPosition = 0.00, 0.78, 0.33, false
+
+
+AddPart = false, true, false, 0, 0.00, 0.70, 0.00
+
+
+AddWeapon = laserbeam_r,  0.00, 0.70, 0.00,   0.0, 0.0, true,  1,  0,   -180, 180,  -70,  25
+
+
+BoundingBox =  0.00, 0.60,  0.00,  0.5, 0.5

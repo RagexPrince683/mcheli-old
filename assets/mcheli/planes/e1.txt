@@ -1,0 +1,64 @@
+﻿DisplayName = E1 tracer
+AddDisplayName = ja_JP, E1 tracer
+ItemID = 28747
+MaxHp = 500
+Speed = 0.7
+Sound = tracer
+ThrottleUpDown = 0.30
+AutoPilotRot = -0.50
+CameraPosition = 0.0, 4.0, 5.0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+FlareType = 2
+InventorySize = 10
+MaxFuel         = 5000
+FuelConsumption = 1.7
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+ThirdPersonDist = 48
+
+; M = Military(軍用機).  R = Reconnaissance(偵察機)
+Category = M.R
+
+HUD = plane, plane_gnr, none, none, none, none, none
+
+MobilityYaw = 2.3
+MobilityPitch = 2.3
+MobilityRoll = 2.2
+
+
+
+AddSeat       =  0.3138, 0.7, -0.2852
+AddGunnerSeat = -0.3138, 0.7, -0.2852
+
+AddPartRotor =   -2.127, 1.908, -1.284,  0,0,-1
+AddBlade = 1, 0, -2.127, 1.908, -1.284,  0,0,-1
+AddPartRotor =    2.295, 1.956, -1.284,  0,0, 1
+AddBlade = 1, 0,  2.295, 1.956, -1.284,  0,0, 1
+
+AddWeapon = targeting_pod_mob,   0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_pv50s, 0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_ph100s,0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_mob,   0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+AddWeapon = targeting_pod_pv50s, 0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+AddWeapon = targeting_pod_ph100s,0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+
+
+AddPartLG =  0.00, 0.9717,  -0.0454,  1,0,0, 90
+AddPartLG =  0.00, 1.952,-3.141,  1,0,0,  90
+
+
+AddRecipe = " R ",  "DYD",  "III",  Y,mcheli:uav_station, R,redstone_block, I,iron_block, D,diamond
+
+
+BoundingBox =  0.0, 4.2,  -4.7,  8, 6
+BoundingBox =  0.0, 4.2, -16.7,  8, 6
+BoundingBox =  0.0, 4.2, -35.7,  8, 6
+BoundingBox = -9.5, 4.0, -24.1,  9, 3
+BoundingBox =  9.5, 4.0, -24.1,  9, 3
+
+EnableBack = True

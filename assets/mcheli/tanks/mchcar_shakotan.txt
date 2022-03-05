@@ -1,0 +1,74 @@
+DisplayName = Shakotan
+AddDisplayName = ja_JP, シャコタン
+
+
+MaxHp = 35
+Speed = 0.9
+Sound = shakotan_snd
+ThrottleUpDown = 30.8
+MaxFuel         = 900
+FuelConsumption = 0.5
+MobilityYawOnGround = 13.5
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.1
+HUD = car, none, none, none
+MotionFactor = 0.94
+EnableBack = true
+PivotTurnThrottle = 0.18
+ThirdPersonDist = 8
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+
+AddSeat =  0.05,  0.11,  -0.19
+AddSeat =  1.51,  0.11,  -0.19
+
+AddSeat =  0.05,  0.11,  -1.60
+AddSeat =  1.51,  0.11,  -1.60
+
+
+
+AddWeapon =  horn6,  0.00, 0.34, 1.18,  0.0, 90
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+
+
+AddPartSteeringWheel =   -0.007, 0.812,  0.39,   0, 1, -2.10,  120
+
+AddPartWheel     = 1.855, 0.085,  1.662,  30
+AddPartWheel     = -0.515, 0.085,  1.662,  30
+
+AddPartWheel     = 1.855, 0.085,  -2.21, 0
+AddPartWheel     = -0.515, 0.085,  -2.21, 0
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.855,  -0.24,  1.662, -2.21
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+AddPartHatch = 2.18, 0.70, -0.62, 0, 1, 0, -72
+
+
+AddFixedSearchLight =  1.52, 0.55, 2.59,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.12, 0.55, 2.59,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddPartThrottle = -0.033, 0.992, 0.707,  0, 0, 1,  245
+
+

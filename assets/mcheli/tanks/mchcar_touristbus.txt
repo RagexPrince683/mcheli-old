@@ -1,0 +1,96 @@
+DisplayName = Tourist Bus
+AddDisplayName = ja_JP, 観光バス
+
+
+
+MaxHp = 35
+Speed = 0.6
+Sound = 4wd3_snd
+ThrottleUpDown = 28.6
+MaxFuel         = 1500
+FuelConsumption = 1.5
+MobilityYawOnGround = 5.0
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.5
+SubmergedDamageHeight = 4
+HUD = car, none, none, none, none
+MotionFactor = 0.90
+ThirdPersonDist = 18
+UnmountPosition = 3.70, 1.00, 3.20
+EnableBack = true
+PivotTurnThrottle = 0.3
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddTexture = mchcar_touristbus_2
+AddTexture = mchcar_touristbus_3
+AddTexture = mchcar_touristbus_4
+AddTexture = mchcar_touristbus_5
+
+
+
+AddSeat =  -1.29, 1.78, 2.83
+
+
+
+AddSeat =  1.76, 1.07, 3.62
+AddSeat =  -1.40, 1.80, 0.17
+AddSeat =  -1.40, 1.80, -1.69
+AddSeat =  -1.40, 1.80, -3.49
+AddSeat =  -1.40, 1.80, -5.28
+AddSeat =  -1.40, 1.80, -6.79
+
+AddSeat =  1.54, 1.80, 0.17
+AddSeat =  1.54, 1.80, -1.69
+AddSeat =  1.54, 1.80, -3.49
+AddSeat =  1.54, 1.80, -5.28
+AddSeat =  1.54, 1.80, -6.79
+
+
+
+
+AddPartSteeringWheel =   -1.349, 2.213,  3.543,   0, 1, -1.05,  120
+
+AddPartWheel     = 1.854, 0.325,  0.625,  30
+AddPartWheel     = -1.792, 0.325,  0.625,  30
+
+AddPartWheel     = 1.854, 0.325,  -6.21
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 1.0
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -1.5
+
+
+SetWheelPos =  1.215,  -0.24, 1.5, 0.625, -6.21
+
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+AddFixedSearchLight =   1.30, 0.72, 4.48,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   -8,  0
+AddFixedSearchLight =   -1.23, 0.72, 4.48,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   8,  0
+
+
+
+
+AddWeapon =  horn2,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSlideHatch =  0.10, 0.00, -1.82
+
+
+AddPartThrottle = -1.306, 2.312, 3.883,  0, 0, 1,  248
+
+

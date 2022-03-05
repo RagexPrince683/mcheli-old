@@ -1,0 +1,31 @@
+DisplayName = Agent Orange (not accurate)
+Type = Dispenser
+Acceleration = 0.1
+Sight = None
+Delay = 2
+Sound = smoke_snd
+SoundDelay = 4
+Gravity = -0.01
+
+Bomblet = 5
+;BombletSTime = 3
+;BombletDiff = 1
+
+Round = 10
+ReloadTime = 200
+SmokeSize   = 3.0
+
+DisableSmoke = false
+DispenseItem = hbm:item.grenade_gas
+
+;DispenseItem = bucket
+;DispenseItem = fire
+DispenseRange = 2
+;it dispenses bucket to get rid of water then dispenses fire, maybe it's just the fire replacing the water from when I tested it but idk, I just know it works.
+; 1秒で消滅
+;TimeFuse = 20
+
+MaxAmmo = 10
+SuppliedNum = 1
+Item =  1, hbm:item.grenade_gas
+

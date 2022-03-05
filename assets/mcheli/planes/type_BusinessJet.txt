@@ -1,0 +1,73 @@
+DisplayName = type_BusinessJet
+AddDisplayName = ja_JP, ビジネスジェットタイプ
+
+
+MaxHp = 200
+Speed = 0.9
+Sound = plane
+ThrottleUpDown = 0.8
+MaxFuel         = 2500
+FuelConsumption = 1.0
+InventorySize = 54
+MobilityYawOnGround = 1.0
+ThirdPersonDist = 40
+UnmountPosition = 5.00, 1.06, -1.4
+
+HUD = civilian_aircraft, none, none, none
+EnableBack = true
+
+; C = Civilian(民間機)
+Category = C
+
+MobilityYaw = 0.4
+MobilityPitch = 0.4
+MobilityRoll = 0.2
+
+
+
+
+AddPartThrottle = -0.02, 2.43, 2.36,  0, 0, 0,  0,  0, 0, 0.13
+
+AddPartSteeringWheel =   0.643, 2.57, 2.386,   0, 0, -1,  60
+AddPartSteeringWheel =   -0.69, 2.57, 2.386,   0, 0, -1,  60
+
+
+
+
+
+AddSeat =  0.61,  2.13,  1.52
+AddSeat =  -0.66,  2.13,  1.52
+
+
+AddSeat = 1.43, 2.54, -3.59
+AddSeat = 1.43, 2.54, -5.78
+AddSeat = 1.43, 2.54, -7.68
+
+AddSeat = -1.57, 2.54, -3.59
+AddSeat = -1.57, 2.54, -5.78
+AddSeat = -1.57, 2.54, -7.68
+
+AddSeat = -1.30, 2.54, -10.90
+AddSeat = 1.33, 2.54, -10.90
+
+
+
+AddPartHatch =   2.11, 1.74, -1.99,  0, 0, 1,  -160
+
+
+
+AddPartLG =  0.17, 1.22, -0.21, 1, 0, 0,  -110 
+
+AddPartLG = 4.15, 1.33, -7.81,  0, 0, 1, -75
+AddPartLG = -4.15, 1.33, -7.77,  0, 0, 1, 75
+
+AddPartLG =   0.60, 1.11, 0.70, 0, 0, 1, -110
+AddPartLG =    -0.60, 1.11, 0.70, 0, 0, 1, 110
+
+
+
+BoundingBox =  0.04, 1.75, 0.99, 4.0, 4.0
+BoundingBox =  0.04, 1.75, -4.30, 4.0, 4.0
+BoundingBox =  0.04, 1.75, -8.03, 6.0, 4.0
+BoundingBox =  0.04, 1.75, -11.86, 4.0, 4.0
+BoundingBox =  0.04, 3.71, -16.66, 4.0, 3.0

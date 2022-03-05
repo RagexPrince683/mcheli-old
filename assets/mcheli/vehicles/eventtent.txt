@@ -1,0 +1,13 @@
+﻿DisplayName = Event Tent
+AddDisplayName = ja_JP, イベントテント
+
+MaxHp = 100
+HUD = none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+HideEntity = true
+
+CanRide = false
+
+AddSeat = 0.00, 1.00, 0.00

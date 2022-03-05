@@ -1,0 +1,12 @@
+﻿DisplayName = cratepallet
+AddDisplayName = ja_JP,ウッドパレット(木箱)
+
+MaxHp = 100
+HideEntity = true
+RotationPitchMin =  0
+RotationPitchMax =  0
+DamageFactor = 1
+CanRide = false
+InventorySize = 54
+AddSeat = 0.0, 1.0, 0.0
+Float = true

@@ -1,0 +1,19 @@
+DisplayName = HE Missile
+Type = TVMissile
+Power = 2000
+Acceleration = 2
+Explosion = 10
+Flaming = true
+Sight = MoveSight
+Delay = 400
+ModelBullet = sa2missile
+ReloadTime = 250
+Bomblet = 0
+BombletSTime = 0
+BombletDiff = 0
+
+MaxAmmo = 10
+SuppliedNum = 1
+Item =  5, iron_ingot
+Item =  3, gunpowder
+Item =  1, redstone

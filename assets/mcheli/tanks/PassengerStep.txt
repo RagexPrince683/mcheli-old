@@ -1,0 +1,87 @@
+DisplayName = Passenger Step
+AddDisplayName = ja_JP, タラップ車
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = 4wd3_snd
+ThrottleUpDown = 17.8
+MaxFuel         = 800
+FuelConsumption = 0.8
+MobilityYawOnGround = 7.0
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -0.4
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none, none
+MotionFactor = 0.91
+EnableBack = true
+PivotTurnThrottle = 0.15
+ThirdPersonDist = 12
+
+; C = Civilian(民間機)
+Category = C
+
+AddTexture = PassengerStep_military
+
+
+
+
+AddSeat =  -0.65,  1.14,  0.10
+
+AddSeat =  0.72,  1.14,  0.10
+
+
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   -0.68, 1.591,  0.85,   0, 1, -0.90,  120
+
+AddPartWheel     = 1.215, 0.228,  0.062,  35
+AddPartWheel     = -1.025, 0.228,  0.062,  35
+
+AddPartWheel     = 1.215, 0.228,  -5.33
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 0.8
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -1.5
+
+
+SetWheelPos =  1.215,  -0.24, 1.5, 0.062, -5.33
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+
+
+AddPartCanopy = -1.26, 1.70, 1.58,  0, 1, 0,  70
+
+
+AddPartSlideHatch = 0.00, 0.96, 1.42
+
+
+AddFixedSearchLight =   1.20, 0.50, 1.60,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -1.10, 0.50, 1.60,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+
+BoundingBox =   -0.12,  0.85,  -1.26,  4.0,  2.0
+
+
+BoundingBox =   -0.12,  3.64,  0.19,  4.0,  1.0
+
+BoundingBox =   -0.12,  0.85,  -3.31,  4.0,  2.0
+
+BoundingBox =  -0.12,  0.85,  -5.98,  4.0,  2.0

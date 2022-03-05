@@ -1,0 +1,77 @@
+DisplayName = 4WD
+AddDisplayName = ja_JP, 自動車(4WD)
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = 4wd2_snd
+ThrottleUpDown = 22
+MaxFuel         = 800
+FuelConsumption = 0.5
+MobilityYawOnGround = 7.3
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -0.4
+GravityInWater = -0.2
+SubmergedDamageHeight = 2
+HUD = car, none, none, none
+MotionFactor = 0.92
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+EnableBack = true
+PivotTurnThrottle = 0.18
+ThirdPersonDist = 8
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_4wd_wh
+AddTexture = mchcar_4wd_bl
+AddTexture = mchcar_4wd_rd
+
+
+
+AddSeat =  -0.03,  0.66,  0.02
+AddSeat =  1.43,  0.66,  0.02
+
+AddSeat =  -0.03,  0.76,  -1.12
+AddSeat =  1.43,  0.76,  -1.12
+
+
+
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+
+
+AddPartSteeringWheel =   -0.019, 1.333,  0.543,   0, 1, -2.30,  120
+
+
+AddPartWheel     = 1.844, 0.20,  1.939,  30
+AddPartWheel     = -0.472, 0.20,  1.939,  30
+
+
+AddPartWheel     = 1.844, 0.20,  -1.572
+AddPartWheel     = -0.472, 0.20,  -1.572
+
+
+
+AddFixedSearchLight =  1.55, 0.71, 3.20,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.19, 0.71, 3.20,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+AddPartHatch = 0.70, 2.16, -2.91, 1, 0, 0, 80
+
+
+AddPartThrottle = -0.046, 1.509, 0.822,  0, 0, 1,  248
+
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 3.8
+OnGroundRollFactor  = 3.2
+
+SetWheelPos =  0.686,  -0.24,  1.939, -1.572
+

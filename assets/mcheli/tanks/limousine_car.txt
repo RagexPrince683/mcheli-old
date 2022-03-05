@@ -1,0 +1,81 @@
+DisplayName = Limousine
+AddDisplayName = ja_JP, リムジン車
+
+
+MaxHp = 30
+ThrottleUpDown = 18.0
+Speed = 0.8
+MobilityYawOnGround = 5.4
+StepHeight = 1.2
+Sound = cardrive
+Gravity = -0.1
+GravityInWater = -0.1
+MaxFuel         = 1500
+FuelConsumption = 0.3
+EnableBack = true
+MotionFactor = 0.91
+PivotTurnThrottle = 0.18
+ThirdPersonDist = 16
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+HUD = car, none, none, none
+
+
+AddTexture =  limousine_car_b
+
+
+
+AddSeat =    -0.14, 0.18, 0.05
+AddSeat =    -1.51, 0.34, 0.05
+
+AddSeat =    -1.51, 0.34, -1.88
+AddSeat =    -1.51, 0.34, -3.35
+AddSeat =    -1.51, 0.34, -6.11
+AddSeat =    -0.34, 0.34, -6.11
+
+
+
+AddPartWheel     = 0.376, 0.098,  2.729,  28
+AddPartWheel     = -1.989, 0.098,  2.729,  28
+
+AddPartWheel     = 0.376, 0.098,  -7.09
+
+AddPartSteeringWheel =   -0.157, 0.852,  0.706,   0, 1, -1.90,  120
+
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.376,  -0.24,  2.729, -7.09
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+
+AddFixedSearchLight =  0.17, 0.69, 3.97,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+
+AddFixedSearchLight =  -1.79, 0.69, 3.97,  0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+
+AddWeapon =  horn4, 0.14,  1.10,  0.62, 0.0, 90
+
+
+AddPartHatch = 0.57, 0.84, -4.81,  0, 1, 0, -80
+
+
+
+BoundingBox =  -0.73, 0.87, -0.17, 2.0, 3.0
+BoundingBox =  -0.73, 0.87, -3.07, 2.0, 3.0
+BoundingBox =  -0.73, 0.87, -5.28, 2.0, 3.0

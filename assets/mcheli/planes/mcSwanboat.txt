@@ -1,0 +1,47 @@
+DisplayName = Swanboat (duplicate i think idk)
+AddDisplayName = ja_JP, スワンボート
+
+
+MaxHp = 100
+Speed = 0.4
+Float = true
+FloatOffset = -0.1
+Sound = raft_snd
+ThrottleUpDown = 18
+MaxFuel         = 100
+FuelConsumption = 0.0
+Gravity = -0.15
+MobilityYawOnGround = 1.5
+CanMoveOnGround = false
+RotorSpeed = 25.0
+EnableBack = true
+InventorySize = 36
+MotionFactor = 0.92
+ThirdPersonDist = 16
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = none, none, none, none
+
+UnmountPosition = 4.00, 2.00, -1.00
+
+;　seat
+AddSeat  =   0.63, 0.52, 0.35
+AddSeat  =   -0.61, 0.52, 0.35
+AddSeat  =   0.63, 0.52, -1.52
+AddSeat  =   -0.61, 0.52, -1.52
+
+
+AddPartRotor =      0.07, 0.36, 0.98,  1, 0, 0
+AddBlade = 1, 0,    0.07, 0.36, 0.98,  1, 0, 0
+
+
+AddPartSteeringWheel =   0.00, 0.938,  1.087,   0, 1, -4.50,  100
+
+
+
+BoundingBox = -0.14, 0.77, 0.98,  3.0, 4.0
+
+

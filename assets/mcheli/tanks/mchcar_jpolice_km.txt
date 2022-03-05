@@ -1,0 +1,75 @@
+DisplayName = Police KPGC110
+AddDisplayName = ja_JP, パトカーKPGC110
+
+
+MaxHp = 35
+Speed = 1.1
+Sound = sportycar3_snd
+ThrottleUpDown = 10.8
+MaxFuel         = 900
+FuelConsumption = 0.5
+MobilityYawOnGround = 6.5
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.1
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none, none, none
+MotionFactor = 0.95
+EnableBack = true
+EnableEntityRadar = true
+PivotTurnThrottle = 0.18
+ThirdPersonDist = 8
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  0.07,  0.02,  -0.03
+AddSeat =  1.44,  0.02,  -0.03
+
+
+
+
+AddWeapon =  jppsiren_old, 0.14,  1.10,  0.62, 0.0, 90
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   0.04, 0.774,  0.484,   0, 1, -1.45,  140
+
+AddPartWheel     = 1.932, 0.126,  2.331,  35
+AddPartWheel     = -0.45, 0.126,  2.331,  35
+
+AddPartWheel     = 1.932, 0.126,  -1.49
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.932,  -0.24,  2.331, -1.49
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+
+AddFixedSearchLight =  1.70, 0.67, 3.23,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  0.10, 0.67, 3.23,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+AddFixedSearchLight =  0.82, 1.80, 0.21,   0x50b22222,   0x00b22222,    3.0, 2.5,  90,  0
+AddFixedSearchLight =  0.82, 1.80, 0.21,   0x50b22222,   0x00b22222,    3.0, 2.5,   -90,  0
+
+
+
+AddPartThrottle = 0.193, 0.925, 0.806,  0, 0, 1,  245
+AddPartThrottle = -0.052, 0.925, 0.806,  0, 0, 1,  245
+
+

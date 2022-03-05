@@ -1,0 +1,11 @@
+﻿DisplayName = Many Chairs
+AddDisplayName = ja_JP, 大量のパイプ椅子
+
+MaxHp = 100
+HUD = none, none
+Float  = true
+CanMoveOnGround = false
+
+CanRide = false
+
+AddSeat = 0.00, 1.00, 0.00

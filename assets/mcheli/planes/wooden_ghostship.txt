@@ -1,0 +1,69 @@
+DisplayName = Wooden Ghost Ship
+AddDisplayName = ja_JP, 木造ゴーストシップ
+
+
+MaxHp = 2250
+Speed = 0.6
+Float = true
+FloatOffset = -0.2
+Sound = sailship_snd
+ThrottleUpDown = 17.5
+MaxFuel         = 2000
+FuelConsumption = 0.0
+Gravity = -0.15
+GravityInWater = -0.1
+StepHeight = 1.0
+DamageFactor = 0.3
+MobilityYawOnGround = 1.1
+CanMoveOnGround = false
+EnableBack = true
+InventorySize = 54
+MotionFactor = 0.91
+ThirdPersonDist = 24
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+UnmountPosition = 4.00, 2.00, -1.00
+
+HUD = none, none, none
+
+
+AddPartSteeringWheel =   -5.645, 8.006, -0.479,   0, 0, 1,  -560
+
+
+
+
+AddSeat =  -5.55, 7.44, -1.40
+CameraPosition = -5.55, 12.60, 35.87, false
+
+
+
+AddSeat  =   1.01, 2.67, 0.11
+
+
+AddGunnerSeat =   -2.97,  6.87, -0.95,  -5.54, 28.68, 16.43, false
+
+
+
+
+BoundingBox = -5.27, 5.41, 29.29,  8.0, 8.0
+BoundingBox = -5.27, 5.41, 19.29,  8.0, 8.0
+BoundingBox = -5.27, 5.41, 10.41,  8.0, 8.0
+BoundingBox = -5.27, 5.41, 2.72,  8.0, 8.0
+BoundingBox = -5.27, 7.41, -3.67,  8.0, 8.0
+
+BoundingBox = -5.27, 20.54, 15.32,  10.0, 10.0
+
+
+
+AddParticleSplash =  1.9,  0.02,   -4.5,   3,      9.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -13.6,  0.02,   -4.5,   3,      9.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash =  1.9,  0.02,  -7.8,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -13.6,  0.02,  -7.8,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  -2.9,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -8.6,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  -2.9,  0.02,  -12.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -8.6,  0.02,  -12.0,   2,      9.0,    1.1,   60,       0.01,   0
+
+
+

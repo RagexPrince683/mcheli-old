@@ -1,0 +1,15 @@
+﻿DisplayName = Percussion Set
+AddDisplayName = ja_JP, パーカッションセット
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+
+AddSeat = -0.07, 0.36, -0.94
+CameraPosition = -0.07, 1.18, -0.94, false

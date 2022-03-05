@@ -1,0 +1,18 @@
+DisplayName = material_pile
+AddDisplayName = ja_JP, 資材の山
+
+MaxHp = 5000
+HideEntity = true
+RotationPitchMin = 0
+RotationPitchMax = 0
+DamageFactor = 0
+ArmorDamageFactor = 0
+AddSeat = 0.00,  1.0, 0.00
+InventorySize = 54
+CanRide = false
+
+
+AddTexture = material_pile_grass
+AddTexture = material_pile_gravel
+AddTexture = material_pile_sand
+AddTexture = material_pile_stone

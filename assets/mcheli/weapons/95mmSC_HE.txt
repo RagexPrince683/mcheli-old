@@ -1,0 +1,27 @@
+DisplayName = 75mm HE
+Type = MachineGun2
+Power = 10
+ModelBullet = bullet76mm
+Acceleration = 3.0
+Explosion = 6
+ExplosionBlock = 6
+Flaming = false
+Sight = MoveSight
+Delay = 150
+ModeNum = 1
+SoundPitch = 0.5
+SoundVolume = 20
+Sound = cannon_4_snd
+Gravity = -0.01
+Piercing = 0
+Group = MainGun
+
+DamageFactor = tank, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+
+MaxAmmo = 85
+SuppliedNum = 20
+Item =  3, iron_ingot
+Item =  2, gunpowder

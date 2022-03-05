@@ -1,0 +1,27 @@
+DisplayName = Little David 914mm Mortar
+AddDisplayName = ja_JP, Little David 914mm Mortar
+ItemID = 48601
+MaxHp = 1400
+HideEntity = true
+MinRotationPitch = -65
+MaxRotationPitch =  5
+DamageFactor = 0.1
+ThirdPersonDist = 15
+CameraPosition = 0.0, 5.00, 0.0, true
+
+
+HUD = ww2tank_hud
+
+AddSeat = 0.4, 4.00, 0.00
+
+MobilityPitch = 5.0
+
+
+AddPart		 = false, false, true, 0,   0.00, 0.00, 0.00
+
+
+AddWeapon = 914mm, 0.00, 2.60, 0.70, 0.0, 0.0, true, 1, 0,-1,1, -65, 0,-1
+
+AddRecipe = "ZXZ",  "XZX",  "ZXZ",  X, iron_block, Z, iron_ingot
+
+BoundingBox =  0.0, 2.0, 0.0,  5.0, 5.0

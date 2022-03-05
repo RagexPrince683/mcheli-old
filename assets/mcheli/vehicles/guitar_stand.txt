@@ -1,0 +1,18 @@
+﻿DisplayName = Guitar Stand
+AddDisplayName = ja_JP, ギタースタンド
+
+MaxHp = 100
+HUD = none
+Float  = true
+CanMoveOnGround = false
+
+CanRide = false
+
+AddSeat = 0.00, 1.00, 0.00
+
+
+AddTexture = guitar_stand_lp
+AddTexture = guitar_stand_st
+AddTexture = guitar_stand_tele
+AddTexture = guitar_stand_jb
+AddTexture = guitar_stand_5st

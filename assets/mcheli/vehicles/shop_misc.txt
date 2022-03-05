@@ -1,0 +1,13 @@
+﻿DisplayName = Shop_Misc
+AddDisplayName = ja_JP, 店(雑貨)
+
+MaxHp = 800
+HUD = none, none
+InventorySize = 54
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.42, 1.06, -0.63
+CanRide = false

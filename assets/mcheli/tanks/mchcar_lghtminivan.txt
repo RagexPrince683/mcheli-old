@@ -1,0 +1,76 @@
+DisplayName = Light 4
+AddDisplayName = ja_JP, 軽自動車4
+
+
+MaxHp = 35
+Speed = 0.7
+Sound = cardrive
+ThrottleUpDown = 18.8
+MaxFuel         = 800
+FuelConsumption = 1
+MobilityYawOnGround = 5.8
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.3
+ThirdPersonDist = 8
+PivotTurnThrottle = 0.13
+HUD = car, none, none, none
+MotionFactor = 0.92
+EnableBack = true
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_lghtminivan_pr
+AddTexture = mchcar_lghtminivan_yl
+
+
+
+
+AddSeat =  -0.05,  0.12,  -0.13
+AddSeat =  0.98,  0.17,  -0.13
+
+AddSeat =  -0.05,  0.17,  -0.99
+AddSeat =  0.98,  0.17,  -0.99
+
+
+
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   -0.092, 0.879,  0.539,   0, 1, -1.95,  120
+
+AddPartWheel     = 1.279, 0.002,  0.96,  30
+AddPartWheel     = -0.346, 0.002,  0.96,  30
+
+AddPartWheel     = 1.279, 0.002,  -1.352
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 3.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.279,  -0.24,  1.2, 0.96, -1.352
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+
+
+AddFixedSearchLight =  1.11, 0.47, 1.63,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.26, 0.47, 1.63,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddPartThrottle = -0.092, 0.842, 0.76,  0, 0, 1,  223
+
+
+

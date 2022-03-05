@@ -1,0 +1,17 @@
+DisplayName = plane hand bomb
+Type = Bomb
+Power = 50
+Acceleration = 1.5
+Explosion = 2
+Sight = None
+Delay = 25
+ReloadTime = 5
+Round = 1
+Accuracy = 1.5
+Piercing  = 3
+MaxAmmo = 5
+SuppliedNum = 5
+Item =  1, iron_ingot
+Item =  1, gunpowder
+
+Sound = 540pound_snd

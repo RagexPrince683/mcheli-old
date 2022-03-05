@@ -1,0 +1,24 @@
+DisplayName = 2A46M-1 Smoothbore Gun[HE]
+Type = MachineGun2
+Power = 160
+ModelBullet = bullet105mm
+Acceleration = 4.0
+Explosion = 3
+ExplosionBlock = 2
+Flaming = false
+Sight = MoveSight
+Delay = 170
+ModeNum = 1
+SoundPitch = 0.5
+SoundVolume = 20
+Sound = cannon_4_snd
+Group = MainGun
+DamageFactor = tank, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+
+MaxAmmo = 30
+SuppliedNum = 15
+Item =  3, iron_ingot
+Item =  2, gunpowder

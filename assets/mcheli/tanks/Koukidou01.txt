@@ -1,0 +1,79 @@
+DisplayName = Koukidou Vehicle
+AddDisplayName = ja_JP,高機動車01
+ItemID = 30000
+MaxHp = 15
+ThrottleUpDown = 10.0
+Speed = 0.9
+MobilityYawOnGround = 15.0
+StepHeight = 1.5
+Sound = prop
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.50
+EnableNightVision = true
+MaxFuel           = 1500
+FuelConsumption   = 1.0
+
+OnGroundPitchFactor = 10.0
+OnGroundRollFactor  = 4.8
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+;AddTexture =
+
+EnableBack = true
+
+Category = C
+
+WeightType = Car
+
+SetWheelPos =  0.839,  -0.4119,  1.97, -1.52
+
+HUD = impreza_hud, impreza_hud,none,none, none,none,
+
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+AddSeat = -0.72,  0.20, 0.62
+AddSeat =  0.72,  0.20, 0.62
+
+AddSeat =  0.60,  0.30, -1.92
+AddSeat =  0.60,  0.30, -1.52
+AddSeat =  0.60,  0.30, -0.88
+AddSeat =  0.60,  0.30, -0.42
+
+AddSeat =  -0.60,  0.30, -1.92
+AddSeat =  -0.60,  0.30, -1.52
+AddSeat =  -0.60,  0.30, -0.88
+AddSeat =  -0.60,  0.30, -0.42
+
+
+PivotTurnThrottle = 0.1
+
+PartWheelRot = 25
+
+AddPartWheel     = -0.839,  0.0799,  1.97, 45
+AddPartWheel     =  0.839,  0.0799,  1.97, 45
+AddPartWheel     = -0.839,  0.0799, -1.52
+AddPartWheel     =  0.839,  0.0799, -1.52
+
+InventorySize = 9
+
+;AddPartHatch    =     -0.76,   0.62,   -1.10,   0,1,0,    90
+AddPartCanopy = -0.63, 0.0,  -2.33,  0,1,0,  90
+AddPartCanopy =  0.63, 0.0,  -2.33,  0,1,0, -90
+AddPartCanopy =  0.0, 0.2114,  -2.3368,  1,0,0,  90
+
+;ヘッドライト
+AddFixedSearchLight =  0.7413, 0.5984, 2.40,   0x50FFFFFF,   0x00FFFFC0,    0.5, 0.4,  0,  0
+AddFixedSearchLight = -0.7413, 0.5984, 2.40,   0x50FFFFFF,   0x00FFFFC0,    0.5, 0.4,  0,  0
+
+
+AddFixedSearchLight =  0.8325, 0.64835,-2.37,   0xFFFF0000,   0x10FF0000,    0.05, 0.1,  0,  0
+AddFixedSearchLight = -0.8325, 0.64835,-2.37,   0xFFFF0000,   0x10FF0000,    0.05, 0.1,  0,  0

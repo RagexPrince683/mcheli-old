@@ -1,0 +1,13 @@
+﻿DisplayName = OfficeDesk
+AddDisplayName = ja_JP, オフィスデスク
+
+MaxHp = 100
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+DamageFactor = 2
+CameraPosition = 0.89, 1.15, 0.0
+
+AddSeat = 1.07, 0.29, -0.02
+
+AddTexture = office_desk_m

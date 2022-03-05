@@ -1,0 +1,68 @@
+DisplayName = E4 Night watch
+AddDisplayName = ja_JP, E4 Night watch
+ItemID = 28747
+MaxHp = 700
+Speed = 0.8
+Sound = 70
+ThrottleUpDown = 0.30
+AutoPilotRot = -0.50
+EnableNightVision = true
+EnableEntityRadar = true
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+FlareType = 2
+InventorySize = 45
+MaxFuel         = 7000
+FuelConsumption = 1.7
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+ThirdPersonDist = 48
+
+; M = Military(軍用機).  R = Reconnaissance(偵察機)
+Category = M.R
+
+HUD = plane, plane_gnr, none, none, none, none, none
+
+MobilityYaw = 0.6
+MobilityPitch = 0.6
+MobilityRoll = 0.4
+
+EnableBack = True
+
+AddSeat       =  1.21, 8.055, -0.4416
+AddGunnerSeat = -1.21, 8.055, -0.4416
+
+AddPartRotor =   -21.81, 1.792, -29.16,  0,0, 1
+AddBlade = 1, 0, -21.81, 1.792, -29.16,  0,0, 1
+AddPartRotor =   -12.20, 1.386, -23.39,  0,0, 1
+AddBlade = 1, 0, -12.20, 1.386, -23.39,  0,0, 1
+AddPartRotor =    12.20, 1.386, -23.39,  0,0,-1
+AddBlade = 1, 0,  12.20, 1.386, -23.39,  0,0,-1
+AddPartRotor =    21.81, 1.792, -29.16,  0,0,-1
+AddBlade = 1, 0,  21.81, 1.792, -29.16,  0,0,-1
+
+AddWeapon = targeting_pod_mob,   0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_pv50s, 0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_ph100s,0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = targeting_pod_mob,   0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+AddWeapon = targeting_pod_pv50s, 0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+AddWeapon = targeting_pod_ph100s,0.0, 4.0, 5.0,  0.0, 0.0, false, 2
+
+
+AddPartLG =  0.00, 3.79,  -1.696,  1,0,0, -110
+AddPartLG = -4.588, 3.79,  -24.67,  0,0,1,  90
+AddPartLG =  4.588, 3.79,  -24.67,  0,0,1, -90
+AddPartLG =  0.00, 3.524,  -27.76,  1,0,0, -90
+AddPartSlideRotLG =   0.00,  2.74,  3.31,  0.00, 0.00, 0.00, 1,0,0, 0
+
+
+AddRecipe = " R ",  "DYD",  "III",  Y,mcheli:uav_station, R,redstone_block, I,iron_block, D,diamond
+
+
+BoundingBox =  0.0, 4.2,  -4.7,  8, 6
+BoundingBox =  0.0, 4.2, -16.7,  8, 6
+BoundingBox =  0.0, 4.2, -35.7,  8, 6
+BoundingBox = -9.5, 4.0, -24.1,  9, 3
+BoundingBox =  9.5, 4.0, -24.1,  9, 3

@@ -1,0 +1,22 @@
+﻿DisplayName = Fight Ring
+AddDisplayName = ja_JP, ファイトリング
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+CanRide = false
+AddSeat = 0.42, 1.06, -0.63
+
+
+
+AddGunnerSeat = -0.99, 1.43, 7.21,  -0.99, 2.73, 7.21,  false
+AddGunnerSeat = -0.99, 1.43, 0.31,  -0.99, 2.73, 0.31,  false
+AddGunnerSeat = -7.83, 1.43, 0.38,  -7.83, 2.73, 0.38,  false
+AddGunnerSeat = -7.83, 1.43, 7.22,  -7.83, 2.73, 7.22,  false
+

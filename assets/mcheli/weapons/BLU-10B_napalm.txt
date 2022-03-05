@@ -1,0 +1,15 @@
+DisplayName = BLU-10B Napalm Bomb
+Type = Bomb
+Power = 300
+Acceleration = 0.1
+Explosion = 6
+Flaming = true
+Sight = MoveSight
+Delay = 5
+ModelBullet = cbu87
+Sound = bomb_snd
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  5, iron_ingot
+Item =  5, gunpowder

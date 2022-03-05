@@ -1,0 +1,100 @@
+DisplayName = small cruise ship
+AddDisplayName = ja_JP, 小型客船
+
+
+MaxHp = 4250
+Speed = 1.7
+Float = true
+FloatOffset = -0.1
+Sound = big_ships
+ThrottleUpDown = 10.8
+MaxFuel         = 3000
+FuelConsumption = 1.0
+Gravity = -0.15
+GravityInWater = -0.1
+StepHeight = 0.0
+DamageFactor = 0.8
+MobilityYawOnGround = 0.6
+EnableNightVision = true
+MotionFactor = 0.92
+EnableBack = true
+
+CanMoveOnGround = false
+ThirdPersonDist = 60
+
+InventorySize = 54
+
+UnmountPosition = 4.00, 2.00, -1.00
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = plane_wwii, none, none, none, none, none
+
+
+
+;　main seat
+AddSeat =  -0.57, 0.63, 0.07
+CameraPosition = -10.73, 15.79, 62.07, true
+
+
+
+AddSeat =  0.42, 2.04, 0.07
+AddSeat =  -9.03, 14.66, 62.05
+AddSeat =  -12.81, 14.66, 62.05
+
+
+AddPartRotor =      -7.81, -3.95, -10.94,  0, 0, 1
+AddBlade = 1, 0,    -7.81, -3.95, -10.94,  0, 0, 1
+
+
+AddPartRotor =      -14.74, -3.95, -10.94,  0, 0, 1
+AddBlade = 1, 0,    -14.74, -3.95, -10.94,  0, 0, 1
+
+
+AddPartRotation  =  -6.41, 18.76, 58.05,  0, 1, 0, 3.0,   false
+
+
+AddPartSteeringWheel =   -7.878, -2.712, -11.93,   0, -1, 0,  50
+
+AddPartSteeringWheel =   -15.01, -2.712, -11.93,   0, -1, 0,  50
+
+
+
+
+
+; horn
+AddWeapon =  ship_foghorn, 0.00, 0.10, 0.00,  0.0, 90
+
+
+
+
+
+BoundingBox = -9.29, 0.80, 99.81,  10.0,  8.0
+BoundingBox = -9.29, 0.80, 85.34,  10.0,  8.0
+BoundingBox = -9.29, 0.80, 70.32,  10.0,  8.0
+BoundingBox = -9.29, 0.80, 53.02,  15.0,  15.0
+BoundingBox = -9.29, 0.80, 33.02,  10.0,  8.0
+BoundingBox = -9.29, 0.80, 13.82,  10.0,  8.0
+
+
+
+
+AddParticleSplash  =  4.16, 0.25, -5.38,    25, 30.5,  0.8, 70, 0.4, -0.03 
+AddParticleSplash  =  2.67, 0.25, -8.16,   25, 30.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -0.34, 0.25, -15.52,   25, 30.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -2.78, 0.25, -18.00,   25, 30.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -2.78, 0.25, -22.86,   14, 30.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -2.78, 0.25, -24.72,   14, 30.3,  0.8, 80, 0.1,   -0.02
+AddParticleSplash  =  -2.78, 0.25, -26.42,   14, 30.0,  0.8, 80, 0.1,  -0.02
+
+
+
+AddParticleSplash  =  -25.75, 0.25, -5.38,    25, 30.5,  0.8, 70, 0.4, -0.03 
+AddParticleSplash  =  -12.73, 0.25, -8.16,   25, 30.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -21.73, 0.25, -15.52,   25, 30.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -17.67, 0.25, -28.00,   25, 30.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -17.67, 0.25, -24.86,   14, 30.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -17.67, 0.25, -26.72,   14, 30.3,  0.8, 80, 0.1,   -0.02
+AddParticleSplash  =  -12.67, 0.25, -17.42,   14, 30.0,  0.8, 80, 0.1,  -0.02

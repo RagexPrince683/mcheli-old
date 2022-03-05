@@ -1,0 +1,15 @@
+DisplayName = BGM-71
+Type = TVMissile
+Power = 900
+Acceleration = 1
+Explosion = 5
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

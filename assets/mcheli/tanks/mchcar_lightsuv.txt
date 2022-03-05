@@ -1,0 +1,75 @@
+DisplayName = Light SUV
+AddDisplayName = ja_JP, 軽自動車(SUV風)
+
+
+MaxHp = 35
+Speed = 0.6
+Sound = cardrive
+ThrottleUpDown = 17.8
+MaxFuel         = 800
+FuelConsumption = 0.5
+MobilityYawOnGround = 5.8
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.3
+HUD = car, none
+MotionFactor = 0.92
+EnableBack = true
+PivotTurnThrottle = 0.13
+ThirdPersonDist = 8
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_lightsuv_pk
+AddTexture = mchcar_lightsuv_sb
+AddTexture = mchcar_lightsuv_yl
+
+
+
+
+AddSeat =  -0.04,  0.04,  -0.05
+AddSeat =  1.12,  0.04,  -0.05
+
+
+
+AddWeapon =  horn5,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   -0.086, 0.806,  0.454,   0, 1, -1.95,  120
+
+AddPartWheel     = 1.361, 0.05,  1.328,  30
+AddPartWheel     = -0.459, 0.05,  1.328,  30
+
+AddPartWheel     = 1.361, 0.05,  -1.23
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 3.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.361,  -0.24, 1.6,  1.328, -1.23
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+AddFixedSearchLight =  1.13, 0.68, 2.13,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.20, 0.68, 2.13,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+
+AddPartThrottle = -0.016, 0.943, 0.658,  0, 0, 1,  248
+
+
+
+
+

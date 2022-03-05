@@ -1,0 +1,66 @@
+DisplayName = mcheli bicycle mini
+AddDisplayName = ja_JP, 自転車ミニ
+
+MaxHp = 15
+Speed = 0.3
+Sound = Bicycle
+ThrottleUpDown = 18.5
+MaxFuel         = 100
+FuelConsumption = 0.0
+Gravity = -0.1
+MobilityYawOnGround = 8
+PartWheelRot = 25.0
+ParticlesScale = 0.2
+MotionFactor = 0.91
+StepHeight = 1.0
+HUD = none, none
+EntityPitch = 15
+InventorySize = 5
+EnableBack = true
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+AddWeapon =  BellSound, -0.01, 0.94, 1.00, 0.0, 90
+
+
+AddTexture =  mc_bicycle_mini2
+
+AddSeat =  0.00, 0.48, 0.10
+
+
+AddPartWheel     = -0.007, 0.014,  1.172,  20
+AddPartWheel     = -0.015, -0.036, 0.247
+AddPartWheel     = -0.007, 0.014,  -0.427
+
+AddPartSteeringWheel =   -0.004, 0.252,  1.018,   0, 1, -0.69,  20
+AddPartSteeringWheel =   0.006, 0.516,  0.863,   0, 1, -0.5,  20
+
+
+
+AddPartHatch =   0.08, -0.01, -0.41, 1, 0, 0, -85
+
+
+
+AddFixedSearchLight = -0.12, 0.31, 1.00,  0x99FFFFFF,   0x00FFFFC0,  10.0, 4.0, 0, 0, 20 
+
+
+
+OnGroundPitchFactor = 4.8
+OnGroundRollFactor  = 2.2
+
+SetWheelPos =  -0.007,  -0.24,  1.172, -0.427
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+

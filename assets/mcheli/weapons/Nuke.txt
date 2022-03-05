@@ -1,0 +1,28 @@
+DisplayName = Secret Nuclear bomb
+Type = Bomb
+Power = 500000
+Acceleration = 0.1
+Explosion = 2000000000
+ExplosionBlock = 20000000
+ExplosionInWater = 200000
+Flaming = true
+Sight = None
+Delay = 10000
+Sound = bomb_snd
+ModelBullet = CustomNuke
+ModelBomblet = 0_none
+ParticlesScale = 40
+
+ReloadTime = 100000
+Bomblet = 80
+BombletSTime = 20
+BombletDiff = 1.2
+Round = 1
+MaxAmmo = 1
+SuppliedNum = 1
+SmokeColor = 219, 155, 17
+SoundVolume = 50
+
+Item = 1, hbm:tile.nuke_custom
+Item = 64, gunpowder
+Item = 64, tnt

@@ -1,0 +1,18 @@
+﻿DisplayName = Vending Machine
+AddDisplayName = ja_JP, 自動販売機
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 54
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.42, 1.06, -0.63
+CanRide = false
+
+AddTexture = vending_machine_2
+
+AddTexture = vending_machine_3

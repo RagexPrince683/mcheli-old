@@ -1,0 +1,21 @@
+﻿DisplayName = car rack Double
+AddDisplayName = ja_JP, 2段車庫
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = -0.36, 1.20, -1.23
+FuelSupplyRange = 10
+
+
+AddRack = plane / tank,    -1.48, 0.02, -1.54,  -1.48, 0.32, -5.78, 8.0, 100000,  180.0, 0.0
+AddRack = plane / tank,    -1.48, 2.72, -1.54,  -1.48, 0.32, -5.78, 8.0, 100000,  180.0, 0.0
+
+
+UnmountPosition = 1.48, 0.32, -2.54

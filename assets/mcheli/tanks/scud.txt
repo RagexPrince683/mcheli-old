@@ -1,0 +1,86 @@
+﻿DisplayName = MAZ-543
+AddDisplayName = en_US, MAZ-543
+AddDisplayName = ja_JP, スカッド
+ItemID = 25703
+MaxHp = 15
+ThrottleUpDown = 10.0
+Speed = 0.4
+MobilityYawOnGround = 2.0
+StepHeight = 1.5
+Sound = 4wd1_snd
+MinRotationPitch = -50
+MaxRotationPitch = 10
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.90
+EnableNightVision = true
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.0
+
+;後退可能にする
+EnableBack = true
+;  M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+; Tank or Car or Unknown
+WeightType = Car
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  0.68,  -0.24,  1.20, -1.10
+
+HUD = mbt_hud, none
+
+CameraPosition = -1.40, 2.58, 7.30, true
+AddGunnerSeat =  -1.40, 1.18, 7.30, -1.40, 1.18, 7.30,  true, -50, 1, false
+AddSeat =  2.00, 0.40, 0.00
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.1
+
+; タイヤの回転スピード
+PartWheelRot = 40
+; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+SetWheelPos =  1.50,  -0.24,  3.75, 1.71, -0.15, -2.01
+
+AddPartWheel =    2.1224,  0.4004, 5.1660, 20
+AddPartWheel =    2.1224,  0.4004, 2.5793, 10
+AddPartWheel =    2.1224,  0.4004,-1.7399
+AddPartWheel =    2.1224,  0.4004,-4.3837
+
+AddPartWheel =   -1.9801,  0.4004, 5.0958, 20
+AddPartWheel =   -1.9801,  0.4004, 2.5806, 10
+AddPartWheel =   -1.9801,  0.4004,-1.7496
+AddPartWheel =   -1.9801,  0.4004,-4.4048
+
+WeightedCenterZ = 0.0
+InventorySize = 9
+AddPartWeapon = ScudCNK, 0.00, 1.00, 0.00
+AddPartWeaponBay	= ScudCNK /3332,  0, 2.9056, -4.3358, 1.0, 0.0, 0.0, -35
+AddPartWeaponBay	= ScudCNK /3332,  0, 2.9056, -4.3358, 1.0, 0.0, 0.0, -35
+
+AddPartWeaponMissile = ScudCNK,      false,  false,  false,    0.00,  30, -24
+AddPartSlideWeaponBay = ScudCNK /open /3332, 0, -0.4488, 0
+AddWeapon	     = none,    0.00,  30, -24,  0.0,0.0, true, 2, 0, -360,360, -90, -90
+AddWeapon	     = open,    0.00,  30, -24,  0.0,0.0, true, 2, 0, -360,360, -90, -90
+AddWeapon	     = 3332,    0.00,  30, -24,  0.0,0.0, true, 2, 0, -360,360, -90, -90
+AddWeapon	     = ScudCNK,   0.00,  30, -24,  0.0,0.0, true, 2, 0, -360,360, -90, -90
+AddWeapon	     = open,    0.00,  30, -24,  0.0,0.0, true, 2, 0, -360,360, -90, -90
+
+;ヘッドライト
+AddFixedSearchLight =  0.60, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight = -0.60, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+;テールランプ
+AddFixedSearchLight =  0.36, 0.37,-1.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+AddFixedSearchLight = -0.36, 0.37,-1.58,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+
+EntityWidth  = 1.0
+EntityHeight = 1.0
+
+
+

@@ -1,0 +1,30 @@
+DisplayName = B61 nuclear bomb
+Type = Dispenser
+;Power = 50000000
+Acceleration = 0.1
+;Explosion = 2000000000
+;ExplosionBlock = 2000000000
+;ExplosionInWater = 100000000
+;Flaming = true
+Sight = None
+Delay = 10000
+Sound = bomb_snd
+DispenseRange = 2
+DisableSmoke = false
+DispenseItem = hbm:item.grenade_nuclear
+
+ReloadTime = 970
+;ModelBomblet = 0_none
+;Bomblet = 80
+;BombletSTime = 20
+;BombletDiff = 1.6
+Round = 1
+ParticlesScale = 40
+MaxAmmo = 1
+SuppliedNum = 1
+SmokeColor = 219, 155, 17
+SoundVolume = 50
+
+Item = 1, hbm:tile.nuke_custom
+Item = 64, gunpowder
+Item = 64, tnt

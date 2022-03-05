@@ -1,0 +1,74 @@
+﻿DisplayName = mch_train
+AddDisplayName = ja_JP, MCHトレイン
+
+
+MaxHp = 800
+Speed = 10
+Sound = mchrail_snd
+ThrottleUpDown = 10
+Gravity = -0.1
+GravityInWater = -0.2
+StepHeight = 1.0
+EnableNightVision = true
+
+MotionFactor = 0.95
+MobilityYawOnGround = 4
+EnableBack = true
+UnmountPosition = 3.00, 1.00, -2.07
+
+RotorSpeed = 110.0
+hud = car, none, none, none, none, none
+
+MaxFuel         = 1800
+FuelConsumption = 0.2
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddPartThrottle = 0.001, 1.426, 1.749,  0, 0, 0,  0,  0.00, 0.09, 0.22
+
+
+
+AddSeat =  -0.06, 1.17, 1.07
+
+
+AddSeat =  1.09, 1.09, -2.47
+AddSeat =  -1.09, 1.09, -2.47
+
+AddSeat =  1.09, 1.09, -3.88
+AddSeat =  -1.09, 1.09, -3.88
+
+AddSeat =  1.09, 1.09, -5.34
+AddSeat =  -1.09, 1.09, -5.34
+
+AddSeat =  1.09, 1.09, -6.89
+AddSeat =  -1.09, 1.09, -6.89
+
+
+
+
+AddPartRotor =    1.08, -0.03, 1.37,   1, 0, 0
+AddBlade = 1, 0,  1.08, -0.03, 1.37,   1, 0, 0
+
+
+AddPartRotor =    1.08, -0.03, -1.18,   1, 0, 0
+AddBlade = 1, 0,  1.08, -0.03, -1.18,   1, 0, 0
+
+
+AddPartRotor =    1.08, -0.03, -4.57,   1, 0, 0
+AddBlade = 1, 0,  1.08, -0.03, -4.57,   1, 0, 0
+
+
+AddPartRotor =    1.08, -0.03, -7.01,   1, 0, 0
+AddBlade = 1, 0,  1.08, -0.03, -7.01,   1, 0, 0
+
+
+
+AddFixedSearchLight =  0.66, 0.85, 2.61,   0x50FFFFFF,   0x00FFFFC0,    50.0, 20.0,  -5,  0
+AddFixedSearchLight =  -0.66, 0.85, 2.61,   0x50FFFFFF,   0x00FFFFC0,    50.0, 20.0,   5,  0
+
+
+
+

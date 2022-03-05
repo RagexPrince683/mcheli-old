@@ -1,0 +1,48 @@
+﻿DisplayName = Xb 70 A valkyrie protrotype
+AddDisplayName = ja_JP, Xb 70 A valkyrie protrotype
+ItemID = 28738
+MaxHp  = 700
+EnableNightVision  = true
+EnableEntityRadar  = true
+EnableEjectionSeat = true
+Speed = 1.5
+FlareType = 2
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 4800
+FuelConsumption = 2.0
+CameraPosition  = 0.0, 2.66, 3.78
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+AutoPilotRot = 0
+ThirdPersonDist = 24
+
+ThrottleUpDown = 0.3
+MobilityYaw = 1.0
+MobilityPitch = 1.0
+MobilityRoll = 1.6
+
+EnableBack = True
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+HUD = plane, plane_gnr
+
+AddSeat =  0.5237, 6.872, 1.787
+AddSeat = -0.5237, 6.872, 1.787
+
+AddPartWing  =  -7.506, 6.872, -39.47,  0, 0,1, 50
+AddPartWing  =  7.506, 6.872, -39.47,  0, 0,-1, 50
+
+AddPartLG =  0.00,  3.776, -16.35,  1,0,0, 95
+AddPartLG =  0.00,  4.506, -30.15,  1,0,0,  92
+AddPartSlideRotLG =   0.00,  3.74,  -3.31,  0.00, 0.00, 0.00, 1,0,0, 0
+
+BoundingBox =  0.0, 3.5, -1.8,  7.0, 4.0
+BoundingBox =  0.0, 3.5, -8.2,  7.0, 4.0
+BoundingBox =  0.0, 3.0,-14.8,  7.0, 2.0
+BoundingBox =  8.5, 3.2, -9.3, 10.0, 2.3
+BoundingBox = -8.5, 3.2, -9.3, 10.0, 2.3
+
+AddRecipe = "DDG",  "DGT",  "GTI",  I,iron_block, G,gold_block, D,diamond_block, T,tnt

@@ -1,0 +1,94 @@
+﻿DisplayName = An225Mriya
+AddDisplayName = ja_JP, An225ムリーヤ
+
+
+MaxHp = 1400
+Speed = 0.7
+Sound = plane
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+AutoPilotRot = 0
+ThrottleUpDown = 0.5
+MaxFuel         = 5500
+FuelConsumption = 2.0
+InventorySize = 64
+EnableNightVision = true
+FlareType = 2
+EnableBack = true
+UnmountPosition = 13.88, -0.4, -0.55
+HideEntity = true
+ThirdPersonDist = 55
+HUD = civilian_aircraft, none, none, none
+UnmountPosition = 8.00, 3.00, -6.50
+
+; C = Civilian(民間機)
+Category = C
+
+MobilityYaw = 0.4
+MobilityPitch = 0.4
+MobilityRoll = 0.2
+
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+
+AddSeat =  -0.05, 2.52, -1.26
+CameraPosition = 1.09, 14.00, 6.24, true
+
+
+AddGunnerSeat = -1.13, 3.52, -1.26,  -0.92, 14.00, 6.24,  false
+
+
+
+AddPartThrottle = 0.00, 12.68, 7.32,  0, 0, 0,  0, 0, 0, 0.38
+
+AddPartSteeringWheel =   1.241, 12.91, 7.478,   0, 0, -1,  60
+AddPartSteeringWheel =   -1.22, 12.91, 7.478,   0, 0, -1,  60
+
+
+
+
+AddSeat = 4.71, 4.26, -5.88
+
+
+AddSeat = -0.63, 12.80, 4.40
+AddSeat = -0.63, 12.80, 2.68
+
+AddSeat = 1.13, 12.80, 4.40
+AddSeat = 1.13, 12.80, 2.68
+
+
+
+
+AddPartHatch = 4.53,  12.05, 4.55, 1, 0, 0,  -100
+AddPartHatch = 5.56,  3.80,  -4.16,  0, 0, 1,  -135
+AddPartHatch = 5.38,  3.52,  -4.43,  0, 0, 1,  -130
+
+AddPartSlideHatch = 0.00, -3.64, 14.35
+
+
+
+AddRack = Space_Shuttle_n / type_B7X7 / type_BusinessJet,  -0.71, 17.25, -10.12,   3.71, 10.81, -10.19,  35.0
+
+AddRack = helicopter / vehicle / tank / FreeTruck / humvee / humvee_m2 /Humvee_m1114/impreza/jgsdf-mcv/mc_atv/m1a2/m1a1/m1a1NT/M1Abrams/mc_Mini_Truck/MCForklift/m1a2tusk/m163/kurganets25/T-90A/T-90S/t-90/T55/centauro120/centauro/90tk/gepard,     0.58,  5.55,  -13.36,  0.58,  1.67,  19.37,  20.0
+
+
+
+AddPartLG =  -1.24, 2.44, -1.77, 1, 0, 0,  -120 
+AddPartLG =   4.18, 3.09, -23.99, 0, 0, 1, -120
+AddPartLG =   -4.18, 3.09, -23.99, 0, 0, 1, 120
+
+AddPartLG =   5.41, 3.65, -22.13, 0, 0, 1, -110
+AddPartLG =   -5.41, 3.65, -22.13, 0, 0, 1, 110
+
+
+
+
+BoundingBox =  0.29, 8.01, 2.68,  10.0, 10.0
+BoundingBox =  0.29, 8.01, -9.63,  10.0, 10.0
+BoundingBox =  0.29, 8.01, -26.15,  10.0, 10.0
+BoundingBox =  0.29, 8.01, -48.86,  10.0, 10.0
+BoundingBox =  0.29, 14.14, -76.74,  10.0, 10.0

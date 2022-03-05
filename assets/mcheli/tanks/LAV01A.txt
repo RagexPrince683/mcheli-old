@@ -1,0 +1,80 @@
+DisplayName = LAV01A
+AddDisplayName = ja_JP,軽装甲機動車01A
+ItemID = 30072
+MaxHp = 15
+ThrottleUpDown = 10.0
+Speed = 0.9
+MobilityYawOnGround = 15.0
+StepHeight = 1.5
+Sound = prop
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.50
+EnableNightVision = true
+MaxFuel           = 1500
+FuelConsumption   = 1.0
+
+OnGroundPitchFactor = 10.0
+OnGroundRollFactor  = 4.8
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+;AddTexture =
+
+EnableBack = true
+
+Category = C
+
+WeightType = Car
+
+SetWheelPos =  0.30,  -0.2636,  1.3822, -1.0374
+
+;兵器(weapon)
+AddTurretWeapon = m2, 0.0, 1.4908, -0.6408,  0.0, 0.0, false,1, 0,-360,360, 0, 0
+;
+AddPartWeapon = m2, false, true, false,   0.0, 1.4908, -0.6408, 0
+
+HUD = impreza_hud, impreza_hud,none,none, none,gunner,
+
+
+EntityWidth  = 0.75
+EntityHeight = 0.75
+
+AddSeat = -0.6519,  0.15,  0.0675
+AddSeat =  0.6519,  0.20,  0.0675
+AddSeat = -0.6519,  0.20, -0.6463
+AddSeat =  0.6519,  0.20, -0.6463
+AddSeat =  0.0,     1.09, -0.64
+
+
+PivotTurnThrottle = 0.05
+
+PartWheelRot = 25
+
+AddPartWheel     =  0.9288,  0.18,  1.568, 45
+AddPartWheel     = -0.9288,  0.18,  1.568, 45
+AddPartWheel     =  0.9288,  0.18, -1.4085
+AddPartWheel     = -0.9288,  0.18, -1.4085
+
+InventorySize = 9
+
+AddPartHatch    =  0.4451,   1.5132,   -0.6408,   0,0,1,-110
+AddPartHatch    =  0.4451,   1.5132,   -0.6408,   0,0,1,-110
+AddPartHatch    = -0.4451,   1.5132,   -0.6408,   0,0,1, 110
+AddPartHatch    = -0.4451,   1.5132,   -0.6408,   0,0,1, 110
+;AddPartCanopy = -0.63, 0.0,  -2.33,  0,1,0,  90
+;AddPartCanopy =  0.63, 0.0,  -2.33,  0,1,0, -90
+;AddPartCanopy =  0.0, 0.2114,  -2.3368,  1,0,0,  90
+
+;ヘッドライト
+AddFixedSearchLight =  0.6156, 0.7363, 2.08,   0x50FFFFFF,   0x00FFFFC0,    1.0, 0.4,  0,  0
+AddFixedSearchLight = -0.6156, 0.7363, 2.08,   0x50FFFFFF,   0x00FFFFC0,    1.0, 0.4,  0,  0
+
+
+AddFixedSearchLight =  0.7952, 0.7589,-2.1,   0xFFFF0000,   0x10FF0000,    0.05, 0.6,  0,  0
+AddFixedSearchLight = -0.7952, 0.7589,-2.1,   0xFFFF0000,   0x10FF0000,    0.05, 0.6,  0,  0

@@ -1,0 +1,37 @@
+DisplayName = YJ-91
+Type = AAMissile
+Power = 1000
+Acceleration = 5.0
+Explosion = 18
+Flaming = true
+Sight = MissileSight
+Delay = 300
+ModelBullet = agm84
+Sound = missile_1_snd
+DelayFuse = 10
+Delay = 35
+ReloadTime = 160
+Round = 2
+Piercing  = 2
+RigidityTime = 10
+RidableOnly = false
+
+
+TrajectoryParticle = largeexplode
+
+
+TrajectoryParticleStartTick = 10
+
+
+
+
+
+
+DamageFactor = plane, 3.5
+
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

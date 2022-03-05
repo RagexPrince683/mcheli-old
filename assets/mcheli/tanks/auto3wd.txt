@@ -1,0 +1,78 @@
+DisplayName = auto3wd???? car idk
+AddDisplayName = ja_JP, オート三輪
+
+
+MaxHp = 10
+Speed = 0.4
+Sound = mdtcar_snd
+ThrottleUpDown = 12.3
+Gravity = -0.1
+GravityInWater = -0.2
+StepHeight = 1.0
+MobilityYawOnGround = 8.0
+PivotTurnThrottle = 0.1
+MotionFactor = 0.91
+EnableBack = true
+PartWheelRot = 35
+hud = car, none, none
+ThirdPersonDist = 8
+
+
+MaxFuel         = 400
+FuelConsumption = 1.0
+
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = auto3wd_2
+
+
+
+AddSeat =  0.03, 0.63, 0.13
+
+
+AddSeat =  0.67, 0.58, -0.96
+AddSeat =  0.67, 0.58, -1.63
+
+
+
+AddWeapon =  mdtcar_horn, 0.14,  1.10,  0.62, 0.0, 90
+
+
+
+
+AddFixedSearchLight =  0.00, 0.94, 1.31,   0x50FFFFFF,   0x00FFFFC0,    15.0, 12.0,  0,  0
+
+
+
+AddRack = mc_bicycle,    -0.01, 0.90, -3.51,   -0.01, 0.40, -4.49,  5.0,  100000, -90, 0
+
+
+AddPartSteeringWheel =   0.00, 0.70,  0.99,   0, 1, -0.40,  25
+
+
+AddPartWheel     = 0.00, 0.098,  1.361,  25
+AddPartWheel     = -0.20, 0.098,  1.361,  25
+AddPartWheel     = 0.00, 0.098,  -2.15
+
+
+
+BoundingBox =  0.05, 1.20, -0.19, 2.0, 3.0
+BoundingBox =  0.05, 0.99, -1.94, 2.0, 3.0
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 3.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.01,  -0.24,  1.361, -2.15, -2.65
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0

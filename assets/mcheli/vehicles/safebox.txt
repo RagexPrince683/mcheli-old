@@ -1,0 +1,17 @@
+DisplayName = SafeBox
+AddDisplayName = ja_JP, 金庫
+
+MaxHp = 1800
+HUD = none, none
+InventorySize = 54
+CanMoveOnGround = false
+DamageFactor = 2.0
+UnmountPosition = 0.00, 1.00, 1.00
+ArmorDamageFactor = 0.5
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.00, 0.00, 1.80
+
+AddPartHatch = 0.53, 1.29, 0.53, 0, 1, 0, 115

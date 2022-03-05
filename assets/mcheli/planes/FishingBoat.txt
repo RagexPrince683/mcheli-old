@@ -1,0 +1,87 @@
+DisplayName = Fishing Boat
+AddDisplayName = ja_JP, 漁船
+
+
+MaxHp = 1750
+Speed = 0.7
+Float = true
+FloatOffset = -0.1
+Sound = boat
+ThrottleUpDown = 16.8
+MaxFuel         = 1000
+FuelConsumption = 1.0
+Gravity = -0.15
+GravityInWater = -0.1
+StepHeight = 1.0
+DamageFactor = 0.8
+MobilityYawOnGround = 1.7
+EnableNightVision = true
+MotionFactor = 0.92
+CanMoveOnGround = false
+EnableBack = true
+ThirdPersonDist = 24
+InventorySize = 54
+UnmountPosition = 4.00, 2.00, -1.00
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = car, none, none, none
+
+
+
+;　main seat
+AddSeat  =   -2.17, 0.78, 1.52
+AddSeat = -0.18, 0.78, -0.64
+AddSeat = 0.18, 0.78, 0.64
+
+AddPartRotor =      -1.45, -1.22, -0.95,  0, 0, 1
+AddBlade = 1, 0,    -1.45, -1.22, -0.95,  0, 0, 1
+
+
+AddPartRotor =      -2.98, -1.22, -0.95,  0, 0, 1
+AddBlade = 1, 0,    -2.98, -1.22, -0.95,  0, 0, 1
+
+
+
+; horn
+AddWeapon =  ship_horn_high, 0.00, 0.10, 0.00,  0.0, 90
+
+
+
+AddFixedSearchLight =   -1.21, 2.61, 3.33,   0x50FFFFFF,   0x00FFFFC0,    45.0, 25.0,  -10,  0
+AddFixedSearchLight =   -2.82, 2.61, 3.33,   0x50FFFFFF,   0x00FFFFC0,    45.0, 25.0,   10,  0
+
+
+
+AddPartThrottle = -2.516, 1.185, 2.525,  1, 0, 0,  55
+
+AddPartSteeringWheel =   -2.08, 1.337, 2.394,   0, 1, -1.05,  120
+
+
+AddPartSteeringWheel =   -1.49, -1.07, -1.78,   0, 1, 0,  -60
+AddPartSteeringWheel =   -3.03, -1.07, -1.78,   0, 1, 0,  -60
+
+
+
+AddParticleSplash  =  0.70, 0.25, -3.38,    6, 12.5,  0.8, 70, 0.4, -0.03 
+AddParticleSplash  =  0.50, 0.25, -4.16,   6, 12.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -1.34, 0.25, -5.52,   6, 12.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -1.78, 0.25, -6.00,   6, 12.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -1.78, 0.25, -7.86,   4, 12.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -1.78, 0.25, -8.72,   4, 12.3,  0.8, 80, 0.1,   -0.02
+AddParticleSplash  =  -1.78, 0.25, -10.42,   4, 12.0,  0.8, 80, 0.1,  -0.02
+
+
+
+AddParticleSplash  =  -4.75, 0.25, -3.38,    6, 12.5,  0.8, 70, 0.4, -0.03 
+AddParticleSplash  =  -3.73, 0.25, -4.16,   6, 12.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -2.73, 0.25, -5.52,   6, 12.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -2.67, 0.25, -6.00,   6, 12.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -2.67, 0.25, -7.86,   4, 12.5,  0.8, 70, 0.4, -0.03
+AddParticleSplash  =  -2.67, 0.25, -8.72,   4, 12.3,  0.8, 80, 0.1,   -0.02
+AddParticleSplash  =  -2.67, 0.25, -10.42,   4, 12.0,  0.8, 80, 0.1,  -0.02
+
+
+

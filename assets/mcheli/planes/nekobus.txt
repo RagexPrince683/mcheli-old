@@ -1,0 +1,42 @@
+DisplayName = CatsBus
+AddDisplayName = ja_JP, ネコバス
+
+
+
+MaxHp = 850
+Speed = 0.6
+Sound = HorseGallop
+ThrottleUpDown = 5.6
+MaxFuel         = 1500
+FuelConsumption = 0.0
+MobilityYawOnGround = 2.0
+
+StepHeight = 6.0
+InventorySize = 54
+Gravity = -0.1
+HUD = none, none, none
+MotionFactor = 0.92
+ThirdPersonDist = 20
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  -1.11, 1.54, -1.00
+CameraPosition = -0.01, 3.00, 0.39, true
+
+
+AddSeat =  -0.28, 1.46, -6.24
+AddSeat =  0.65, 1.46, -6.24
+
+
+
+AddFixedSearchLight =   0.52, 1.62, 1.51,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   -8,  0
+AddFixedSearchLight =   -0.58, 1.62, 1.51,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   8,  0
+
+
+
+AddPartSlideHatch =  0.02, 0.00, 0.82
+AddPartSlideHatch =  0.02, 0.00, -0.65
+

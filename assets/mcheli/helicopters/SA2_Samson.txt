@@ -1,0 +1,121 @@
+DisplayName = SA2 Samson
+AddDisplayName = ja_JP, SA2????
+
+MaxHp = 180
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+Speed = 1.0
+ThrottleUpDown = 0.8
+FlareType = 3
+CameraZoom = 2
+MaxFuel         = 1500
+FuelConsumption = 1.0
+Stealth = 0.4
+
+
+
+AddRepellingHook =  2.39, -0.23, -4.08, 30
+AddRepellingHook =  -2.39, -0.23, -4.08, 30
+
+
+AddTexture = SA2_Samson_black
+AddTexture = SA2_Samson_white
+
+
+; M = Military(???).  C = Transport(???)
+Category = M.C
+
+HUD = heli, none, none, none, gunner, gunner
+
+
+
+MobilityYaw = 1.0
+MobilityPitch = 1.0
+MobilityRoll = 0.9
+
+
+; ???
+
+AddSeat    =  0.51,  1.44,  -0.54
+
+
+AddSeat    =  -0.55,  1.44,  -0.54
+AddSeat    =  -0.71,  1.44,  -1.83
+AddSeat    =  0.70,  1.44,  -1.83
+
+AddGunnerSeat   =   -0.88,  1.34,  -4.65,  -1.61, 1.63, -3.73, true, 
+AddGunnerSeat   =    0.99,  1.34,  -4.65,   1.81, 1.63, -3.73, true,
+
+
+AddPartCanopy = 1.26, 1.97, -0.01, 0, 1, 0, -80
+
+
+
+AddPartCamera   = 0.00, 0.34, 1.23, true, true
+AddSearchLight      = 0.00,  0.27,  1.30,   0x50FFFFFF,   0x10FFFFC0,    60.0, 35.0,   0,  30
+
+
+
+AddRack = container,    0.00, 1.20, -2.88,  3.35, 0.32, -4.01, 8.0
+AddRack = container,    0.00, 1.80, -2.88,   3.35, 0.32, -4.01, 8.0
+
+
+AddPartSlideHatch  =  0.06, 0.00, 1.09
+AddPartSlideHatch  =  0.12, 0.00, -1.00
+AddPartSlideHatch  =  -0.10, 0.00, 1.03
+AddPartSlideHatch  =  -0.07, 0.00, -1.03
+
+
+
+AddRotor= 3,  0,   3.58,  3.84, -2.39,   0, -1, 0, false
+AddRotor= 3,  0,   3.58,  3.84, -2.39,   0, 1, 0, false
+
+
+AddRotor= 3,  0,   -3.58,  3.77, -2.39,   0, -1, 0, false
+AddRotor= 3,  0,   -3.58,  3.77, -2.39,   0, 1, 0, false
+
+
+
+
+AddPartWeapon = gau-19_l,    false, true, false,    1.40,  1.14,  -3.73
+AddPartWeapon = gau-19_l,    false, true, true,     1.40,  1.14,  -3.73
+
+AddWeapon = gau-19_l,   1.40,  1.14,  -3.73,  0.0, 0.0, false, 6, 0,  -150, 0,  -40, 70
+
+
+AddPartWeapon = gau-19_r,    false, true, false,   -1.27,  1.14, -3.73
+AddPartWeapon = gau-19_r,    false, true, true,    -1.27,  1.14, -3.73
+
+AddWeapon = gau-19_r,  -1.27,  1.14, -3.73,  0.0, 0.0, false, 5, 0,   0, 150,  -40, 70
+
+
+
+
+
+
+
+
+AddWeapon = hydra70,     2.03,  0.81, -0.35,  1, 0,  true, 1, 0,  -40, 40, -30, 40
+AddWeapon = hydra70,    -2.04,  0.81, -0.35, -1, 0,  true, 1, 0,  -40, 40, -30, 40
+
+AddWeapon = hydra70,     1.70,  0.81, -0.35,  1, 0,  true, 1, 0,  -40, 40, -30, 40
+AddWeapon = hydra70,     1.71,  0.81, -0.35, -1, 0,  true, 1, 0,  -40, 40, -30, 40
+
+
+AddWeapon = hydra70,     2.02,  0.60, -0.35,  1, 0,  true, 1, 0,  -40, 40, -30, 40
+AddWeapon = hydra70,    -2.03,  0.60, -0.35, -1, 0,  true, 1, 0,  -40, 40, -30, 40
+
+AddWeapon = hydra70,     1.70,  0.60, -0.35,  1, 0,  true, 1, 0,  -40, 40, -30, 40
+AddWeapon = hydra70,    -1.71,  0.60, -0.35, -1, 0,  true, 1, 0,  -40, 40, -30, 40
+
+
+
+
+BoundingBox =  0.00, 1.92, -1.47,  4.0, 3.0
+BoundingBox =  0.00, 1.92, -3.87,  4.0, 3.0
+BoundingBox =  0.00, 1.92, -6.09,  3.0, 3.0
+BoundingBox =  0.00, 2.56, -10.31,  2.0, 1.0
+
+
+

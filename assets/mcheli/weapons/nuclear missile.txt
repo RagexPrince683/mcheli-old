@@ -1,0 +1,23 @@
+DisplayName = Nuclear Missile
+Type = TVMissile
+Power = 200000
+Acceleration = 1.6
+Explosion = 9000000
+Flaming = true
+Sight = MoveSight
+Delay = 4000
+ModelBullet = sa2missile
+ReloadTime = 1000
+Bomblet = 80
+BombletSTime = 1
+BombletDiff = 1.2
+SmokeColor = 219, 155, 17
+SoundVolume = 50
+ParticlesScale = 40
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, hbm:item.missile_generic
+Item =  40, gunpowder
+Item =  20, redstone
+Item =  64, tnt

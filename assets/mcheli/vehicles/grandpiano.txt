@@ -1,0 +1,15 @@
+﻿DisplayName = Grand Piano
+AddDisplayName = ja_JP, グランドピアノ
+
+MaxHp = 100
+HUD = none
+Float  = true
+CanMoveOnGround = false
+CanRide = false
+AddSeat = 0.00, 1.00, 0.00
+
+
+
+AddGunnerSeat = -0.10, 0.29, -1.90,  -0.10, 0.98, -1.90,  false
+
+AddTexture = grandpiano_wh

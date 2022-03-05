@@ -1,0 +1,23 @@
+﻿DisplayName = bycycle_rack
+AddDisplayName = ja_JP, 自転車置き場
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.22, 1.50, -1.23
+FuelSupplyRange = 25
+
+
+AddRack = mc_bicycle / mc_bicycle_kids / mc_bicycle_mama / mc_bicycle_mini / mc_bicycle_mountain / mc_bicycle_police / mc_bicycle_road / mc-scooter_solid / scooter_big / scooter_italy / bike_naked / bike_offroad / bike_police_jpn / bike_police_us / bike_postman / bike_sporty / bike_us,    -0.23, 0.02, -0.85,  -0.23, 0.02, -3.75, 10.0, 100000,  180.0, 8.0
+AddRack = mc_bicycle / mc_bicycle_kids / mc_bicycle_mama / mc_bicycle_mini / mc_bicycle_mountain / mc_bicycle_police / mc_bicycle_road / mc-scooter_solid / scooter_big / scooter_italy / bike_naked / bike_offroad / bike_police_jpn / bike_police_us / bike_postman / bike_sporty / bike_us,    -1.09, 0.02, -0.85,  -1.09, 0.02, -3.75, 10.0, 100000,  180.0, 8.0
+AddRack = mc_bicycle / mc_bicycle_kids / mc_bicycle_mama / mc_bicycle_mini / mc_bicycle_mountain / mc_bicycle_police / mc_bicycle_road / mc-scooter_solid / scooter_big / scooter_italy / bike_naked / bike_offroad / bike_police_jpn / bike_police_us / bike_postman / bike_sporty / bike_us,    -1.99, 0.02, -0.85,  -1.99, 0.02, -3.75, 10.0, 100000,  180.0, 8.0
+AddRack = mc_bicycle / mc_bicycle_kids / mc_bicycle_mama / mc_bicycle_mini / mc_bicycle_mountain / mc_bicycle_police / mc_bicycle_road / mc-scooter_solid / scooter_big / scooter_italy / bike_naked / bike_offroad / bike_police_jpn / bike_police_us / bike_postman / bike_sporty / bike_us,    -2.82, 0.02, -0.85,  -2.82, 0.02, -3.75, 10.0, 100000,  180.0, 8.0
+
+UnmountPosition = 1.48, 0.32, -3.54
+EntityWidth  = 0.9

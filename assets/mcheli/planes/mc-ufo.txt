@@ -1,0 +1,61 @@
+DisplayName = UFO
+AddDisplayName = ja_JP, UFO
+
+MaxHp = 1500
+EnableNightVision = true
+EnableEntityRadar = true
+EnableVtol = true
+DefaultVtol = true
+ThrottleUpDown = 5.5
+Speed = 1.2
+Sound = ufo_snd
+MobilityYaw = 8
+MobilityYawOnGround = 8
+MobilityPitch = 7
+VtolYaw = 6
+VtolPitch = 5
+MaxFuel         = 2400
+FuelConsumption = 0.2
+Stealth = 0.7
+ArmorDamageFactor = 0.8
+DamageFactor = 0.6
+ParticlesScale = 0.1
+Float = true
+ThirdPersonDist = 12
+
+UnmountPosition = 0.00, -0.17, 0.20
+EntityWidth  = 0.3
+EntityHeight = 0.3
+HideEntity = true
+
+InventorySize = 54
+
+
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+
+
+HUD = plane, none, none, none
+
+
+AddSeat = 0.00, 0.45, 0.52
+UnmountPosition = 6.00, 1.00, 0.52
+
+
+AddGunnerSeat = 0.00, 0.00, -0.38,  0.00, -0.03, -0.08,  false
+AddGunnerSeat = 0.00, 0.00, -0.38,  0.00, -0.03, -0.08,  false
+AddGunnerSeat = 0.00, 0.00, -0.38,  0.00, -0.03, -0.08,  false
+AddGunnerSeat = 0.00, 0.00, -0.38,  0.00, -0.03, -0.08,  false
+AddGunnerSeat = 0.00, 0.00, -0.38,  0.00, -0.03, -0.08,  false
+
+
+
+AddWeapon =  laserbeam_r,  0.00, 0.18, 2.45,  0, 0, true,  1,   0,   -40, 40,  0,  60
+
+AddFixedSearchLight = 0.00, -0.31, 0.00,   0x80ffd700,   0x10ffd700,    100.0, 30.0,       0,  90
+
+
+
+BoundingBox =  0.00, 0.63, -0.08,  5.0, 4.0
+
+

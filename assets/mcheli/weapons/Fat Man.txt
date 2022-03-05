@@ -1,0 +1,27 @@
+DisplayName = Fat Man
+Type = Bomb
+Power = 50000
+Acceleration = 0.1
+Explosion = 2000000000
+ExplosionBlock = 20000000
+ExplosionInWater = 2000000000
+Flaming = true
+Sight = None
+Delay = 1000000
+Sound = bomb_snd
+ModelBullet = Fat Man
+ModelBomblet = 0_none
+
+ReloadTime = 10000000
+Bomblet = 80
+BombletSTime = 20
+BombletDiff = 2
+Round = 1
+MaxAmmo = 1
+SuppliedNum = 1
+SmokeColor = 219, 155, 17
+SoundVolume = 50
+
+Item = 1, hbm:tile.nuke_man
+Item = 64, gunpowder
+Item = 64, tnt

@@ -1,0 +1,79 @@
+DisplayName = Sedan ver2
+AddDisplayName = ja_JP, 自動車(セダンver2)
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = cardrive
+ThrottleUpDown = 18.8
+MaxFuel         = 900
+FuelConsumption = 0.5
+MobilityYawOnGround = 7.3
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.1
+GravityInWater = -0.1
+SubmergedDamageHeight = 1
+HUD = car, none, none, none
+MotionFactor = 0.92
+EnableBack = true
+PivotTurnThrottle = 0.18
+ThirdPersonDist = 8
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_sedan2_bk
+
+
+
+
+AddSeat =  0.05,  0.26,  -0.19
+AddSeat =  1.51,  0.26,  -0.19
+
+AddSeat =  0.05,  0.20,  -1.60
+AddSeat =  1.51,  0.20,  -1.60
+
+
+
+
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+AddWeapon =  notserbatall,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   -0.007, 0.895,  0.39,   0, 1, -1.85,  120
+
+AddPartWheel     = 1.855, 0.085,  1.662,  30
+AddPartWheel     = -0.515, 0.085,  1.662,  30
+
+AddPartWheel     = 1.855, 0.085,  -2.21
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.855,  -0.24,  1.662, -2.21
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+AddPartHatch = 2.18, 0.78, -0.62, 0, 1, 0, -72
+
+
+
+AddFixedSearchLight =  1.52, 0.63, 2.59,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.12, 0.63, 2.59,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddPartThrottle = -0.033, 1.075, 0.707,  0, 0, 1,  245
+
+

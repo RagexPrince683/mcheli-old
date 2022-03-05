@@ -1,0 +1,96 @@
+DisplayName = WaterbusBoat
+AddDisplayName = ja_JP, 水上バス船
+
+
+MaxHp = 1750
+Speed = 1.6
+Float = true
+FloatOffset = -0.2
+Sound = yachts_snd
+ThrottleUpDown = 15.8
+MaxFuel         = 1000
+FuelConsumption = 0.5
+Gravity = -0.15
+GravityInWater = -0.1
+DamageFactor = 0.8
+MobilityYawOnGround = 1.2
+MotionFactor = 0.91
+CanMoveOnGround = false
+EnableBack = true
+InventorySize = 54
+ThirdPersonDist = 24
+UnmountPosition = 4.46, 2.00, -16.43
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = car, none, none, none, none
+
+
+
+
+;　main seat
+AddSeat  =   -4.42, 1.22, 1.64
+
+
+
+;　guest seat
+AddSeat  =   -0.60, 0.83, -14.55
+AddSeat  =   -2.81, 3.64, -11.86
+AddSeat  =   -5.52, 3.64, -11.86
+
+AddSeat  =   -2.54, 3.64, -14.66
+
+AddSeat  =   -8.99, 0.74, -13.98
+
+
+AddSeat  =   -7.94, 1.17, -4.05
+AddSeat  =   -7.94, 1.17, -1.36
+
+
+AddSeat  =   -0.93, 1.17, -4.05
+AddSeat  =   -0.93, 1.17, -1.36
+
+
+AddSeat  =   -7.94, 1.17, -8.27
+AddSeat  =   -7.94, 1.17, -5.30
+
+
+AddSeat  =   -0.93, 1.17, -8.27
+AddSeat  =   -0.93, 1.17, -5.30
+
+AddPartSteeringWheel =   -4.45, 1.548, 2.548,   0, 1, -1.65,  100
+
+
+AddPartRotor =      -4.45, -1.12, -14.53,  0, 0, 1
+AddBlade = 1, 0,    -4.45, -1.12, -14.53,  0, 0, 1
+
+
+AddPartSteeringWheel =   -4.45, -0.921, -14.63,   0, 1, 0, -50
+
+
+
+
+AddWeapon =  midboat_horn, 0.00, 0.10, 0.00,  0.0, 90
+
+
+
+BoundingBox = -4.34, 2.43, 0.64,  8.0, 5.0
+BoundingBox = -4.34, 2.43, -3.25,  8.0, 5.0
+BoundingBox = -4.34, 2.43, -7.58,  8.0, 5.0
+BoundingBox = -4.34, 2.43, -13.00,  8.0, 12.0
+
+
+
+
+AddParticleSplash =  0.7,  0.5,   -17.60,   3,      5.0,    1.1,   10,       0.30,  -0.03
+AddParticleSplash = -9.4,  0.5,   -17.60,   3,      5.0,    1.1,   10,       0.30,  -0.03
+AddParticleSplash =  0.7,  0.5,  -20.9,   2,      5.0,    1.1,   10,       0.01,   0
+AddParticleSplash = -9.4,  0.5,  -20.9,   2,      5.0,    1.1,   10,       0.01,   0
+AddParticleSplash =  -2.1,  0.5,  -23.4,   2,      5.0,    1.1,   5,       0.01,   0
+AddParticleSplash = -7.8,  0.02,  -23.4,   2,      5.0,    1.1,   5,       0.01,   0
+AddParticleSplash =  -2.1,  0.02,  -26.0,   2,      5.0,    1.1,   5,       0.01,   0
+AddParticleSplash = -7.8,  0.02,  -26.0,   2,      5.0,    1.1,   5,       0.01,   0
+
+

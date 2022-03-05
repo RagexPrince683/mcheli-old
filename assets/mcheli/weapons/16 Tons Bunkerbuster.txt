@@ -1,0 +1,30 @@
+DisplayName = 16 Tons Bunkerbuster
+Type = Bomb
+Power = 2500
+Acceleration = 0.8
+Explosion = 34
+ExplosionInWater = 9
+VelocityInWater = 0.5
+ExplosionBlock = 30
+Delay = 20
+ReloadTime = 200
+Gravity = -0.03
+GravityInWater = 0.01
+Piercing  = 8
+ModelBullet = f5w
+Sound = bomb_snd
+
+DamageFactor = tank, 1.5
+DamageFactor = plane, 1.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 1.5
+
+; Alpha, Red, Green, blue
+BulletColorInWater = 255,  25,  25,  75
+BulletColor        = 255, 255, 255, 255
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  5, iron_ingot
+Item =  50, gunpowder
+Item =  4, redstone

@@ -1,0 +1,85 @@
+DisplayName = Cargo Tug
+AddDisplayName = ja_JP, タグ車(コンテナ牽引車)
+
+
+MaxHp = 35
+Speed = 0.5
+Sound = 4wd1_snd
+ThrottleUpDown = 18.8
+MaxFuel         = 1200
+FuelConsumption = 0.5
+MobilityYawOnGround = 7.5
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -0.1
+GravityInWater = -0.1
+SubmergedDamageHeight = 1
+HUD = car, none
+MotionFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.15
+ThirdPersonDist = 8
+PartWheelRot = 25.0
+
+
+; C = Civilian(民間機)
+Category = C
+
+AddTexture = CargoTug_military
+
+
+
+AddSeat =  0.61,  0.96,  -0.65
+AddSeat =  -0.45,  0.96,  -0.65
+
+
+AddPartSteeringWheel =   0.616, 1.183,  0.407,   0, 1, -0.50,  120
+
+AddRack = container,    0.02,  0.80,  -2.96,   0.22, 0.30, -3.57, 8.0
+AddRack = container,    0.02,  1.27,  -2.96,   0.22, 0.30, -3.57, 8.0
+
+AddRack = container,    0.02,  0.80,  -4.15,   0.22, 0.30, -3.57, 8.0
+AddRack = container,    0.02,  1.27,  -4.15,   0.22, 0.30, -3.57, 8.0
+
+
+
+
+AddRack = ContainerDolly,  0.22, 0.04, -5.26,  0.22, 0.24, -6.26
+AddRack = ContainerDolly,  0.22, 0.04, -7.91,  0.22, 0.24, -8.91
+
+
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartWheel     = 0.947, 0.037,  1.247,  30
+AddPartWheel     = -0.865, 0.037,  1.247,  30
+
+
+AddPartWheel     = 0.947, 0.12, -0.61
+AddPartWheel     = 0.947, -0.08, -2.87
+AddPartWheel     = 0.947, -0.08, -4.41
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.947,  -0.24,  1.247, -0.61, -2.87, -4.41
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+
+
+AddFixedSearchLight =  0.73, 0.61, 2.02,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,  -10,  0
+AddFixedSearchLight =  -0.61, 0.61, 2.02,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   10,  0
+
+

@@ -1,0 +1,14 @@
+﻿DisplayName = FitnessMachine02
+AddDisplayName = ja_JP, フィットネス器具02
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+
+AddSeat = 0.03, 0.23, -0.73
+CameraPosition = 0.03, 0.68, -0.43, false

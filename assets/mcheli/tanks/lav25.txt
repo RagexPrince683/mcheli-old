@@ -1,0 +1,98 @@
+DisplayName = LAV-25
+AddDisplayName = ja_JP, LAV-25
+
+MaxHp = 10
+Speed = 0.8
+ThrottleUpDown = 15.0
+Sound = vehicle_run
+FlareType = 10
+
+Float = true
+FloatOffset = -0.6
+SubmergedDamageHeight = 2
+AddParticleSplash  =  1.51,  0.85,   3.60,      3,     7.0,   0.8,        20, 0.30, -0.03
+;AddParticleSplash = 座標X,   Y,    Z,     表示数,  サイズ,  速度,  表示時間, 上昇, 重力
+
+StepHeight = 1.5
+MotionFactor = 0.9
+;ArmorMinDamage = 10
+;ArmorMaxDamage = 800
+;ArmorDamageFactor = 1.0
+DamageFactor = 0.0
+
+CameraPosition = 0.30,  3.00, 0.0, true
+CameraZoom = 4
+EnableEntityRadar = true
+EnableNightVision = true
+DefaultFreelook = true
+
+PivotTurnThrottle = 0.1
+EnableBack = true
+MotionFactor = 0.9
+CameraRotationSpeed = 40
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.3
+MobilityYawOnGround = 6.0
+MinRotationPitch = -50
+MaxRotationPitch = 5
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = 0.1
+
+InventorySize = 9
+
+MaxFuel = 1000
+FuelConsumption = 1
+
+HUD = mbt_hud, mbt_hud, none, none, none, none
+WeightType = Tank
+
+HideEntity = true
+
+;AddSeat =  X, Y, Z
+AddGunnerSeat =  0.5334,  1.20,  2.3238
+AddSeat =  -0.4385,  2.1,  -0.2057
+AddSeat =  -0.56,  0.35,  0.1
+AddSeat =  -0.56,  0.35,  -1.7
+AddSeat =  0.56,  0.35,  0.1
+AddSeat =  0.56,  0.35,  -1.7
+
+AddPartWeapon = m242, false, true, false,   0.2458, 1.7030,  -0.08, 0.0
+
+AddPartWeaponChild = false, true,  -0.0269, 2.2064, 0.72,  0.0
+AddPartWeaponChild = false, true, -0.0269, 2.2064, 0.72, 1.0
+
+AddPartWeapon = m2 , false, true, true, 0.2458, 2.70, -0.08
+
+SetWheelPos =  1.42,  0.19,  2.73, 1.54, 0.13, -0.92
+
+AddPartWheel =  -1.42, 0.18, 2.73,  25
+AddPartWheel =  -1.42, 0.15, 1.53,  20
+AddPartWheel =  -1.42,  0.19, 0.12
+AddPartWheel =  -1.43,  0.19, -0.93
+
+AddPartWheel =   1.36, 0.18, 2.73,  25
+AddPartWheel =   1.35, 0.20, 1.55,  20
+AddPartWheel =   1.41, 0.16, 0.14
+AddPartWheel =   1.43, 0.16, -0.92
+
+PartWheelRot = 40
+
+AddPartRotor =   -1.2534,  0.5115, -2.2890, 0,0,1
+AddBlade = 1, 0, -1.2534,  0.5115, -2.2890, 0,0,1
+AddPartRotor =   1.2825, 0.5115, -2.2890, 0,0,1
+AddBlade = 1, 0, 1.2825, 0.5115, -2.2890, 0,0,1
+
+RotorSpeed = 60.0
+
+AddTurretWeapon = m242,   0.1339, 2.3027, 2.79,    0.0, 0.0, true,1 , 0, -360, 360, -18,10
+
+AddTurretWeapon = m240,   -0.2462, 2.3122, 0.0,    0.0, 0.0, true,1 , 0, -360, 360, -12,8
+
+AddTurretWeapon = m2,   -0.15, 2.7776, 0.40,    0.0, 0.0, true,2 , 0, 360, 360, -10,15
+
+AddRecipe = " A ",  "XXX",  "XXX",  A,tnt,X, iron_block
+
+BoundingBox =  0.00,  0.90,  2.30,  3.0, 2.0
+BoundingBox =  0.00,  0.90, -1.00,  3.0, 2.0
+BoundingBox =  0.00,  2.30, 0.30,  3.0, 1.5

@@ -1,0 +1,67 @@
+DisplayName = Coupe
+AddDisplayName = ja_JP, 自動車(クーペ)
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = cardrive
+ThrottleUpDown = 15.8
+MaxFuel         = 900
+FuelConsumption = 0.5
+MobilityYawOnGround = 7.2
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.1
+HUD = car, none, none, none
+MotionFactor = 0.92
+EnableBack = true
+PivotTurnThrottle = 0.16
+ThirdPersonDist = 8
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_coupe_yl
+AddTexture = mchcar_coupe_rd
+
+
+
+AddSeat =  0.09,  0.18,  -0.15
+AddSeat =  1.38,  0.18,  -0.15
+
+
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   0.077, 0.935,  0.495,   0, 1, -1.95,  120
+
+AddPartWheel     = 1.871, 0.13,  1.957,  27
+AddPartWheel     = -0.521, 0.13,  1.957,  27
+
+AddPartWheel     = 1.871, 0.13,  -1.65
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 3.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.871,  -0.24,  1.957, -1.65
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+
+AddFixedSearchLight =  1.22, 0.60, 3.15,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  0.10, 0.60, 3.15,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddPartThrottle = 0.036, 1.115, 0.859,  0, 0, 1,  245

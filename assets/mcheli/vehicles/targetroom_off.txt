@@ -1,0 +1,24 @@
+﻿DisplayName = Gun Target Room(Naked)
+AddDisplayName = ja_JP, 射撃練習場(銃無し)
+
+MaxHp = 800
+HUD = none
+InventorySize = 54
+CanMoveOnGround = false
+AmmoSupplyRange = 35
+
+MinRotationPitch = 0
+MaxRotationPitch = 0
+
+ArmorMinDamage = 200
+ArmorDamageFactor = 0.1
+
+AddSeat = 0.42, 1.06, -0.63
+CanRide = false
+
+
+BoundingBox =  3.43, 1.82, 15.56, 1, 1
+BoundingBox =  1.24, 1.82, 12.74, 1, 1
+BoundingBox =  -0.86, 1.82, 22.13, 1, 1
+BoundingBox =  -2.94, 1.82, 18.00, 1, 1
+

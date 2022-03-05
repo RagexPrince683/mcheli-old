@@ -1,0 +1,59 @@
+DisplayName = Kids Bicycle
+AddDisplayName = ja_JP, 自転車(子供用)
+
+MaxHp = 15
+Speed = 0.2
+Sound = Bicycle
+ThrottleUpDown = 18.5
+MaxFuel         = 100
+FuelConsumption = 0.0
+Gravity = -0.1
+MobilityYawOnGround = 8
+PartWheelRot = 25.0
+MotionFactor = 0.91
+ParticlesScale = 0.2
+EnableBack = true
+
+StepHeight = 1.0
+HUD = none, none
+
+InventorySize = 5
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddWeapon =  BellSound, -0.01, 0.94, 1.00, 0.0, 90
+
+AddTexture =  mc_bicycle_kids_p
+
+
+AddSeat =  0.00, 0.30, -0.07
+
+
+
+AddSteeringSearchLight = -0.10, 0.19, 0.81,  0x99FFFFFF,   0x00FFFFC0,  10.0, 4.0, 0, 0, 20 
+
+
+AddPartWheel     = 0.001, 0.004,  0.878,  20
+AddPartWheel     = -0.021, -0.09, 0.105
+AddPartWheel     = 0.001, 0.004,  -0.444
+AddPartWheel     = 0.00, -0.222, -0.483
+
+
+AddPartSteeringWheel =   -0.002, 0.14, 0.78,   0, 1, -0.69,  20
+
+AddPartSteeringWheel =   0.001, 0.618, 0.538,   0, 1, -0.24,  20
+
+
+
+OnGroundPitchFactor =3.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.001,  -0.24,  0.878, -0.444
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+

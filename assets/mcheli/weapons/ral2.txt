@@ -1,0 +1,23 @@
+DisplayName = KH-20 Nuclear Cruise Missile
+Type = TVMissile
+Power = 6000
+Acceleration = 5.0
+Explosion = 800
+ExplosionBlock = 800
+Flaming = true
+Sight = MoveSight
+Delay = 55
+Round = 8
+ReloadTime = 600
+SoundVolume = 8
+SoundPitch = 0.1
+Sound = missile_1_snd
+ModelBullet = agm130
+Gravity = -0.01
+DisableSmoke = false
+
+MaxAmmo = 8
+SuppliedNum = 1
+Item =  1, hbm:item.missile_generic
+Item =  32, tnt
+Item =  40, redstone

@@ -1,0 +1,86 @@
+DisplayName = Wrecker
+AddDisplayName = ja_JP, レッカー車
+
+
+MaxHp = 35
+Speed = 0.7
+Sound = 4wd3_snd
+ThrottleUpDown = 20.8
+MaxFuel         = 1200
+FuelConsumption = 0.4
+MobilityYawOnGround = 7.0
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -0.5
+SubmergedDamageHeight = 3
+ThirdPersonDist = 8
+HUD = car, none, none
+MotionFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.20
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+
+AddSeat =  -0.62, 0.48, 0.54
+AddSeat =  0.71, 0.48, 0.54
+
+
+
+AddWeapon =  horn2,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   -0.632, 1.054,  1.262,   0, 1, -0.80,  110
+
+AddPartWheel     = 1.019, 0.109,  0.52,  25
+AddPartWheel     = -0.942, 0.109,  0.52,  25
+
+AddPartWheel     = 1.019, 0.109,  -2.74
+AddPartWheel     = -0.942, 0.109,  -2.74
+
+AddPartWheel     = 1.1, 0.109,  1.80
+
+
+
+
+AddFixedSearchLight =  0.89, 0.60, 2.00,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.78, 0.60, 2.00,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddFixedSearchLight =  0.89, 2.78, 0.15,   0x50b22222,   0x00b22222,    3.5, 2.0,  -90,  0
+AddFixedSearchLight =  -0.74, 2.78, 0.15,   0x50b22222,   0x00b22222,    3.5, 2.0,   90,  0
+
+
+
+AddPartThrottle = -0.576, 1.072, 1.692,  0, 0, 1,  248
+
+
+AddPartHatch = 0.22, 0.17, -3.86, 1, 0, 0, -90
+
+
+AddRack = plane / tank,    0.34, 0.44, -6.58,   0.34, 0.44, -6.88, 8, 100000, 0.0,  -8.0
+
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 1.2
+OnGroundRollFactor  = 0.4
+
+SetWheelPos =  1.019,  -0.24,  1.00, 0.52, -2.74
+
+WeightedCenterZ = -1.0
+
+
+

@@ -1,0 +1,25 @@
+DisplayName = Mark 45 [Nuclear-torpedo]
+Type = Torpedo
+Power = 30000
+ModelBullet = torpedo
+Acceleration = 1.0
+AccelerationInWater = 2
+Explosion = 20000000
+ExplosionInWater = 200000000
+Flaming = true
+Sight = None
+Delay = 1000
+GuidedTorpedo = false
+Gravity = -0.03
+GravityInWater = 0
+Sound = missile_2_snd
+SmokeColor = 219, 155, 17
+SoundVolume = 50
+ParticlesScale = 40
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  20, item.man_explosive.name
+Item =  200, gunpowder
+Item =  20, redstone
+Item =  24, tnt

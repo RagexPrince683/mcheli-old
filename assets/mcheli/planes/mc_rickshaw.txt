@@ -1,0 +1,47 @@
+﻿DisplayName = Rickshaw
+AddDisplayName = ja_JP, 人力車
+
+MaxHp = 100
+Speed = 0.3
+Sound = footwheel
+ThrottleUpDown = 8.5
+MaxFuel         = 500
+FuelConsumption = 0.0
+Gravity = -0.1
+MobilityYawOnGround = 6.0
+RotorSpeed = 18.0
+
+MotionFactor = 0.91
+
+
+StepHeight = 1.0
+HUD = none
+
+InventorySize = 12
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  -0.03, 1.09, -0.31
+
+
+
+AddPartRotor =     0.89, 0.60, -0.13, 1, 0, 0
+AddBlade = 1, 0,   0.89, 0.60, -0.13, 1, 0, 0
+
+
+
+AddPartSlideHatch = 0.00, 0.00, 0.19
+AddPartSlideHatch = 0.00, 0.00, 0.38
+AddPartSlideHatch = 0.00, 0.00, 0.58
+AddPartSlideHatch = 0.00, 0.00, 0.77
+AddPartSlideHatch = 0.00, 0.00, 0.95
+
+
+
+BoundingBox =  0.00, 1.46, 0.36,  2.0, 2.0
+
+

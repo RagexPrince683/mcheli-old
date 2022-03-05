@@ -1,0 +1,27 @@
+﻿DisplayName = bycycle_rack2
+AddDisplayName = ja_JP, 自転車置き場2
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 1.22, 2.50, -1.23
+FuelSupplyRange = 25
+
+
+AddRack = mc_bicycle / mc_bicycle_kids / mc_bicycle_mama / mc_bicycle_mini / mc_bicycle_mountain / mc_bicycle_police / mc_bicycle_road / Unicycle,    -0.36, -0.01, 0.89,  1.63, 0.15, 0.01, 5.0
+AddRack = mc_bicycle / mc_bicycle_kids / mc_bicycle_mama / mc_bicycle_mini / mc_bicycle_mountain / mc_bicycle_police / mc_bicycle_road / Unicycle,    -0.36, -0.01, -1.37,  1.63, 0.15, 0.01, 5.0
+AddRack = mc_bicycle / mc_bicycle_kids / mc_bicycle_mama / mc_bicycle_mini / mc_bicycle_mountain / mc_bicycle_police / mc_bicycle_road / Unicycle,    -0.36, 1.41, -1.37,  1.63, 0.15, 0.01, 5.0
+AddRack = mc_bicycle / mc_bicycle_kids / mc_bicycle_mama / mc_bicycle_mini / mc_bicycle_mountain / mc_bicycle_police / mc_bicycle_road / Unicycle,    -0.36, 1.41, 1.42,  1.63, 0.15, 0.01, 5.0
+AddRack = mc_bicycle / mc_bicycle_kids / mc_bicycle_mama / mc_bicycle_mini / mc_bicycle_mountain / mc_bicycle_police / mc_bicycle_road / Unicycle,    -0.36, 2.66, 0.85,  1.63, 0.15, 0.01, 5.0
+AddRack = mc_bicycle / mc_bicycle_kids / mc_bicycle_mama / mc_bicycle_mini / mc_bicycle_mountain / mc_bicycle_police / mc_bicycle_road / Unicycle,    -0.36, 2.66, -1.52,  1.63, 0.15, 0.01, 5.0
+
+
+
+EntityWidth  = 0.9
+EntityHeight = 0.9

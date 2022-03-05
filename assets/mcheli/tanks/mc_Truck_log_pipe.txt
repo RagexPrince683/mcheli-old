@@ -1,0 +1,100 @@
+DisplayName = Log Pipe Carry Truck
+AddDisplayName = ja_JP, 運搬トラック(木材と鉄パイプ)
+
+
+MaxHp = 35
+Speed = 0.9
+Sound = 4wd3_snd
+ThrottleUpDown = 12.8
+MaxFuel         = 1800
+FuelConsumption = 0.7
+MobilityYawOnGround = 5.2
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -1.2
+GravityInWater = -0.8
+SubmergedDamageHeight = 2
+HUD = car, none, none, none
+MotionFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 3.35
+ThirdPersonDist = 16
+
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddTexture = mc_Truck_log_pipe_iron
+AddTexture = mc_Truck_log_pipe_black
+AddTexture = mc_Truck_log_pipe_iron_black
+AddTexture = mc_Truck_log_pipe_military
+AddTexture = mc_Truck_log_pipe_iron_military
+
+
+
+AddSeat =  0.94,  2.17,  -0.20
+
+AddSeat =  -0.61,  2.17,  -0.20
+
+
+AddPartNozzle = 2.13, 4.76, -1.56, 0, 1, 0, 0
+AddPartNozzle = -1.85, 4.76, -1.56, 0, 1, 0, 0 
+ParticlesScale = 0.3
+
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   0.938, 2.781,  0.476,   0, 1, -1.05,  120
+
+
+AddPartWheel     = 1.436, 0.33,  2.855,  35
+AddPartWheel     = -1.21, 0.33,  2.855,  35
+
+
+AddPartWheel     = 0.113, 0.33, -5.603
+AddPartWheel     = 0.113, 0.33, -6.97
+
+
+
+AddPartCanopy =  1.68, 3.23, 1.08,  0, 1, 0,  -70
+
+
+AddFixedSearchLight =   1.46, 0.81, 3.75,   0x50FFFFFF,   0x00FFFFC0,    35.0, 25.0,  -10,  0
+AddFixedSearchLight =   -1.22, 0.81, 3.75,   0x50FFFFFF,   0x00FFFFC0,    35.0, 25.0,   10,  0
+
+
+AddFixedSearchLight =   1.32, 4.27, 0.73,   0x70ff8c00,   0x00ff8c00,    1.0, 1.0,  0,  -15
+AddFixedSearchLight =   0.53, 4.27, 0.73,   0x70ff8c00,   0x00ff8c00,    1.0, 1.0,  0,  -15
+AddFixedSearchLight =   0.19, 4.27, 0.73,   0x70ff8c00,   0x00ff8c00,    1.0, 1.0,  0,  -15
+AddFixedSearchLight =   -0.17, 4.27, 0.73,   0x70ff8c00,   0x00ff8c00,    1.0, 1.0,  0,  -15
+AddFixedSearchLight =   -1.02, 4.27, 0.73,   0x70ff8c00,   0x00ff8c00,    1.0, 1.0,  0,  -15
+
+
+
+BoundingBox =   0.14,  1.23,  2.20,  4.0,  3.0
+
+BoundingBox =   0.14,  1.23,  -1.73,  4.0,  2.0
+
+
+AddPartThrottle = 1.012, 2.754, 0.935,  0, 1, -1.85,  -225
+
+AddPartThrottle = 1.183, 2.746, 0.93,  0, 1, -1.85,  -130
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 0.8
+OnGroundRollFactor  = 0.2
+
+SetWheelPos =  0.113,  -0.24,  2.855, -5.603, -6.97
+PartWheelRot = 45
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0

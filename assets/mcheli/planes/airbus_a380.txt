@@ -1,0 +1,155 @@
+﻿DisplayName = Airbus A380
+AddDisplayName = ja_JP, エアバスA380
+
+
+MaxHp = 100
+Speed = 1.0
+Sound = plane
+ThrottleUpDown = 0.5
+MaxFuel         = 5500
+FuelConsumption = 0.5
+InventorySize = 54
+ThirdPersonDist = 60
+HideEntity = true
+EnableBack = true
+HUD = civilian_aircraft, none, none, none
+
+
+; C = Civilian(民間機)
+Category = C
+
+MobilityYaw = 0.8
+MobilityPitch = 0.8
+MobilityRoll = 0.4
+
+
+
+AddTexture = airbus_a380_t
+AddTexture = airbus_a380_l
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 1.0
+
+
+UnmountPosition = 6.97, 3.50, -3.94
+
+
+AddSeat =  -0.05, 3.02, 0.05
+CameraPosition = 1.51, 11.86, 4.51, true
+
+
+AddGunnerSeat =  -0.05, 3.82, 0.05,  -1.51, 11.86, 4.51,  false
+
+
+AddPartThrottle = 0.0, 10.72, 5.45,  0, 0, 0,  0,  0, 0,  0.15
+
+
+
+AddSeat =  5.11, 8.42, -3.66
+
+AddSeat = 4.04, 7.94, -8.66
+AddSeat = -4.04, 7.94, -8.66
+
+AddSeat = 4.04, 7.94, -21.23
+AddSeat = -4.04, 7.94, -21.23
+
+AddSeat = 4.04, 7.94, -29.20
+AddSeat = -4.04, 7.94, -29.20
+
+AddSeat = 4.04, 7.94, -39.44
+AddSeat = -4.04, 7.94, -39.44
+
+AddSeat = 4.04, 7.94, -52.42
+AddSeat = -4.04, 7.94, -52.42
+
+
+AddSeat = 4.04, 12.41, -8.66
+AddSeat = -4.04, 12.41, -8.66
+
+AddSeat = 4.04, 12.41, -21.23
+AddSeat = -4.04, 12.41, -21.23
+
+AddSeat = 4.04, 12.41, -29.20
+AddSeat = -4.04, 12.41, -29.20
+
+AddSeat = 4.04, 12.41, -39.44
+AddSeat = -4.04, 12.41, -39.44
+
+AddSeat = 4.04, 12.41, -52.42
+AddSeat = -4.04, 12.41, -52.42
+
+
+
+
+
+AddPartHatch = 5.34, 8.84, -2.44,  0, 1, 0,  -135
+
+AddPartHatch = -5.09, 7.27, -9.59,  0, 0, 1,  -150
+AddPartHatch = -5.70, 7.27, -53.61,  0, 0, 1,  -150
+
+
+
+AddPartLG =  0.27, 4.69, -0.50, 1, 0, 0,  -106
+
+
+AddPartLGHatch = 1.59, 4.76, 1.27, 0, 0, 1,  108
+AddPartLGHatch = -1.40, 4.76, 1.27, 0, 0, 1,  -108
+
+
+AddPartLG =   7.91, 4.65, -28.22, 0, 0, 1, -91
+AddPartSlideRotLG = -2.60, -1.90, 0.00,  8.97, 4.88, -33.34, 0, 0, 1, -75
+
+AddPartLG =   -7.91, 4.65, -28.22, 0, 0, 1,  91
+AddPartSlideRotLG =  2.60, -1.90, 0.00,  -8.97, 4.88, -33.34, 0, 0, 1, 75
+
+
+AddPartLG =  2.54, 4.65, -39.41,  0, 0, 1,  -108
+AddPartLG =  3.42, 5.02, -43.37,  0, 0, 1,  -91
+
+
+AddPartLG =  -2.54, 4.65, -39.41,  0, 0, 1,  108
+AddPartLG =  -3.42, 5.02, -43.37,  0, 0, 1,  91
+
+
+AddPartSlideRotLG =  0.00, -1.60, 0.00,  0.00, 4.88, -33.34, 0, 0, 0, 0
+
+
+
+BoundingBox =  0.02, 8.62, 2.12,  10.0, 10.0
+BoundingBox =  0.02, 10.22, -13.68,  10.0, 10.0 
+BoundingBox =  0.02, 10.22, -27.49,  10.0, 10.0
+BoundingBox =  0.02, 10.22, -42.84,  10.0, 10.0
+BoundingBox =  0.02, 10.22, -58.45,  10.0, 10.0
+
+
+
+
+AddRack = container / TravelBaggae,    1.87, 5.60, -8.15, -7.88, 2.59, -9.82, 7.0
+AddRack = container / TravelBaggae,    -1.87, 5.60, -8.15, -7.88, 2.59, -9.82, 7.0
+
+AddRack = container / TravelBaggae,    1.87, 5.60, -11.27, -7.88, 2.59, -9.82, 7.0
+AddRack = container / TravelBaggae,    -1.87, 5.60, -11.27, -7.88, 2.59, -9.82, 7.0
+
+AddRack = container / TravelBaggae,    1.87, 5.60, -14.18, -7.88, 2.59, -9.82, 7.0
+AddRack = container / TravelBaggae,    -1.87, 5.60, -14.18, -7.88, 2.59, -9.82, 7.0
+
+AddRack = container / TravelBaggae,    1.87, 5.60, -17.89, -7.88, 2.59, -9.82, 7.0
+AddRack = container / TravelBaggae,    -1.87, 5.60, -17.89, -7.88, 2.59, -9.82, 7.0
+
+AddRack = container / TravelBaggae,    1.87, 5.60, -21.48, -7.88, 2.59, -9.82, 7.0
+AddRack = container / TravelBaggae,    -1.87, 5.60, -21.48, -7.88, 2.59, -9.82, 7.0
+
+
+
+AddRack = ContainerDolly,    1.87, 5.97, -46.03, -7.36, 2.15, -53.56, 7.0
+AddRack = ContainerDolly,    -1.87, 5.97, -46.03, -7.36, 2.15, -53.56, 7.0
+
+AddRack = ContainerDolly,    1.87, 5.97, -49.21, -7.36, 2.15, -53.56, 7.0
+AddRack = ContainerDolly,    -1.87, 5.97, -49.21, -7.36, 2.15, -53.56, 7.0
+
+AddRack = ContainerDolly,    1.87, 5.97, -51.96, -7.36, 2.15, -53.56, 7.0
+AddRack = ContainerDolly,    -1.87, 5.97, -51.96, -7.36, 2.15, -53.56, 7.0
+
+AddRack = ContainerDolly,    1.87, 5.97, -55.03, -7.36, 2.15, -53.56, 7.0
+AddRack = ContainerDolly,    -1.87, 5.97, -55.03, -7.36, 2.15, -53.56, 7.0

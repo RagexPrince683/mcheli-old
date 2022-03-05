@@ -1,0 +1,51 @@
+﻿DisplayName = Flone's Raft
+AddDisplayName = ja_JP, フローネのイカダ
+
+
+MaxHp = 100
+Speed = 0.5
+Float = true
+FloatOffset = -0.1
+Sound = raft_snd
+ThrottleUpDown = 5.8
+MaxFuel         = 100
+FuelConsumption = 0.0
+Gravity = -0.1
+MobilityYawOnGround = 1.2
+MotionFactor = 0.92
+CanMoveOnGround = false
+ThirdPersonDist = 12
+
+InventorySize = 36
+EnableBack = true
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = none, none, none, none, none
+
+UnmountPosition = 0.00, 2.00, -3.00
+
+
+AddSeat =  0.87, 0.60, 3.30
+AddSeat =  1.68, 0.60, 2.31
+AddSeat =  -0.14, 0.60, 2.12
+AddSeat =  -1.44, 0.60, 2.12
+
+AddSeat =  1.68, 0.60, 1.37
+AddSeat =  -0.14, 0.60, 1.37
+AddSeat =  -1.44, 0.60, 1.37
+
+AddSeat =  -1.91, 0.60, 0.55
+AddSeat =  -0.94, 0.60, 0.55
+
+AddSeat =  0.94, 0.60, 0.55
+AddSeat =  1.84, 0.60, 0.55
+
+
+BoundingBox = -0.03,  0.60,  2.37,  6.0, 3.0
+
+
+
+

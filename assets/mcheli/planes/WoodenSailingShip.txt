@@ -1,0 +1,146 @@
+DisplayName = Wooden Sailing Ship
+AddDisplayName = ja_JP, 大型木造帆船
+
+
+MaxHp = 2250
+Speed = 1.2
+Float = true
+FloatOffset = -0.2
+Sound = sailship_snd
+ThrottleUpDown = 18.5
+MaxFuel         = 2000
+FuelConsumption = 0.0
+Gravity = -0.15
+GravityInWater = -0.1
+StepHeight = 0.0
+DamageFactor = 0.8
+MobilityYawOnGround = 1.1
+CanMoveOnGround = false
+EnableBack = true
+InventorySize = 54
+MotionFactor = 0.91
+ThirdPersonDist = 24
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+
+UnmountPosition = 4.00, 2.00, -1.00
+
+HUD = plane_wwii, gunner, gunner, gunner, none, none, none
+
+
+AddTexture = WoodenSailingShip_b
+
+
+AddPartSteeringWheel =   -5.645, 8.006, -0.479,   0, 0, 1,  -220
+
+
+AddPartSteeringWheel =   -5.798, -13.66, -3.337,   0, 1, 0,  -40
+
+
+;　main seat
+AddSeat =  -5.55, 7.44, -1.40
+CameraPosition = -5.55, 12.60, 35.87, false
+
+
+
+; entry seat
+AddSeat  =   1.01, 2.67, 0.11
+
+
+; f cannon seat
+AddGunnerSeat =   -3.97,  3.69, -0.95,  -5.55, 12.60, 35.87, false
+
+
+; l cannon seat
+AddFixRotSeat =  -3.97,  5.37, -0.95,  0.77, 5.37, 13.50, false,  -90, 00
+
+
+;　r cannon seat
+AddFixRotSeat =  -3.97,  6.37, -0.95,  -12.70, 5.37, 13.50, false,  90, 00
+
+
+; mast top seat
+AddGunnerSeat =   -2.97,  6.87, -0.95,  -5.54, 28.68, 16.43, false
+
+
+
+
+
+; front cannon
+
+AddPartWeapon = CannonBall_f, false, true, false,  -5.80, 8.30, 29.85
+AddPartWeapon = CannonBall_f, false, true, true,  -5.80, 8.30, 29.85
+
+
+AddWeapon = CannonBall_f,  -5.80, 8.30, 29.85,   -0.7, -1.8, true, 3, 0, -80, 80, -80, 0
+
+
+
+; left cannon
+
+
+AddPartWeapon    = CannonBall_l,   false, true, true,    -0.09, 3.08, 19.41
+
+AddPartWeapon    = CannonBall_l,   false, true, true,    0.70, 3.08, 13.49
+
+AddPartWeapon    = CannonBall_l,   false, true, true,  0.60, 3.08, 7.99  
+
+
+AddWeapon =  CannonBall_l,  -0.09, 3.08, 19.41,  0, 0, true,  4,   -90,   -50,  50, -60, 0
+
+AddWeapon =  CannonBall_l,  0.70, 3.08, 13.49,  0, 0, true,  4,   -90,   -50,  50, -60, 0
+
+AddWeapon =  CannonBall_l,  0.60, 3.08, 7.99  ,  0, 0, true,  4,   -90,   -50,  50, -60, 0
+
+
+
+
+; right cannon
+
+AddPartWeapon    = CannonBall_r,   false, true, true,    -11.39, 3.08, 19.41
+
+AddPartWeapon    = CannonBall_r,   false, true, true,    -12.03, 3.08, 13.41
+
+AddPartWeapon    = CannonBall_r,   false, true, true,  -12.13, 3.08, 7.99
+
+
+AddWeapon =  CannonBall_r,  -11.39, 3.08, 19.41,  0, 0, true,  5,   90,   -50,  50, -60, 0
+
+AddWeapon =  CannonBall_r,   -12.03, 3.08, 13.41,  0, 0, true,  5,   90,   -50, 50, -60, 0
+
+AddWeapon =  CannonBall_r,  -12.13, 3.08, 7.99,  0, 0, true,  5,   90,   -50, 50, -60, 0
+
+
+
+
+
+AddRack = container,  -7.65, 3.55, 18.80,  3.01, 0.77, 15.99
+AddRack = container,  -4.94, 3.55, 18.80,  4.01, 0.77, 14.99
+AddRack = container,  -7.65, 3.55, 17.80,  3.01, 0.77, 15.99
+AddRack = container,  -4.94, 3.55, 17.80,  4.01, 0.77, 14.99
+
+
+
+BoundingBox = -5.27, 5.41, 29.29,  8.0, 8.0
+BoundingBox = -5.27, 5.41, 19.29,  8.0, 8.0
+BoundingBox = -5.27, 5.41, 10.41,  8.0, 8.0
+BoundingBox = -5.27, 5.41, 2.72,  8.0, 8.0
+BoundingBox = -5.27, 7.41, -3.67,  8.0, 8.0
+
+BoundingBox = -5.27, 20.54, 15.32,  10.0, 10.0
+
+
+
+AddParticleSplash =  1.9,  0.02,   -4.5,   3,      9.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -13.6,  0.02,   -4.5,   3,      9.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash =  1.9,  0.02,  -7.8,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -13.6,  0.02,  -7.8,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  -2.9,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -8.6,  0.02,  -10.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  -2.9,  0.02,  -12.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -8.6,  0.02,  -12.0,   2,      9.0,    1.1,   60,       0.01,   0
+
+
+

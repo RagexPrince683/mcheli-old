@@ -1,0 +1,41 @@
+﻿DisplayName = Autogyro Float
+AddDisplayName = ja_JP, ジャイロコプター(フロート)
+
+MaxHp = 380
+Speed = 0.70
+Sound = heli
+ThrottleUpDown = 2.5
+MaxFuel         = 800
+FuelConsumption = 1.0
+InventorySize = 36
+Float = true
+FloatOffset = -0.2
+ParticlesScale = 0.5
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = heli
+
+
+MobilityYaw = 1.4
+MobilityPitch = 1.4
+MobilityRoll = 1.4
+
+
+
+; 運転席
+AddSeat  = 0.02,  0.54,  -0.16
+
+
+
+AddRotor= 2,  0,  0.01,  3.19, -0.70,   0, 1, 0, false
+AddRotor= 2,  0,  0.01,  1.14, -1.62,  0, 0, 1,  false
+
+
+
+
+BoundingBox =  0.02,  1.06,  -0.16,  2.0, 2.0
+
+

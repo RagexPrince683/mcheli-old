@@ -1,0 +1,16 @@
+DisplayName = ABUSE Missile
+Type = Rocket
+ModelBullet = take
+Power = 100000
+Acceleration = 3.8
+Explosion = 200
+ExplosionInWater = 9
+Flaming = true
+Sight = None
+Delay = 1
+ReloadTime = 1
+Round = 21
+Gravity = -0.14
+GravityInWater = -0.14
+Bomblet = 5
+BombletDiff = 2.0

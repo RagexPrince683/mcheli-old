@@ -1,0 +1,117 @@
+DisplayName = ZSU-23-4 Shilka
+AddDisplayName = en_US, ZSU-23-4 Shilka
+AddDisplayName = ja_JP, ZSU-23-4 シルカ
+ItemID = 30100
+MaxHp = 22
+Speed = 0.7
+Sound = tank_gte
+ThrottleUpDown = 20.0
+MobilityYawOnGround = 2.0
+MinRotationPitch = -90
+MaxRotationPitch = 4
+MobilityRoll = 0
+Gravity = -0.1
+;Gravity = 0.5
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 2
+CameraPosition = 0.00,  3.50, 0.90, true
+EnableNightVision = true
+CameraRotationSpeed = 25
+EnableEntityRadar = true
+MaxFuel         = 1200
+FuelConsumption = 3.0
+StepHeight = 1.5
+DefaultFreelook = true
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.3
+FlareType = 10
+
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
+SubmergedDamageHeight = 3
+
+HideEntity = true
+
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+; 重心Z座標設定
+WeightedCenterZ = 0.0
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+
+HUD = mbt_hud, gunner
+
+AddGunnerSeat =  0.00,  1.25,  2.25,    0.00,  2.50,  0.25,  false, -90, 90, true
+AddGunnerSeat =  0.55,  2.50, -0.96,    0.55,  3.60, -0.96,  false, -90, 90, true
+
+; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
+MotionFactor = 0.9
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+;ArmorMinDamage = 90
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+;ArmorDamageFactor = 1.00
+;後退可能にする
+EnableBack = true
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.0
+;AddCrawlerTrack = 履帯の表裏逆転,  1つの履帯の間隔, 履帯のXの位置, 履帯の回転ポイントY/Z, 履帯の回転ポイントY/Z, 履帯の回転ポイントY/Z, ...
+;転輪がなくても動作する
+
+; 転輪の回転速度：0より小さい値を設定すると逆回転する
+TrackRollerRot = 30
+
+;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
+;履帯と同じ動きをするが、履帯がなくても設定可能
+AddTrackRoller = 1.5331,  0.3816,  3.0526
+AddTrackRoller = 1.5214,  0.1202,  2.2432
+AddTrackRoller = 1.5234,  0.1219,  1.1914
+AddTrackRoller = 1.5249,  0.1237,  0.3241
+AddTrackRoller = 1.5265,  0.1239, -0.5330
+AddTrackRoller = 1.5281,  0.1241, -1.3995
+AddTrackRoller = 1.5297,  0.1216, -2.2601
+AddTrackRoller = 1.484, 0.3387, -3.113
+;fuck nvm
+
+AddTrackRoller =  -1.5562,  0.3816,  3.0526
+AddTrackRoller =  -1.5392, 0.1255,  2.2302
+AddTrackRoller =  -1.5373,  0.1255,  1.1784
+AddTrackRoller =  -1.5357,  0.1264,  0.3111
+AddTrackRoller =  -1.5342,  0.1241, -0.5459
+AddTrackRoller =  -1.5326,  0.1241, -1.4124
+AddTrackRoller =  -1.5310,  0.1250, -2.2731
+AddTrackRoller = -1.411, 0.3387, -3.113
+;shit nvm
+
+;主砲
+AddPartWeapon = 23mmshilka/ 23mmshilkaHE-T, false, true, false,   0.00, 2.10, 0.00, 0
+AddPartWeaponChild = false, false, 0.45, 2.40, 1.20, 0.0
+AddPartWeaponChild = false, true, 0.45, 1.90, 1.20, 0.5
+AddTurretWeapon = 23mmshilka, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+AddTurretWeapon = 23mmshilkaHE-T, 0.00, 2.10, 2.02,  0.0, 0.0, true,1, 0,-360,360, -85, 4
+
+
+
+
+
+
+AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
+
+;RideRack = 乗る機体名, ラック番号 (1～) 
+RideRack = c5, 1
+RideRack = c5, 2
+
+
+
+BoundingBox = 0.0, 1.2, 0.0, 2.4, 1.6, 1.00
+BoundingBox = 0.0, 0.8, 2.0, 2.5, 1.6, 1.00
+BoundingBox = 0.0, 0.8, -2.0, 2.4, 1.6, 1.00
+BoundingBox = 0.0, 2.0, 0.0, 2.6, 1.0, 1.50

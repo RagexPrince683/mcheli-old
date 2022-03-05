@@ -1,0 +1,82 @@
+DisplayName = Taxi(japan)
+AddDisplayName = ja_JP, タクシー(jpn)
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = cardrive
+ThrottleUpDown = 20.8
+MaxFuel         = 900
+FuelConsumption = 0.5
+MobilityYawOnGround = 7.1
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.1
+GravityInWater = -0.1
+SubmergedDamageHeight = 1
+HUD = car, none, none, none
+MotionFactor = 0.92
+EnableBack = true
+PivotTurnThrottle = 0.16
+ThirdPersonDist = 8
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_taxi_2
+AddTexture = mchcar_taxi_3
+AddTexture = mchcar_taxi_4
+AddTexture = mchcar_taxi_5
+
+
+
+
+
+AddSeat =  1.11,  0.19,  -1.60
+AddSeat =  1.41,  0.19,  -0.19
+
+AddSeat =  0.05,  0.19,  -1.60
+
+
+
+AddWeapon =  horn3,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartWheel     = 1.855, 0.085,  1.662,  30
+AddPartWheel     = -0.515, 0.085,  1.662,  30
+
+AddPartWheel     = 1.855, 0.085,  -2.21
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.855,  -0.24,  1.662, -2.21
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+AddPartHatch = 2.18, 0.78, -0.62, 0, 1, 0, -72
+
+
+
+AddFixedSearchLight =  1.52, 0.63, 2.50,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.12, 0.63, 2.50,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddPartThrottle = -0.033, 1.075, 0.707,  0, 0, 1,  245
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0

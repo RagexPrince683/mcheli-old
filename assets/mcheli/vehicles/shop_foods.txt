@@ -1,0 +1,25 @@
+﻿DisplayName = Shop_Foods
+AddDisplayName = ja_JP, 店(食品)
+
+MaxHp = 800
+HUD = none, none
+InventorySize = 54
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.42, 1.06, -0.63
+CanRide = false
+
+
+AddSeat = -0.09, 0.41, -3.68
+AddSeat = -4.58, 0.41, -3.20
+AddSeat = -4.58, 0.41, -4.73
+
+AddSeat = -7.95, 0.41, -2.84
+
+AddSeat = -7.38, 0.41, -0.01
+AddSeat = -3.66, 0.41, -0.01
+
+

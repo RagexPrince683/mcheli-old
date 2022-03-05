@@ -1,0 +1,26 @@
+﻿DisplayName = Control Room 3
+AddDisplayName = ja_JP, 管制室3
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.42, 1.06, -0.63
+
+AddTexture = controlroom3_b
+
+
+
+AddFixRotSeat = 0.92, 0.36, 1.90,  0.92, 1.36, 1.90,  true, -180, 0
+AddFixRotSeat = -1.26, 0.36, 1.90,  -1.26, 1.36, 1.90,  true, -180, 0
+AddFixRotSeat = -2.63, 0.36, 1.90,  -2.63, 1.36, 1.90,  true, -180, 0
+
+
+AddFixRotSeat = 0.92, 0.36, -1.92,  0.92, 1.43, -1.92,  true
+AddFixRotSeat = -1.26, 0.36, -1.92,  -1.26, 1.43, -1.92,  true
+AddFixRotSeat = -2.63, 0.36, -1.92,  --2.63, 1.43, -1.92,  true

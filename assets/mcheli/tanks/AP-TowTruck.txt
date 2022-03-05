@@ -1,0 +1,87 @@
+DisplayName = Tow Truck
+AddDisplayName = ja_JP, トーイング車
+
+
+MaxHp = 35
+Speed = 0.6
+Sound = 4wd1_snd
+ThrottleUpDown = 18.8
+MaxFuel         = 1800
+FuelConsumption = 0.5
+MobilityYawOnGround = 3.2
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -1.2
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none
+MotionFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.0
+ThirdPersonDist = 12
+
+; C = Civilian(民間機)
+Category = C
+
+AddTexture = AP-TowTruck_military
+
+
+AddSeat =  0.80,  0.70,  0.17
+AddSeat =  -1.08,  0.70,  0.17
+
+
+AddRack = plane,    0.00,  -0.10,  -13.75,   0.00,  -0.10,  -11.75, 5.0
+
+AddRack = plane,    -0.02,  -0.01,  8.45,  -0.02,  -0.01,  8.45, 5.0, 100000, -180, 0
+
+
+ExclusionSeat = 3, 4
+
+
+AddPartWheel     = 1.311, 0.596, -1.587,  35
+AddPartWheel     = -1.299, 0.596, -1.587,  35
+AddPartWheel     = 1.311, 0.596, -5.666,  20
+AddPartWheel     = -1.299, 0.596, -5.666,  20
+
+
+
+AddPartSlideHatch = 0.00, 0.00, -4.08
+
+
+AddPartSteeringWheel =  0.827, 1.14,  1.109,   0, 1, -1.05,  120
+
+
+
+AddFixedSearchLight =  1.31, 0.69, 1.54,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,  -10,  0
+AddFixedSearchLight =  -1.19, 0.69, 1.54,   0x50FFFFFF,   0x00FFFFC0,    20.0, 10.0,   10,  0
+
+
+AddFixedSearchLight =  1.38, 2.45, 1.24,   0x50ffa500,   0x00ffa500,    2.5, 1.5,  90,  0
+AddFixedSearchLight =  1.38, 2.45, 1.24,   0x50ffa500,   0x00ffa500,    2.5, 1.5,   -90,  0
+
+
+AddFixedSearchLight =  -1.36, 2.45, 1.24,   0x50ffa500,   0x00ffa500,    2.5, 1.5,  90,  0
+AddFixedSearchLight =  -1.36, 2.45, 1.24,   0x50ffa500,   0x00ffa500,    2.5, 1.5,   -90,  0
+
+
+
+BoundingBox =   -0.30,  0.68,  -2.18,  4.0,  2.0
+
+BoundingBox =   -0.30,  0.68,  -5.42,  4.0,  2.0
+
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 0.8
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -2.8
+
+
+SetWheelPos =  1.311,  -0.24, 1.5, -1.587, -5.666
+PartWheelRot = 25
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0

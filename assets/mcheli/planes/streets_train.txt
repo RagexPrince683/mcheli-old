@@ -1,0 +1,72 @@
+﻿DisplayName = Streets Train
+AddDisplayName = ja_JP, 路面電車
+
+
+MaxHp = 500
+Speed = 3
+Sound = mchrail_snd
+ThrottleUpDown = 10
+Gravity = -0.1
+GravityInWater = -0.2
+StepHeight = 1.0
+
+
+MotionFactor = 0.95
+MobilityYawOnGround = 4
+EnableBack = true
+UnmountPosition = 3.00, 1.00, -2.07
+
+
+RotorSpeed = 110.0
+hud = car, none, none, none, none, none
+
+MaxFuel         = 1800
+FuelConsumption = 0.2
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddPartThrottle = -0.054,  1.40, 1.098, 0, 0, 0, 0,  0.00, 0.038, 0.186
+
+
+
+AddSeat =  -0.08, 1.00, 0.47
+
+
+AddSeat =  1.14, 1.06, -2.62
+AddSeat =  -1.10, 1.06, -2.47
+
+AddSeat =  1.14, 1.06, -3.82
+AddSeat =  -1.10, 1.06, -3.82
+
+AddSeat =  1.14, 1.06, -5.13
+AddSeat =  -1.10, 1.06, -5.13
+
+
+
+
+AddPartRotor =    1.41, 0.07, -0.08,   1, 0, 0
+AddBlade = 1, 0,  1.41, 0.07, -0.08,   1, 0, 0
+
+
+AddPartRotor =    1.41, 0.07, -2.10,   1, 0, 0
+AddBlade = 1, 0,  1.41, 0.07, -2.10,   1, 0, 0
+
+
+AddPartRotor =    1.41, 0.07, -4.20,   1, 0, 0
+AddBlade = 1, 0,  1.41, 0.07, -4.20,   1, 0, 0
+
+
+AddPartRotor =    1.41, 0.07, -6.41,   1, 0, 0
+AddBlade = 1, 0,  1.41, 0.07, -6.41,   1, 0, 0
+
+
+
+AddFixedSearchLight =  1.15, 0.80, 1.69,   0x50FFFFFF,   0x00FFFFC0,    50.0, 20.0,  -5,  0
+AddFixedSearchLight =  -1.12, 0.80, 1.69,   0x50FFFFFF,   0x00FFFFC0,    50.0, 20.0,   5,  0
+
+
+
+

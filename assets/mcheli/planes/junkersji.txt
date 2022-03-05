@@ -1,0 +1,37 @@
+﻿DisplayName = JUNKERS J.I
+AddDisplayName = ja_JP, JUNKERS J.I
+ItemID = 28708
+MaxHp = 89
+Speed = 0.7
+Sound = prop
+onGroundPitch = 9
+ThrottleUpDown = 0.8
+MaxFuel         = 920
+FuelConsumption = 1.0
+ThrottleUpDownOnEntity = 1.0
+ThirdPersonDist = 12
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+EnableBack = True
+
+HUD = plane_wwii
+
+AddSeat = 0.0,  1.5, -1.014
+AddSeat = 0.0,  1.7, -2.301
+
+AddPartRotor =   -0.02512,  1.574, 2.621,   1,0, 0
+AddBlade = 1, 0, -0.02512,  1.574, 2.621,   0,0,-1
+
+AddWeapon = mg7_9mm, 0.00, 2.621, -2.594,  -0.0, 0.0, false,  2, -180, -120, 120, -85, 85
+AddWeapon = lightbomb,  -0.5778, 2.046, -0.7,   0.0, -0.0, true,  1
+
+AddPartWeapon = mg7_9mm, true, false, true,  0.00, 2.621, -2.594
+AddPartWeaponChild = true, true,0.00, 2.621, -2.594
+
+AddRecipe = "I I",  "PGP",  " I ",  I,iron_block, G,dye,7, P,paper
+
+BoundingBox =  0.00, 1.60, -0.00,  2.0, 1.8
+BoundingBox = -2.92, 1.60,  0.30,  2.0, 0.6
+BoundingBox =  2.92, 1.60,  0.30,  2.0, 0.6

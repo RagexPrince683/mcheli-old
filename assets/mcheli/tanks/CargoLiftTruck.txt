@@ -1,0 +1,98 @@
+DisplayName = Cargo Lift Truck
+AddDisplayName = ja_JP, 荷台リフト可動トラック
+
+
+MaxHp = 35
+Speed = 0.7
+Sound = 4wd1_snd
+ThrottleUpDown = 15.8
+MaxFuel         = 1200
+FuelConsumption = 0.5
+MobilityYawOnGround = 6.0
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -0.6
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none
+MotionFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.20
+ThirdPersonDist = 12
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = CargoLiftTruck_military
+
+
+
+AddSeat =  -0.65,  1.14,  0.10
+
+AddPartSteeringWheel =   -0.68, 1.591,  0.85,   0, 1, -1.05,  120
+
+
+
+AddSeat =  0.72,  1.14,  0.10
+
+
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartWheel     = 1.255, 0.228,  0.062,  30
+AddPartWheel     = -1.025, 0.228,  0.062,  30
+
+AddPartWheel     = 1.255, 0.228,  -6.55
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 0.8
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -2.0
+
+
+SetWheelPos =  1.255,  -0.24, 1.0, 0.062, -6.55
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+AddPartCanopy = -1.26, 1.70, 1.58,  0, 1, 0,  70
+
+
+
+AddPartSlideHatch = 0.00, 2.09, 0.27
+
+
+
+AddPartHatch = 0.92, 0.87, -1.35, 1, 0, 0, 35
+
+AddPartHatch = 0.81, 0.87, -6.40, 1, 0, 0, -35
+
+
+
+
+AddFixedSearchLight =   1.30, 0.58, 1.58,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -1.20, 0.58, 1.58,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+
+
+BoundingBox =   0.01,  0.75,  -1.93,  4.0,  1.0
+
+BoundingBox =   0.01,  0.75,  -3.72,  4.0,  1.0
+
+BoundingBox =   0.01,  0.75,  -5.70,  4.0,  1.0
+
+BoundingBox =   0.01,  3.81,  -5.70,  4.0,  1.0
+
+BoundingBox =   -0.03,  3.81,  -3.03,  4.0,  1.0

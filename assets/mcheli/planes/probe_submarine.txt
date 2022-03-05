@@ -1,0 +1,66 @@
+DisplayName = Probe Submarine
+AddDisplayName = ja_JP, 小型探索潜水艦
+
+
+MaxHp = 2500
+Speed = 0.5
+Sound = Submarine_snd
+Gravity = -0.25
+GravityInWater = -0.008
+ThrottleUpDown = 20.8
+MaxFuel         = 1800
+FuelConsumption = 0.1
+RotorSpeed = 80.0
+Stealth = 0.5
+ThirdPersonDist = 16
+DamageFactor = 0.0
+ArmorDamageFactor = 0.5
+ParticlesScale = 0.2
+InventorySize = 54
+SubmergedDamageHeight = 200
+MobilityYawOnGround = 3.5
+MobilityYaw = 3.5
+MobilityPitch = 3.5
+MobilityRoll = 3.9
+EnableVtol = true
+EnableBack = true
+MotionFactor = 0.91
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = plane, none, none
+
+
+
+
+AddPartSteeringWheel =   0.002, -0.02, -0.409,   0, 1, 0,  80
+
+
+
+AddPartThrottle = 0.448, -0.175, -0.18,  1, 0, 0,  80
+
+AddPartSteeringWheel =   0.014, 0.874, -6.934,   0, -1, 0,  40
+
+
+
+
+AddSeat   =   0.03, -0.52, -1.31
+
+
+
+AddPartRotor =    1.08, 0.45, -6.71,   0, 0, 1
+AddBlade = 1, 0,  1.08, 0.45, -6.71,   0, 0, 1
+
+
+AddPartRotor =    -1.08, 0.45, -6.71,   0, 0, -1
+AddBlade = 1, 0,  -1.08, 0.45, -6.71,   0, 0, -1
+
+
+
+
+AddSearchLight =  0.02, -0.70, 0.67,   0x50FFFFFF,   0x00FFFFC0,    80.0, 30.0,  0,  5
+
+

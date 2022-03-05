@@ -1,0 +1,121 @@
+DisplayName = Dabo_Haze
+AddDisplayName = ja_JP, 飛行艇ダボハゼ
+
+MaxHp = 300
+Speed = 0.7
+Float = true
+FloatOffset = -0.1
+Sound = prop
+onGroundPitch = 2.0
+ThrottleUpDown = 0.7
+MaxFuel         = 1200
+FuelConsumption = 1.0
+InventorySize = 54
+EnableParachuting = true
+EnableEntityRadar = true
+ThirdPersonDist = 40
+
+EnableBack = true
+MobilityYaw = 0.5
+MobilityPitch = 0.5
+MobilityRoll = 0.4
+
+HUD = civilian_aircraft, gunner, gunner, gunner, none, none
+
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+UnmountPosition = -5.00, 1.00, -6.97
+
+AddSeat =  0.54, 2.58, 0.17
+
+AddSeat =  -0.65, 2.58, 0.17
+
+
+AddGunnerSeat = -0.01, 4.25, -1.29,  0.01, 4.63, 1.10, true
+
+AddGunnerSeat = 0.01, 0.82, -0.39,  0.01, 4.67, -13.71, false
+
+AddFixRotSeat =  0.01, 0.58, -1.43,   -3.15, 1.39, -0.97, false,  90, 00
+
+
+AddTexture = dabo_haze_pain
+
+
+AddPartSteeringWheel =   0.593, 2.958,  1.039,   0, 1, -1.95,  75
+
+
+
+
+AddSeat =  0.01, 0.85, -3.74
+AddSeat =  0.01, 0.85, -6.44
+AddSeat =  0.01, 0.85, -9.65
+AddSeat =  0.01, 0.85, -11.59
+AddSeat =  -2.72, 0.56, -6.97
+
+
+AddPartRotor =    0.00,  6.90, -3.53,   0, 0, 1
+AddBlade = 1, 0,  0.00,  6.90, -3.53,   0, 0, 1
+
+
+AddPartHatch = -2.12, 1.86, -5.98, 0, 1, 0,  160
+
+
+
+
+AddPartWeapon    = dabogun_f,   false, true, false,   0.00, 4.63, -1.06  
+AddPartWeapon = dabogun_f,   false, true, true,     0.00, 4.63, -1.06
+
+AddWeapon = dabogun_f,  0.00, 4.63, -1.06,   0.0, 0.0, true, 3, 0, -90, 90, -70, 5
+
+
+
+AddPartWeapon    = dabogun_r,   false, true, false,   0.00, 4.29, -13.53  
+AddPartWeapon = dabogun_r,   false, true, true,     0.00, 4.29, -13.53
+
+AddWeapon = dabogun_r,  0.00, 4.29, -13.53,   0.0, 0.0, false, 4, 0, -360, 360, -70, 5
+
+
+
+
+AddPartWeaponBay = sidecannon, -1.96, 1.88, -0.99, 0, 0, 1, -140
+
+AddPartSlideWeaponBay = sidecannon, -0.81, 0.00, 0.00
+
+AddWeapon = sidecannon,  -1.14, 1.37, -0.97,   0.0, 0.0, true, 5, 90, -50, 50, -40, 10
+
+
+
+
+
+BoundingBox =  0.00, 1.85, -1.23,  3.0, 6.0
+BoundingBox =  0.00, 1.85, -4.57,  3.0, 6.0
+BoundingBox =  0.00, 1.85, -9.93,  3.0, 6.0
+BoundingBox =  0.00, 2.62, -18.12,  3.0, 6.0
+BoundingBox =  0.00, 6.20, -7.43,  4.0, 6.0
+
+
+
+
+; 水しぶき を発生させる
+;AddParticleSplash = 座標X,   Y,    Z,   表示数, サイズ,  速度,  表示時間, 上昇, 重力
+AddParticleSplash =  7.2, -0.10,   -13.5,   3,      9.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -7.2, -0.10,   -13.5,   3,      9.0,    1.1,   20,       0.30,  -0.03
+
+AddParticleSplash =  7.5, -0.40,   -15.3,   4,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -7.5, -0.40,   -15.3,   4,      9.0,    1.1,   60,       0.01,   0
+
+AddParticleSplash =  7.7, -0.40,   -18.3,   4,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -7.7, -0.40,   -18.3,   4,      9.0,    1.1,   60,       0.01,   0
+
+
+AddParticleSplash =  7.1, -0.00,   -20.3,   3,      5.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -7.1, -0.00,   -20.3,   3,      5.0,    1.1,   20,       0.30,  -0.03
+
+AddParticleSplash =  7.1, -0.00,   -22.3,   3,      5.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -7.1, -0.00,   -22.3,   3,      5.0,    1.1,   20,       0.30,  -0.03
+
+
+
+

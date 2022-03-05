@@ -1,0 +1,17 @@
+DisplayName = plane bomb
+Type = Bomb
+Power = 70
+Acceleration = 1.5
+Explosion = 2
+Sight = None
+Delay = 2
+ReloadTime = 5
+Round = 5
+Accuracy = 1.5
+Piercing  = 2
+MaxAmmo = 10
+SuppliedNum = 10
+Item =  1, iron_ingot
+Item =  1, gunpowder
+
+Sound = 540pound_snd

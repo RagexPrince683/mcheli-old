@@ -1,0 +1,12 @@
+﻿DisplayName = Stage Tool Box
+AddDisplayName = ja_JP, ステージ機材ボックス
+
+MaxHp = 100
+HUD = none
+Float  = true
+InventorySize = 54
+CanMoveOnGround = false
+
+CanRide = false
+
+AddSeat = 0.00, 1.00, 0.00

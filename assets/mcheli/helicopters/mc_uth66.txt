@@ -1,0 +1,114 @@
+﻿
+
+DisplayName = Uth66 Blackfoot
+AddDisplayName = ja_JP, Uth66 Blackfoot
+
+MaxHp = 380
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+Speed = 0.80
+Sound = heli
+ThrottleUpDown = 0.8
+FlareType = 3
+CameraZoom = 2
+CameraPosition = 0.02, 0.24, 4.71
+Regeneration = true
+MaxFuel         = 1500
+FuelConsumption = 1.0
+Stealth = 0.5
+InventorySize = 54
+EnableParachuting = true
+MobDropOption  =  -3.20,  0.30,  -3.73,  10
+
+AddRepellingHook =  -2.29, 0.14, -3.05, 30
+
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+
+HUD = heli, heli_gnr, none, none
+
+
+MobilityYaw = 1.0
+MobilityPitch = 1.0
+MobilityRoll = 0.9
+
+
+; 運転席
+AddSeat  = 0.72,  1.42,  0.52
+
+AddGunnerSeat = -0.63, 1.42, 0.52,  0.02, 0.24, 4.71, true
+
+AddGunnerSeat =   1.75,  1.10, -1.48,  2.73, 2.11, -1.38, true
+AddGunnerSeat =  -1.44,  1.10, -1.48,  -2.70, 2.11, -1.38, true
+ 
+
+AddSeat =  -1.14, 1.15, -4.95
+AddSeat =  -0.2, 1.15, -4.95
+AddSeat =  1.10, 1.15, -4.95
+
+
+
+AddRotor= 4,  0,  -0.04,  4.48, -2.93,   0, 1, 0, true
+AddRotor= 4,  0, 1.29,  3.93, -14.72,  1, 0, 0, false
+
+
+AddPartLG = 1.41, 0.63, -0.08, 0, 0, 1,  -100
+AddPartLG = -1.39, 0.63, -0.08, 0, 0, 1, 100
+
+AddPartLG = 0.09, 1.19, -11.81, 1, 0, 0, -110
+
+AddPartLG = 1.95, 0.67, 0.19, 0, 0, 1, -90
+AddPartLG = -1.92, 0.67, 0.19, 0, 0, 1, 90
+
+AddPartLGHatch = 0.54, 1.02, -10.24, 0, 0, 1, 90
+AddPartLGHatch = -0.64, 1.02, -10.24, 0, 0, 1, -90
+
+
+AddPartSlideHatch = 0.09, 0.00, -2.56
+AddPartSlideHatch = -0.09, 0.00, -2.56
+
+
+AddRack = container,  -0.07, 1.23, -2.98,  -3.84, 0.45, -2.98
+AddRack = container,  -0.07, 1.75, -2.98,  -3.84, 0.45, -2.98
+
+
+
+; MGAU-19 W
+AddPartWeapon    = gau-19_tw,   false, true, true,     2.54,  1.64, -0.98
+AddPartRotWeapon = gau-19_tw,   false, true, true,   2.54,  1.64, -0.98, 0, 0, 1
+AddPartWeapon = gau-19_tw,   false, true, false,    2.54,  1.64, -0.98
+
+AddPartWeapon    = gau-19_tw,   false, true, true,     -2.52,  1.64, -0.94
+AddPartRotWeapon = gau-19_tw,   false, true, true,   -2.52,  1.64, -0.94, 0, 0, 1
+AddPartWeapon = gau-19_tw,   false, true, false,    -2.52,  1.64, -0.94
+
+
+
+AddWeapon = gau-19_tw,  2.54,  1.64, -0.98,     1, 0.0, true,  3,   0,   -120,  0, -10, 40
+AddWeapon = gau-19_tw, -2.52,  1.64, -0.94,    -1, 0.0, true,  4,   0,   0,  120, -10, 40
+
+
+AddWeapon = spike_er,     3.12,  2.59, -3.62,  1, 0,  true, 1
+AddWeapon = spike_er,    -3.11,  2.59, -3.62, -1, 0,  true, 1
+AddWeapon = spike_er,     3.12,  2.36, -3.62,  1, 0,  true, 1
+AddWeapon = spike_er,    -3.11,  2.36, -3.62, -1, 0,  true, 1
+
+
+AddWeapon = spike_er_tv,  2.79,  2.59, -3.62,  1, 0,  false,2
+AddWeapon = spike_er_tv, -2.78,  2.59, -3.62, -1, 0,  false,2
+AddWeapon = spike_er_tv,  2.79,  2.36, -3.62,  1, 0,  false,2
+AddWeapon = spike_er_tv, -2.78,  2.36, -3.62, -1, 0,  false,2
+
+
+
+
+BoundingBox =  0.02, 1.08, -0.36,  4.0, 4.0
+
+BoundingBox =  0.02, 1.08, -3.71,  4.0, 4.0
+
+BoundingBox =  0.02, 1.08, -8.19,  2.0, 2.0
+
+BoundingBox =  0.02, 2.02, -13.36,  2.0, 1.0

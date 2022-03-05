@@ -1,0 +1,66 @@
+﻿DisplayName = Yachts Sailboat
+AddDisplayName = ja_JP, 帆船ヨットボート
+
+
+MaxHp = 350
+Speed = 1.8
+Float = true
+FloatOffset = -0.2
+Sound = yachts_snd
+ThrottleUpDown = 18.4
+MaxFuel         = 100
+FuelConsumption = 0.0
+Gravity = -0.15
+DamageFactor = 0.8
+MobilityYawOnGround = 0.9
+CanMoveOnGround = false
+OnGroundPitch = 1
+EnableBack = true
+InventorySize = 54
+MotionFactor = 0.91
+ThirdPersonDist = 24
+UnmountPosition = 4.00, 2.00, -1.00
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = none, none, none, none, none
+
+
+
+;　seat
+AddSeat  =   -3.38, 1.05, 6.89
+
+AddSeat  =   -1.41, 1.05, 4.57
+
+AddSeat  =   -4.17, 1.25, -0.12
+
+AddSeat  =   -2.11, 1.25, -1.67
+
+AddSeat  =   0.31, 0.74, 0.04
+
+
+
+AddPartSteeringWheel =   -3.443, 1.422, 7.899,   0, 1, -1.05,  100
+AddPartSteeringWheel =   -2.415, -1.576, -1.516,   0, 1, 0,  -50
+
+AddPartSteeringWheel =   -2.356, 3.252, 5.592,   0, -1, 0,  -15
+
+
+BoundingBox = -1.79, 0.31, 6.33,  4.0, 4.0
+BoundingBox = -1.79, 0.31, 2.68,  4.0, 4.0
+BoundingBox = -1.79, 0.31, 0.16,  4.0, 4.0
+
+
+
+AddParticleSplash =  1.6,  0.02,   -2.2,   3,      9.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -2.6,  0.02,   -2.2,   3,      9.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash =  1.6,  0.02,  -4.8,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -2.6,  0.02,  -4.8,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  1.6,  0.02,  -8.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -2.6,  0.02,  -8.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  -0.8,  0.02,  -8.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -1.8,  0.02,  -8.0,   2,      9.0,    1.1,   60,       0.01,   0
+
+

@@ -1,0 +1,94 @@
+﻿DisplayName = PaddleWheeler
+AddDisplayName = ja_JP, 外輪船
+
+
+MaxHp = 350
+Speed = 1.7
+Float = true
+FloatOffset = -0.2
+Sound = big_ships
+ThrottleUpDown = 5.8
+MaxFuel         = 1000
+FuelConsumption = 1.0
+Gravity = -0.15
+GravityInWater = -0.1
+StepHeight = 1.0
+DamageFactor = 0.8
+MobilityYawOnGround = 0.8
+CanMoveOnGround = false
+EnableBack = true
+InventorySize = 54
+RotorSpeed = 10
+MotionFactor = 0.91
+UnmountPosition = 4.00, 2.00, -1.00
+ThirdPersonDist = 60
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = plane_wwii, none, none, none, none, none
+
+
+
+;　main seat
+
+AddSeat =  -0.70, 1.79, -0.31
+CameraPosition = -11.54, 15.19, 1.83, true
+
+
+
+
+AddGunnerSeat = -1.39, 1.79, -0.31,  -9.47, 15.19, 1.83,  false
+
+
+AddSeat = 0.56, 1.27, -0.31
+
+
+AddPartRotor =      -5.09, 0.94, -29.61,  1, 0, 0
+AddBlade = 1, 0,    -5.09, 0.94, -29.61,  1, 0, 0
+
+
+AddWeapon =  steamhorn, 0.00, 0.10, 0.00,  0.0, 90
+
+AddPartSteeringWheel =   -5.961, -1.055, -35.38,   0, -1, 0,  50
+AddPartSteeringWheel =   -15.18, -1.055, -35.38,   0, -1, 0,  50
+
+
+
+BoundingBox = -10.52, 3.98, 19.79,  25.0, 25.0
+BoundingBox = -10.52, 3.98, 6.08,  25.0, 25.0
+BoundingBox = -10.52, 3.98, -8.88,  25.0, 25.0
+BoundingBox = -10.52, 3.98, -24.26,  25.0, 25.0
+BoundingBox = -10.52, 14.85, 1.79,  10.0, 8.0
+
+
+
+
+AddParticleSplash =  -6.47,  5.82,   -34.04,   25,   10.0,    1.1,   70,       0.20,  -0.01
+AddParticleSplash = -10.48,  5.82,   -34.04,   25,   10.0,    1.1,   70,       0.20,  -0.01
+AddParticleSplash = -14.95,  5.82,   -34.04,   25,   10.0,    1.1,   70,       0.20,  -0.01
+
+
+AddParticleSplash =  -6.47,  5.82,   -39.71,   25,   10.0,    1.1,   70,       0.21,   -0.01
+AddParticleSplash = -10.48,  5.82,   -39.71,   25,   10.0,    1.1,   70,       0.21,   -0.01
+AddParticleSplash = -14.95,  5.82,   -39.71,   25,   10.0,    1.1,   70,       0.21,   -0.01
+
+
+AddParticleSplash =  -6.47,  4.82,   -45.58,   15,   10.0,    1.1,   60,       0.21,   -0.01
+AddParticleSplash = -10.48,  4.82,   -45.58,   15,   10.0,    1.1,   60,       0.21,   -0.01
+AddParticleSplash = -14.95,  4.82,   -45.58,   15,   10.0,    1.1,   60,       0.21,   -0.01
+
+
+AddParticleSplash =  -6.47,  4.82,   -51.20,   10,   10.0,    1.1,   80,       0.11,   -0.01
+AddParticleSplash = -10.48,  4.82,   -51.20,   10,   10.0,    1.1,   80,       0.11,   -0.01
+AddParticleSplash = -14.95,  4.82,   -51.20,   10,   10.0,    1.1,   80,       0.11,   -0.01
+
+
+AddParticleSplash =  -6.47,  1.01,   -55.20,   8,   10.0,    1.1,   85,       0.01,   -0.01
+AddParticleSplash = -10.48,  1.01,   -55.20,   8,   10.0,    1.1,   85,       0.01,   -0.01
+AddParticleSplash = -14.95,  1.01,   -55.20,   8,   10.0,    1.1,   85,       0.01,   -0.01
+
+
+

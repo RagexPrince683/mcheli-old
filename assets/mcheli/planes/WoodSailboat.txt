@@ -1,0 +1,56 @@
+﻿DisplayName = WoodSailboat
+AddDisplayName = ja_JP, 木造小型ボート(帆船)
+
+
+MaxHp = 100
+Speed = 0.4
+Float = true
+FloatOffset = -0.1
+Sound = raft_snd
+ThrottleUpDown = 18.5
+MaxFuel         = 100
+FuelConsumption = 0.0
+Gravity = -0.15
+MobilityYawOnGround = 1.8
+CanMoveOnGround = false
+MotionFactor = 0.92
+InventorySize = 36
+EntityWidth  = 0.8
+ThirdPersonDist = 8
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = none, none
+
+UnmountPosition = 3.00, 2.00, 0.00
+
+;　main seat
+
+AddSeat =  -0.29, 0.08, -0.93
+CameraPosition = 0.02, 1.12, 2.06, true
+
+
+AddSeat  =   0.24, 0.08, 1.20
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+AddPartSteeringWheel =   0.00, 0.547,  -2.083,   0, 1, 0, -30
+
+
+
+AddPartSlideHatch =  -0.02, 0.00, 0.28
+AddPartSlideHatch =  -0.02, 0.00, 0.56
+AddPartSlideHatch =  -0.02, 0.00, 0.75
+AddPartSlideHatch =  -0.02, 0.00, 1.05
+AddPartSlideHatch =  -0.02, 0.00, 1.43
+  
+
+
+BoundingBox = 0.04, 0.57, -0.06,  2.0, 2.0
+
+

@@ -1,0 +1,74 @@
+﻿DisplayName = AC-130 highres
+AddDisplayName = ja_JP, AC-130高解像度
+ItemID = 28713
+MaxHp = 800
+Speed = 0.8
+Sound = turboprop
+ThrottleUpDown = 0.3
+AutoPilotRot = -0.00
+CameraPosition = 2.0, 1.40, -4.0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+FlareType = 2
+InventorySize = 18
+MaxFuel         = 4800
+FuelConsumption = 2.0
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+ThirdPersonDist = 28
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+HUD = plane, plane_gnr, plane_gnr, none, none, none, none
+
+MobilityYaw = 0.4
+MobilityPitch = 0.4
+MobilityRoll = 0.2
+
+
+AddSeat =  0.5355,  2.188,  3.446
+AddGunnerSeat =  0.00,  1.00,-7.50
+AddGunnerSeat =  0.00,  1.00,-2.50
+
+
+AddPartRotWeapon = m61a1_1,    true,  false,  true,   1.419,  1.269,  -0.1256, -1,0,0
+AddPartWeapon    = bofors40mm, true,  false,  true,   1.685,  1.614, -7.664,  0.5
+AddPartWeapon    = m102_105mm, true,  false,  true,   1.685,  1.614, -9.291,  1.0
+
+;AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
+
+AddPartLG =  0.00, 1.19,  0.37,  -1,0,0, 15
+AddPartLG =  0.00, 0.5167, -7.980,  1,0,0, -30
+AddPartLG =  0.00, 0.5167, -7.980,  1,0,0, -30
+
+
+AddPartRotor =   -9.002,  3.818,  -2.24,   0, 0, 1
+AddBlade = 1,0, -9.002,  3.818,  -2.24,   0, 0, 1
+AddPartRotor =  -4.481,  3.61,  -2.24,   0, 0, 1
+AddBlade = 1,0,-4.481,  3.61,  -2.24,   0, 0, 1
+AddPartRotor =   4.481,  3.61,  -2.24,   0, 0, -1
+AddBlade = 1,0, 4.481,  3.61,  -2.24,   0, 0, -1
+AddPartRotor =  9.002,  3.818,  -2.24,   0, 0, -1
+AddBlade = 1,0,9.002,  3.818,  -2.24,   0, 0, -1
+
+AddRecipe = "ISI",  "GDC",  "IRI",  I,iron_block, S,stone, G,gunpowder, D,diamond_block, C,chest, R,glass
+
+
+AddWeapon = m61a1_1,     1.419,  1.269,  -0.1256,  0, 0, true,  2, -90, -50,50,  -20,70
+AddWeapon = bofors40mm,  1.685,  1.614, -7.664, 10, 0, true,  3, -90, -50,50,  -20,70
+AddWeapon = m102_105mm,  1.685,  1.614, -9.291, 10, 0, true,  3, -90, -50,50,  -20,70
+
+BoundingBox =  0.00, 2.60,  -1.60,  4.0, 4.0
+BoundingBox =  0.00, 2.60,  -6.60,  4.0, 4.0
+BoundingBox =  0.00, 2.60, -11.60,  4.0, 4.0
+BoundingBox = -4.92, 4.00,  -6.60,  4.0, 1.0
+BoundingBox =  4.92, 4.00,  -6.60,  4.0, 1.0
+
+; AddRack=Entity type, RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute alt
+AddRack = container,   0.0, 1.4, -4.7,  0.0, 0.0, -16.1,  8.0,    20.0
+
+
+EnableBack = True

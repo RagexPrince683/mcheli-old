@@ -1,0 +1,72 @@
+DisplayName = lanchester
+AddDisplayName = ja_JP,lanchester
+ItemID = 30102
+MaxHp = 8
+Speed = 0.5
+Sound = engineb
+ThrottleUpDown = 5
+MobilityYawOnGround = 5.5
+MaxFuel         = 1000
+FuelConsumption = 0.8
+Gravity = -1.0
+CameraRotationSpeed = 35
+GravityInWater = -1.0
+MinRotationPitch = -15
+MaxRotationPitch = 6
+MobilityRoll = 0
+InventorySize = 10
+StepHeight = 1.5
+DefaultFreelook = true
+MotionFactor = 0.9
+FlareType = 10
+ThirdPersonDist = 12
+
+SubmergedDamageHeight = 3
+
+;  M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+WeightType = Tank
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 0.8
+
+HUD = none
+
+AddSeat =  0.00, 2.966, -0.3565
+
+SetWheelPos =  1.50,  -0.24,  3.75, 1.71, -0.15, -2.01
+
+AddPartWheel =    -1.311,  0.3590, 3.39, 30
+AddPartWheel =     1.311,  0.3590, 3.39, 30
+AddPartWheel =    1.244,  0.3617, -2.49
+AddPartWheel =    -1.244,  0.3617, -2.49
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+;ArmorMinDamage = 1
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+;ArmorMaxDamage = 100
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+;ArmorDamageFactor = 1.00
+;後退可能にする(暫定処置で今後削除される可能性有り)
+EnableBack = true
+
+PivotTurnThrottle = 2.2
+
+AddWeapon        = vickers-k_upper,  0.00, 2.966, -0.3565, 0.0, 0.0, true,  1 , 0, -360, 360, -15,7
+AddPartWeapon    = vickers-k_upper,  false, true, false,  0.00, 2.966, -0.3565
+AddPartWeaponChild= false, true, 0.00, 2.966, 0.3788
+
+DamageFactor = 0.0
+
+HideEntity = true
+
+;RideRack = 乗る機体名, ラック番号 (1～) 
+RideRack = c5, 1
+RideRack = c5, 2
+
+AddRecipe = "IXI",  " X ",  "III",  X, iron_block,  I, iron_ingot
+
+BoundingBox =  0.0, 1.0,  4.0,   3.4, 2.0,  0.90
+BoundingBox =  0.0, 1.4,  1.0,   3.4, 3.8,  1.00
+BoundingBox =  0.0, 1.0, -2.0,   3.4, 2.3,  1.25

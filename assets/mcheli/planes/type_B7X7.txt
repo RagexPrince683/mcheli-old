@@ -1,0 +1,117 @@
+DisplayName = type_B7X7
+AddDisplayName = ja_JP, ボーイング7X7タイプ
+
+
+MaxHp = 300
+Speed = 0.9
+Sound = plane
+ThrottleUpDown = 0.5
+MaxFuel         = 3500
+FuelConsumption = 2.0
+InventorySize = 54
+ThirdPersonDist = 44
+UnmountPosition = 5.0, 1.0, -4.2
+
+HUD = civilian_aircraft, none, none, none
+
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+MobilityYaw = 0.4
+MobilityPitch = 0.4
+MobilityRoll = 0.2
+
+
+
+
+AddTexture = type_B7X7_02
+AddTexture = type_B7X7_03
+
+
+AddSeat =  0.95,  4.98,  2.90
+AddSeat =  -0.72,  4.98,  2.90
+
+AddSeat =  -2.09, 5.25, -3.27
+
+
+
+
+AddSeat = 2.12, 5.25, -6.48
+AddSeat = 2.12, 5.25, -8.45
+AddSeat = 2.12, 5.25, -10.64
+
+AddSeat = -1.96, 5.25, -6.48
+AddSeat = -1.96, 5.25, -8.45
+AddSeat = -1.96, 5.25, -10.64
+
+AddSeat = 1.82, 5.24, -14.85
+AddSeat = 1.82, 5.24, -18.57
+AddSeat = 1.82, 5.24, -22.59
+AddSeat = 1.82, 5.24, -28.39
+AddSeat = 1.82, 5.24, -32.14
+
+AddSeat = -1.84, 5.24, -14.85
+AddSeat = -1.84, 5.24, -18.57
+AddSeat = -1.84, 5.24, -22.59
+AddSeat = -1.84, 5.24, -28.39
+AddSeat = -1.84, 5.24, -32.14
+
+AddSeat = -0.01, 5.24, -14.85
+AddSeat = -0.01, 5.24, -18.57
+AddSeat = -0.01, 5.24, -22.59
+AddSeat = -0.01, 5.24, -28.39
+AddSeat = -0.01, 5.24, -32.14
+
+
+
+
+
+AddPartSlideHatch =   0.14, 0.00, 1.63
+AddPartHatch =  -2.58, 3.41, -2.85,  0, 0, 1,  -150
+AddPartHatch =  -2.58, 3.41, -25.41, 0, 0, 1,  -150
+
+
+AddPartThrottle = 0.11, 5.13, 3.87,  0, 0, 0,  0, 0, 0, 0.22
+
+
+AddPartSteeringWheel =   0.928, 5.246, 3.894,   0, 0, -1,  60
+AddPartSteeringWheel =   -0.80, 5.246, 3.894,   0, 0, -1,  60
+
+
+
+
+AddRack = container / TravelBaggae,    -0.09,  2.81,  -1.77,  -3.65, 0.20, -4.35 
+AddRack = container / TravelBaggae,    -0.09,  2.81,  -2.43,  -3.65, 0.20, -4.35 
+AddRack = container / TravelBaggae,    -0.09,  2.81,  -4.23,  -3.65, 0.20, -4.35 
+AddRack = container / TravelBaggae,    -0.09,  2.81,  -6.41,  -3.65, 0.20, -4.35 
+AddRack = container / TravelBaggae,    -0.09,  2.81,  -8.40,  -3.65, 0.20, -4.35 
+
+
+AddRack = container / TravelBaggae,    -0.09,  2.81,  -22.76, -3.65, 0.20, -27.31
+AddRack = container / TravelBaggae,    -0.09,  2.81,  -24.29, -3.65, 0.20, -27.31
+AddRack = container / TravelBaggae,    -0.09,  2.81,  -26.49, -3.65, 0.20, -27.31
+AddRack = container / TravelBaggae,    -0.09,  2.81,  -28.63, -3.65, 0.20, -27.31
+AddRack = container / TravelBaggae,    -0.09,  2.81,  -30.38, -3.65, 0.20, -27.31
+
+
+
+
+AddPartLG =  0.21, 2.22, -0.34, 1, 0, 0,  -110 
+AddPartLG =   4.00, 3.50, -17.06, 0, 0, 1, -95
+AddPartLG =   -4.30, 3.58, -17.29, 0, 0, 1, 95
+AddPartLG =   0.95, 2.29, 1.15, 0, 0, 1, -110
+AddPartLG =    -0.95, 2.29, 1.15, 0, 0, 1, 110
+
+
+
+BoundingBox =  0.16, 3.66, -2.37, 5.0, 4.0
+BoundingBox =  0.16, 3.66, -11.04, 5.0, 4.0
+BoundingBox =  0.16, 3.66, -21.39, 5.0, 4.0
+BoundingBox =  0.16, 3.66, -31.30, 5.0, 4.0
+BoundingBox =  0.16, 6.55, -39.37, 3.0, 3.0
+
+BoundingBox =  -8.22, 2.80, -18.54, 3.0, 2.0
+BoundingBox =  8.38, 2.80, -18.54, 3.0, 2.0
+
+

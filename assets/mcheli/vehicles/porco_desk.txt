@@ -1,0 +1,17 @@
+﻿DisplayName = porco's desk
+AddDisplayName = ja_JP, ポルコの机
+
+MaxHp = 100
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+CameraPosition = -0.04, 1.24, -0.34, true
+
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = -0.04, 0.16, -0.34
+
+AddGunnerSeat =  2.07, -0.24, 1.00,  2.07, 1.00, 1.00,  false

@@ -1,0 +1,87 @@
+DisplayName = Mazda RX-Prince683
+AddDisplayName = ja_JP, マツダ RX-Prince683
+ItemID = 28745
+MaxHp = 22
+ThrottleUpDown = 10.0
+Speed = 6.8
+MobilityYawOnGround = 5.0
+StepHeight = 1.2
+Sound = prop
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.85
+EnableNightVision = true
+MaxFuel           = 1200
+FuelConsumption   = 1.0
+
+OnGroundPitchFactor = 18.0
+OnGroundRollFactor  = 4.8
+
+
+EntityWidth  = 0.7
+EntityHeight = 0.7
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+;後退可能にする
+EnableBack = true
+; C = Civilian(民間機)
+Category = C
+
+; Tank or Car or Unknown
+WeightType = Car
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.05,  -0.24,  1.965, -1.789
+
+HUD = car, none
+
+AddSeat = -0.54,   0.01, -0.25
+AddSeat =  0.54,   0.01, -0.25
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.1
+
+AddWeapon =  horn3,  -0.54,   0.01, -0.25,  0.0, 90
+AddWeapon = Comethazine_Walk_Earrape, -0.86, 3.09, 0.29,  0.0, 0.0, true,1, 0,-360,360, -90, 90
+
+; タイヤの回転スピード
+PartWheelRot = 40
+; タイヤを追加 X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+AddPartWheel     = -1.07,  0.13,  1.87, 30
+AddPartWheel     =  1.07,  0.13,  1.87, 30
+AddPartWheel     = -1.07,  0.13,  -1.63, 0
+AddPartWheel     =  1.07,  0.13,  -1.63, 0
+
+AddPartSteeringWheel =  -0.54,  0.72,  0.57,  0.0, 0.0, -1.73,   130
+
+AddPartThrottle = -0.53, 0.84, 0.70,  0,0,1, 220
+AddPartThrottle = -0.40, 0.80, 0.70,  0,0,1, 175
+
+AddPartCanopy    =    1.23,   0.62,   0.90,   -1,1,0,   -60
+AddPartCanopy   =   -1.23,   0.62,   0.90,   1,1,0,   60
+AddPartCanopy   =    1.23,   0.62,   0.90,   -1,1,0,   -60
+AddPartCanopy   =   -1.23,   0.62,   0.90,   1,1,0,   60
+AddPartCanopy = 0,0,0, 0,0,0, 0
+
+InventorySize = 9
+
+AddRecipe = " G ",  "I I",  "RIR",   G, gold_block, I, gold_ingot, R, redstone
+
+;ヘッドライト
+AddFixedSearchLight =  0.73, 0.72, 2.50,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight = -0.73, 0.72, 2.50,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+AddPartLightHatch =  0.00, 0.735, 2.61,   1,0, 0, -41.5
+
+;テールランプ
+AddFixedSearchLight =  0.86, 0.55,-2.88,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+AddFixedSearchLight =  0.64, 0.55,-2.88,   0xFFFF0000,   0x10FF0000,    0.05, 0.25,  6.0,  0
+AddFixedSearchLight = -0.86, 0.55,-2.88,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+AddFixedSearchLight = -0.64, 0.55,-2.88,   0xFFFF0000,   0x10FF0000,    0.05, 0.25, -6.0,  0
+

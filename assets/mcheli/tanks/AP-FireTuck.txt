@@ -1,0 +1,97 @@
+DisplayName = Fire Truck
+AddDisplayName = ja_JP, 空港消防車
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = 4wd3_snd
+ThrottleUpDown = 22.8
+MaxFuel         = 1800
+FuelConsumption = 0.5
+MobilityYawOnGround = 5.7
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -0.2
+GravityInWater = -0.1
+SubmergedDamageHeight = 6
+HUD = car, none, none, none
+MotionFactor = 0.90
+EnableBack = true
+FuelSupplyRange = 35
+PivotTurnThrottle = 0.25
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+ThirdPersonDist = 12
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = AP-FireTuck_military
+
+
+
+
+AddSeat =  -0.77,  1.62,  -0.07
+
+
+AddSeat =  0.86,  1.62,  -0.07
+
+
+
+AddPartWheel     = 1.365, 0.33, -0.224,  30
+
+AddPartWheel     = -1.281, 0.33, -0.224,  30
+
+AddPartWheel     = 0.04, 0.33, -4.29
+
+AddPartWheel     = 0.04, 0.33, -5.66
+
+
+
+AddPartSteeringWheel =  -0.843, 2.02, 0.80,   0, 1, -1.05,  120
+
+
+AddPartCanopy = -1.56, 2.14, 1.72,  0, 1, 0,  70
+
+
+
+AddFixedSearchLight =   1.30, 1.46, 1.81,   0x50FFFFFF,   0x00FFFFC0,    35.0, 20.0,  -10,  0
+AddFixedSearchLight =  -1.08, 1.46, 1.81,   0x50FFFFFF,   0x00FFFFC0,    35.0, 20.0,   10,  0
+
+
+
+AddPartWeapon = Drainage_water_f, false, true, true,  -0.86, 4.36, -1.27
+AddPartWeapon = Drainage_water_f, false, true, false,  -0.86, 4.36, -1.27
+
+
+AddWeapon = Drainage_water_f,  -0.86, 15.16, 10.20,  0, 0, true, 1, 0, -100, 100,  -70, 0
+
+AddWeapon =  firesiren, 0.14,  1.10,  0.62, 0.0, 90
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+AddFixedSearchLight =  -1.283, 3.593, -5.155,   0x50b22222,   0x00b22222,    3.0, 2.0,  -90,  0
+AddFixedSearchLight =  -1.283, 3.593, -5.155,   0x50b22222,   0x00b22222,    3.0, 2.0,   90,  0
+
+
+BoundingBox =   -0.11,  1.09,  -2.17,  4.0,  4.0
+
+BoundingBox =   -0.11,  1.09,  -3.80,  4.0,  4.0
+
+BoundingBox =   -0.11,  1.09,  -5.99,  4.0,  4.0
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 0.8
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -1.5
+
+
+SetWheelPos =  1.365,  -0.24, 1.5, -0.224, -4.29, -5.66
+
+
+

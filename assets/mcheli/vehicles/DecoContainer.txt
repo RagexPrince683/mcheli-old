@@ -1,0 +1,29 @@
+﻿DisplayName = DecoContainer
+AddDisplayName = ja_JP, 装飾用コンテナ
+
+MaxHp = 200
+HideEntity = true
+RotationPitchMin =  0
+RotationPitchMax =  0
+DamageFactor = 1
+InventorySize = 54
+
+AddSeat = -0.03, 4.42, -1.49
+
+
+AddPartHatch  =  1.66, 2.55, -3.96, 0, 1, 0,  -120
+AddPartHatch  =  -1.36, 2.55, -3.96, 0, 1, 0,  120
+
+
+BoundingBox =  0.05, 1.51, 3.83, 4.0, 3.0
+BoundingBox =  0.05, 1.51, 1.30, 4.0, 2.0
+BoundingBox =  0.05, 1.51, -1.68, 4.0, 2.0
+
+
+AddTexture = DecoContainer_black
+AddTexture = DecoContainer_blue
+AddTexture = DecoContainer_green
+AddTexture = DecoContainer_orange
+AddTexture = DecoContainer_yellow
+AddTexture = DecoContainer_white
+AddTexture = DecoContainer_military

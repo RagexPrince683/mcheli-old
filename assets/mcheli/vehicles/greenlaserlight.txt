@@ -1,0 +1,26 @@
+﻿DisplayName = Green Laser Light
+AddDisplayName = ja_JP, グリーンレーザーライト
+
+MaxHp = 100
+HUD = none
+Float  = true
+CanMoveOnGround = false
+HideEntity = true
+
+AddSeat = 0.00, 1.00, 0.00
+CameraPosition =  0.00, 2.00, 0.00, false
+
+
+MinRotationPitch  = -90
+MaxRotationPitch  = 0
+
+
+AddPart = true, true, false, 0, 0.00, 0.00, 0.00
+AddChildPart = true, true, true, 0,  0.00, 0.00, 0.00
+
+
+AddSearchLight = 0.00, 0.00, 0.00,    0x5000FF00,   0x1090EE90,    250, 5,   0,   -12.5
+AddSearchLight = 0.00, 0.00, 0.00,   0x5000FF00,   0x1090EE90,    250, 5,   -15,   -3.0
+AddSearchLight = 0.00, 0.00, 0.00,   0x5000FF00,   0x1090EE90,    250, 5,   15,   -3.0
+AddSearchLight = 0.00, 0.00, 0.00,   0x5000FF00,   0x1090EE90,    250, 5,   -30,   -31.5
+AddSearchLight = 0.00, 0.00, 0.00,   0x5000FF00,   0x1090EE90,    250, 5,   30,   -31.5

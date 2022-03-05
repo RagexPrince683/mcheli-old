@@ -1,0 +1,22 @@
+DisplayName = AGM-86B ALCM
+Type = TVMissile
+Power = 5000
+Acceleration = 2.5
+Explosion = 1000
+ExplosionBlock = 1000
+Bomblet = 25
+Sight = MoveSight
+Delay = 110
+Round = 12
+ModeNum = 2
+ModelBullet = alcm
+Sound = missile_1_snd
+DisableSmoke = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 12
+SuppliedNum = 3
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

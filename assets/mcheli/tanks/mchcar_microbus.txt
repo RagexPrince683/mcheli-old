@@ -1,0 +1,93 @@
+DisplayName = Micro Bus
+AddDisplayName = ja_JP, マイクロバス
+
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = 4wd3_snd
+ThrottleUpDown = 25.6
+MaxFuel         = 1500
+FuelConsumption = 1
+MobilityYawOnGround = 5.2
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.5
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none, none, none, none
+MotionFactor = 0.90
+PivotTurnThrottle = 0.3
+ThirdPersonDist = 10
+UnmountPosition = 4.06, 1.00, -0.15
+EnableBack = true
+
+; C = Civilian(民間機)
+Category = C
+
+AddTexture = mchcar_microbus_2
+AddTexture = mchcar_microbus_3
+AddTexture = mchcar_microbus_4
+
+
+
+
+AddSeat =  -0.94, 1.22, 1.53
+
+
+
+AddSeat =  1.17, 1.22, 1.53
+AddSeat =  -1.13, 1.22, -0.15
+AddSeat =  -1.13, 1.22, -1.48
+AddSeat =  -1.13, 1.22, -2.74
+AddSeat =  -1.13, 1.22, -4.03
+AddSeat =  -1.13, 1.22, -5.37
+
+AddSeat =  1.27, 1.22, -1.48
+AddSeat =  1.27, 1.22, -2.74
+AddSeat =  1.27, 1.22, -4.03
+AddSeat =  1.27, 1.22, -5.37
+
+
+
+AddPartSteeringWheel =   -0.933, 1.623,  2.302,   0, 1, -1.05,  120
+
+AddPartWheel     = 1.48, 0.194,  1.273,  35
+AddPartWheel     = -1.492, 0.194,  1.273,  35
+
+AddPartWheel     = 1.48, 0.194,  -3.62
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 1.0
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -1.0
+
+
+SetWheelPos =  1.215,  -0.24, 1.0, 1.273, -3.62
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+PartWheelRot = 35
+
+
+AddFixedSearchLight =   1.02, 0.71, 3.15,   0x50FFFFFF,   0x00FFFFC0,    40.0, 20.0,   -8,  0
+AddFixedSearchLight =   -1.00, 0.71, 3.15,   0x50FFFFFF,   0x00FFFFC0,   40.0, 20.0,   8,  0
+
+
+
+
+AddWeapon =  horn2,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSlideHatch =  0.10, 0.00, -1.27
+
+
+
+AddPartThrottle = -0.885, 1.712, 2.69,  0, 0, 1,  248

@@ -1,0 +1,15 @@
+﻿DisplayName = MixerSet
+AddDisplayName = ja_JP, ミキサーセット
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+
+AddSeat = -0.06, 0.30, -1.45
+CameraPosition = -0.06, 1.51, -1.19, false

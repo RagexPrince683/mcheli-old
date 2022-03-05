@@ -1,0 +1,75 @@
+DisplayName = Tigermos
+AddDisplayName = ja_JP, ???????
+
+MaxHp = 178
+Speed = 0.8
+Sound = heli
+ThrottleUpDown = 5.0
+MaxFuel = 1000
+FuelConsumption = 0.5
+MobilityYawOnGround = 2.5
+MobilityYaw = 0.8
+MobilityPitch = 0.1
+MobilityRoll = 0.1
+MinRotationPitch = -10
+MaxRotationPitch =  10
+MinRotationRoll  = -10
+MaxRotationRoll  =  10
+EntityWidth  = 0.7
+EntityHeight = 0.7
+ThirdPersonDist = 40
+
+
+InventorySize = 54
+ParticlesScale = 0.01
+HideEntity = true
+RotorSpeed = 20.0
+
+HUD = heli, none, none, none
+
+
+; C = Civilian(???)
+Category = C
+
+
+
+;????
+AddSeat =  -0.14, 1.57, -0.63
+CameraPosition = -1.05, 8.71, 8.56, true
+
+
+
+; ??
+AddSeat = 0.57, 0.05, -1.67
+
+AddSeat = -1.92, -0.02, -2.46
+AddSeat = -1.92, -0.02, -5.68
+AddSeat = -1.04, 19.67, -13.85
+
+AddGunnerSeat = -0.43, 1.82, -0.60,  1.13, 5.22, 8.42,  false
+AddGunnerSeat = -0.43, 1.62, -0.60,  1.11, 5.56, -9.04,  false
+
+
+AddRotor= 4, 45,  17.15, 8.72, 3.82,  0, 0, 1
+AddRotor= 4, 45,  -19.24, 8.72, 3.82,  0, 0, 1
+AddRotor= 2, 90,  -1.04, 5.54, -30.01,  0, 0, 1
+
+AddPartHatch = 1.38, 3.33, -7.26, 1, 0, 0,  80
+
+
+
+AddRack = flaptor,  -1.03, 0.11, -1.05,  -1.03, 0.11, -9.44,  10.0
+AddRack = flaptor,  -1.03, 0.11, -2.46,  -1.03, 0.11, -9.44,  10.0
+AddRack = flaptor,  -1.03, 0.11, -4.36,  -1.03, 0.11, -9.44,  10.0
+AddRack = flaptor,  -1.03, 0.11, -5.96,  -1.03, 0.11, -9.44,  10.0
+
+AddRack = mos_glider,  -0.82, 22.60, -14.20,  -0.82, 24.60, -15.20,  30.0
+
+
+BoundingBox = -1.03, 5.57, 7.90, 5.0, 5.0
+BoundingBox = -1.03, 5.57, -1.31, 10.0, 10.0
+BoundingBox = -1.03, 5.57, -13.28, 10.0, 10.0
+BoundingBox = -1.03, 13.05, -3.48, 10.0, 10.0
+BoundingBox = -1.03, 13.05, -16.34, 10.0, 10.0
+BoundingBox = -1.03, 13.05, -25.75, 10.0, 10.0
+

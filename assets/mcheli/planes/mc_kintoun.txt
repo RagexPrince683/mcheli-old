@@ -1,0 +1,31 @@
+DisplayName = Flying Nimbus
+AddDisplayName = ja_JP, 筋斗雲
+
+
+MaxHp = 400
+Speed = 1.0
+Sound = kaze
+ThrottleUpDown = 15.7
+MaxFuel         = 100
+FuelConsumption = 0.0
+InventorySize = 54
+ThirdPersonDist = 8
+EnableBack = true
+HUD = none, none
+
+
+; C = Civilian(民間機)
+Category = C
+
+MobilityYaw = 0.5
+MobilityPitch = 0.5
+MobilityRoll = 0.5
+
+
+AddSeat =  -0.01, 0.51, -0.06
+AddSeat =  -0.01, 0.45, -1.02
+
+
+
+BoundingBox =  0.06, 0.30, -0.41,  1.0, 1.0
+

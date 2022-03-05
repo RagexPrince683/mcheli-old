@@ -1,0 +1,97 @@
+DisplayName = Heavy Carry Truck
+AddDisplayName = ja_JP, 重量物運搬トラック
+
+
+MaxHp = 45
+Speed = 0.8
+Sound = 4wd1_snd
+ThrottleUpDown = 18.5
+MaxFuel         = 1800
+FuelConsumption = 0.5
+MobilityYawOnGround = 5.4
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -0.8
+GravityInWater = -0.2
+SubmergedDamageHeight = 2
+HUD = car, none
+MotionFactor = 0.90
+PivotTurnThrottle = 0.35
+EnableBack = true
+ThirdPersonDist = 16
+PartWheelRot = 30.0
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = HeavyCarryTruck_military
+
+
+
+AddSeat =  -0.82,  1.62,  0.01
+
+AddSeat =  0.80,  1.62,  0.01
+
+
+
+AddRack =  plane / helicopter / vehicle / tank,    0.07,  0.90,  -8.91,    0.17,  0.09,  -18.91, 12
+
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+AddPartSteeringWheel =   -0.889, 2.02,  0.80,   0, 1, -1.05,  120
+
+
+
+AddPartWheel     = 1.433, 0.33,  -0.224,  35
+AddPartWheel     = -1.349, 0.33,  -0.224,  35
+
+AddPartWheel     = 1.433, 0.33,  -3.21
+AddPartWheel     = 1.433, 0.33,  -4.91
+
+AddPartWheel     = 1.433, 0.02, -16.47
+AddPartWheel     = 1.433, 0.02, -17.30
+
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+
+OnGroundPitchFactor = 0.8
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -1.5
+
+
+SetWheelPos =  1.433,  -0.24,  1.5, -0.224, -3.21, -4.91, -16.47, -17.30
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+
+AddPartSlideHatch = 0.00, 0.00, -2.83
+
+
+
+AddPartCanopy = -1.64, 2.14, 1.72,  0, 1, 0,  70
+
+
+
+AddFixedSearchLight =   1.43, 0.50, 1.81,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -1.31, 0.50, 1.81,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+
+BoundingBox =   -0.32,  0.68,  -2.69,  5.0,  1.0
+BoundingBox =   -0.32,  0.68,  -6.44,  5.0,  1.0
+BoundingBox =   -0.32,  0.47,  -10.16,  5.0,  0.5
+BoundingBox =   -0.32,  0.47,  -13.39,  5.0,  0.5
+
+
+
+
+

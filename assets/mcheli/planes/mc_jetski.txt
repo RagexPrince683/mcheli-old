@@ -1,0 +1,60 @@
+DisplayName = JetSki
+AddDisplayName = ja_JP, 水上ジェットスキー
+
+MaxHp = 200
+Speed = 0.8
+Sound = boat
+Float = true
+ThrottleUpDown = 15.3
+FloatOffset = -0.1
+MobilityYawOnGround = 4.0
+Gravity = -0.1
+StepHeight = 1.0
+CanMoveOnGround = false
+hud = car, none
+MotionFactor = 0.93
+EnableBack = true
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+MaxFuel         = 800
+FuelConsumption = 1.0
+
+
+
+AddTexture = mc_jetski_blue
+
+
+
+AddPartSteeringWheel =   0.018, 0.723, 0.474,   0, 1, -0.50,  20
+
+
+AddSeat =  0.02,  0.35,  -0.34
+AddSeat =  0.02,  0.35,  -1.07
+
+
+UnmountPosition = 3.00, 2.00, 0.00
+
+AddFixedSearchLight =  0.00, 0.23, 1.72,   0x50FFFFFF,   0x00FFFFC0,    20.0, 15.0,   0,  0
+
+
+
+AddParticleSplash =  0.9,  0.02,   0.0,   3,      7.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -0.9,  0.02,   0.0,   3,      7.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash =  0.9,  0.02,  -1.21,   2,      7.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -0.9,  0.02,  -1.21,   2,      7.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  0.9,  0.02,  -2.8,   2,      7.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -0.9,  0.02,  -2.8,   2,      7.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  0.6,  0.02,  -2.8,   2,      7.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -0.6,  0.02,  -2.8,   2,      7.0,    1.1,   60,       0.01,   0
+
+
+
+BoundingBox =  0.00, 0.12, 0.89, 1.0, 1.0
+
+BoundingBox =  0.00, 0.12, -0.33, 1.0, 1.0
+
+

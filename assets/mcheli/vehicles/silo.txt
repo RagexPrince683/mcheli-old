@@ -1,0 +1,24 @@
+DisplayName =  Missile Silo/abuse spammer
+AddDisplayName = ja_JP, Missile Silo 地対空ミサイル
+ItemID = 28612
+MaxHP = 1050
+AddTexture = silo
+CameraPosition = 0.0, 4.50, 0.0
+CameraZoom = 5
+MinRotationPitch = -100
+MaxRotationPitch = 5
+AddSeat = 0.0,  0.0, 0.0
+HideEntity = true
+
+; M = Military,  M = Missile(ミサイル)
+Category = M.M
+
+HUD = vehicle
+AddWeapon = HE Missile,  0.0, 2.68, 10.14,   0.0, 0.0
+AddWeapon = nuclear missile,  0.0, 2.68, 10.14,   0.0, 0.0
+AddPart	= false, false, false, 0,   0.00, 0.00, 0.00
+AddChildPart = false,false,false,  0,  0.00, 1.75, -0.85
+AddChildPart = false,false,false,  3,  0.00, 1.75, -0.85
+
+
+BoundingBox =  0.0, 2.5, 0.0,  2.0, 4.6

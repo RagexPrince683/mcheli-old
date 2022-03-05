@@ -1,0 +1,21 @@
+DisplayName = 50kg bomb
+Type = Bomb
+Power = 250
+Acceleration = 0.1
+Explosion = 2
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 5
+DamageFactor = tank, 1.5
+DamageFactor = plane, 1.0
+DamageFactor = vehicle 1.0
+DamageFactor = heli, 1.0
+
+ReloadTime = 25
+Round = 2
+MaxAmmo = 12
+SuppliedNum = 4
+
+Item = 1, iron_ingot
+Item = 1, gunpowder

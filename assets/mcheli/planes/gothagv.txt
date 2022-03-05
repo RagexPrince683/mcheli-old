@@ -1,0 +1,44 @@
+DisplayName = GOTHA G.V
+AddDisplayName = ja_JP, GOTHA G.V
+ItemID = 28708
+MaxHp = 102
+Speed = 0.7
+Sound = prop
+onGroundPitch = 8.5
+ThrottleUpDown = 0.8
+MaxFuel         = 1000
+FuelConsumption = 2.0
+ThrottleUpDownOnEntity = 1.0
+ThirdPersonDist = 12
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+EnableBack = True
+
+HUD = plane_wwii
+
+AddSeat = 0.0,  3.737, 4.621
+AddSeat = 0.0,  3.737, 6.903
+AddSeat = 0.0,  4.212, -5.018
+
+AddPartRotor =   -5.479,  4.297, 5.408,   1,0, 0
+AddBlade = 1, 0, -5.479,  4.297, 5.408,   0,0,-1
+AddPartRotor =    5.514,  4.271, 2.432,   1,0, 0
+AddBlade = 1, 0,  5.514,  4.271, 2.432,   0,0,-1
+
+
+AddWeapon = mg7_9mm,  0.0,  4.819, 7.967, -0.0, 0.0, false,  2, 0, -200, 200, -80, 8
+AddWeapon = mg7_9mmt, 0.0,  5.208, -6.296,  -0.0, 0.0, false,  3, -180, -200, 200, -80, 8
+AddWeapon = mediumbomb,  -0.5778, 2.046, -0.7,   0.0, -0.0, true,  1
+
+AddPartWeapon = mg7_9mm, false, true, true,  0.0,  4.819, 7.967
+AddPartWeaponChild = false, true,0.0,  4.819, 7.967
+AddPartWeapon = mg7_9mmt, false, true, true,  0.0,  4.212, -5.018
+AddPartWeaponChild = false, true,0.0,  4.212, -5.018
+
+AddRecipe = "I I",  "PGP",  " I ",  I,iron_block, G,dye,7, P,paper
+
+BoundingBox =  0.00, 1.60, -0.00,  2.0, 1.8
+BoundingBox = -2.92, 1.60,  0.30,  2.0, 0.6
+BoundingBox =  2.92, 1.60,  0.30,  2.0, 0.6

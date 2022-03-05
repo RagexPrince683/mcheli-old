@@ -1,0 +1,84 @@
+﻿DisplayName = Approach Lights 2
+AddDisplayName = ja_JP, 滑走路進入灯2
+
+MaxHp = 100
+HUD = none
+CanMoveOnGround = false
+HideEntity = true
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+Float  = true
+
+FuelSupplyRange = 25
+ArmorMinDamage = 50
+ArmorDamageFactor = 0.0
+
+
+
+AddSeat = 0.00, 2.00, 0.00
+CameraPosition = 0.00, 3.00, 0.00, false
+
+
+
+AddFixedSearchLight = 0.00, -0.25, 0.19,    0x5000bfff,   0x1000bfff,    1, 3,   0,  -90
+AddFixedSearchLight = 2.62, -0.25, 0.19,    0x5000bfff,   0x1000bfff,    1, 3,   0,  -90
+AddFixedSearchLight = -2.62, -0.25, 0.19,    0x5000bfff,   0x1000bfff,    1, 3,   0,  -90
+AddFixedSearchLight = 5.12, -0.25, 0.19,    0x5000bfff,   0x1000bfff,    1, 3,   0,  -90
+AddFixedSearchLight = -5.12, -0.25, 0.19,    0x5000bfff,   0x1000bfff,    1, 3,   0,  -90
+AddFixedSearchLight = 7.61, -0.25, 0.19,    0x5000bfff,   0x1000bfff,    1, 3,   0,  -90
+AddFixedSearchLight = -7.61, -0.25, 0.19,    0x5000bfff,   0x1000bfff,    1, 3,   0,  -90
+AddFixedSearchLight = 10.07, -0.25, 0.19,    0x5000bfff,   0x1000bfff,    1, 3,   0,  -90
+AddFixedSearchLight = -10.07, -0.25, 0.19,    0x5000bfff,   0x1000bfff,    1, 3,   0,  -90
+
+
+
+AddFixedSearchLight = 0.00, -0.25, -4.88,    0x50ffff00,   0x10ffff00,    1, 2,   0,  -90
+AddFixedSearchLight = 0.00, -0.25, -9.20,    0x50ffff00,   0x10ffff00,    1, 2,   0,  -90
+AddFixedSearchLight = 0.00, -0.25, -13.43,    0x50ffff00,   0x10ffff00,    1, 2,   0,  -90
+AddFixedSearchLight = 0.00, -0.25, -18.33,    0x50ffff00,   0x10ffff00,    1, 2,   0,  -90
+AddFixedSearchLight = 0.00, -0.25, -22.72,    0x50ffff00,   0x10ffff00,    1, 2,   0,  -90
+AddFixedSearchLight = 0.00, -0.25, -27.56,    0x50ffff00,   0x10ffff00,    1, 2,   0,  -90
+
+
+
+
+
+
+AddFixedSearchLight = 3.65, -0.25, -9.39,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = 4.97, -0.25, -9.39,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = 6.30, -0.25, -9.39,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+
+AddFixedSearchLight = -3.65, -0.25, -9.39,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = -4.97, -0.25, -9.39,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = -6.30, -0.25, -9.39,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+
+
+
+AddFixedSearchLight = 3.65, -0.25, -17.44,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = 4.97, -0.25, -17.44,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = 6.30, -0.25, -17.44,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+
+AddFixedSearchLight = -3.65, -0.25, -17.44,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = -4.97, -0.25, -17.44,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = -6.30, -0.25, -17.44,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+
+
+
+AddFixedSearchLight = 3.65, -0.25, -23.89,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = 4.97, -0.25, -23.89,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = 6.30, -0.25, -23.89,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+
+AddFixedSearchLight = -3.65, -0.25, -23.89,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = -4.97, -0.25, -23.89,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = -6.30, -0.25, -23.89,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+
+
+
+AddFixedSearchLight = 3.65, -0.25, -30.28,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = 4.97, -0.25, -30.28,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = 6.30, -0.25, -30.28,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+
+AddFixedSearchLight = -3.65, -0.25, -30.28,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = -4.97, -0.25, -30.28,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90
+AddFixedSearchLight = -6.30, -0.25, -30.28,    0x50ffff00,   0x10ffff00,    0.5, 1,   0,  -90

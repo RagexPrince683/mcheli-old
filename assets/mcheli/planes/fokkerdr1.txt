@@ -1,0 +1,33 @@
+DisplayName = FOKKER DR.1
+AddDisplayName = ja_JP, FOKKER DR.1
+ItemID = 28708
+MaxHp = 63
+Speed = 0.7
+Sound = prop
+onGroundPitch = 9.3
+ThrottleUpDown = 0.8
+MaxFuel         = 800
+FuelConsumption = 1.0
+ThrottleUpDownOnEntity = 2.0
+ThirdPersonDist = 12
+
+EnableBack = True
+
+; W = WWII.  F = Fighter(戦闘機)
+Category = W.F
+
+HUD = plane_wwii
+
+AddSeat = 0.0,  1.883, -1.284
+
+AddPartRotor =    0.009,  1.598, 1.483,   1,0, 0
+AddBlade = 1, 0,  0.009,  1.598, 1.483,   0,0,-1
+
+AddWeapon = mg7_9mm,  0.2897, 2.277,  0.5433,   0.0, -5.0
+AddWeapon = mg7_9mm, -0.2897, 2.277,  0.5433,   0.0, -5.0
+
+AddRecipe = "I I",  "PGP",  " I ",  I,iron_block, G,dye,7, P,paper
+
+BoundingBox =  0.00, 1.60, -0.00,  2.0, 1.8
+BoundingBox = -2.92, 1.60,  0.30,  2.0, 0.6
+BoundingBox =  2.92, 1.60,  0.30,  2.0, 0.6

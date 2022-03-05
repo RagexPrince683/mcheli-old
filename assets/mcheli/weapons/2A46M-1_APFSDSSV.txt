@@ -1,0 +1,32 @@
+DisplayName = 2A46M-1 Smoothbore Gun[3BM46 Svinets]
+Type = MachineGun1
+Power = 1300
+Delay = 120
+ModelBullet = bullet105mm
+Flaming = true
+;rad = 1
+;one day fren
+Explosion = 1
+ExplosionBlock = 1
+Acceleration = 16.0
+Sight = None
+ReloadTime = 120
+Round = 1
+SoundVolume = 10.0
+Sound = cannon_4_snd
+Accuracy = 1.5
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+Gravity = -0.01
+Group = MainGun
+Piercing = 4
+DamageFactor = tank, 3.0
+DamageFactor = plane, 2.5
+DamageFactor = vehicle 2.0
+DamageFactor = heli, 2.0
+
+MaxAmmo = 40
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, hbm:item.rod_uranium_fuel_depleted

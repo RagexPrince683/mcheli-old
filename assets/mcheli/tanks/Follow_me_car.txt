@@ -1,0 +1,82 @@
+DisplayName = FollowMe Car
+AddDisplayName = ja_JP, フォローミーカー
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = 4wd2_snd
+ThrottleUpDown = 15.8
+MaxFuel         = 800
+FuelConsumption = 0.3
+MobilityYawOnGround = 7.2
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -0.1
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none
+MotionFactor = 0.91
+EnableBack = true
+PivotTurnThrottle = 0.15
+ThirdPersonDist = 6
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  -0.61,  0.48,  -0.18
+AddSeat =  0.69,  0.48,  -0.18
+
+
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+
+AddPartSteeringWheel =   -0.65, 1.019,  0.426,   0, 1, -1.75,  120
+
+
+AddPartWheel     = 0.962, 0.165,  1.758,  35
+AddPartWheel     = -0.962, 0.165,  1.758,  35
+
+
+AddPartWheel     = 0.962, 0.165,  -1.993
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.962,  -0.24,  1.758, -1.993
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+
+
+AddFixedSearchLight =  0.89, 0.79, 2.56,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.86, 0.79, 2.56,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddFixedSearchLight =  0.68, 2.28, -0.96,   0x801e90ff,   0x001e90ff,    2.0, 2.5,  -90,  0
+AddFixedSearchLight =  -0.68, 2.28, -0.96,   0x801e90ff,   0x001e90ff,    2.0, 2.5,   90,  0
+
+AddFixedSearchLight =  0.91, 2.07, -0.93,   0x80ffa500,   0x00ffa500,    1.0, 1.5,  -90,  0
+AddFixedSearchLight =  -0.91, 2.07, -0.93,   0x80ffa500,   0x00ffa500,    1.0, 1.5,   90,  0
+
+
+
+
+BoundingBox =   -0.01,  0.73,  1.49,  3.0,  1.0
+
+BoundingBox =   -0.01,  0.73,  -1.51,  3.0,  2.0
+
+
+

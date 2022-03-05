@@ -1,0 +1,79 @@
+DisplayName = Small Van
+AddDisplayName = ja_JP, 自動車(小型バン)
+
+
+MaxHp = 35
+Speed = 0.7
+Sound = cardrive
+ThrottleUpDown = 18.0
+MaxFuel         = 1200
+FuelConsumption = 1
+MobilityYawOnGround = 7.2
+StepHeight = 1.0
+InventorySize = 27
+Gravity = -0.3
+GravityInWater = -0.1
+SubmergedDamageHeight = 1
+HUD = car, none, none
+MotionFactor = 0.92
+EnableBack = true
+PivotTurnThrottle = 0.18
+ThirdPersonDist = 8
+
+; C = Civilian(民間機)
+Category = C
+
+AddTexture = mchcar_smallvan_rc
+
+
+AddSeat =  0.02, 0.23, 0.16
+AddSeat =  1.05, 0.23, 0.16
+
+
+AddSeat =  0.16, 0.23, -1.16
+AddSeat =  1.05, 0.23, -1.16
+
+
+
+AddPartSteeringWheel =   -0.069, 0.772,  0.772,   0, 1, -1.05,  120
+
+AddPartWheel     = 1.374, -0.055,  0.339,  25
+AddPartWheel     = -0.358, -0.055,  0.339,  25
+
+
+AddPartWheel     = 1.374, -0.055,  -1.79
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.0
+
+SetWheelPos =  1.374,  -0.24,  2.0,  0.3396, -1.79
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+WeightedCenterZ = -0.5
+
+
+
+AddPartSlideHatch =   0.04, 0.00, -0.87
+
+
+
+AddFixedSearchLight =  1.12, 0.47, 1.29,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0
+AddFixedSearchLight =  -0.05, 0.47, 1.29,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,   5,  0
+
+
+AddWeapon =  horn5,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartThrottle = -0.037, 0.784, 1.076,  0, 0, 1,  244
+
+
+

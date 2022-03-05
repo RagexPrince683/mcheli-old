@@ -1,0 +1,12 @@
+﻿DisplayName = AntennaSet
+AddDisplayName = ja_JP, アンテナセット
+
+MaxHp = 100
+HUD = none
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+AddSeat = 0.00, 1.00, 0.00
+CanRide = false

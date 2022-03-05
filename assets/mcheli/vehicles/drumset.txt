@@ -1,0 +1,15 @@
+﻿DisplayName = DrumSet
+AddDisplayName = ja_JP, ドラムセット
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+
+
+AddSeat = -0.00, 0.34, -0.51
+CameraPosition = -0.00, 1.23, -0.51, false

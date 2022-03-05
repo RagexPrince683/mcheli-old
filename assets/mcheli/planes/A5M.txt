@@ -1,0 +1,47 @@
+﻿DisplayName = A5M
+AddDisplayName = ja_JP, 九六式艦上戦闘機
+ItemID = 52756
+MaxHp = 100
+Speed = 0.85
+Sound = prop
+onGroundPitch = 15
+ThrottleUpDown = 0.8
+MaxFuel         = 1500
+FuelConsumption = 0.9
+SubmergedDamageHeight = 1
+ThirdPersonDist = 12
+
+MobilityYaw = 1.0
+MobilityRoll = 1.0
+MobilityPitch = 1.0
+
+HUD = plane_wwii
+
+AddTexture = A5M1
+
+AddSeat = 0.0,  1.0,  0.2
+
+EntityWidth  = 0.7
+EntityHeight = 0.7
+
+UnmountPosition = 2.0, 1.5, -2.0
+
+AddPartLG =  0.0, 0.97,  -3.01,  1,0,0, 15
+
+AddPartRotor =   0.0,  1.3387, 2.0,   1,0, 0
+AddBlade = 1, 0, 0.0,  1.3387, 2.0,   0,0,1
+
+RotorSpeed = 200
+
+AddWeapon = Type89AG7_7mm,   0.2, 1.8, 1.3,  0.0, 0.0
+AddWeapon = Type89AG7_7mm,  -0.2, 1.8, 1.3,  0.0, 0.0
+
+BoundingBox =  0.0, 1.7,  1.8, 1.0, 1.0, 1.5
+BoundingBox =  0.0, 1.7,  0.5, 1.3, 1.3, 1.0
+BoundingBox =  0.0, 1.7, -1.0, 1.3, 1.3, 1.0
+BoundingBox =  0.0, 1.7, -2.5, 1.3, 1.3, 1.0
+BoundingBox =  0.0, 1.7, -4.0, 1.0, 1.0, 1.0
+BoundingBox = -3.0, 1.2,  0.5, 2.0, 0.2, 1.2
+BoundingBox =  3.0, 1.2,  0.5, 2.0, 0.2, 1.2
+BoundingBox = -1.5, 1.7, -4.0, 1.2, 0.2, 1.0
+BoundingBox =  1.5, 1.7, -4.0, 1.2, 0.2, 1.0

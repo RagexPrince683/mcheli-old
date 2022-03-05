@@ -1,0 +1,55 @@
+DisplayName = Road bicycle
+AddDisplayName = ja_JP, ロードバイク
+
+MaxHp = 15
+Speed = 0.5
+Sound = Bicycle
+ThrottleUpDown = 18.5
+MaxFuel         = 100
+FuelConsumption = 0.0
+Gravity = -0.1
+MobilityYawOnGround = 7
+PartWheelRot = 25.0
+MotionFactor = 0.91
+ParticlesScale = 0.2
+EntityPitch = 32
+StepHeight = 1.0
+HUD = none, none
+EnableBack = true
+
+
+InventorySize = 5
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+
+AddSeat =  0.00, 0.68, 0.30
+
+
+
+AddPartWheel     = -0.007, 0.199,  1.179,  20
+AddPartWheel     = -0.015, 0.128,  0.162
+AddPartWheel     = -0.007, 0.199,  -0.524
+
+
+AddPartHatch =   0.08, 0.21, -0.50, 1, 0, 0, -85
+
+
+AddPartSteeringWheel =   0.006, 0.867,  0.88,   0, 1, -0.46,  20
+
+
+OnGroundPitchFactor = 4.8
+OnGroundRollFactor  = 2.2
+
+SetWheelPos =  -0.007,  -0.24,  1.179, -0.524
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0

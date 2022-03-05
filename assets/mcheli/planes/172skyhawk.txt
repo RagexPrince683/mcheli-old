@@ -1,0 +1,45 @@
+DisplayName = Cessna 172skyhawk
+AddDisplayName = ja_JP, セスナ172スカイホーク
+
+
+MaxHp = 100
+Speed = 0.9
+Sound = prop
+ThrottleUpDown = 1.0
+MaxFuel         = 1200
+FuelConsumption = 1.0
+InventorySize = 54
+ThirdPersonDist = 16
+
+HUD = civilian_aircraft, none, none, none
+EnableBack = true
+
+; C = Civilian(民間機)
+Category = C
+
+MobilityYaw = 1.4
+MobilityPitch = 1.4
+MobilityRoll = 1.2
+
+
+
+AddPartSteeringWheel =   0.38, 1.238, 1.11,   0, 1, -1.95,  60
+AddPartSteeringWheel =   -0.439, 1.238, 1.11,   0, 1, -1.95,  60
+
+
+
+AddSeat =  -0.36, 0.69, 0.31
+
+
+AddSeat =  0.39, 0.69, 0.31
+AddSeat =  0.39, 0.69, -1.13
+AddSeat =  -0.33, 0.69, -1.13
+
+
+AddPartRotor =    0.00, 1.13, 3.50,   0,0,1
+AddBlade = 1, 0,  0.00, 1.13, 3.50,   0,0,-1
+
+
+
+BoundingBox =  0.13, 1.23, 1.12,  2.0, 3.0
+BoundingBox =  0.13, 1.23, -0.99,  2.0, 3.0

@@ -1,0 +1,81 @@
+DisplayName = Fork lift
+AddDisplayName = ja_JP, フォークリフト
+
+
+MaxHp = 10
+Speed = 0.6
+Sound = 4wd2_snd
+ThrottleUpDown = 22
+Gravity = -0.5
+GravityInWater = -0.3
+SubmergedDamageHeight = 2
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+StepHeight = 1.5
+MobilityYawOnGround = 8.5
+MotionFactor = 0.90
+EnableBack = true
+hud = car
+PivotTurnThrottle = 0.10
+ThirdPersonDist = 8
+
+MaxFuel         = 700
+FuelConsumption = 1.0
+
+
+; C = Civilian(民間機)
+Category = C
+
+AddTexture = MCForklift_military
+
+
+AddSeat =  0.01,  0.79,  -0.05
+AddSeat =  0.12,  0.52,  2.49
+
+
+AddRack = woodpallet,  0.03, 0.28, 2.70,    0.09, 0.01, 3.95
+AddRack = drum_pallet / cardboardboxpallet / cratepallet / feedbagpallet / woodpalletx5,  0.03, 0.28, 2.70,    0.09, 0.01, 3.95
+
+
+AddRack = container,    0.14,  0.67,  2.45,   0.09, 0.01, 3.95
+
+AddRack = container,    0.14,  1.12,  2.45,   0.09, 0.01, 3.95
+
+
+ExclusionSeat = 2, 4
+ExclusionSeat = 3, 4
+ExclusionSeat = 2, 5
+ExclusionSeat = 2, 6
+ExclusionSeat = 4, 5
+ExclusionSeat = 4, 6
+
+
+AddPartSlideHatch =  0.00, 1.52, 0.00
+
+
+
+AddFixedSearchLight =  0.84, 2.31, 1.45,   0x50FFFFFF,   0x00FFFFC0,    10.0, 7.0,  -5,  0
+AddFixedSearchLight =  -0.72, 2.31, 1.45,   0x50FFFFFF,   0x00FFFFC0,    10.0, 7.0,   5,  0
+
+AddPartSteeringWheel =   0.055, 1.43,  0.936,   0, 1, -0.60,  120
+
+AddPartWheel     = 0.715, 0.035,  1.382,  35
+AddPartWheel     = -0.645, 0.035,  1.382,  35
+
+AddPartWheel     = 0.715, 0.035,  -0.534
+AddPartWheel     = -0.645, 0.035,  -0.534
+
+
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.049,  -0.24,  1.50, 1.382, -0.534
+PartWheelRot = 30

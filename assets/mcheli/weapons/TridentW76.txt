@@ -1,0 +1,26 @@
+DisplayName = Trident I with W76 NUCLEAR WARHEAD
+Type = TVMissile
+Power = 3000000
+Explosion = 13000
+ExplosionBlock = 10000
+ExplosionInWater = 80000
+Acceleration = 4.5
+Sight = MoveSight
+ReloadTime = 400
+Delay = 40
+Round = 24
+SoundVolume = 10.0
+Sound = missile_2_snd
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+ModelBullet = none
+SmokeColor = 219, 155, 17
+SoundVolume = 50
+ParticlesScale = 40
+
+MaxAmmo = 24
+SuppliedNum = 1
+Item =  1, hbm:item.missile_generic
+Item =  20, gunpowder
+Item =  20, redstone
+Item =  24, tnt

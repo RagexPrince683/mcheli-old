@@ -1,0 +1,73 @@
+DisplayName = mcheli car Pike
+AddDisplayName = ja_JP, 自動車(パイク)
+
+
+MaxHp = 35
+Speed = 0.8
+Sound = cardrive
+ThrottleUpDown = 18.8
+MaxFuel         = 900
+FuelConsumption = 0.5
+MobilityYawOnGround = 7.5
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.1
+HUD = car, none, none, none
+MotionFactor = 0.92
+EnableBack = true
+PivotTurnThrottle = 0.13
+ThirdPersonDist = 8
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = mchcar_pike_rd
+AddTexture = mchcar_pike_sb
+
+
+
+AddSeat =  -0.01,  0.00,  0.11
+AddSeat =  1.05,  0.00,  0.11
+
+
+
+AddWeapon =  horn5,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   -0.042, 0.716,  0.644,   0, 1, -1.75,  120
+
+AddPartWheel     = 1.372, 0.022,  1.953,  30
+AddPartWheel     = -0.428, 0.022,  1.953,  30
+
+
+AddPartWheel     = 1.372, 0.022,  -0.90
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.372,  -0.24,  1.953, -0.90
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+AddFixedSearchLight =  1.18, 0.46, 2.79,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.22, 0.46, 2.79,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+AddPartThrottle = 0.08, 0.76, 0.887,  0, 0, 1,  245
+AddPartThrottle = -0.122, 0.76, 0.887,  0, 0, 1,  245
+
+
+
+

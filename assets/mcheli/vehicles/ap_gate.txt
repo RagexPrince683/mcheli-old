@@ -1,0 +1,17 @@
+﻿DisplayName = AirPort Gate
+AddDisplayName = ja_JP, 空港ゲート
+
+MaxHp = 500
+HUD = none, none
+Float  = true
+InventorySize = 18
+CanMoveOnGround = false
+
+RotationPitchMin = 0
+RotationPitchMax = 0
+CanRide = false
+
+AddSeat = 0.42, 1.06, -0.63
+
+
+AddGunnerSeat = -1.32, 0.31, -1.31, -1.32, 1.40, -1.31,  false

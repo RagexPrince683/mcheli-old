@@ -1,0 +1,327 @@
+﻿DisplayName = Space Battleship Iowa
+AddDisplayName = ja_JP, 宇宙戦艦アイオワ
+Float = true
+FloatOffset = -0.4
+Sound = rocket
+
+EnableEntityRadar = true
+EnableGunnerMode = true
+MinRotationPitch = -360
+MaxRotationPitch = 360
+MinRotationRoll = -180
+MaxRotationRoll = 180
+
+MobilityYaw = 20.2
+MobilityPitch = 20.4
+MobilityRoll = 1.4
+
+EnableVtol = true
+VtolYaw = 0.3
+VtolPitch = 0.2
+
+ParticlesScale = 3.0
+InventorySize = 54
+
+AddTexture = bb-62
+AddTexture = bb-63
+AddTexture = bb-64
+
+;耐久性
+MaxHp = 2000
+ArmorMinDamage = 50
+ArmorMaxDamage = 100
+ArmorDamageFactor = 0.1
+DamageFactor = 0.0
+;
+
+
+;機動性
+Speed = 0.9
+MobilityYawOnGround = 3.5
+ThrottleUpDown = 5.0
+Gravity = -0.04
+GravityInWater = -0.1
+MaxFuel         = 3000
+FuelConsumption = 1.0
+CanMoveOnGround = true
+CanRotOnGround  = true
+EnableBack = true
+PivotTurnThrottle = 0.0
+FlareType = 10
+HideEntity = true
+Regeneration = true
+FuelSupplyRange = 100
+AmmoSupplyRange = 100
+RepairOtherVehicles = 100
+EntityWidth  = 0.2
+EntityHeight = 0.2
+
+HUD = ship_hud, ship_hud, ship_hud,ship_hud, ship_hud, ship_hud, ship_hud, ship_hud, ship_hud, ship_hud, ship_hud, ship_hud, ship_hud, ship_hud
+
+CameraPosition = 0.00, 10.00, 2.00, false
+
+AddSeat =        0.00, 3.47,    5.38
+AddGunnerSeat =  0.00, 1.55,   12.35,  0.00, 2.55,   12.35,  true
+AddGunnerSeat =  0.00, 2.11,    7.89,  0.00, 3.11,    7.89,  true
+AddGunnerSeat =  0.00, 1.55,  -13.53,  0.00, 2.55,  -13.53,  true
+
+AddGunnerSeat =  2.86, 2.32,   -0.09,  2.72, 2.90,   -0.29,  true
+AddGunnerSeat = -2.86, 2.32,   -0.09, -2.72, 2.90,   -0.29,  true
+
+AddGunnerSeat =  0.90, 4.04,   1.71,  1.11, 4.26,    2.01,  true
+AddGunnerSeat = -0.90, 4.04,   1.71, -1.11, 4.26,    2.01,  true
+AddGunnerSeat =  0.54, 4.17,   -4.56,  1.39, 4.67,   -4.56,  true
+AddGunnerSeat = -0.54, 4.17,   -4.56, -1.39, 4.67,   -4.56,  true
+
+AddGunnerSeat =  0.54, 3.57,   -3.24,  2.28, 3.57,   -3.64,  true
+AddGunnerSeat = -0.54, 3.57,   -3.24, -2.28, 3.57,   -3.64,  true
+AddGunnerSeat =  1.71, 3.18,   -5.52,  1.71, 4.18,   -5.52,  true
+AddGunnerSeat = -1.71, 3.18,   -5.52, -1.71, 4.18,   -5.52,  true
+
+;主砲
+AddWeapon = sbi16inch_Mk.7_A,    0.66, 2.55,   13.00, 0.0, 0.0, true,  2,   0, -145,145, -45.0, 5.0
+AddWeapon = sbi16inch_Mk.7_A,    0.00, 2.55,   12.35, 0.0, 0.0, true,  2,   0, -145,145, -45.0, 5.0
+AddWeapon = sbi16inch_Mk.7_A,   -0.66, 2.55,   11.75, 0.0, 0.0, true,  2,   0, -145,145, -45.0, 5.0
+AddWeapon = sbi16inch_Mk.7_B,    0.66, 3.11,    8.49, 0.0, 0.0, true,  3,   0, -145,145, -45.0, 5.0
+AddWeapon = sbi16inch_Mk.7_B,    0.00, 3.11,    7.89, 0.0, 0.0, true,  3,   0, -145,145, -45.0, 5.0
+AddWeapon = sbi16inch_Mk.7_B,   -0.66, 3.11,    7.29, 0.0, 0.0, true,  3,   0, -145,145, -45.0, 5.0
+AddWeapon = sbi16inch_Mk.7_C,    0.66, 2.55,  -12.93, 0.0, 0.0, true,  4,   180, -145,145, -45.0, 5.0
+AddWeapon = sbi16inch_Mk.7_C,    0.00, 2.55,  -13.53, 0.0, 0.0, true,  4,   180, -145,145, -45.0, 5.0
+AddWeapon = sbi16inch_Mk.7_C,   -0.66, 2.55,  -14.13, 0.0, 0.0, true,  4,   180, -145,145, -45.0, 5.0
+;
+
+;左舷両用砲
+AddWeapon = sbi5inch_Mk.28_A,    1.86, 3.42,    1.98, 0.0, 0.0, true,  5,   -90, -90,90, -85.0, 0.0
+AddWeapon = sbi5inch_Mk.28_A,    1.86, 3.42,    1.54, 0.0, 0.0, true,  5,   -90, -90,90, -85.0, 9.0
+AddWeapon = sbi5inch_Mk.28_A,    2.72, 2.90,    0.15, 0.0, 0.0, true,  5,   -90, -90,90, -85.0, 9.0
+AddWeapon = sbi5inch_Mk.28_A,    2.72, 2.90,   -0.29, 0.0, 0.0, true,  5,   -90, -90,90, -85.0, 9.0
+AddWeapon = sbi5inch_Mk.28_A,    2.72, 2.90,   -4.92, 0.0, 0.0, true,  5,   -90, -90,90, -85.0, 9.0
+AddWeapon = sbi5inch_Mk.28_A,    2.72, 2.90,   -5.36, 0.0, 0.0, true,  5,   -90, -90,90, -85.0, 9.0
+;
+
+;右舷両用砲
+AddWeapon = sbi5inch_Mk.28_B,    -1.86, 3.42,   1.98, 0.0, 0.0, true,  6,   90, -90,90, -85.0, 9.0
+AddWeapon = sbi5inch_Mk.28_B,    -1.86, 3.42,   1.54, 0.0, 0.0, true,  6,   90, -90,90, -85.0, 9.0
+AddWeapon = sbi5inch_Mk.28_B,    -2.72, 2.90,   0.15, 0.0, 0.0, true,  6,   90, -90,90, -85.0, 9.0
+AddWeapon = sbi5inch_Mk.28_B,    -2.72, 2.90,   -0.29, 0.0, 0.0, true,  6,   90, -90,90, -85.0, 9.0
+AddWeapon = sbi5inch_Mk.28_B,    -2.72, 2.90,   -4.92, 0.0, 0.0, true,  6,   90, -90,90, -85.0, 9.0
+AddWeapon = sbi5inch_Mk.28_B,    -2.72, 2.90,   -5.36, 0.0, 0.0, true,  6,   90, -90,90, -85.0, 9.0
+;
+
+;左舷CIWS
+AddWeapon = sbi20mmciws_A,    1.09, 4.22,   2.01, 0.0, 0.0, true,  7,   -90, -90,90, -85.0, 45.0
+AddWeapon = sbi20mmciws_C,    1.32, 4.37,  -4.55, 0.0, 0.0, true,  9,   -90, -150,150, -85.0, 45.0
+;
+
+;右舷CIWS
+AddWeapon = sbi20mmciws_B,   -1.09, 4.22,   2.01, 0.0, 0.0, true,  8,   90, -90,90, -85.0, 45.0
+AddWeapon = sbi20mmciws_D,   -1.32, 4.37,   -4.55, 0.0, 0.0, true,  10,   90, -150,150, -85.0, 45.0
+;
+
+;トマホーク
+AddWeapon = sbibgm109_tomahawk_A,    2.28, 3.57, -2.78, 0.0, 0.0, true,  11,   -90, -90,90, -45.0, 95.0
+AddWeapon = sbibgm109_tomahawk_A,    2.28, 3.57, -3.54, 0.0, 0.0, true,  11,   -90, -90,90, -45.0, 95.0
+AddWeapon = sbibgm109_tomahawk_A,    1.66, 2.80, -7.21, 0.0, 0.0, true,  11,   -90, -90,90, -45.0, 95.0
+AddWeapon = sbibgm109_tomahawk_A,    2.28, 3.57, -8.47, 0.0, 0.0, true,  11,   -90, -90,90, -45.0, 95.0
+
+AddWeapon = sbibgm109_tomahawk_B,    -2.28, 3.57, -2.78, 0.0, 0.0, true,  12,   90, -90,90, -45.0, 95.0
+AddWeapon = sbibgm109_tomahawk_B,    -2.28, 3.57, -3.54, 0.0, 0.0, true,  12,   90, -90,90, -45.0, 95.0
+AddWeapon = sbibgm109_tomahawk_B,    -1.66, 2.80, -7.21, 0.0, 0.0, true,  12,   90, -90,90, -45.0, 95.0
+AddWeapon = sbibgm109_tomahawk_B,    -2.28, 3.57, -8.47, 0.0, 0.0, true,  12,   90, -90,90, -45.0, 95.0
+;
+
+;ハープーン
+AddWeapon = sbiagm84_harpoon_A,    1.71, 4.18, -5.2, 0.0, 0.0, true,  13,   -90, -90,90, -45.0, 5.0
+AddWeapon = sbiagm84_harpoon_A,    1.71, 4.18, -6.09, 0.0, 0.0, true,  13,   -90, -90,90, -45.0, 5.0
+
+AddWeapon = sbiagm84_harpoon_B,    -1.71, 4.18, -5.2, 0.0, 0.0, true,  14,   90, -90,90, -45.0, 5.0
+AddWeapon = sbiagm84_harpoon_B,    -1.71, 4.18, -6.09, 0.0, 0.0, true,  14,   90, -90,90, -45.0, 5.0
+;
+
+
+;主砲
+AddPartWeapon = sbi16inch_Mk.7_A, false, true, false, 0.00,2.55,12.35
+AddPartWeaponChild = false, true, 0.00, 1.78, 13.25
+AddPartWeapon = sbi16inch_Mk.7_B, false, true, false, 0.00,3.11,7.89
+AddPartWeaponChild = false, true, 0.00, 2.35, 8.68
+AddPartWeapon = sbi16inch_Mk.7_C, false, true, false, 0.00,2.55,-13.53
+AddPartWeaponChild = false, true, 0.00, 1.80, -14.42
+;
+
+;左舷両用砲
+AddPartWeapon = sbi5inch_Mk.28_A, false, true, false, 1.86, 3.42,1.76
+AddPartWeaponChild = false, true, 2.19, 2.78, 1.75
+AddPartWeapon = sbi5inch_Mk.28_A, false, true, false, 2.72, 2.90,-0.07
+AddPartWeaponChild = false, true, 3.04, 2.37, -0.04
+AddPartWeapon = sbi5inch_Mk.28_A, false, true, false, 2.72, 2.90,-5.14
+AddPartWeaponChild = false, true, 3.03, 2.39, -5.11
+;
+
+;右舷両用砲
+AddPartWeapon = sbi5inch_Mk.28_B, false, true, false, -1.86, 3.42,1.76
+AddPartWeaponChild = false, true, -2.19, 2.78, 1.75
+AddPartWeapon = sbi5inch_Mk.28_B, false, true, false, -2.72, 2.90,-0.07
+AddPartWeaponChild = false, true, -2.72, 2.38, -0.04
+AddPartWeapon = sbi5inch_Mk.28_B, false, true, false, -2.72, 2.90,-5.14
+AddPartWeaponChild = false, true, -3.03, 2.39, -5.11
+;
+
+;左舷CIWS
+AddPartWeapon = sbi20mmciws_A, false, true, false, 1.10, 4.22, 2.01
+AddPartWeaponChild = false, true,  1.10, 4.19,  2.01
+
+AddPartWeapon = sbi20mmciws_C, false, true, false, 1.32, 4.37,  -4.55
+AddPartWeaponChild = false, true, 1.32, 4.34,  -4.55
+;
+
+;右舷CIWS
+AddPartWeapon = sbi20mmciws_B, false, true, false, -1.11, 4.22,  2.01
+AddPartWeaponChild = false, true,  -1.11, 4.19, 2.01
+
+AddPartWeapon = sbi20mmciws_D, false, true, false, -1.34, 4.37,  -4.55
+AddPartWeaponChild = false, true, -1.34, 4.34,  -4.55
+;
+
+
+AddWeapon = targeting_pod_pv50s,   0.0, 7.0,0.0,    0.0, 0.0
+AddWeapon = targeting_pod_mob,   0.0, 7.0,0.0,    0.0, 0.0
+
+
+;大気圏内航行翼
+AddPartWing =   0.66,  0.21,  20.90, 0,1,  0, 45
+AddPartWing =  -0.66,  0.21,  20.90, 0,-1, 0, 45
+AddPartWing =   2.92,  0.19,  4.50, 0,1,  0, 25
+AddPartWing =  -2.92,  0.19,  4.50, 0,-1,  0, 25
+VariableSweepWing = true
+SweepWingSpeed = 1.2
+
+;エンジンノズル
+AddPartNozzle =  0.00, 0.01, -26.74, 0,0,0
+AddPartNozzle =  1.28,-1.31, -25.02, 0,0,0
+AddPartNozzle =  2.36,-1.25, -22.05, 0,0,0
+AddPartNozzle = -1.28,-1.31, -25.02, 0,0,0
+AddPartNozzle = -2.36,-1.25, -22.05, 0,0,0
+
+
+;回転するレーダー AddPartRotation = 位置X, Y, Z        回転軸X,Y,Z   回転速度, 常に回転させるか
+AddPartRotation = 0.00, 10.10, 0.32,  0,-1,0,       10.4,      true
+
+;回転するレーダーそのに
+AddPartRotor =    0.00,  6.24,-4.96,   0,1, 0
+AddBlade = 1, 0,  0.00,  6.24,-4.96,   0,1, 0
+
+
+;舵
+AddPartSteeringWheel =  0.00,  -0.67,  -23.03,  0.0, -1.0, 0.00,   40
+
+;探照灯
+AddPartCamera = 0.00, 8.29, 1.20, true, false
+AddPartCamera = 0.00, 8.29, 1.20, true, true
+;AddSearchLight= 座標X, Y, Z,       開始地点の色, 終了地点の色,  距離, 終端の半径
+AddSearchLight = 0.00, 8.29, 1.20,   0x50FFFFFF,   0x10FFFFC0,  90.0, 45.0
+
+
+;後部甲板のスペース
+AddRack =  container / vehicle / tank,       1.0, 1.45, -24.53,   1.0, 2.00, -34.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container,                        0.5, 1.45, -24.53,   0.5, 2.00, -34.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,       0.0, 1.45, -24.53,   0.0, 2.00, -34.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container,                       -0.5, 1.45, -24.53,   0.5, 2.00, -34.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,      -1.0, 1.45, -24.53,  -0.0, 2.00, -34.0,   35.0,   100000   ,  0.0,  0.0
+
+AddRack =  container / vehicle / tank,       2.0, 1.45, -23.03,   2.0, 2.00, -32.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,       1.5, 1.45, -23.03,   1.5, 2.00, -32.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,       1.0, 1.45, -23.03,   1.0, 2.00, -32.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,       0.5, 1.45, -23.03,   0.5, 2.00, -32.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  helicopter / vehicle / tank,      0.0, 1.45, -23.03,   0.0, 2.00, -32.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,      -0.5, 1.45, -23.03,  -0.5, 2.00, -32.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,      -1.0, 1.45, -23.03,  -1.0, 2.00, -32.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,      -1.5, 1.45, -23.03,  -1.5, 2.00, -32.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,      -2.0, 1.45, -23.03,  -2.0, 2.00, -32.0,   35.0,   100000   ,  0.0,  0.0
+
+AddRack =  container / vehicle / tank,       2.0, 1.45, -21.53,   2.0, 2.00, -30.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,       1.5, 1.45, -21.53,   1.5, 2.00, -30.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,       1.0, 1.45, -21.53,   1.0, 2.00, -30.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,       0.5, 1.45, -21.53,   0.5, 2.00, -30.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,       0.0, 1.45, -21.53,   0.0, 2.00, -30.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,      -0.5, 1.45, -21.53,  -0.5, 2.00, -30.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,      -1.0, 1.45, -21.53,  -1.0, 2.00, -30.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,      -1.5, 1.45, -21.53,  -1.5, 2.00, -30.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,      -2.0, 1.45, -21.53,  -2.0, 2.00, -30.0,   35.0,   100000   ,  0.0,  0.0
+
+
+AddRack =  container                 ,       2.5, 1.45, -20.03,   2.5, 2.00, -29.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,       2.0, 1.45, -20.03,   2.0, 2.00, -29.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,       1.5, 1.45, -20.03,   1.5, 2.00, -29.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,       1.0, 1.45, -20.03,   1.0, 2.00, -29.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,       0.5, 1.45, -20.03,   0.5, 2.00, -29.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,       0.0, 1.45, -20.03,   0.0, 2.00, -29.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,      -0.5, 1.45, -20.03,  -0.5, 2.00, -29.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,      -1.0, 1.45, -20.03,  -1.0, 2.00, -29.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,      -1.5, 1.45, -20.03,  -1.5, 2.00, -29.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,      -2.0, 1.45, -20.03,  -2.0, 2.00, -29.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,      -2.5, 1.45, -20.03,  -2.5, 2.00, -29.0,   35.0,   100000   ,  0.0,  0.0
+
+AddRack =  container                 ,       2.5, 1.45, -18.53,   2.5, 2.00, -28.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,       2.0, 1.45, -18.53,   2.0, 2.00, -28.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,       1.5, 1.45, -18.53,   1.5, 2.00, -28.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,       1.0, 1.45, -18.53,   1.0, 2.00, -28.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,       0.5, 1.45, -18.53,   0.5, 2.00, -28.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,       0.0, 1.45, -18.53,   0.0, 2.00, -28.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,      -0.5, 1.45, -18.53,  -0.5, 2.00, -28.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,      -1.0, 1.45, -18.53,  -1.0, 2.00, -28.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,      -1.5, 1.45, -18.53,  -1.5, 2.00, -28.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container / vehicle / tank,      -2.0, 1.45, -18.53,  -2.0, 2.00, -28.0,   35.0,   100000   ,  0.0,  0.0
+AddRack =  container                 ,      -2.5, 1.45, -18.53,  -2.5, 2.00, -28.0,   35.0,   100000   ,  0.0,  0.0
+
+; 水しぶき を発生させる
+;AddParticleSplash = 座標X,   Y,    Z,   表示数, サイズ,  速度,  表示時間, 上昇, 重力
+AddParticleSplash =  1.6, -0.18,   1.0,   3,      9.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -1.6, -0.18,   1.0,   3,      9.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash =  1.6, -0.18,  -4.8,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -1.6, -0.18,  -4.8,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  1.6, -0.18,  -8.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -1.6, -0.18,  -8.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  0.8, -0.18,  -8.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -0.8, -0.18,  -8.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash =  1.5, -0.18,  -18.0,   3,      9.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash = -1.5, -0.18,  -18.0,   3,      9.0,    1.1,   20,       0.30,  -0.03
+AddParticleSplash =  1.0, -0.18,  -20.0,   2,      9.0,    1.1,   60,       0.01,   0
+AddParticleSplash = -1.0, -0.18,  -20.0,   2,      9.0,    1.1,   60,       0.01,   0
+
+
+;当たり判定 船体
+BoundingBox =  0.0,  0.6,  -26.0,  1.7, 0.8,  0.70
+BoundingBox =  0.0,  0.5,  -23.7,  2.4, 0.0,  0.70
+BoundingBox =  0.0,  0.5,  -19.9,  2.0, 2.0,  0.70
+BoundingBox =  0.0,  0.5,  -13.5,  2.4, 2.6,  0.70
+BoundingBox =  0.0, -0.4,   -8.5,  2.4, 3.5,  0.70
+BoundingBox =  0.0, -0.4,   -3.5,  2.4, 3.5,  0.70
+BoundingBox =  0.0, -0.4,    1.5,  2.4, 3.5,  0.70
+BoundingBox =  0.0, -0.4,    6.9,  2.4, 3.5,  0.70
+BoundingBox =  0.0, -0.4,   11.8,  2.4, 3.5,  0.70
+BoundingBox =  0.0, -0.4,   15.5,  2.4, 3.5,  0.70
+BoundingBox =  0.0, -0.4,   18.5,  2.2, 3.5,  0.70
+BoundingBox =  0.0, -0.4,   20.5,  1.2, 3.7,  0.70
+BoundingBox =  0.0, -0.2,   22.0,  1.0, 3.7,  0.70
+BoundingBox =  0.0,  0.2,   23.5,  0.5, 3.7,  0.70
+BoundingBox =  0.0,  0.4,   25.0,  0.5, 3.7,  0.70
+BoundingBox =  0.0,  0.6,   26.0,  0.0, 3.7,  0.70
+;当たり判定 艦上構造物
+BoundingBox =  0.0,  2.6,   -8.4,  2.0, 2.4
+BoundingBox =  0.0,  4.5,   -6.5,  2.5, 3.5
+BoundingBox =  0.0,  4.5,   -1.1,  1.5, 3.5
+BoundingBox =  0.0,  2.6,    0.6,  2.0, 4.3
+BoundingBox =  0.0,  2.7,    3.8,  2.5, 2.8
+BoundingBox =  0.0,  5.7,    1.0,  2.0, 2.6
+BoundingBox =  0.0,  7.4,    1.3,  1.0, 1.7
+BoundingBox =  0.0,  7.0,   -0.4,  1.3, 5.0
+;当たり判定 主砲
+BoundingBox =  0.00, 2.05,  12.35, 3.0, 1.0,  0.50
+BoundingBox =  0.00, 2.61,   7.89, 3.0, 1.0,  0.50
+BoundingBox =  0.00, 2.05, -13.53, 3.0, 1.0,  0.50
+
+
+
+;レシピ
+;no
+;AddRecipe = "DDD",  "DRD",  "BBG",  D, diamond_block,  B, boat,  G,gold_block,  R,redstone_block

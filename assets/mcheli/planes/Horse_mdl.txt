@@ -1,0 +1,37 @@
+DisplayName = Horse_mdl
+AddDisplayName = ja_JP, 馬車装飾用　馬
+
+MaxHp = 150
+Speed = 0.3
+Sound = HorseGallop
+ThrottleUpDown = 28.8
+MaxFuel         = 400
+FuelConsumption = 1.0
+ThrottleUpDownOnEntity = 8.0
+Gravity = -0.1
+MobilityYawOnGround = 8.0
+
+
+
+StepHeight = 1.5
+HUD = none
+EnableBack = true
+InventorySize = 5
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  -0.03, 1.09, -0.37
+
+
+
+RideRack = Carriage / Carriage_Buss, 1
+
+AddTexture =  Horse_mdl_white
+
+
+; 音声ギミック
+AddWeapon =  Horse_voice, 0.00, 0.72, 1.17,  0.0, 90

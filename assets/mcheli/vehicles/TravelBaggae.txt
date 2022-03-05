@@ -1,0 +1,11 @@
+DisplayName = Travel Baggage
+AddDisplayName = ja_JP, 旅行荷物セット
+
+MaxHp = 50
+HideEntity = true
+RotationPitchMin = 0
+RotationPitchMax = 0
+DamageFactor = 2
+AddSeat = 0.00,  1.0, 0.00
+InventorySize = 54
+CanRide = false

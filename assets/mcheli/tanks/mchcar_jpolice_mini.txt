@@ -1,0 +1,75 @@
+DisplayName = mcheli car miniPatrolCar
+AddDisplayName = ja_JP, ミニパト
+
+
+MaxHp = 35
+Speed = 0.7
+Sound = cardrive
+ThrottleUpDown = 16.8
+MaxFuel         = 800
+FuelConsumption = 1
+MobilityYawOnGround = 5.8
+StepHeight = 1.0
+InventorySize = 54
+Gravity = -0.3
+GravityInWater = -0.1
+SubmergedDamageHeight = 1
+PivotTurnThrottle = 0.14
+HUD = car, none, none
+MotionFactor = 0.93
+EnableBack = true
+EnableEntityRadar = true
+ThirdPersonDist = 8
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  0.06,  0.16,  -0.33
+AddSeat =  1.26,  0.28,  -0.33
+
+AddSeat =  1.15,  0.28,  -1.67
+AddSeat =  0.01,  0.28,  -1.67
+
+
+AddWeapon =  jppsiren_short, 0.14,  1.10,  0.62, 0.0, 90
+AddWeapon =  jppsiren_4s, 0.14,  1.10,  0.62, 0.0, 90
+AddWeapon =  jppsiren_8s, 0.14,  1.10,  0.62, 0.0, 90
+AddWeapon =  horn5,  0.00, 0.34, 1.18,  0.0, 90
+
+
+AddPartSteeringWheel =   -0.025, 0.836,  0.22,   0, 1, -1.85,  120
+
+AddPartWheel     = 1.613, 0.042,  1.349,  30
+AddPartWheel     = -0.488, 0.042,  1.349,  30
+
+AddPartWheel     = 1.613, 0.042,  -1.53
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  1.613,  -0.24,  1.349, -1.53
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+
+
+AddFixedSearchLight =  1.40, 0.64, 2.09,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -0.32, 0.64, 2.09,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+AddFixedSearchLight =  1.33, 1.86, -0.64,   0x50b22222,   0x00b22222,    3.0, 2.5,  -90,  0
+AddFixedSearchLight =  -0.16, 1.86, -0.64,   0x50b22222,   0x00b22222,    3.0, 2.5,   90,  0
+
+
+
+AddPartThrottle = -0.05, 1.015, 0.51,  0, 0, 1,  223
+
+
+

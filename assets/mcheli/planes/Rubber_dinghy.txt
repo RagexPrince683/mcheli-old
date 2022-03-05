@@ -1,0 +1,51 @@
+DisplayName = mc Rubber dinghy
+AddDisplayName = ja_JP, mcゴムボート
+
+
+MaxHp = 80
+Speed = 0.3
+Float = true
+FloatOffset = 0.0
+Sound = raft_snd
+ThrottleUpDown = 25
+MaxFuel         = 100
+FuelConsumption = 0.0
+Gravity = -0.1
+StepHeight = 0.0
+MobilityYawOnGround = 2.8
+ThirdPersonDist = 10
+CanMoveOnGround = false
+MotionFactor = 0.90
+UnmountPosition = 3.00, 2.00, 0.00
+InventorySize = 27
+EnableBack = true
+
+; C = Civilian(民間機)
+Category = C
+
+
+HUD = none, none, none
+
+
+AddSeat =  0.06, -0.26, 0.75
+AddSeat =  -0.67, -0.26, -0.71
+AddSeat =  0.57, -0.26, -0.71
+AddSeat =  -0.67, -0.26, -2.07
+AddSeat =  0.57, -0.26, -2.07
+AddSeat =  -0.04, -0.26, -3.03
+
+
+
+AddRack = container,  -0.04, 0.31, -2.19, -0.04, 0.31, -5.06
+
+
+ExclusionSeat = 4, 7
+ExclusionSeat = 5, 7
+
+
+AddPartHatch = -1.54, 0.44, 0.25,  0, 1, 1, 85
+AddPartHatch =  1.46, 0.44, 0.25,  0, 1, 1, -85
+
+
+AddTexture = Rubber_dinghy_red
+

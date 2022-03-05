@@ -1,0 +1,197 @@
+DisplayName = Large Truck
+AddDisplayName = ja_JP, 大型トラック
+
+
+MaxHp = 35
+Speed = 0.7
+Sound = 4wd1_snd
+ThrottleUpDown = 18.8
+MaxFuel         = 1200
+FuelConsumption = 0.9
+MobilityYawOnGround = 5.2
+StepHeight = 1.5
+InventorySize = 54
+Gravity = -0.7
+GravityInWater = -0.1
+SubmergedDamageHeight = 2
+HUD = car, none, none, none, none, none, none, none, none, none
+MotionFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.25
+ThirdPersonDist = 16
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddTexture = mc_Truck_long_yamato
+AddTexture = mc_Truck_long_seino
+AddTexture = mc_Truck_long_white
+
+
+
+
+AddSeat =  -0.77,  1.62,  -0.07
+
+AddSeat =  0.86,  1.62,  -0.07
+
+
+
+AddSeat = -0.81,  1.13,  -2.52
+AddSeat =  0.85,  1.13,  -2.52
+
+
+AddRack = container,    -0.81,  1.63,  -2.52,   0.03,  0.51,  -13.65, 12
+AddRack = container,    -0.81,  2.56,  -2.52,   0.03,  0.51,  -13.65, 12
+AddRack = container,    -0.81,  3.29,  -2.52,   0.03,  0.51,  -13.65, 12
+
+AddRack = container,    0.85,  1.63,  -2.52,   0.03,  0.51,  -13.65, 12
+AddRack = container,    0.85,  2.56,  -2.52,   0.03,  0.51,  -13.65, 12
+AddRack = container,    0.85,  3.29,  -2.52,   0.03,  0.51,  -13.65, 12
+
+
+
+ExclusionSeat =  3, 11
+ExclusionSeat =  3, 12
+ExclusionSeat =  3, 13
+ExclusionSeat =  4, 14
+ExclusionSeat =  4, 15
+ExclusionSeat =  4, 16
+
+
+
+AddSeat = -0.81,  1.13,  -5.12
+AddSeat =  0.85,  1.13,  -5.12
+
+
+AddRack = container,    -0.81,  1.63,  -5.12,   0.03,  0.51,  -13.65, 12
+AddRack = container,    -0.81,  2.56,  -5.12,   0.03,  0.51,  -13.65, 12
+AddRack = container,    -0.81,  3.29,  -5.12,   0.03,  0.51,  -13.65, 12
+
+AddRack = container,    0.85,  1.63,  -5.12,   0.03,  0.51,  -13.65, 12
+AddRack = container,    0.85,  2.56,  -5.12,   0.03,  0.51,  -13.65, 12
+AddRack = container,    0.85,  3.29,  -5.12,   0.03,  0.51,  -13.65, 12
+
+
+
+ExclusionSeat =  5, 17
+ExclusionSeat =  5, 18
+ExclusionSeat =  5, 19
+ExclusionSeat =  6, 20
+ExclusionSeat =  6, 21
+ExclusionSeat =  6, 22
+
+
+
+
+AddSeat = -0.81,  1.13,  -7.90
+AddSeat =  0.85,  1.13,  -7.90
+
+
+
+AddRack = container,    -0.81,  1.63,  -7.90,   0.03,  0.51,  -13.65, 12
+AddRack = container,    -0.81,  2.56,  -7.90,   0.03,  0.51,  -13.65, 12
+AddRack = container,    -0.81,  3.29,  -7.90,   0.03,  0.51,  -13.65, 12
+
+AddRack = container,    0.85,  1.63,  -7.90,   0.03,  0.51,  -13.65, 12
+AddRack = container,    0.85,  2.56,  -7.90,   0.03,  0.51,  -13.65, 12
+AddRack = container,    0.85,  3.29,  -7.90,   0.03,  0.51,  -13.65, 12
+
+
+ExclusionSeat =  7, 23
+ExclusionSeat =  7, 24
+ExclusionSeat =  7, 25
+ExclusionSeat =  8, 26
+ExclusionSeat =  8, 27
+ExclusionSeat =  8, 28
+
+
+
+
+AddSeat = -0.81,  1.13,  -10.26
+AddSeat =  0.85,  1.13,  -10.26
+
+
+AddRack = container,    -0.81,  1.63,  -10.26,   0.03,  0.51,  -13.65, 12
+AddRack = container,    -0.81,  2.56,  -10.26,   0.03,  0.51,  -13.65, 12
+AddRack = container,    -0.81,  3.29,  -10.26,   0.03,  0.51,  -13.65, 12
+
+AddRack = container,    0.85,  1.63,  -10.26,   0.03,  0.51,  -13.65, 12
+AddRack = container,    0.85,  2.56,  -10.26,   0.03,  0.51,  -13.65, 12
+AddRack = container,    0.85,  3.29,  -10.26,   0.03,  0.51,  -13.65, 12
+
+
+
+ExclusionSeat =  9, 29
+ExclusionSeat =  9, 30
+ExclusionSeat =  9, 31
+ExclusionSeat =  10, 32
+ExclusionSeat =  10, 33
+ExclusionSeat =  10, 34
+
+
+
+
+AddWeapon =  Truck_Horn,  0.00, 0.34, 1.18,  0.0, 90
+
+
+
+AddPartSteeringWheel =   -0.843, 2.003,  0.814,   0, 1, -1.15,  130
+
+AddPartWheel     = 1.365, 0.33,  -0.224,  35
+AddPartWheel     = -1.281, 0.33,  -0.224,  35
+
+AddPartWheel     = 1.365, 0.33,  -4.07
+AddPartWheel     = 1.365, 0.33,  -10.71
+
+
+; Tank or Car or Unknown
+WeightType = Car
+
+
+OnGroundPitchFactor = 0.8
+OnGroundRollFactor  = 0.2
+WeightedCenterZ = -1.5
+
+
+SetWheelPos =  1.365,  -0.24,  1.5, -0.224, -4.07, -10.71
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+
+PartWheelRot = 35
+
+
+
+
+AddPartCanopy = -1.56, 2.14, 1.72,  0, 1, 0,  70
+
+
+
+AddPartHatch =  1.72,  4.88,  -12.47,  0, 1, 0,  -110
+
+AddPartHatch =  -1.54,  4.88,  -12.47,  0, 1, 0,  110
+
+
+
+AddFixedSearchLight =   1.42, 0.61, 1.78,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,  -10,  0
+AddFixedSearchLight =  -1.22, 0.57, 1.78,   0x50FFFFFF,   0x00FFFFC0,    25.0, 15.0,   10,  0
+
+
+
+
+BoundingBox =   0.06,  0.82,  -3.14,  5.0,  1.0
+
+BoundingBox =   0.06,  0.82,  -6.03,  5.0,  1.0
+
+BoundingBox =   0.06,  0.82,  -8.35,  5.0,  1.0
+
+BoundingBox =  0.06,  0.82,  -10.62,  5.0,  1.0
+
+
+BoundingBox =   0.06,  4.62,  -9.99,  5.0,  1.0
+BoundingBox =   0.06,  4.62,  -6.50,  5.0,  1.0
+BoundingBox =   0.06,  4.62,  -2.68,  5.0,  1.0

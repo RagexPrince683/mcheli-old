@@ -1,0 +1,75 @@
+DisplayName = Motor Bike offroad
+AddDisplayName = ja_JP, バイク(オフロードタイプ)
+
+
+MaxHp = 15
+Speed = 0.8
+Sound = bikeoffr_snd
+ThrottleUpDown = 12.0
+MaxFuel         = 600
+FuelConsumption = 0.4
+Gravity = -0.2
+MobilityYawOnGround = 6
+StepHeight = 1.5
+HUD = car
+WeightedCenterZ = 0.0
+ThirdPersonDist = 8
+SubmergedDamageHeight = 1
+EnableBack = true
+
+
+MotionFactor = 0.90
+
+EntityPitch = 10
+
+; C = Civilian(民間機)
+Category = C
+
+
+AddTexture = bike_offroad_o
+AddTexture = bike_offroad_b
+AddTexture = bike_offroad_r
+AddTexture = bike_offroad_y
+AddTexture = bike_offroad_w
+
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+
+
+AddSeat = 0.00, 0.55, 0.00
+
+
+
+AddPartSteeringWheel =   -0.006, 0.76, 1.087,   0, 1, -0.50,  20
+
+
+AddPartWheel     = 0.00, 0.088, 1.327,  20
+AddPartWheel     = -0.20, 0.088, 1.327,  20
+
+AddPartWheel     = 0.00, 0.088, -0.60
+AddPartWheel     = -0.20, 0.088, -0.60
+
+
+AddPartHatch = 0.11, 0.05, 0.31, 1, 0, 0, -90
+
+
+AddWeapon =  horn4, 0.14,  1.10,  0.62, 0.0, 90
+
+
+
+AddSteeringSearchLight =  0.00, 1.05, 1.09,   0x99FFFFFF,   0x00FFFFC0,  25.0, 15.0, 0, 0, 20 
+
+
+
+
+OnGroundPitchFactor = 6.8
+OnGroundRollFactor  = 4.2
+
+SetWheelPos =  0.01,  -0.24,  1.527, -1.60
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0
+

@@ -1,0 +1,47 @@
+DisplayName = mcheli kids trike
+AddDisplayName = ja_JP, 幼児用三輪車
+
+MaxHp = 10
+Speed = 0.2
+Sound = Bicycle
+ThrottleUpDown = 18.5
+MaxFuel         = 400
+FuelConsumption = 0.0
+Gravity = -0.2
+MobilityYawOnGround = 7
+PartWheelRot = 18
+ParticlesScale = 0.2
+MotionFactor = 0.91
+StepHeight = 0.5
+HUD = none, none
+EnableBack = true
+
+InventorySize = 5
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  0.00, 0.08, -0.09
+
+
+
+AddPartWheel     = 0.005, -0.10,  0.683,  15
+AddPartWheel     = 0.01, -0.10,  0.703,  15  
+AddPartWheel     = 0.005, -0.166,  -0.298
+
+AddPartSteeringWheel =   0.01, 0.05,  0.597,   0, 1, -0.57,  25
+AddPartSteeringWheel =   0.014, 0.241,  0.471,   0, 1, -0.57,  25
+
+
+
+OnGroundPitchFactor = 2.8
+OnGroundRollFactor  = 1.2
+
+SetWheelPos =  0.005,  -0.24, 1.0,  0.683, -0.298
+
+
+ArmorDamageFactor = 1.0
+DamageFactor = 1.0

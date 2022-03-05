@@ -1,0 +1,39 @@
+﻿DisplayName = Segway
+AddDisplayName = ja_JP, セグウェイ
+
+MaxHp = 15
+Speed = 0.4
+Sound = radicon_heli
+ThrottleUpDown = 12.5
+MaxFuel         = 1000
+FuelConsumption = 0.5
+Gravity = -0.1
+MobilityYawOnGround = 7.0
+RotorSpeed = 20.0
+
+MotionFactor = 0.91
+EnableBack = true
+
+
+StepHeight = 1.0
+HUD = none
+
+InventorySize = 12
+
+
+; C = Civilian(民間機)
+Category = C
+
+
+
+AddSeat =  0.02,  0.71,  -0.25
+
+
+AddPartRotor =     0.63, 0.02, 0.00, 1, 0, 0
+AddBlade = 1, 0,   0.63, 0.02, 0.00, 1, 0, 0
+
+
+BoundingBox =  0.02, 0.34, 0.04,  1.0, 1.0
+
+
+
